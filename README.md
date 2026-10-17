@@ -21,6 +21,7 @@ Click a badge, then run the cells top to bottom. To save your edits back here: i
 notebooks/   the Colab notebooks (one step per cell, explained)
 src/         helper Python code the notebooks import
 journal/     our research notes: what we read, tried, found
+reports/     write-ups of finished experiments
 data/        how to capture + name scans (the scans themselves live on Google Drive)
 results/     CSV outputs we want to keep
 archive/     old versions, for reference

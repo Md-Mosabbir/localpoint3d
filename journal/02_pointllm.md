@@ -69,6 +69,8 @@ Checked 2026-10-17 on the GitHub README:
 
 ## 2026-10-18 · Md · baseline: 17 everyday objects (notebook 01)
 
+Full write-up: [`reports/2026-10-18_pointllm_baseline.md`](../reports/2026-10-18_pointllm_baseline.md)
+
 **Setup**
 - PointLLM-7B v1.2 on a Colab T4.
 - 17 Scaniverse PLY scans from `Drive/Models`: 8 chairs, 4 cups, 3 keyboards, 2 tables. All are ModelNet40 classes, so this is the *easy* baseline.

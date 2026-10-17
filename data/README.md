@@ -1,6 +1,6 @@
 # Scans: how to capture, name and store them
 
-Scans are **not** stored in git (too big). They live in the shared Google Drive folder `localpoint3d/scans`. Each of us adds a shortcut to it in *My Drive*, so the notebooks find it at `/content/drive/MyDrive/localpoint3d/scans`.
+Scans are **not** stored in git (too big). They live in the shared Google Drive folder **`My Drive/Models`** (flat, no subfolders needed). Teammates add a shortcut to it in *My Drive*, so the notebooks find it at `/content/drive/MyDrive/Models` for everyone.
 
 ## Folders and file names
 

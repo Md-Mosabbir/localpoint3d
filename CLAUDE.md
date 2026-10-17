@@ -33,7 +33,7 @@ The user wants to **learn Python and the ML/3D concepts as they go**. So:
 - `src/pointllm_helpers.py`, `src/pointllm_worker.py`: PointLLM preprocessing + inference
 - `journal/`: research log, one Markdown file per topic, dated entries. **Update it whenever we research or measure something.** Keep sources (links) separate from our own measurements.
 - `data/README.md`: capture protocol + file naming `<object>_<method>_<take>.<ext>` (method = `lidar` | `photo`)
-- `results/`: CSVs worth keeping. Scans themselves are on Google Drive (`MyDrive/localpoint3d/scans`), never in git.
+- `results/`: CSVs worth keeping. Scans themselves are on Google Drive (`MyDrive/Models`, flat list like `Chair_1.ply`; local copy in `data/Models/`), never in git.
 - `archive/`: old notebooks, read-only reference
 
 ## Facts worth remembering

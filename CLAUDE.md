@@ -38,6 +38,7 @@ The user wants to **learn Python and the ML/3D concepts as they go**. So:
 
 ## Facts worth remembering
 
+- **No local GPU.** The laptop is CPU-only. Anything needing a GPU (PointLLM, training classifiers) runs on Colab. Local work = loading/previewing scans, comparison maths, tests.
 - PointLLM latest weights: `RunsenXu/PointLLM_7B_v1.2`. PointLLM-V2 (TPAMI 2025) weights not released as of 2026-10. Re-check before big runs.
 - PointLLM input: 8192 points, xyz in unit sphere, rgb in [0, 1]. Free T4 works in float16.
 - iPhone/Scaniverse scans are Y-up and in metres.

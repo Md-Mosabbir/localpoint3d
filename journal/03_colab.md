@@ -8,7 +8,7 @@
 4. To save changes back to GitHub: *File → Save a copy in GitHub* and pick our repo + `main`. Write a short commit message.
    - ⚠️ If two of us edit the same notebook at the same time, the second save overwrites the first. Tell the group chat before you save a notebook to GitHub.
 
-Private repo? Colab asks you to authorise GitHub once. The notebook's clone step also needs a `GITHUB_TOKEN` secret (see the notebook).
+The repo is public, so opening and cloning need no login. *Saving* to GitHub asks you to authorise GitHub once, and you must be a collaborator on the repo.
 
 ## Option B: Google's Colab CLI (from the terminal / Claude Code)
 

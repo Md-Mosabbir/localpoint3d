@@ -1,4 +1,4 @@
-# bd-pointcloud
+# localpoint3d
 
 **Can 3D models trained on Western datasets (ModelNet40, ShapeNet, Objaverse) recognise Bangladeshi objects like a rickshaw or a thelagari?**
 
@@ -8,12 +8,12 @@ Junior design project. We scan local objects with an iPhone (Scaniverse), turn t
 
 ## Notebooks
 
-| Notebook | What it does | Runtime |
-|---|---|---|
-| [01 · PointLLM recognition test](notebooks/01_pointllm_recognition_test.ipynb) | Ask PointLLM-7B "what is this?" about our scans → CSV | T4 GPU |
-| [02 · LiDAR vs photogrammetry](notebooks/02_lidar_vs_photogrammetry.ipynb) | How different are two scans of the same object? Align + Chamfer/F-score | CPU |
+| Notebook | What it does | Runtime | |
+|---|---|---|---|
+| [01 · PointLLM recognition test](notebooks/01_pointllm_recognition_test.ipynb) | Ask PointLLM-7B "what is this?" about our scans → CSV | T4 GPU | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Md-Mosabbir/localpoint3d/blob/main/notebooks/01_pointllm_recognition_test.ipynb) |
+| [02 · LiDAR vs photogrammetry](notebooks/02_lidar_vs_photogrammetry.ipynb) | How different are two scans of the same object? Align + Chamfer/F-score | CPU | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Md-Mosabbir/localpoint3d/blob/main/notebooks/02_lidar_vs_photogrammetry.ipynb) |
 
-Open a notebook on GitHub and click the **Open in Colab** badge at the top. Then run the cells top to bottom.
+Click a badge, then run the cells top to bottom. To save your edits back here: in Colab, *File → Save a copy in GitHub*.
 
 ## Folders
 

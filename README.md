@@ -27,6 +27,12 @@ results/     CSV outputs we want to keep
 archive/     old versions, for reference
 ```
 
+## Results so far
+
+| Date | Experiment | Result | Data |
+|---|---|---|---|
+| 2026-10-18 | PointLLM on 17 everyday scans | 9 / 17 scans named correctly | [report](reports/2026-10-18_pointllm_baseline.md) · [table (CSV)](results/pointllm_2026-10-18_baseline.csv) |
+
 ## Roadmap
 
 - [x] PointLLM runs on Colab and recognises a chair

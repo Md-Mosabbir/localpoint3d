@@ -7,7 +7,7 @@
 | **Team** | Shahedul Islam Shikder · Fahim Muntasir · Md Mosabbir |
 | **Experiment run by** | Md Mosabbir |
 | **Notebook** | [`notebooks/01_pointllm_recognition_test.ipynb`](../notebooks/01_pointllm_recognition_test.ipynb) (repo at commit `fc3d3f7`) |
-| **Raw results** | [`results/pointllm_2026-10-18_baseline.csv`](../results/pointllm_2026-10-18_baseline.csv) (51 rows) |
+| **Results table** | [`results/pointllm_2026-10-18_baseline.csv`](../results/pointllm_2026-10-18_baseline.csv): 51 rows, one per answer. The `correct` column (yes / no / partly) is our scoring from section 4.1, not model output. GitHub shows it as a searchable table. |
 
 ---
 

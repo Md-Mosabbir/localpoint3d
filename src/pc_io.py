@@ -79,13 +79,16 @@ def describe(path):
 
 
 def parse_scan_name(path):
-    """Read our naming convention: <object>_<method>_<nn>.ply -> dict.
+    """Read object / method / take from a file name.
 
-    e.g. rickshaw_lidar_01.ply -> {"object": "rickshaw", "method": "lidar", "take": "01"}
-    Files that don't follow the convention still work, the fields are just "unknown".
+    Chair/Chair_1.ply          -> {"object": "chair",    "method": "unknown", "take": "1"}
+    rickshaw_lidar_01.ply      -> {"object": "rickshaw", "method": "lidar",   "take": "01"}
+    Files that don't follow either pattern still work, the fields are just "unknown".
     """
     stem = os.path.splitext(os.path.basename(path))[0]
     parts = stem.split("_")
     if len(parts) >= 3:
-        return {"object": "_".join(parts[:-2]), "method": parts[-2], "take": parts[-1]}
-    return {"object": stem, "method": "unknown", "take": "unknown"}
+        return {"object": "_".join(parts[:-2]).lower(), "method": parts[-2].lower(), "take": parts[-1]}
+    if len(parts) == 2:
+        return {"object": parts[0].lower(), "method": "unknown", "take": parts[1]}
+    return {"object": stem.lower(), "method": "unknown", "take": "unknown"}

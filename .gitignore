@@ -8,6 +8,7 @@
 *.las
 *.zip
 data/scans/
+data/Models/
 
 # python / jupyter
 __pycache__/

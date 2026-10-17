@@ -2,21 +2,21 @@
 
 Scans are **not** stored in git (too big). They live in the shared Google Drive folder `localpoint3d/scans`. Each of us adds a shortcut to it in *My Drive*, so the notebooks find it at `/content/drive/MyDrive/localpoint3d/scans`.
 
-## File names
+## Folders and file names
+
+One folder per object, files named `<Object>_<take>`:
 
 ```
-<object>_<method>_<take>.<ext>
+Models/
+├── Chair/      Chair_1.ply … Chair_8.ply
+├── Cup/        Cup_1.ply … Cup_4.ply
+├── Keyboard/   Keyboard_1.ply … Keyboard_3.ply
+└── Table/      Table_1.ply, Table_2.ply
 ```
 
-| part | values | example |
-|---|---|---|
-| object | lowercase, no spaces (use `-`) | `rickshaw`, `thelagari`, `cng`, `plastic-chair` |
-| method | `lidar` or `photo` | |
-| take | two digits, 01, 02, … | |
+When we scan the same object with both methods, add the method: `Rickshaw/Rickshaw_lidar_1.ply`, `Rickshaw/Rickshaw_photo_1.obj`.
 
-Examples: `rickshaw_lidar_01.ply`, `rickshaw_photo_01.obj`, `chair_lidar_02.ply`
-
-The notebooks read this from the file name and put it in the results CSV, so stick to it.
+The notebooks search all subfolders. They read object / method / take from the file name and put them in the results CSV, so stick to this pattern. A local copy lives in `data/Models/`, which git ignores.
 
 ## Capturing with Scaniverse
 

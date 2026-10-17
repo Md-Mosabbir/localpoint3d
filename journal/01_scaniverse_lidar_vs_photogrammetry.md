@@ -80,6 +80,36 @@ Tested 2026-10-17 on a synthetic chair (B rotated 70°, one leg removed):
 
 ---
 
+## 2026-10-18 · Scaniverse-specific follow-up (web search)
+
+**Which mode is which.** Under *New Scan → Mesh*, Scaniverse has three processing modes:
+
+| Mode | Method | Made for | Stated detail |
+|---|---|---|---|
+| Speed (was "Standard") | LiDAR | quick results | ~10 mm |
+| Area (was "Ultra") | LiDAR | rooms, buildings, outdoors | ~5 mm |
+| Detail | photogrammetry | objects, people, small textured scenes | not stated |
+
+- Scaniverse's own advice: Detail mode is for textured objects. The LiDAR modes work better on **plain or shiny surfaces**. This matches the failure-mode table above.
+- On phones without LiDAR, Scaniverse 2.0+ estimates depth from the camera images with a neural network (Niantic's ManyDepth). That counts as a third kind of input, not "LiDAR".
+- All processing happens on the phone.
+- **The exported OBJ header records the mode** (we saw `Mode: Detail` in one of our files). So we can tell LiDAR from photo afterwards even when the file name doesn't say.
+
+**Accuracy evidence for Scaniverse itself is thin.**
+- One study of an iPhone 13 Pro on building documentation, measured against a terrestrial laser scanner: Scaniverse did worst of the apps tested, with RMSE ≈ 55 cm against ≤ 10 cm for the others. It also had very few points, and drift split the surfaces.
+- That test was **room scale, with an older app version**, so it says little about a chair or a rickshaw.
+- We found **no study of Detail mode vs Area mode on the same object.** Our notebook 02 measurements would be new.
+
+**Answer for now:** the modes should be interchangeable for the **overall shape** (big parts within a few cm). They are **not** interchangeable for thin, shiny or plain parts, and which mode wins depends on the surface. This is still unmeasured on our own scans.
+
+Sources:
+- Scaniverse Detail mode announcement: https://scaniverse.com/news/scaniverse-detail-mode-photogrammetry (now redirects to Niantic Spatial)
+- Scaniverse 2.0, non-LiDAR devices: https://scaniverse.com/news/scaniverse-2-0-adds-support-for-non-lidar-devices
+- Mode names and resolutions (secondary): https://podfeet.com/blog/?p=27025
+- iPhone 13 Pro scanning-app comparison: https://www.mdpi.com/2673-7418/3/4/30
+
+---
+
 ## Capture log
 
 | Date | Who | Object | Phone | Methods / takes | Conditions | Notes |

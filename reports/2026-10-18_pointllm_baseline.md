@@ -180,18 +180,31 @@ These are **hypotheses** drawn from the answers. None of them has been confirmed
 
 **How to test:** run the failed scans with `"+90 deg about X"` and `"-90 deg about X"`. The notebook already supports this through `ROTATIONS_TO_TRY`.
 
-### 5.3 The prompt changes the answer
+### 5.3 Keyboards: unknown object, or too flat to tell apart?
+
+**Team note (Md):** maybe PointLLM simply hasn't learned "keyboard".
+
+**Counter-argument**
+- PointLLM was trained on Objaverse (~800k objects), and keyboard is a ModelNet40 class, so keyboards are very likely in its training data. Not verified.
+- The wrong answers for keyboards are all **flat rectangles**: "painting", "carpet", "flat board", "house wall". So the model got the *shape* right but had nothing to distinguish it from other flat rectangles.
+- The keys are a few mm tall. That is below what iPhone scanning reliably captures (about 5 cm limit of detection for LiDAR, see journal 01), and 8192 points leave very few points per key.
+
+**Current best guess:** our keyboard scans look like a plank, so the cause is scan detail rather than a missing concept.
+
+**Why this matters for the project:** rickshaw spokes and hood frames are also thin details, and could be lost in the same way.
+
+### 5.4 The prompt changes the answer
 
 - Even with greedy decoding, different prompts give different objects for the same scan (Chair_8, Keyboard_2, Table_1).
 - So the model's "belief" about the object is weak for these scans.
 - We should keep all three prompts and report agreement between them as a confidence signal.
 
-### 5.4 Things that are NOT findings
+### 5.5 Things that are NOT findings
 
 - **"Cartoon", "whimsical", "rare"** appear in almost every answer. This is the style of PointLLM's training captions (Objaverse) and tells us nothing about our scans.
 - **Colours** (e.g. "vibrant red seat", "blue chair") show that colour from the scans reached the model. We haven't checked whether the colours are actually correct.
 
-### 5.5 Comparison with the first test (2026-10-16)
+### 5.6 Comparison with the first test (2026-10-16)
 
 The earlier test, with two downloaded chair files and no colour, also identified "a chair". It also showed hallucinated surroundings ("sitting on a white mat") and wrong counts ("four legs"). Today's run confirms both on a larger set:
 - recognition works on some clean scans
@@ -203,6 +216,7 @@ The earlier test, with two downloaded chair files and no colour, also identified
 
 - **Small sample:** 2–8 scans per class. One scan more or less changes a class's percentage a lot.
 - **One rater, by reading.** The scoring hasn't been reviewed by the team.
+- **Scan quality is uneven.** The person who captured the scans confirms that **many of them are bad**. So this run mixes good and bad scans, and the 53 % reflects scan quality as much as the model. Which scans are bad hasn't been recorded yet.
 - **Scans not inspected.** We haven't looked at the previews of what the model saw, so sections 5.1 and 5.2 are inferred from the answers only.
 - **Single setting:** one rotation (`None`), greedy decoding, one model. No repeated runs. Greedy decoding is deterministic, so repeating wouldn't change anything; a different random sample of the 8192 points could.
 - **Capture method unknown:** LiDAR or photo mode isn't recorded in the file names.

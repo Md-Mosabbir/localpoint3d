@@ -32,6 +32,7 @@ archive/     old versions, for reference
 | Date | Experiment | Result | Data |
 |---|---|---|---|
 | 2026-10-18 | PointLLM on 17 everyday scans | 9 / 17 scans named correctly | [report](reports/2026-10-18_pointllm_baseline.md) · [table (CSV)](results/pointllm_2026-10-18_baseline.csv) |
+| 2026-10-18 | **Progress report 1** (scans, PointLLM, CLIP test, LiDAR vs photo reading) | failures come mostly from cluttered scans | [PDF](reports/2026-10-18_progress_report_1.pdf) |
 
 ## Roadmap
 

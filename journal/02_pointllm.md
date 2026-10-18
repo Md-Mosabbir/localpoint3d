@@ -129,3 +129,19 @@ Full write-up: [`reports/2026-10-18_pointllm_baseline.md`](../reports/2026-10-18
 2. Re-run the failures with `ROTATIONS_TO_TRY = ["None", "+90 deg about X", "-90 deg about X"]`.
 3. Remove the floor (crop in Scaniverse, or remove it in code the way notebook 02 does), then re-run all 17. If accuracy jumps, pattern 1 was right.
 4. Only then local objects. This baseline tells us how much of a failure is "PointLLM doesn't know rickshaws" and how much is "our scans are messy".
+
+## 2026-10-18 · Claude · looked at the 17 raw scans (next step 1 done)
+
+Drew every scan from the raw PLY on the laptop and measured each one. Figures and the full table are in the [progress report PDF](../reports/2026-10-18_progress_report_1.pdf), sections 3 and 6. Scripts are in `reports/build/`.
+
+**Measured**
+- **The scans are Z-up, not Y-up.** In 15 of 17 scans the biggest flat surface (floor or desk) is perpendicular to Z, and all 17 stand upright when drawn with Z up. The "Scaniverse is Y-up" note above was wrong for these PLY exports. PointLLM got them unrotated. `"-90 deg about X"` turns Z-up into Y-up.
+- **Every scan contains the floor or desk:** 22–78 % of all points lie within 1 cm of one plane (RANSAC).
+- **Too much scene is the strongest pattern.** Scan size ÷ rough real object size (chair 1 m, cup 12 cm, keyboard 45 cm, table 1 m):
+  - below 4× → **9 / 12** named correctly
+  - 4× or more → **0 / 5** (Keyboard_1 4×, Chair_3 4.7×, Cup_4 8.7×, Chair_4 11×, Table_1 13×)
+- The floor share alone doesn't separate right from wrong (Cup_1 is 65 % floor and was still named correctly).
+
+**What it means:** pattern 1 is confirmed, in a sharper form: it's about how much *scene* the scan contains, not only the floor. Pattern 2 (orientation) is still open. Table_2 is a clean, upright scan and was still called "a bar stool tipped onto its side", which fits an axis mismatch.
+
+**Next:** crop / remove the floor and re-run, and run the failures with `"-90 deg about X"` (Z-up → Y-up).

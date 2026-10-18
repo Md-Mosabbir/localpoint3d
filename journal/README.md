@@ -5,8 +5,9 @@ Our notebook of what we looked up, tried and found. **One file per topic**, newe
 | # | Topic | Status |
 |---|---|---|
 | 01 | [Scaniverse: LiDAR vs photogrammetry](01_scaniverse_lidar_vs_photogrammetry.md) | literature done, our own measurements pending |
-| 02 | [PointLLM](02_pointllm.md) | pipeline works on a chair, local objects pending |
+| 02 | [PointLLM](02_pointllm.md) | baseline 9/17; failures mostly from scans with too much scene |
 | 03 | [Running things on Google Colab](03_colab.md) | manual Colab works, Colab CLI not set up yet |
+| 04 | [CLIP-style zero-shot](04_clip_zero_shot.md) | one test on a cup; label wording dominated the result |
 
 ## How to add an entry
 

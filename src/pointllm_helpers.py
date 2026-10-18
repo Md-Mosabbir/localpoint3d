@@ -25,7 +25,8 @@ def _rot_x(deg):
 
 ROTATIONS = {
     "None": np.eye(3, dtype=np.float32),
-    "+90 deg about X": _rot_x(90),  # usually fixes Y-up scans (iPhone/ARKit) for Z-up models
+    "+90 deg about X": _rot_x(90),   # Y-up scan -> Z-up
+    # "-90 deg about X" turns a Z-up scan (our Scaniverse PLYs) into Y-up
     "-90 deg about X": _rot_x(-90),
     "180 deg about X": _rot_x(180),
 }

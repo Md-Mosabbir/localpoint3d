@@ -8,6 +8,7 @@ import io
 
 import numpy as np
 
+from cleanup import guess_up_axis, remove_floor
 from pc_io import load_points
 
 MODEL_NAME = "RunsenXu/PointLLM_7B_v1.2"
@@ -15,6 +16,7 @@ N_POINTS = 8192  # PointLLM was trained on 8192 points per object
 PAPER_PROMPTS = ["What is this?", "This is an object of ", "Caption this 3D model in detail."]
 COLOURS = ["original", "grey"]  # "grey" = throw the scan's colours away (to test how much PointLLM relies on colour)
 GREY = 0.5  # neutral grey, used for "grey" and for files that have no colour at all
+FLOORS = ["kept", "removed"]  # "removed" = delete the floor/desk plane under the object (src/cleanup.py)
 
 
 # ---------------------------------------------------------------- preprocessing
@@ -51,18 +53,23 @@ def grey_out(xyz):
     return np.full_like(xyz, GREY)
 
 
-def preprocess(path, n_points=N_POINTS, rotation="None", seed=0, colour="original"):
+def preprocess(path, n_points=N_POINTS, rotation="None", seed=0, colour="original", floor="kept"):
     """Returns ((n_points, 6) float32 array [x y z r g b], has_color).
 
     xyz is centred and scaled into the unit sphere, rgb is in [0, 1].
     colour="grey" replaces every colour with the same grey. The same seed picks the same
     points either way, so "original" and "grey" differ ONLY in colour.
     has_color says whether the *file* had colour (False means "original" is grey anyway).
+    floor="removed" deletes the floor plane first, using the file type to know which way is up.
     """
     if colour not in COLOURS:
         raise ValueError(f"colour must be one of {COLOURS}, got {colour!r}")
+    if floor not in FLOORS:
+        raise ValueError(f"floor must be one of {FLOORS}, got {floor!r}")
     rng = np.random.default_rng(seed)
     xyz, rgb, _ = load_points(path)
+    if floor == "removed":
+        xyz, rgb, _ = remove_floor(xyz, rgb, up_axis=guess_up_axis(path), seed=seed)
     if len(xyz) == 0:
         raise ValueError("No points found in file")
     has_color = rgb is not None

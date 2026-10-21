@@ -4,7 +4,8 @@ Why a separate process? PointLLM needs Python 3.10 + old library versions, but t
 Colab notebook itself runs a newer Python. So the notebook starts this script with
 the Python 3.10 environment and talks to it through stdin/stdout, one JSON per line:
 
-  notebook -> worker : {"path": "...", "prompt": "...", "rotation": "None", "colour": "original", "sample": false}
+  notebook -> worker : {"path": "...", "prompt": "...", "rotation": "None", "colour": "original",
+                        "floor": "kept", "sample": false}
   worker -> notebook : @@RESULT@@{"answer": "...", "has_color": true}
 """
 import json
@@ -21,7 +22,7 @@ from pointllm_helpers import load_model, preprocess, ask  # noqa: E402
 model, tokenizer = load_model()
 print("@@READY@@", flush=True)
 
-cache = {}  # (path, rotation, colour) -> preprocessed points, so 3 prompts about one scan only sample it once
+cache = {}  # (path, rotation, colour, floor) -> preprocessed points, so 3 prompts about one scan only sample it once
 
 for line in sys.stdin:
     line = line.strip()
@@ -29,9 +30,9 @@ for line in sys.stdin:
         continue
     try:
         req = json.loads(line)
-        key = (req["path"], req.get("rotation", "None"), req.get("colour", "original"))
+        key = (req["path"], req.get("rotation", "None"), req.get("colour", "original"), req.get("floor", "kept"))
         if key not in cache:
-            cache[key] = preprocess(key[0], rotation=key[1], colour=key[2])
+            cache[key] = preprocess(key[0], rotation=key[1], colour=key[2], floor=key[3])
         pts, has_color = cache[key]
         ans = ask(model, tokenizer, pts, req["prompt"], req.get("sample", False))
         res = {"answer": ans, "has_color": has_color}

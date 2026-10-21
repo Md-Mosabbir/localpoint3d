@@ -164,3 +164,15 @@ Drew every scan from the raw PLY on the laptop and measured each one. Figures an
 - 4 mesh PLYs (Chaari_1, Muura_1, Piri_1, Tubewell_1) point to a texture `3DModel.jpg` that isn't on Drive. Their colour is lost even in the "original" run.
 - Thela_Gari_2 / _4 and Wooden_Bench_2 / _3 have identical bounding boxes. Check whether they are the same file uploaded twice.
 - `parse_scan_name` split two-word names wrongly (`Matir_Cup_1` → object "matir", method "cup"). Fixed: the method only counts if it is lidar/photo/detail/area/speed.
+
+## 2026-10-21 · Claude · floor removal option (off by default)
+
+`preprocess(..., floor="removed")` deletes the biggest horizontal plane in the bottom 30 % of the scan (RANSAC, `src/cleanup.py`). Notebook 01: `FLOOR` in the preview cell, `FLOORS_TO_TRY = ["kept", "removed"]` in the batch.
+
+**Checked on 8 local scans:**
+- **Threshold 1 cm.** At 2 cm, 86–91 % of each keyboard was deleted along with the desk, because a keyboard is only ~2 cm tall. At 1 cm the keyboards survive, and chairs, cups and Table_2 come out clean at both thresholds.
+- **It removes floors, not the whole room.** Chair_4 still has other objects around it after removal, so cropping in Scaniverse is still best.
+- **The up-axis is guessed from the file type:** `.ply` Z-up, `.obj` Y-up.
+- **Cost:** about 9 s extra per scan, once (cached).
+
+**Plan:** run the colour test first, then the floor test, one change at a time.

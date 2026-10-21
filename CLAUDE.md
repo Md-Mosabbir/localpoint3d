@@ -22,10 +22,13 @@ The user wants to **learn Python and the ML/3D concepts as they go**. So:
 - Notebooks run on **Google Colab**. Every notebook has an *Open in Colab* badge and works top to bottom on a fresh runtime.
 - **One step per cell.** Each code cell has a markdown cell before it saying what it does and why. Descriptive but not wordy.
 - Settings the user is expected to change go in **one settings cell** near the top.
+- **Don't hide output**: no `pip -q` / quiet flags. The user wants to see what installs do.
+- Setup cells must be safe to run twice in one Colab session (e.g. skip creating `/content/venv` if it exists).
 - Reusable code goes in `src/`, and notebooks import it after cloning the repo. Exception: maths we want to *learn from* (e.g. ICP, metrics in notebook 02) stays visible in notebook cells.
 - PointLLM needs Python 3.10 + torch 2.0.1, so it runs in a `uv` venv at `/content/venv` as a background worker (`src/pointllm_worker.py`, JSON lines over stdin/stdout). Don't import torch/pointllm in Colab's own kernel.
 - Keep `pointllm_helpers.preprocess`/`preview` free of torch so they work on CPU.
 - Greying out (colour test) happens in memory: `preprocess(..., colour="grey")`. Don't write grey copies of scans to Drive.
+- Floor removal: `preprocess(..., floor="removed")` → `src/cleanup.py` (RANSAC, horizontal planes only, 1 cm threshold, up-axis guessed from file type). Off by default.
 
 ## Repo layout
 

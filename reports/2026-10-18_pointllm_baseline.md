@@ -53,7 +53,7 @@ Many wrong answers describe a **scene** ("a location", "a ranch", "a cleared are
 | Precision | float16 (the T4 doesn't support bfloat16) |
 | Model environment | separate Python 3.10 venv (built with `uv`), PyTorch 2.0.1, Transformers 4.28 dev, as required by PointLLM |
 | How the model runs | as a background worker process (`src/pointllm_worker.py`); the notebook sends it questions |
-| Decoding | greedy (`sample=False`), so the same input always gives the same answer |
+| Decoding | greedy (`sample=False`). ⚠️ **Correction (2026-10-21):** this does *not* make answers repeatable. PointLLM's point encoder groups points from a random start point, so the same input gave different text for 48 of 51 answers on a re-run. See the [colour and floor report](2026-10-21_colour_and_floor_test.md), section 3. |
 
 ### 3.2 Data
 

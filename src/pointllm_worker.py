@@ -5,7 +5,7 @@ Colab notebook itself runs a newer Python. So the notebook starts this script wi
 the Python 3.10 environment and talks to it through stdin/stdout, one JSON per line:
 
   notebook -> worker : {"path": "...", "prompt": "...", "rotation": "None", "colour": "original",
-                        "floor": "kept", "sample": false}
+                        "floor": "kept", "seed": 0, "sample": false}
   worker -> notebook : @@RESULT@@{"answer": "...", "has_color": true}
 """
 import json
@@ -34,7 +34,7 @@ for line in sys.stdin:
         if key not in cache:
             cache[key] = preprocess(key[0], rotation=key[1], colour=key[2], floor=key[3])
         pts, has_color = cache[key]
-        ans = ask(model, tokenizer, pts, req["prompt"], req.get("sample", False))
+        ans = ask(model, tokenizer, pts, req["prompt"], req.get("sample", False), req.get("seed", 0))
         res = {"answer": ans, "has_color": has_color}
     except Exception:
         res = {"error": traceback.format_exc()}

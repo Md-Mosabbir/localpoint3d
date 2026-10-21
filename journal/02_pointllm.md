@@ -176,3 +176,24 @@ Drew every scan from the raw PLY on the laptop and measured each one. Figures an
 - **Cost:** about 9 s extra per scan, once (cached).
 
 **Plan:** run the colour test first, then the floor test, one change at a time.
+
+## 2026-10-21 · Md (runs) + Claude (analysis) · colour and floor test
+
+Full write-up: [reports/2026-10-21_colour_and_floor_test.md](../reports/2026-10-21_colour_and_floor_test.md). CSVs: `results/original_grey_floor_kept.csv` and `results/original_grey_floor_removed.csv`, scored.
+
+**Measured (answers correct of 51):**
+- colour, floor kept: 24
+- grey, floor kept: 13
+- colour, floor removed: 24
+- grey, floor removed: 19
+- 18 Oct baseline (colour, floor kept): 26
+
+**Findings:**
+- **Colour matters.** Removing it cost 18 answers and gained 2. Chair_5, 6 and 8 (red, blue, brown) lose recognition without colour.
+- **Floor removal helps only grey scans** (+6, 0 lost).
+- Cups 1–3 were right every time. Eight cluttered or flat scans were never right.
+- 6 empty answers ("This is an object of"), all grey and all on prompt C.
+
+**Surprise: PointLLM isn't repeatable.** The same input on 18 Oct and 21 Oct gave the same text for only 3 of 51 answers, and correctness flipped for 6 of 51. Cause: PointBERT's fps starts at `torch.randint` with no seed. Fixed: `ask(..., seed)` + `SEEDS_TO_TRY` in notebook 01 (not yet tested on GPU). The 18 Oct report's "greedy = repeatable" sentence now has a correction.
+
+**Next:** re-run colour vs grey with seeds [0, 1, 2]; clean the 8 never-right scans by hand into `Models_clean/`.

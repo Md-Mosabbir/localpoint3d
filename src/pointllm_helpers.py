@@ -141,7 +141,14 @@ def load_model(model_name=MODEL_NAME):
     return model, tokenizer
 
 
-def ask(model, tokenizer, points, prompt, sample=False):
+def ask(model, tokenizer, points, prompt, sample=False, seed=0):
+    """One answer from PointLLM.
+
+    PointLLM's point encoder picks a *random* start point when it groups the cloud
+    (torch.randint in pointllm/model/pointbert/misc.py fps). Without a fixed seed the same
+    input can give a different answer every call (seen 2026-10-21: 48 of 51 answers changed).
+    Setting the seed makes each call repeatable; different seeds show how stable an answer is.
+    """
     import torch
     from pointllm.conversation import conv_templates, SeparatorStyle
     from pointllm.model.utils import KeywordsStoppingCriteria
@@ -165,6 +172,7 @@ def ask(model, tokenizer, points, prompt, sample=False):
     pc = torch.from_numpy(points).unsqueeze(0).to(model.dtype).cuda()
 
     kw = dict(do_sample=True, temperature=1.0, top_k=50, top_p=0.95) if sample else dict(do_sample=False)
+    torch.manual_seed(seed)  # fixes PointLLM's random grouping (and sampling, if on)
     with torch.inference_mode():
         out = model.generate(input_ids, point_clouds=pc, max_length=2048,
                              stopping_criteria=[stopping], **kw)

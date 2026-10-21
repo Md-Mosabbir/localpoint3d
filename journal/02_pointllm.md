@@ -145,3 +145,22 @@ Drew every scan from the raw PLY on the laptop and measured each one. Figures an
 **What it means:** pattern 1 is confirmed, in a sharper form: it's about how much *scene* the scan contains, not only the floor. Pattern 2 (orientation) is still open. Table_2 is a clean, upright scan and was still called "a bar stool tipped onto its side", which fits an axis mismatch.
 
 **Next:** crop / remove the floor and re-run, and run the failures with `"-90 deg about X"` (Z-up → Y-up).
+
+## 2026-10-21 · team + Claude · colour test set up (does PointLLM need colour?)
+
+**Question:** if we grey the scans out, do PointLLM's answers change? If not, it recognises by shape alone. If yes, colour is part of how it decides.
+
+**How:** notebook 01 can now ask every question twice: `COLOURS_TO_TRY = ["original", "grey"]`. `preprocess(..., colour="grey")` replaces every colour with 0.5 grey *in memory*. The same seed picks exactly the same 8192 points both times (checked on Cup_3: identical xyz), so **only the colour differs**. The CSV gains `colour` and `file_has_colour` columns. A new cell puts the original and grey answers side by side.
+
+**Why not grey copies of the files** (Fahim's first version, `Copy of 01_…`)? It worked, and the previews were fully grey. But:
+- `Muura_1.obj` and `Muura_1.ply` both became `Muura_1_grey.ply`, so one overwrote the other.
+- The `_grey` suffix broke the object/method/take columns.
+- Point clouds came out lighter grey than meshes.
+- It wrote 40 files to Drive.
+
+**Noticed in that run (2026-10-21, 40 scans on Drive, 23 of them new local objects):**
+- **OBJ exports are Y-up** (floor in the X-Z plane). The PLYs are Z-up.
+- Several local-object scans include a ~2 m floor disc around a small object (Kula_1, Matir_Cup_1, Bodna_1). By our baseline rule (scan ≥ 4× the object → never recognised), crop these first.
+- 4 mesh PLYs (Chaari_1, Muura_1, Piri_1, Tubewell_1) point to a texture `3DModel.jpg` that isn't on Drive. Their colour is lost even in the "original" run.
+- Thela_Gari_2 / _4 and Wooden_Bench_2 / _3 have identical bounding boxes. Check whether they are the same file uploaded twice.
+- `parse_scan_name` split two-word names wrongly (`Matir_Cup_1` → object "matir", method "cup"). Fixed: the method only counts if it is lidar/photo/detail/area/speed.

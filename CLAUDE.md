@@ -25,6 +25,7 @@ The user wants to **learn Python and the ML/3D concepts as they go**. So:
 - Reusable code goes in `src/`, and notebooks import it after cloning the repo. Exception: maths we want to *learn from* (e.g. ICP, metrics in notebook 02) stays visible in notebook cells.
 - PointLLM needs Python 3.10 + torch 2.0.1, so it runs in a `uv` venv at `/content/venv` as a background worker (`src/pointllm_worker.py`, JSON lines over stdin/stdout). Don't import torch/pointllm in Colab's own kernel.
 - Keep `pointllm_helpers.preprocess`/`preview` free of torch so they work on CPU.
+- Greying out (colour test) happens in memory: `preprocess(..., colour="grey")`. Don't write grey copies of scans to Drive.
 
 ## Repo layout
 
@@ -41,7 +42,7 @@ The user wants to **learn Python and the ML/3D concepts as they go**. So:
 - **No local GPU.** The laptop is CPU-only. Anything needing a GPU (PointLLM, training classifiers) runs on Colab. Local work = loading/previewing scans, comparison maths, tests.
 - PointLLM latest weights: `RunsenXu/PointLLM_7B_v1.2`. PointLLM-V2 (TPAMI 2025) weights not released as of 2026-10. Re-check before big runs.
 - PointLLM input: 8192 points, xyz in unit sphere, rgb in [0, 1]. Free T4 works in float16.
-- Scaniverse **PLY point-cloud** exports are **Z-up** and in metres (checked on all 17 scans, 2026-10-18; floor lies in the x-y plane). We first assumed Y-up (ARKit convention), which was wrong for these files. OBJ mesh exports not checked yet. `-90 deg about X` turns Z-up into Y-up.
+- Scaniverse **PLY point-cloud** exports are **Z-up** and in metres (checked on all 17 scans, 2026-10-18; floor lies in the x-y plane). We first assumed Y-up (ARKit convention), which was wrong for these files. Scaniverse **OBJ** exports are **Y-up** (floor in the x-z plane, seen in Colab previews 2026-10-21). So PLY and OBJ reach PointLLM in different orientations unless rotated. `-90 deg about X` turns Z-up into Y-up.
 - Google Colab CLI (`uv tool install google-colab-cli`, `colab run --gpu T4 …`) exists but isn't set up. It needs the user to log in once.
 
 ## Style

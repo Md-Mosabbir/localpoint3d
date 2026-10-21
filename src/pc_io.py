@@ -78,17 +78,24 @@ def describe(path):
             f"bounding box {size[0]:.2f} x {size[1]:.2f} x {size[2]:.2f} (file units)")
 
 
-def parse_scan_name(path):
-    """Read object / method / take from a file name.
+METHODS = {"lidar", "photo", "detail", "area", "speed"}  # words we accept as the capture method
 
-    Chair/Chair_1.ply          -> {"object": "chair",    "method": "unknown", "take": "1"}
-    rickshaw_lidar_01.ply      -> {"object": "rickshaw", "method": "lidar",   "take": "01"}
-    Files that don't follow either pattern still work, the fields are just "unknown".
+
+def parse_scan_name(path):
+    """Read object / method / take from a file name: <Object>_<take> or <Object>_<method>_<take>.
+
+    Chair/Chair_1.ply          -> {"object": "chair",      "method": "unknown", "take": "1"}
+    Thela_Gari_2.obj           -> {"object": "thela_gari", "method": "unknown", "take": "2"}
+    rickshaw_lidar_01.ply      -> {"object": "rickshaw",   "method": "lidar",   "take": "01"}
+    The object name may contain "_", so the method only counts if it is one of METHODS.
+    Files that don't follow the pattern still work, the fields are just "unknown".
     """
     stem = os.path.splitext(os.path.basename(path))[0]
     parts = stem.split("_")
-    if len(parts) >= 3:
-        return {"object": "_".join(parts[:-2]).lower(), "method": parts[-2].lower(), "take": parts[-1]}
-    if len(parts) == 2:
-        return {"object": parts[0].lower(), "method": "unknown", "take": parts[1]}
-    return {"object": stem.lower(), "method": "unknown", "take": "unknown"}
+    if len(parts) < 2:
+        return {"object": stem.lower(), "method": "unknown", "take": "unknown"}
+    take, rest = parts[-1], parts[:-1]
+    method = "unknown"
+    if len(rest) >= 2 and rest[-1].lower() in METHODS:
+        method, rest = rest[-1].lower(), rest[:-1]
+    return {"object": "_".join(rest).lower(), "method": method, "take": take}

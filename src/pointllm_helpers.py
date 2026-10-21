@@ -13,6 +13,8 @@ from pc_io import load_points
 MODEL_NAME = "RunsenXu/PointLLM_7B_v1.2"
 N_POINTS = 8192  # PointLLM was trained on 8192 points per object
 PAPER_PROMPTS = ["What is this?", "This is an object of ", "Caption this 3D model in detail."]
+COLOURS = ["original", "grey"]  # "grey" = throw the scan's colours away (to test how much PointLLM relies on colour)
+GREY = 0.5  # neutral grey, used for "grey" and for files that have no colour at all
 
 
 # ---------------------------------------------------------------- preprocessing
@@ -44,18 +46,28 @@ def farthest_point_sample(xyz, k, seed=0):
     return chosen
 
 
-def preprocess(path, n_points=N_POINTS, rotation="None", seed=0):
+def grey_out(xyz):
+    """One grey colour per point. Positions are not touched, so only the colour changes."""
+    return np.full_like(xyz, GREY)
+
+
+def preprocess(path, n_points=N_POINTS, rotation="None", seed=0, colour="original"):
     """Returns ((n_points, 6) float32 array [x y z r g b], has_color).
 
     xyz is centred and scaled into the unit sphere, rgb is in [0, 1].
+    colour="grey" replaces every colour with the same grey. The same seed picks the same
+    points either way, so "original" and "grey" differ ONLY in colour.
+    has_color says whether the *file* had colour (False means "original" is grey anyway).
     """
+    if colour not in COLOURS:
+        raise ValueError(f"colour must be one of {COLOURS}, got {colour!r}")
     rng = np.random.default_rng(seed)
     xyz, rgb, _ = load_points(path)
     if len(xyz) == 0:
         raise ValueError("No points found in file")
     has_color = rgb is not None
-    if not has_color:
-        rgb = np.full_like(xyz, 0.5)  # neutral grey placeholder
+    if colour == "grey" or not has_color:
+        rgb = grey_out(xyz)
 
     if len(xyz) > 40000:  # cheap random pre-reduction so farthest point sampling stays fast
         idx = rng.choice(len(xyz), 40000, replace=False)

@@ -197,3 +197,11 @@ Full write-up: [reports/2026-10-21_colour_and_floor_test.md](../reports/2026-10-
 **Surprise: PointLLM isn't repeatable.** The same input on 18 Oct and 21 Oct gave the same text for only 3 of 51 answers, and correctness flipped for 6 of 51. Cause: PointBERT's fps starts at `torch.randint` with no seed. Fixed: `ask(..., seed)` + `SEEDS_TO_TRY` in notebook 01 (not yet tested on GPU). The 18 Oct report's "greedy = repeatable" sentence now has a correction.
 
 **Next:** re-run colour vs grey with seeds [0, 1, 2]; clean the 8 never-right scans by hand into `Models_clean/`.
+
+## 2026-10-21 · Claude · is PointLLM-V2 usable yet? No
+
+- We use **V1**: `RunsenXu/PointLLM_7B_v1.2`.
+- **V2 (TPAMI 2025) weights are still not released.** The README TODO "Release PointLLM-V2 with a better model and data" is unchecked. Hugging Face has only v1.1 and v1.2 checkpoints under RunsenXu, and nothing V2 under InternRobotics or OpenRobotLab.
+- The only V2 release is the training annotations (2026-03-17). Training a 7B model on them isn't possible on a free T4.
+- `QileXu/PointLLM-R-7B` exists on Hugging Face. It's a third-party model, not the official V2, and we haven't checked it.
+- Sources: https://github.com/InternRobotics/PointLLM (News + TODO), https://huggingface.co/RunsenXu

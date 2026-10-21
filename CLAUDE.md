@@ -43,7 +43,7 @@ The user wants to **learn Python and the ML/3D concepts as they go**. So:
 ## Facts worth remembering
 
 - **No local GPU.** The laptop is CPU-only. Anything needing a GPU (PointLLM, training classifiers) runs on Colab. Local work = loading/previewing scans, comparison maths, tests.
-- PointLLM latest weights: `RunsenXu/PointLLM_7B_v1.2`. PointLLM-V2 (TPAMI 2025) weights not released as of 2026-10. Re-check before big runs.
+- PointLLM latest weights: `RunsenXu/PointLLM_7B_v1.2`. PointLLM-V2 (TPAMI 2025) weights **not released** (re-checked 2026-10-21: README TODO still open, no V2 model on Hugging Face; only V2 training annotations are out). Re-check before big runs.
 - PointLLM input: 8192 points, xyz in unit sphere, rgb in [0, 1]. Free T4 works in float16.
 - **PointLLM is random even with greedy decoding**: its PointBERT encoder starts farthest-point sampling at `torch.randint` (pointllm/model/pointbert/misc.py). `ask()` sets `torch.manual_seed(seed)`; use `SEEDS_TO_TRY = [0, 1, 2]` to measure stability. Runs before 2026-10-21 had no seed.
 - Scaniverse **PLY point-cloud** exports are **Z-up** and in metres (checked on all 17 scans, 2026-10-18; floor lies in the x-y plane). We first assumed Y-up (ARKit convention), which was wrong for these files. Scaniverse **OBJ** exports are **Y-up** (floor in the x-z plane, seen in Colab previews 2026-10-21). So PLY and OBJ reach PointLLM in different orientations unless rotated. `-90 deg about X` turns Z-up into Y-up.

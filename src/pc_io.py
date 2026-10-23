@@ -79,23 +79,33 @@ def describe(path):
 
 
 METHODS = {"lidar", "photo", "detail", "area", "speed"}  # words we accept as the capture method
+VERSIONS = {"cleaned", "clean", "raw"}                    # optional last word, e.g. Chair_01_cleaned.ply
 
 
 def parse_scan_name(path):
-    """Read object / method / take from a file name: <Object>_<take> or <Object>_<method>_<take>.
+    """Read object / method / take / version from a file name.
 
-    Chair/Chair_1.ply          -> {"object": "chair",      "method": "unknown", "take": "1"}
-    Thela_Gari_2.obj           -> {"object": "thela_gari", "method": "unknown", "take": "2"}
-    rickshaw_lidar_01.ply      -> {"object": "rickshaw",   "method": "lidar",   "take": "01"}
+    Pattern: <Object>_<take>, <Object>_<method>_<take>, optionally ending in _cleaned.
+    Chair/Chair_1.ply          -> {"object": "chair",      "method": "unknown", "take": "1", "version": "raw"}
+    Chair_01_cleaned.ply       -> {"object": "chair",      "method": "unknown", "take": "1", "version": "cleaned"}
+    Thela_Gari_2.obj           -> {"object": "thela_gari", "method": "unknown", "take": "2", "version": "raw"}
+    rickshaw_lidar_01.ply      -> {"object": "rickshaw",   "method": "lidar",   "take": "1", "version": "raw"}
     The object name may contain "_", so the method only counts if it is one of METHODS.
+    Takes are numbers, so "01" and "1" are the same take (cleaned and raw files line up).
     Files that don't follow the pattern still work, the fields are just "unknown".
     """
     stem = os.path.splitext(os.path.basename(path))[0]
     parts = stem.split("_")
+    version = "raw"
+    if len(parts) >= 3 and parts[-1].lower() in VERSIONS:
+        version = "cleaned" if parts[-1].lower() in ("cleaned", "clean") else "raw"
+        parts = parts[:-1]
     if len(parts) < 2:
-        return {"object": stem.lower(), "method": "unknown", "take": "unknown"}
+        return {"object": "_".join(parts).lower(), "method": "unknown", "take": "unknown", "version": version}
     take, rest = parts[-1], parts[:-1]
+    if take.isdigit():
+        take = str(int(take))  # "01" -> "1"
     method = "unknown"
     if len(rest) >= 2 and rest[-1].lower() in METHODS:
         method, rest = rest[-1].lower(), rest[:-1]
-    return {"object": "_".join(rest).lower(), "method": method, "take": take}
+    return {"object": "_".join(rest).lower(), "method": method, "take": take, "version": version}

@@ -16,6 +16,8 @@ Models/
 
 When we scan the same object with both methods, add the method: `Rickshaw/Rickshaw_lidar_1.ply`, `Rickshaw/Rickshaw_photo_1.obj`.
 
+**Hand-cleaned copies** (floor and background deleted in CloudCompare / Blender) go in a separate Drive folder, `My Drive/Models_Cleaned`, with `_cleaned` at the end of the name: `Chair_01_cleaned.ply`. The notebook reads that as object = chair, take = 1, version = cleaned, so cleaned and raw results line up (`01` and `1` count as the same take). Never overwrite the raw scans.
+
 The notebooks search all subfolders. They read object / method / take from the file name and put them in the results CSV, so stick to this pattern. A local copy lives in `data/Models/`, which git ignores.
 
 ## Capturing with Scaniverse

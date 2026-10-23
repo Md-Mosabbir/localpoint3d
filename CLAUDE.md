@@ -21,7 +21,7 @@ The user wants to **learn Python and the ML/3D concepts as they go**. So:
 
 - Notebooks run on **Google Colab**. Every notebook has an *Open in Colab* badge and works top to bottom on a fresh runtime.
 - **One step per cell.** Each code cell has a markdown cell before it saying what it does and why. Descriptive but not wordy.
-- Settings the user is expected to change go in **one settings cell** near the top.
+- Settings the user is expected to change go in **one settings cell** near the top. Notebook 01: the `⚙️ Settings` cell right after the intro holds SCANS_DIR, RUN_NAME, ONLY_SCANS, ROTATION/COLOUR/FLOOR/SEED and the batch `..._TO_TRY` lists. Don't define settings anywhere else.
 - **Don't hide output**: no `pip -q` / quiet flags. The user wants to see what installs do.
 - Setup cells must be safe to run twice in one Colab session (e.g. skip creating `/content/venv` if it exists).
 - Reusable code goes in `src/`, and notebooks import it after cloning the repo. Exception: maths we want to *learn from* (e.g. ICP, metrics in notebook 02) stays visible in notebook cells.
@@ -37,7 +37,7 @@ The user wants to **learn Python and the ML/3D concepts as they go**. So:
 - `src/pointllm_helpers.py`, `src/pointllm_worker.py`: PointLLM preprocessing + inference
 - `journal/`: research log, one Markdown file per topic, dated entries. **Update it whenever we research or measure something.** Keep sources (links) separate from our own measurements.
 - `data/README.md`: capture protocol + file naming `<object>_<method>_<take>.<ext>` (method = `lidar` | `photo`)
-- `results/`: CSVs worth keeping. Scans themselves are on Google Drive (`MyDrive/Models`, flat list like `Chair_1.ply`; local copy in `data/Models/`), never in git.
+- `results/`: CSVs worth keeping. Scans themselves are on Google Drive (`MyDrive/Models`, flat list like `Chair_1.ply`; local copy in `data/Models/`), never in git. Hand-cleaned copies: `MyDrive/Models_Cleaned` / `data/Models_Cleaned/`, named `Chair_01_cleaned.ply` (parse_scan_name → version=cleaned, take 1).
 - `archive/`: old notebooks, read-only reference
 
 ## Facts worth remembering

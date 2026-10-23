@@ -205,3 +205,21 @@ Full write-up: [reports/2026-10-21_colour_and_floor_test.md](../reports/2026-10-
 - The only V2 release is the training annotations (2026-03-17). Training a 7B model on them isn't possible on a free T4.
 - `QileXu/PointLLM-R-7B` exists on Hugging Face. It's a third-party model, not the official V2, and we haven't checked it.
 - Sources: https://github.com/InternRobotics/PointLLM (News + TODO), https://huggingface.co/RunsenXu
+
+## 2026-10-23 · Md (cleaning) + Claude (check) · hand-cleaned scans
+
+Md cleaned all 17 scans by hand and saved them as `data/Models_Cleaned/<Name>_<take>_cleaned.ply` (point clouds with colour, x y z + rgb + alpha).
+
+**Check, by drawing all 17 and comparing their size with the raw scans:**
+- **Clean, object only:** Chair_01, 02, 05, 06, 07, 08, Cup_1, 2, 3, Table_2, Keyboard_3.
+  - Chair_02 shrank from 1.98 m to 1.24 m. The wall and floor are gone.
+- **Stray specks still far from the object:**
+  - Chair_04: 7.4 m across
+  - Table_1: 12.4 m
+  - Cup_4: 1.0 m for a ~12 cm cup
+  - Keyboard_1: 1.8 m
+  - Keyboard_2: 1.3 m
+  - Chair_03 is borderline at 1.4 m.
+- Normalisation scales by the farthest point, so in these the object still ends up tiny. Fix: CloudCompare *Tools → Clean → SOR filter*, or delete the specks by hand.
+
+**Notebook 01 now has one ⚙️ Settings cell at the top.** It holds `SCANS_DIR`, `RUN_NAME` and `ONLY_SCANS`, plus the preview settings and the batch lists. The CSV gains `scans_folder` and `version` columns. `parse_scan_name` understands the `_cleaned` suffix.

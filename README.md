@@ -34,6 +34,7 @@ archive/     old versions, for reference
 | 2026-10-18 | PointLLM on 17 everyday scans | 9 / 17 scans named correctly | [report](reports/2026-10-18_pointllm_baseline.md) · [table (CSV)](results/pointllm_2026-10-18_baseline.csv) |
 | 2026-10-18 | **Progress report 1** (scans, PointLLM, CLIP test, LiDAR vs photo reading) | failures come mostly from cluttered scans | [PDF](reports/2026-10-18_progress_report_1.pdf) |
 | 2026-10-21 | Colour vs grey, floor kept vs removed (204 answers) | colour matters (24 → 13 of 51 without it); removing the floor only helps grey scans; PointLLM is random without a seed | [report](reports/2026-10-21_colour_and_floor_test.md) · [CSV kept](results/original_grey_floor_kept.csv) · [CSV removed](results/original_grey_floor_removed.csv) |
+| 2026-10-23 | **Hand-cleaned scans**, colour vs grey, 3 seeds (306 answers) | cleaning: 24 → 33 (colour) and 13 → 32 (grey) of 51; 11 of 17 scans recognised; keyboards still fail | [report](reports/2026-10-23_cleaned_scans.md) · [CSV](results/pointllm_cleaned_2026-10-23.csv) |
 
 ## Roadmap
 

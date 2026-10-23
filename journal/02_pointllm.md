@@ -245,3 +245,30 @@ In the Colab previews of the cleaned Chair_04, Table_1 and Keyboard_1, the objec
 | all others | | | ≤ 0.1 % |
 
 **First try was 5 cm / 2 %.** That deleted 1.3 % of Chair_05: a real leg piece captured separately with a gap above 5 cm. 10 cm / 1 % keeps it.
+
+## 2026-10-23 · Md (run) + Claude (analysis) · hand-cleaned scans, colour vs grey, 3 seeds
+
+Report: [reports/2026-10-23_cleaned_scans.md](../reports/2026-10-23_cleaned_scans.md). CSV: `results/pointllm_cleaned_2026-10-23.csv` (306 answers, scored).
+
+**Measured (answers correct of 51, majority over 3 seeds):**
+- colour: 33 (raw 21 Oct: 24)
+- grey: 32 (raw: 13)
+- scans recognised: 11 / 10 of 17 (raw: 8 / 5)
+- raw → cleaned, answer by answer: colour +9 / −0, grey +21 / −2
+
+**Findings:**
+- **Cleaning is the biggest effect so far.** Chair_04, Table_1 and Chair_03 went from never right to 6–9 of 9.
+- **The colour gap almost vanished** (raw 11 answers → cleaned 1). Colour mostly helped separate the object from clutter.
+- **Still failing:**
+  - keyboards 0/9: "mattress", "carpet", "panel"
+  - Table_2 → "chair"
+  - Cup_4 → "cupcake" / "hat"
+  - Chair_02 → "treadmill" in colour every single run; grey right 4/9
+- **Seeds:**
+  - identical text for all 3 seeds: only 4/51 questions
+  - same correct/wrong verdict: 48/51 colour, 36/51 grey
+  - grey seed 0 scored 25 vs 32 for the others, so use the majority
+- **Hint about orientation:** Chair_08 "flipped upside down" 4 of 9 times (colour).
+- 13 empty answers, all on prompt C.
+
+**Next:** rotation test (None vs −90° about X) on the cleaned scans; check that the same seed repeats; teammate re-scores.

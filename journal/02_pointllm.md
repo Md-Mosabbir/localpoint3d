@@ -223,3 +223,25 @@ Md cleaned all 17 scans by hand and saved them as `data/Models_Cleaned/<Name>_<t
 - Normalisation scales by the farthest point, so in these the object still ends up tiny. Fix: CloudCompare *Tools → Clean → SOR filter*, or delete the specks by hand.
 
 **Notebook 01 now has one ⚙️ Settings cell at the top.** It holds `SCANS_DIR`, `RUN_NAME` and `ONLY_SCANS`, plus the preview settings and the batch lists. The CSV gains `scans_folder` and `version` columns. `parse_scan_name` understands the `_cleaned` suffix.
+
+## 2026-10-23 · Claude · stray specks shrink the object → speck removal
+
+In the Colab previews of the cleaned Chair_04, Table_1 and Keyboard_1, the object was a tiny blob. Cause: scaling to the unit sphere divides by the **farthest** point, and a few specks metres away set that distance.
+
+**Fix:** `cleanup.remove_specks`.
+- How it works: cut space into 10 cm cubes, join touching cubes into connected pieces, and drop pieces with less than 1 % of the points.
+- Notebook 01 setting: `SPECKS = "removed"` (the default), recorded in the CSV.
+
+**Checked on all 17 cleaned scans** (40k-point samples, distance from the centre to the farthest point):
+
+| Scan | Before | After | Points removed |
+|---|---|---|---|
+| Chair_04 | 6.30 m | 0.64 m | 0.0 % |
+| Table_1 | 9.62 m | 1.25 m | 0.1 % |
+| Keyboard_1 | 2.04 m | 0.30 m | 0.0 % |
+| Keyboard_2 | 0.70 m | 0.27 m | 0.0 % |
+| Cup_4 | 0.36 m | 0.14 m | 0.0 % |
+| Chair_03 | 1.05 m | 0.74 m | 0.1 % |
+| all others | | | ≤ 0.1 % |
+
+**First try was 5 cm / 2 %.** That deleted 1.3 % of Chair_05: a real leg piece captured separately with a gap above 5 cm. 10 cm / 1 % keeps it.

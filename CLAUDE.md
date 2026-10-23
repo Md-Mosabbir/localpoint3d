@@ -29,6 +29,7 @@ The user wants to **learn Python and the ML/3D concepts as they go**. So:
 - Keep `pointllm_helpers.preprocess`/`preview` free of torch so they work on CPU.
 - Greying out (colour test) happens in memory: `preprocess(..., colour="grey")`. Don't write grey copies of scans to Drive.
 - Floor removal: `preprocess(..., floor="removed")` → `src/cleanup.py` (RANSAC, horizontal planes only, 1 cm threshold, up-axis guessed from file type). Off by default.
+- Speck removal: `preprocess(..., specks="removed")` → `cleanup.remove_specks` (10 cm voxels, connected pieces < 1 % of points dropped). Needed because unit-sphere scaling uses the farthest point: one speck metres away shrinks the object to a dot. Notebook 01 setting `SPECKS` (default "removed").
 
 ## Repo layout
 

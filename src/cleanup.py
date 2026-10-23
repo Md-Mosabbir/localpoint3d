@@ -1,4 +1,4 @@
-"""Clean a scan before it goes to a model: find which way is up, remove the floor.
+"""Clean a scan before it goes to a model: find which way is up, remove the floor, remove stray specks.
 
 Why: our scans include the floor or desk under the object (22-78 % of all points in the
 2026-10-18 baseline). After scaling to the unit sphere the object can end up as a small
@@ -57,3 +57,47 @@ def remove_floor(xyz, rgb=None, up_axis="z", threshold=0.01, iters=300, seed=0):
     floor = find_floor(xyz, up_axis, threshold, iters, seed)
     keep = ~floor
     return xyz[keep], (rgb[keep] if rgb is not None else None), int(floor.sum())
+
+
+def find_specks(xyz, voxel=0.10, min_share=0.01):
+    """Boolean mask of stray specks: small groups of points floating away from the object.
+
+    How: cut space into cubes of `voxel` metres and join cubes that touch (also diagonally)
+    into connected pieces. The object is one big piece (or a few); specks are tiny pieces
+    far away. Pieces holding less than `min_share` of all points count as specks.
+    10 cm / 1 %: with 5 cm / 2 % a real, separately captured chair-leg piece (Chair_05) was
+    deleted; 10 cm bridges such gaps, and real specks were < 0.3 % of the points.
+    Why it matters: scaling to the unit sphere uses the farthest point, so one speck
+    5 m away shrinks the real object to a dot.
+    """
+    cells = np.floor(xyz / voxel).astype(np.int64)
+    keys, point_cell = np.unique(cells, axis=0, return_inverse=True)
+    point_cell = point_cell.reshape(-1)
+    count = np.bincount(point_cell, minlength=len(keys))
+    index = {tuple(k): i for i, k in enumerate(keys)}
+    steps = [(dx, dy, dz) for dx in (-1, 0, 1) for dy in (-1, 0, 1) for dz in (-1, 0, 1) if (dx, dy, dz) != (0, 0, 0)]
+
+    piece = np.full(len(keys), -1)  # which connected piece each cube belongs to
+    for start in range(len(keys)):
+        if piece[start] >= 0:
+            continue
+        piece[start] = start
+        todo = [start]
+        while todo:  # flood fill: visit every cube touching this piece
+            x, y, z = keys[todo.pop()]
+            for dx, dy, dz in steps:
+                j = index.get((x + dx, y + dy, z + dz))
+                if j is not None and piece[j] < 0:
+                    piece[j] = start
+                    todo.append(j)
+
+    points_per_piece = np.bincount(piece, weights=count, minlength=len(keys))
+    small_piece = points_per_piece < min_share * len(xyz)
+    return small_piece[piece[point_cell]]
+
+
+def remove_specks(xyz, rgb=None, voxel=0.10, min_share=0.01):
+    """Drop stray specks. Returns (xyz, rgb, number_of_points_removed)."""
+    specks = find_specks(xyz, voxel, min_share)
+    keep = ~specks
+    return xyz[keep], (rgb[keep] if rgb is not None else None), int(specks.sum())

@@ -272,3 +272,26 @@ Report: [reports/2026-10-23_cleaned_scans.md](../reports/2026-10-23_cleaned_scan
 - 13 empty answers, all on prompt C.
 
 **Next:** rotation test (None vs −90° about X) on the cleaned scans; check that the same seed repeats; teammate re-scores.
+
+## 2026-10-25 · team (run) + Claude (analysis) · Bangladeshi objects, colour vs grey, 3 seeds
+
+Report: [reports/2026-10-25_local_objects.md](../reports/2026-10-25_local_objects.md). CSV: `results/pointllm_local_objects_2026-10-25.csv` (180 answers, scored; from the sheet `Bangla_stuff.xlsx`).
+
+**Scans:** 10 hand-cleaned PLYs: Bodna_1, Hurricane_Lamp_1, Kula_1, Kula_2, Matir_Cup_1, Muura_1, Piri_2, Piri_3, Piri_4, Rehal_1. Same settings as 23 Oct.
+
+**Scoring rule (new):** correct = the main object named is the nearest English equivalent (bodna → pot/teapot/jug; kula → tray/basket; muura, piri → stool/seat/chair; rehal → book stand; hurricane lamp → lantern/lamp). The local name itself never appeared.
+
+**Measured:**
+- answers correct: colour 12/90 (13 %), grey 18/90 (20 %). Everyday objects on 23 Oct: 65 % / 58 %
+- scans recognised (majority): colour 1/10 (matir cup), grey 2/10 (+ Piri_2 as "chair")
+- verdict stable over seeds: 27/30 colour, 26/30 grey
+
+**Findings:**
+- **Right shape, wrong name:** rehal → "bench with two side legs at 45 degrees" (18/18); kula → "flat oval board" (36/36 say flat); piri 3/4 → "rectangular block". Knowledge gap, not scan gap.
+- **Confident inventions:** hurricane lamp → "sculpture of a woman with a child" (15/18); muura → "cartoon bird" (10/18); bodna → "Pokémon" (7/18). 49/180 answers say "cartoon".
+- **Grey > colour here** (18 vs 12): bodna grey → "pot"/"teapot"; Piri_2 grey → "chair" 5/9.
+- Matir cup: 18/18 "cup and saucer … with a handle", maybe a Western prior rather than our cup's shape.
+- Colour and grey gave identical text in 19/90 pairs (0/153 on 23 Oct), so these scans' colours may be muted.
+- 6 empty answers, all Piri_3 prompt C.
+
+**Next:** teammate re-scores; check previews (colour, cup handle); closed questions ("Is this a lantern?"); rotation test; scan vehicles.

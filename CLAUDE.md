@@ -9,6 +9,7 @@ Pipeline: iPhone scan (**Scaniverse**, Mesh export as PLY/OBJ, *not* Gaussian sp
 Current tasks, in order:
 1. Scaniverse LiDAR vs photogrammetry: are the point clouds similar? (notebook 02, journal 01)
 2. Does PointLLM recognise our scans? Chair first, then local objects (notebook 01, journal 02)
+3. Local objects (bodna, piri, …) as **near-OOD**: grey multiple choice + blind baselines + OOD check (notebook 03, journal 05). The same MCQ with CLIP (OpenShape) comes next as notebook 04, reading the same `data/mcq_options.csv`.
 
 ## The user is learning
 
@@ -29,6 +30,7 @@ The user wants to **learn Python and the ML/3D concepts as they go**. So:
 - Keep `pointllm_helpers.preprocess`/`preview` free of torch so they work on CPU.
 - Greying out (colour test) happens in memory: `preprocess(..., colour="grey")`. Don't write grey copies of scans to Drive.
 - Floor removal: `preprocess(..., floor="removed")` → `src/cleanup.py` (RANSAC, horizontal planes only, 1 cm threshold, up-axis guessed from file type). Off by default.
+- Notebook 03 settings cell holds LOCAL_DIR, EVERYDAY_DIR, COLOUR, OPTIONS_FILE, SEEDS, BLIND_INPUTS, SCORE_BY, CIRCULAR_EVAL, CAPTION_WORDS. MCQ answers are scored by log-likelihood (`pointllm_helpers.score_answers`, worker task "score"), not generated. OOD fingerprints = mean of Point-BERT's 513 tokens (`embed`, task "embed"). Blind inputs: worker path `"fake:sphere"` / `"fake:noise"`.
 - Speck removal: `preprocess(..., specks="removed")` → `cleanup.remove_specks` (10 cm voxels, connected pieces < 1 % of points dropped). Needed because unit-sphere scaling uses the farthest point: one speck metres away shrinks the object to a dot. Notebook 01 setting `SPECKS` (default "removed").
 
 ## Repo layout
@@ -36,6 +38,8 @@ The user wants to **learn Python and the ML/3D concepts as they go**. So:
 - `notebooks/`: Colab notebooks (`NN_name.ipynb`)
 - `src/pc_io.py`: load PLY/OBJ/GLB/OFF → numpy xyz + rgb; scan-name parsing
 - `src/pointllm_helpers.py`, `src/pointllm_worker.py`: PointLLM preprocessing + inference
+- `src/charts.py`: presentation charts (fixed colour per answer type, colour-blind checked); notebook 03 saves PNGs to `RESULTS_DIR/figures_<run>/` and can export tables to Google Sheets
+- `data/mcq_options.csv`: answer options per object, shared by the PointLLM and CLIP MCQ notebooks
 - `journal/`: research log, one Markdown file per topic, dated entries. **Update it whenever we research or measure something.** Keep sources (links) separate from our own measurements.
 - `data/README.md`: capture protocol + file naming `<object>_<method>_<take>.<ext>` (method = `lidar` | `photo`)
 - `results/`: CSVs worth keeping. Scans themselves are on Google Drive (`MyDrive/Models`, flat list like `Chair_1.ply`; local copy in `data/Models/`), never in git. Hand-cleaned copies: `MyDrive/Models_Cleaned` / `data/Models_Cleaned/`, named `Chair_01_cleaned.ply` (parse_scan_name → version=cleaned, take 1).

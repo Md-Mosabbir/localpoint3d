@@ -7,6 +7,11 @@ the Python 3.10 environment and talks to it through stdin/stdout, one JSON per l
   notebook -> worker : {"path": "...", "prompt": "...", "rotation": "None", "colour": "original",
                         "floor": "kept", "specks": "kept", "seed": 0, "sample": false}
   worker -> notebook : @@RESULT@@{"answer": "...", "has_color": true}
+
+Two more tasks (notebook 03), chosen with "task":
+  {"task": "score", ..., "answers": ["A teapot.", "A vase."]} -> {"scores": [[log_prob, n_tokens], ...]}
+  {"task": "embed", ...}                                      -> {"vector": [384 numbers]}
+A path like "fake:sphere" or "fake:noise" means a blind-test cloud instead of a file.
 """
 import json
 import os
@@ -17,7 +22,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)  # so `import pointllm_helpers` works
 sys.path.insert(0, os.environ.get("POINTLLM_DIR", "/content/PointLLM"))  # so `import pointllm` works
 
-from pointllm_helpers import load_model, preprocess, ask  # noqa: E402
+from pointllm_helpers import load_model, preprocess, fake_cloud, ask, score_answers, embed  # noqa: E402
 
 model, tokenizer = load_model()
 print("@@READY@@", flush=True)
@@ -33,10 +38,19 @@ for line in sys.stdin:
         key = (req["path"], req.get("rotation", "None"), req.get("colour", "original"), req.get("floor", "kept"),
                req.get("specks", "kept"))
         if key not in cache:
-            cache[key] = preprocess(key[0], rotation=key[1], colour=key[2], floor=key[3], specks=key[4])
+            if key[0].startswith("fake:"):
+                cache[key] = (fake_cloud(key[0][len("fake:"):], colour=key[2]), False)
+            else:
+                cache[key] = preprocess(key[0], rotation=key[1], colour=key[2], floor=key[3], specks=key[4])
         pts, has_color = cache[key]
-        ans = ask(model, tokenizer, pts, req["prompt"], req.get("sample", False), req.get("seed", 0))
-        res = {"answer": ans, "has_color": has_color}
+        task = req.get("task", "ask")
+        if task == "score":
+            res = {"scores": score_answers(model, tokenizer, pts, req["prompt"], req["answers"], req.get("seed", 0))}
+        elif task == "embed":
+            res = {"vector": embed(model, pts, req.get("seed", 0)).tolist()}
+        else:
+            ans = ask(model, tokenizer, pts, req["prompt"], req.get("sample", False), req.get("seed", 0))
+            res = {"answer": ans, "has_color": has_color}
     except Exception:
         res = {"error": traceback.format_exc()}
     print("@@RESULT@@" + json.dumps(res), flush=True)

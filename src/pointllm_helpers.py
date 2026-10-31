@@ -14,8 +14,10 @@ from pc_io import load_points
 MODEL_NAME = "RunsenXu/PointLLM_7B_v1.2"
 N_POINTS = 8192  # PointLLM was trained on 8192 points per object
 PAPER_PROMPTS = ["What is this?", "This is an object of ", "Caption this 3D model in detail."]
-COLOURS = ["original", "grey"]  # "grey" = throw the scan's colours away (to test how much PointLLM relies on colour)
+COLOURS = ["original", "grey", "black"]  # "grey"/"black" = throw the scan's colours away (shape only)
 GREY = 0.5  # neutral grey, used for "grey" and for files that have no colour at all
+BLACK = 0.0  # PointLLM's own paper fed colourless ModelNet40 objects as black, so "black" may suit it better
+FAKE_CLOUDS = ["sphere", "noise"]  # blind-test inputs with no object in them (see fake_cloud)
 FLOORS = ["kept", "removed"]  # "removed" = delete the floor/desk plane under the object (src/cleanup.py)
 SPECKS = ["kept", "removed"]  # "removed" = delete small floating bits far from the object (src/cleanup.py)
 
@@ -49,16 +51,35 @@ def farthest_point_sample(xyz, k, seed=0):
     return chosen
 
 
-def grey_out(xyz):
+def grey_out(xyz, value=GREY):
     """One grey colour per point. Positions are not touched, so only the colour changes."""
-    return np.full_like(xyz, GREY)
+    return np.full_like(xyz, value)
+
+
+def fake_cloud(kind, n_points=N_POINTS, seed=0, colour="grey"):
+    """A point cloud with no object in it, for the blind test. Same format as preprocess().
+
+    "sphere" = points on the surface of a ball (a smooth, featureless shape).
+    "noise"  = points scattered at random inside the ball (no surface at all).
+    If PointLLM gives the same answer for these as for a real scan, the answer came
+    from its language habits, not from the shape.
+    """
+    if kind not in FAKE_CLOUDS:
+        raise ValueError(f"kind must be one of {FAKE_CLOUDS}, got {kind!r}")
+    rng = np.random.default_rng(seed)
+    xyz = rng.normal(size=(n_points, 3))
+    xyz /= np.linalg.norm(xyz, axis=1, keepdims=True)  # random directions = points on the sphere
+    if kind == "noise":
+        xyz *= rng.random((n_points, 1)) ** (1 / 3)  # random radius, spread evenly through the volume
+    rgb = grey_out(xyz, BLACK if colour == "black" else GREY)
+    return np.concatenate([xyz, rgb], axis=1).astype(np.float32)
 
 
 def preprocess(path, n_points=N_POINTS, rotation="None", seed=0, colour="original", floor="kept", specks="kept"):
     """Returns ((n_points, 6) float32 array [x y z r g b], has_color).
 
     xyz is centred and scaled into the unit sphere, rgb is in [0, 1].
-    colour="grey" replaces every colour with the same grey. The same seed picks the same
+    colour="grey" replaces every colour with the same grey ("black": with black). The same seed picks the same
     points either way, so "original" and "grey" differ ONLY in colour.
     has_color says whether the *file* had colour (False means "original" is grey anyway).
     floor="removed" deletes the floor plane first, using the file type to know which way is up.
@@ -80,7 +101,9 @@ def preprocess(path, n_points=N_POINTS, rotation="None", seed=0, colour="origina
     if len(xyz) == 0:
         raise ValueError("No points found in file")
     has_color = rgb is not None
-    if colour == "grey" or not has_color:
+    if colour == "black":
+        rgb = grey_out(xyz, BLACK)
+    elif colour == "grey" or not has_color:
         rgb = grey_out(xyz)
 
     if len(xyz) > 40000:  # cheap random pre-reduction so farthest point sampling stays fast
@@ -148,17 +171,9 @@ def load_model(model_name=MODEL_NAME):
     return model, tokenizer
 
 
-def ask(model, tokenizer, points, prompt, sample=False, seed=0):
-    """One answer from PointLLM.
-
-    PointLLM's point encoder picks a *random* start point when it groups the cloud
-    (torch.randint in pointllm/model/pointbert/misc.py fps). Without a fixed seed the same
-    input can give a different answer every call (seen 2026-10-21: 48 of 51 answers changed).
-    Setting the seed makes each call repeatable; different seeds show how stable an answer is.
-    """
-    import torch
-    from pointllm.conversation import conv_templates, SeparatorStyle
-    from pointllm.model.utils import KeywordsStoppingCriteria
+def _conversation(model, prompt):
+    """The chat PointLLM was trained on: system text, USER: <point tokens> + question, ASSISTANT:"""
+    from pointllm.conversation import conv_templates
 
     cfg = model.get_model().point_backbone_config
     use_start_end = getattr(model.config, "mm_use_point_start_end", False)
@@ -172,7 +187,22 @@ def ask(model, tokenizer, points, prompt, sample=False, seed=0):
         qs = patch + "\n" + prompt
     conv.append_message(conv.roles[0], qs)
     conv.append_message(conv.roles[1], None)
+    return conv
 
+
+def ask(model, tokenizer, points, prompt, sample=False, seed=0):
+    """One answer from PointLLM.
+
+    PointLLM's point encoder picks a *random* start point when it groups the cloud
+    (torch.randint in pointllm/model/pointbert/misc.py fps). Without a fixed seed the same
+    input can give a different answer every call (seen 2026-10-21: 48 of 51 answers changed).
+    Setting the seed makes each call repeatable; different seeds show how stable an answer is.
+    """
+    import torch
+    from pointllm.conversation import SeparatorStyle
+    from pointllm.model.utils import KeywordsStoppingCriteria
+
+    conv = _conversation(model, prompt)
     input_ids = torch.as_tensor(tokenizer([conv.get_prompt()]).input_ids).cuda()
     stop_str = conv.sep if conv.sep_style != SeparatorStyle.TWO else conv.sep2
     stopping = KeywordsStoppingCriteria([stop_str], tokenizer, input_ids)
@@ -187,3 +217,47 @@ def ask(model, tokenizer, points, prompt, sample=False, seed=0):
     if ans.endswith(stop_str):
         ans = ans[:-len(stop_str)].strip()
     return ans
+
+
+def score_answers(model, tokenizer, points, prompt, answers, seed=0):
+    """How likely PointLLM finds each answer, without letting it write anything.
+
+    For every answer (e.g. "A teapot.") we feed prompt + answer through the model once and
+    add up the log-probabilities of the answer's tokens. Higher (closer to 0) = more likely.
+    Returns one (log_prob, n_tokens) pair per answer.
+    Why not let it pick a letter A/B/C/D? LLMs prefer some letters whatever the options are,
+    and generating is ~10x slower. The seed is set before every pass, so each answer
+    sees exactly the same point tokens (the randomness is in the encoder's grouping).
+    """
+    import torch
+
+    prompt_ids = tokenizer([_conversation(model, prompt).get_prompt()]).input_ids[0]
+    pc = torch.from_numpy(points).unsqueeze(0).to(model.dtype).cuda()
+    results = []
+    for answer in answers:
+        # no special tokens: the answer continues straight after "ASSISTANT:", like a generated one
+        answer_ids = tokenizer(answer, add_special_tokens=False).input_ids
+        input_ids = torch.as_tensor([prompt_ids + answer_ids]).cuda()
+        torch.manual_seed(seed)
+        with torch.inference_mode():
+            logits = model(input_ids=input_ids, point_clouds=pc).logits[0].float()
+        # the logits at position i predict token i+1, so the answer is predicted from one step earlier
+        log_probs = logits[len(prompt_ids) - 1:-1].log_softmax(dim=-1)
+        token_log_probs = log_probs[torch.arange(len(answer_ids)), torch.as_tensor(answer_ids).cuda()]
+        results.append((float(token_log_probs.sum()), len(answer_ids)))
+    return results
+
+
+def embed(model, points, seed=0):
+    """A single vector (a "fingerprint") for a point cloud, taken from PointLLM's point encoder.
+
+    The encoder turns the cloud into 513 tokens of 384 numbers each; we average them.
+    Similar shapes should get similar vectors, which is what the OOD check measures.
+    """
+    import torch
+
+    pc = torch.from_numpy(points).unsqueeze(0).to(model.dtype).cuda()
+    torch.manual_seed(seed)
+    with torch.inference_mode():
+        tokens = model.get_model().point_backbone(pc)[0]  # (513, 384)
+    return tokens.float().mean(dim=0).cpu().numpy()

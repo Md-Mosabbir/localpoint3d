@@ -8,6 +8,7 @@ Our notebook of what we looked up, tried and found. **One file per topic**, newe
 | 02 | [PointLLM](02_pointllm.md) | baseline 9/17; failures mostly from scans with too much scene |
 | 03 | [Running things on Google Colab](03_colab.md) | manual Colab works, Colab CLI not set up yet |
 | 04 | [CLIP-style zero-shot](04_clip_zero_shot.md) | one test on a cup; label wording dominated the result |
+| 05 | [Local objects: near-OOD + MCQ](05_near_ood_mcq.md) | research done; bodna/piri absent from training captions; notebooks 03/04 next |
 
 ## How to add an entry
 

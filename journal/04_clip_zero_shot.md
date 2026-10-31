@@ -32,3 +32,56 @@ So this list compared wordings as much as objects. It can't be read as "the mode
 1. Use one template for every label: `a 3D scan of a {chair, cup, bottle, keyboard, table, building, …}`.
 2. Better still, average over several templates. This is prompt ensembling, as in the CLIP paper (Radford et al. 2021, https://arxiv.org/abs/2103.00020).
 3. Run all 17 scans and compare with PointLLM scan by scan (`results/pointllm_2026-10-18_baseline.csv`).
+
+---
+
+## 2026-11-01 · Shahedul (run) + Claude (reading) · "MetaCLIP" on 11 local scans
+
+**Files** (uploaded to `results/`, commit 17f26d3):
+- `MetaCLIP results 3.xlsx`: 4 English labels per object, the same test 3 times with the label order shuffled.
+- `English Named Bangla Object results.xlsx`: 5 English labels, including a descriptive one ("folding book rest", "floor stool", "winnowing basket", …).
+- `Bangla Named in english results.xlsx`: the same + the local name in Latin letters ("bodna", "rehal").
+- `Bangla Letters used results.xlsx`: the same + the local name in Bangla script (বদনা, রেহাল).
+
+**Setup:** 11 scans (Bodna 1–2, Kula 1–2, Muura, Patil 1–2, Piri 3–4, Rehal, Wooden_Bench), 8192 points, `has_color` False.
+**Not recorded yet:** which 3D encoder sits on top of MetaCLIP, and the text template.
+
+**Top-1 pick, 4 English labels:**
+
+| Object | Labels offered | Top-1 pick | Probability |
+|---|---|---|---|
+| bodna | kettle / teapot / cup / bottle | kettle (B1) / teapot (B2) | 0.43 / 0.55 |
+| kula | basket / bowl / tray / plate | plate | 0.36–0.39 |
+| muura | basket / flower pot / bucket / stool | **stool** | 0.99 |
+| patil | pot / bowl / saucer / basin | bowl (P1) / saucer (P2) | 0.66 / 0.41 |
+| piri | bench / chair / stool / table | **stool** | 0.45–0.80 |
+| rehal | book stand / chair / small table / bench | small table; book stand 3rd | 0.42; 0.14 |
+| wooden bench | bench / table / stool / chair | **bench** | 0.83 |
+
+**Label order:** shuffling barely matters (runs 1–3 identical except Piri_3, Rehal and Wooden_Bench, ±0.03). That is expected for CLIP, since every label is scored on its own.
+
+**With a descriptive label added:**
+- "folding book rest" **wins for rehal** (0.39–0.47).
+- "floor stool" **wins for piri** (0.45–0.59).
+- "winnowing basket" 0.12–0.19 (not top), "earthenware pot" 0.07–0.12, "Toilet Wash Jug" 0.02–0.03.
+
+**Local names:**
+
+| Script | Result |
+|---|---|
+| Latin ("bodna", "rehal") | always low (0.01–0.13); "Kather Bench" wins 0.41, but it contains "Bench" |
+| Bangla script | mostly low; কুলা is top for Kula_1 (0.29) but 3rd for Kula_2 |
+
+The text encoder is mostly English, so treat Bangla-script results as unreliable.
+
+**Compared with PointLLM's grey MCQ (journal 05):**
+
+| | PointLLM (journal 05) | MetaCLIP |
+|---|---|---|
+| Both | patil → bowl, bodna → teapot/vase | patil → bowl, bodna → teapot/kettle |
+| PointLLM worse | muura → chair, piri → bench/box | muura and piri → stool |
+| Rehal | bench | small table (4 labels); folding book rest (when offered) |
+
+CLIP seems better at "stool-like" shapes and can match a good English *description*. Neither recognises a local *name*.
+
+**Caveat:** the option sets differ from `data/mcq_options.csv`, so this is not a like-for-like comparison yet.

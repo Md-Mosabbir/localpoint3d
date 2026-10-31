@@ -131,19 +131,21 @@ def picks_by_object(best, roles, title="What does PointLLM pick for each object?
 
 
 def shape_margin(per_scan):
-    """One bar per scan: did the real shape (vs a featureless ball) push the correct answer above the others?"""
+    """One bar per scan: did the real shape (vs ball and noise) push the correct answer above the others?
+    per_scan = mcq_analysis.calibrated_margins(...)."""
     plt = _plt()
     d = per_scan.reset_index().sort_values("margin")
     labels = [f.replace("_cleaned", "").rsplit(".", 1)[0] for f in d.file]
     fig, ax = plt.subplots(figsize=(10, 0.32 * len(d) + 1.8))
     ax.barh(labels, d.margin, color=[HIGHLIGHT if m > 0 else NEGATIVE for m in d.margin], height=0.7)
     ax.axvline(0, color=INK, linewidth=1)
-    ax.set_xlabel("shape boost of the correct answer − best shape boost of a wrong answer (log-probability)")
+    ax.set_xlabel("calibrated score of the correct answer − best calibrated wrong answer (log-probability)")
     ax.xaxis.grid(True)
     ax.set_axisbelow(True)
     from matplotlib.patches import Patch
     ax.legend(handles=[Patch(color=HIGHLIGHT, label="shape favours the correct answer"),
                        Patch(color=NEGATIVE, label="shape favours a wrong answer")], loc="lower right")
     _titles(fig, "Did the shape itself point to the right answer?",
-            "Compared with a featureless ball, so common words like \"chair\" get no free advantage.")
+            "Each answer is compared with what PointLLM says about a ball and random noise, "
+            "so common words like \"chair\" get no free advantage.")
     return fig

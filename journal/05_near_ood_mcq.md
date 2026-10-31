@@ -96,3 +96,58 @@
 - **Not yet run on the GPU.**
 
 **Open question:** which grey works best for PointLLM: 0.5 (what we use), 0 (black, like the paper) or 0.4? Run it once on the 17 everyday scans.
+
+---
+
+## 2026-11-01 · Md (run) + Claude (analysis) · first grey MCQ run
+
+**Run:** `reports/results/pointllm_mcq_near_ood_2026-10-31_2047*.csv`. 31 scans in grey: 14 local scans (8 objects) + 17 everyday scans, 5 seeds, blind inputs (ball, noise, other object). Wooden_Benched ×3 were skipped (no options row).
+
+**The headline in the summary CSV and charts (local 11/14 correct) is an artefact. Don't use it.**
+- `SCORE_BY = "log_prob_per_char"` favours the *longest* answer: for blind inputs it picked the longest option 71 % of the time.
+- Our local "correct" answers were long phrases ("spouted water pot") and the wrong ones short ("vase"), so random **noise** got the "correct" answer for 7 of 8 local objects.
+- Everyday options are all one word, so those results were not affected.
+
+**What the model really prefers** (total log-probability, averaged over seeds):
+
+| | correct | blind inputs correct |
+|---|---|---|
+| everyday | **14/17** (15/17 as a majority over seeds, the number used in the report) | 1/8 |
+| local | **0/14** | n/a |
+
+Local objects go to a familiar neighbour:
+
+| Object | PointLLM's pick |
+|---|---|
+| patil | bowl |
+| matir cup | bowl (tied with "clay cup") |
+| bodna | vase ≈ teapot |
+| muura | chair |
+| piri | bench / box |
+| rehal | bench (the 25 Oct open answers also said bench, 18/18) |
+| kula, hurricane lamp | chair |
+
+**Calibrated against the blind average** (log P(answer | scan) − mean over ball and noise): everyday 11/17, local 5/14.
+- Correct: matir cup (margin +14), patil ×2 (+7), muura (+3), hurricane lamp (+0.2, a tie).
+- Narrowly the look-alike: bodna (teapot) and kula (cutting board).
+- Clearly bench: piri (same_family) and rehal (look_alike, −6.8).
+- The calibration isn't perfect either: it also lowered everyday from 14 to 11.
+
+**Reading:** PointLLM does use the shape. Everyday scans are right while ball and noise are not, and for rehal the real scan lifts "bench" from −38 to −18. But it files local objects under the nearest familiar category, which is the expected near-OOD behaviour.
+
+**Seeds:** likelihood scoring is stable. All 5 seeds agreed for 24 of 31 scans, which is much steadier than generated answers.
+
+**OOD distances** (kNN to the 17 everyday scans)
+- Everyday scans: 0.30–0.89. Local scans: 0.66–0.86.
+- 4 local scans are past the line: Hurricane_Lamp, Kula_2, Muura, Piri_2. Table_2 is past it too, so 17 scans of 4 kinds make a weak reference.
+- Nearest neighbours make sense: bodna and matir cup → Cup_2; matir cup is the closest local scan (0.72) and also the best recognised.
+
+**Done (2026-11-01)**
+- Fixed: `SCORE_BY = "log_prob"` is the default; the calibrated score comes from `src/mcq_analysis.py`; the notebook warns when options differ by 2+ words.
+- Options shortened to 1–2 words; wooden bench skipped for now.
+- Corrected report: `reports/2026-11-01_near_ood_mcq.md`.
+
+**Was to fix before the next run**
+- Default `SCORE_BY = "log_prob"`, and show the calibrated score as well.
+- Options of similar length.
+- Add a wooden bench row.

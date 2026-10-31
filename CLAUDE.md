@@ -30,7 +30,7 @@ The user wants to **learn Python and the ML/3D concepts as they go**. So:
 - Keep `pointllm_helpers.preprocess`/`preview` free of torch so they work on CPU.
 - Greying out (colour test) happens in memory: `preprocess(..., colour="grey")`. Don't write grey copies of scans to Drive.
 - Floor removal: `preprocess(..., floor="removed")` → `src/cleanup.py` (RANSAC, horizontal planes only, 1 cm threshold, up-axis guessed from file type). Off by default.
-- Notebook 03 settings cell holds LOCAL_DIR, EVERYDAY_DIR, COLOUR, OPTIONS_FILE, SEEDS, BLIND_INPUTS, SCORE_BY, CIRCULAR_EVAL, CAPTION_WORDS. MCQ answers are scored by log-likelihood (`pointllm_helpers.score_answers`, worker task "score"), not generated. OOD fingerprints = mean of Point-BERT's 513 tokens (`embed`, task "embed"). Blind inputs: worker path `"fake:sphere"` / `"fake:noise"`.
+- Notebook 03 settings cell holds LOCAL_DIR, EVERYDAY_DIR, COLOUR, OPTIONS_FILE, SEEDS, BLIND_INPUTS, SCORE_BY, CIRCULAR_EVAL, CAPTION_WORDS. MCQ answers are scored by log-likelihood (`pointllm_helpers.score_answers`, worker task "score"), not generated. Compare by plain `log_prob` (per-char normalisation favoured the longest option, 2026-10-31); analysis lives in `src/mcq_analysis.py`; keep options 1–2 words. OOD fingerprints = mean of Point-BERT's 513 tokens (`embed`, task "embed"). Blind inputs: worker path `"fake:sphere"` / `"fake:noise"`.
 - Speck removal: `preprocess(..., specks="removed")` → `cleanup.remove_specks` (10 cm voxels, connected pieces < 1 % of points dropped). Needed because unit-sphere scaling uses the farthest point: one speck metres away shrinks the object to a dot. Notebook 01 setting `SPECKS` (default "removed").
 
 ## Repo layout

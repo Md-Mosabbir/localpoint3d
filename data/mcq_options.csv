@@ -1,12 +1,12 @@
 object,correct,look_alike,same_family,unrelated,note
-bodna,spouted water pot,teapot,vase,chair,"bodna = spouted water pot for washing; never in training captions; 25 Oct grey answers: ""a pot"" / ""a teapot"""
-piri,low wooden stool,box,bench,cup,"piri = very low wooden seat used in kitchens; 25 Oct open answers: ""a rectangular block"""
-kula,woven bamboo tray,cutting board,basket,chair,"kula = flat bamboo tray for winnowing rice; 25 Oct open answers: ""a flat, oval-shaped board"""
-muura,low cane stool,drum,chair,teapot,"muura = round woven cane stool"
-patil,metal cooking pot,bucket,bowl,chair,"patil = round cooking pot"
-rehal,folding book stand,bench,bookshelf,cup,"rehal = folding X-shaped stand for holy books; 25 Oct open answers: ""a bench"" (18/18)"
+bodna,water jug,teapot,vase,chair,"bodna = spouted water pot for washing; never in training captions; 25 Oct grey answers: ""a pot"" / ""a teapot"""
+piri,low stool,box,bench,cup,"piri = very low wooden seat used in kitchens; 25 Oct open answers: ""a rectangular block"""
+kula,bamboo tray,cutting board,basket,chair,"kula = flat bamboo tray for winnowing rice; 25 Oct open answers: ""a flat, oval-shaped board"""
+muura,cane stool,drum,chair,teapot,"muura = round woven cane stool"
+patil,cooking pot,bucket,bowl,chair,"patil = round cooking pot"
+rehal,book stand,bench,bookshelf,cup,"rehal = folding X-shaped stand for holy books; 25 Oct open answers: ""a bench"" (18/18)"
 matir_cup,clay cup,flower pot,bowl,chair,"matir cup = small clay tea cup; close to the everyday cups"
-hurricane_lamp,kerosene lantern,glass jar,candle,chair,"""lantern"" is common in training (1137 captions): probably the easiest local object"
+hurricane_lamp,lantern,glass jar,candle,chair,"""lantern"" is common in training (1137 captions): probably the easiest local object"
 chair,chair,stool,table,teapot,everyday calibration: should be easy
 cup,cup,vase,bowl,chair,everyday calibration: should be easy
 table,table,bench,shelf,cup,everyday calibration: should be easy

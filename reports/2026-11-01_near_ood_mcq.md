@@ -8,6 +8,7 @@
 | **Notebook** | [`03_pointllm_mcq_near_ood.ipynb`](../notebooks/03_pointllm_mcq_near_ood.ipynb) |
 | **Data** | 14 cleaned scans of 8 local objects + the 17 cleaned everyday scans, **grey** (no colour). Wooden_Benched ×3 is in the OOD check only (no answer options yet) |
 | **Results** | [raw scores](../results/pointllm_mcq_near_ood_2026-10-31.csv) (1,340 rows) · [summary](../results/pointllm_mcq_near_ood_2026-10-31_summary.csv) · [per scan](../results/pointllm_mcq_near_ood_2026-10-31_per_scan.csv) · [calibrated](../results/pointllm_mcq_near_ood_2026-10-31_calibrated.csv) · [OOD distances](../results/pointllm_mcq_near_ood_2026-10-31_ood.csv) · [training words](../results/pointllm_mcq_near_ood_2026-10-31_training_words.csv) |
+| **Re-run** | same scans with short options (1–2 words): [raw](../results/pointllm_mcq_near_ood_short_options_2026-10-31.csv) · [summary](../results/pointllm_mcq_near_ood_short_options_2026-10-31_summary.csv) · [calibrated](../results/pointllm_mcq_near_ood_short_options_2026-10-31_calibrated.csv), see §7 |
 | **Earlier runs** | [local objects, open answers, 25 Oct](2026-10-25_local_objects.md) · [everyday cleaned scans, 23 Oct](2026-10-23_cleaned_scans.md) |
 
 ---
@@ -29,6 +30,8 @@ The 25 Oct open-ended run showed PointLLM almost never names a Bangladeshi objec
    - rehal → bench (as in the 25 Oct open answers, 18/18)
    - piri → bench or box
 4. **It still reads the shape.** The ball and noise get different picks than the real scans. Once we subtract what PointLLM says about "nothing" (calibrated score), the correct answer wins for **5 of 14** local scans: matir cup, both patils and muura clearly, and hurricane lamp by a hair. Bodna and kula lose narrowly to their look-alike (teapot, cutting board).
+
+5. **A re-run with short, fair options (e.g. "water jug" instead of "spouted water pot") gives the same answer: 0 of 14** (§7). The picks didn't change at all; only the shape-based (calibrated) wins dropped from 5 to 3. The scores are also exactly reproducible: the same scan with the same seed gave the identical score in both runs.
 
 **For the project:** this is the near-OOD pattern we expected. The model *sees* a bench-like rehal and a bowl-like patil, but it can only answer with categories from Objaverse. The failure is missing knowledge, not a bad scan or a blind model. That supports the next step: adding local classes, or fine-tuning.
 
@@ -139,22 +142,65 @@ Fixes now in the notebook:
 
 ---
 
-## 7. Limitations
+## 7. Re-run with short options
+
+Same scans, same settings. Only the "correct" answers were shortened to 1–2 words so they compete fairly:
+
+| Object | Run 1 (long) | Run 2 (short) |
+|---|---|---|
+| bodna | spouted water pot | water jug |
+| piri | low wooden stool | low stool |
+| kula | woven bamboo tray | bamboo tray |
+| muura | low cane stool | cane stool |
+| patil | metal cooking pot | cooking pot |
+| rehal | folding book stand | book stand |
+| hurricane lamp | kerosene lantern | lantern |
+
+*(Colab still ran an older copy of the notebook, so its own summary used the flawed per-letter score. Everything below is re-scored from the raw CSV.)*
+
+| | Run 1 (long options) | Run 2 (short options) |
+|---|---|---|
+| Everyday, plain likelihood | 15 / 17 | 15 / 17 (identical scores) |
+| **Local, plain likelihood** | **0 / 14** | **0 / 14** |
+| Local, calibrated (vs ball and noise) | 5 / 14 | 3 / 14 |
+
+![Re-run: what PointLLM picks](figures/2026-10-31_mcq_short_options_picks_local.png)
+
+- **The picks are the same as in run 1:** patil and matir cup → bowl, bodna → vase, muura/kula/hurricane lamp → chair, piri → bench/box, rehal → bench. Shorter correct answers didn't win a single scan.
+- **Where the correct answer came closest** (average log-probability; closer to 0 = more likely):
+
+  | Object | Pick | Correct answer |
+  |---|---|---|
+  | matir cup | bowl −21.6 | clay cup −21.9 (a tie) |
+  | hurricane lamp | chair −24.3 | lantern −25.9 (2nd) |
+  | patil | bowl −17.0 | cooking pot −23.3 (2nd) |
+
+  For bodna, kula, muura and piri the correct answer came **last**.
+- **Calibrated:** the shape favours the correct answer for matir cup (+14.2), Patil_2 (+2.2) and Piri_2 (+0.2, a tie).
+  - Elsewhere the shape points to a look-alike: **bodna → teapot** (−7 to −10), **rehal → bench** (−7.3), **kula → cutting board**, piri → bench.
+  - Muura's "cane stool" now loses to chair (it won as "low cane stool" in run 1). So the calibrated view is sensitive to wording, and the plain result is the robust one.
+- **Reproducible:** the everyday options didn't change, and their 340 scores are identical to run 1 to the last decimal. The seed fix works.
+
+**Conclusion:** the near-OOD result doesn't depend on how we phrased the correct answer. PointLLM maps each Bangladeshi object to the closest familiar Objaverse category.
+
+---
+
+## 8. Limitations
 
 - **Small:** 14 local scans of 8 objects (1–4 scans each). Per-object results rest on 1–2 scans.
-- **The options shape the result.** "Spouted water pot" is a long, rare phrase, so it starts at a disadvantage against "vase", even though calibration helps. The next run uses short options.
+- **The options shape the result.** Shortening the correct answers didn't change the picks (§7), but the calibrated view moved (5 → 3 of 14). Other wordings could still matter.
 - **Only one question wording** ("What is this?") and one grey value (0.5). The PointLLM paper fed colourless objects as black, which we haven't tried yet.
 - **Small OOD reference:** 17 everyday scans of 4 kinds.
 
 ---
 
-## 8. Next steps
+## 9. Next steps
 
 | # | Step | Why |
 |---|---|---|
-| 1 | **Re-run notebook 03** with the new options (all 1–2 words, already in `data/mcq_options.csv`) | A fairer contest; check whether the 0/14 holds |
+| 1 | ~~Re-run with short options~~ | Done (§7): 0/14 holds |
 
-New options for step 1:
+Options used in the re-run:
 
 | Object | correct | look-alike | same family | unrelated |
 |---|---|---|---|---|

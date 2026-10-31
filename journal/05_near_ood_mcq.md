@@ -151,3 +151,18 @@ Local objects go to a familiar neighbour:
 - Default `SCORE_BY = "log_prob"`, and show the calibrated score as well.
 - Options of similar length.
 - Add a wooden bench row.
+
+---
+
+## 2026-11-01 · Md (run) + Claude (analysis) · re-run with short options
+
+**Run:** `results/pointllm_mcq_near_ood_short_options_2026-10-31.csv`. Same scans; the correct answers were shortened to 1–2 words ("water jug", "low stool", …). Colab ran an older copy of the notebook (per-letter scoring), so its own summary was flawed again; everything here is re-scored from the raw CSV with `reports/build/mcq_reanalyse.py`.
+
+| Measure | Everyday | Local |
+|---|---|---|
+| Plain likelihood | 15/17 | **0/14** (same picks as run 1) |
+| Calibrated | 11/17 | 3/14 (matir cup +14.2, Patil_2 +2.2, Piri_2 +0.2) |
+
+- Run 1 calibrated was 5/14: muura's "cane stool" now loses to chair, and hurricane lamp's "lantern" lost its tie. So the calibrated view is sensitive to wording.
+- **Reproducibility:** the 340 everyday scores are identical to run 1 to the last decimal. The seed fix is verified (the open item from 2026-10-23).
+- Report updated: `reports/2026-11-01_near_ood_mcq.md` §7.

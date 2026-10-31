@@ -101,7 +101,7 @@
 
 ## 2026-11-01 · Md (run) + Claude (analysis) · first grey MCQ run
 
-**Run:** `reports/results/pointllm_mcq_near_ood_2026-10-31_2047*.csv`. 31 scans in grey: 14 local scans (8 objects) + 17 everyday scans, 5 seeds, blind inputs (ball, noise, other object). Wooden_Benched ×3 were skipped (no options row).
+**Run:** `results/pointllm_multiple_choice/pointllm_mcq_near_ood_2026-10-31*.csv` (Colab run label 2047). 31 scans in grey: 14 local scans (8 objects) + 17 everyday scans, 5 seeds, blind inputs (ball, noise, other object). Wooden_Benched ×3 were skipped (no options row).
 
 **The headline in the summary CSV and charts (local 11/14 correct) is an artefact. Don't use it.**
 - `SCORE_BY = "log_prob_per_char"` favours the *longest* answer: for blind inputs it picked the longest option 71 % of the time.
@@ -156,7 +156,7 @@ Local objects go to a familiar neighbour:
 
 ## 2026-11-01 · Md (run) + Claude (analysis) · re-run with short options
 
-**Run:** `results/pointllm_mcq_near_ood_short_options_2026-10-31.csv`. Same scans; the correct answers were shortened to 1–2 words ("water jug", "low stool", …). Colab ran an older copy of the notebook (per-letter scoring), so its own summary was flawed again; everything here is re-scored from the raw CSV with `reports/build/mcq_reanalyse.py`.
+**Run:** `results/pointllm_multiple_choice/pointllm_mcq_near_ood_short_options_2026-10-31.csv`. Same scans; the correct answers were shortened to 1–2 words ("water jug", "low stool", …). Colab ran an older copy of the notebook (per-letter scoring), so its own summary was flawed again; everything here is re-scored from the raw CSV with `reports/build/mcq_reanalyse.py`.
 
 | Measure | Everyday | Local |
 |---|---|---|

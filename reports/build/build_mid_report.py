@@ -200,7 +200,7 @@ S += [H2("2.6 Multiple choice in grey: does it read the shape? (31 Oct)"),
       fig("2026-10-31_mcq_accuracy_real_vs_blind.png"),
       cap("Figure 6. Everyday scans 15 of 17 correct, while the blind inputs are at chance. Bangladeshi scans "
           "0 of 14, in two runs with differently worded answers."),
-      fig("2026-10-31_mcq_short_options_picks_local.png", width=W * 0.9),
+      fig("2026-10-31_mcq_picks_local.png", width=W * 0.9),
       cap("Figure 7. What PointLLM picks for each local object: almost always a familiar look-alike or a related object, "
           "never the correct one."),
       table([["Object", "Correct answer", "PointLLM picks"],
@@ -220,8 +220,10 @@ S += [H2("2.6 Multiple choice in grey: does it read the shape? (31 Oct)"),
                   "“sees it but has no name for it”.")]
 
 S += [KeepTogether([H2("2.7 CLIP-style model (MetaCLIP), first results"),
-      P("A CLIP-style model scores how well a 3D scan matches each text label. Shahedul tested 11 local scans with "
-        "4–6 labels per object, and with the local name added in English letters and in Bangla script."),
+      P("MetaCLIP is a 2D CLIP model: it scores how well a picture matches each text label. Shahedul rendered each "
+        "8192-point scan as depth-shaded pictures and tested 11 local scans with 4–6 labels per object. He also "
+        "added the local name in English letters and in Bangla script. Three runs with the labels shuffled gave "
+        "the same answers."),
       table([["Object", "Labels offered", "CLIP's top pick", "PointLLM's pick"],
              ["bodna", "kettle / teapot / cup / bottle", "kettle / teapot", "vase / teapot"],
              ["patil", "pot / bowl / saucer / basin", "bowl", "bowl"],

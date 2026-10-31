@@ -6,7 +6,7 @@
 | **Project** | localpoint3d: can 3D models trained on Western datasets recognise Bangladeshi objects? |
 | **Team** | Shahedul Islam Shikder · Fahim Muntasir · Md Mosabbir |
 | **Data** | 10 hand-cleaned scans of 7 local objects (`*_cleaned.ply`): bodna, hurricane lamp, kula ×2, matir cup, muura, piri ×3, rehal |
-| **Results** | [`results/pointllm_local_objects_2026-10-25.csv`](../results/pointllm_local_objects_2026-10-25.csv): 180 answers, scored in the `correct` column |
+| **Results** | [`results/pointllm_open_questions/pointllm_local_objects_2026-10-25.csv`](../results/pointllm_open_questions/pointllm_local_objects_2026-10-25.csv): 180 answers, scored in the `correct` column |
 | **Earlier runs** | [hand-cleaned everyday objects, 23 Oct](2026-10-23_cleaned_scans.md) (same settings, the baseline to compare with) |
 
 ---
@@ -136,7 +136,7 @@ Single seeds: colour 3 / 5 / 4, grey 7 / 7 / 4 answers correct (of 30). **By pro
 
 | # | Step | Why |
 |---|---|---|
-| 1 | A teammate re-scores `results/pointllm_local_objects_2026-10-25.csv`, and agrees on the "accepted answers" table | The scoring rule for local objects is new and matters a lot here |
+| 1 | A teammate re-scores `results/pointllm_open_questions/pointllm_local_objects_2026-10-25.csv`, and agrees on the "accepted answers" table | The scoring rule for local objects is new and matters a lot here |
 | 2 | Look at the previews of Matir_Cup_1, Hurricane_Lamp_1 and Kula_2 in notebook 01 (colour vs grey) | Check colour quality, and whether the cup has a handle/saucer |
 | 3 | Ask targeted questions in the chat cell: "Is this a lantern?", "What is this used for?" | Does the model know the object when given the name? (closed vs open question) |
 | 4 | Rotation test (`ROTATIONS_TO_TRY = ["None", "-90 deg about X"]`) on these 10 scans | Rule out "upside down" as a cause before blaming knowledge |

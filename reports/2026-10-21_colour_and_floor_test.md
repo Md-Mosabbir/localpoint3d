@@ -7,7 +7,7 @@
 | **Team** | Shahedul Islam Shikder · Fahim Muntasir · Md Mosabbir |
 | **Runs by** | Md Mosabbir (Colab, T4) |
 | **Data** | the same 17 scans as the [18 Oct baseline](2026-10-18_pointllm_baseline.md) |
-| **Results** | [`results/original_grey_floor_kept.csv`](../results/original_grey_floor_kept.csv), [`results/original_grey_floor_removed.csv`](../results/original_grey_floor_removed.csv) (102 rows each, scored in the `correct` column) |
+| **Results** | [`results/pointllm_open_questions/original_grey_floor_kept.csv`](../results/pointllm_open_questions/original_grey_floor_kept.csv), [`results/pointllm_open_questions/original_grey_floor_removed.csv`](../results/pointllm_open_questions/original_grey_floor_removed.csv) (102 rows each, scored in the `correct` column) |
 
 ---
 

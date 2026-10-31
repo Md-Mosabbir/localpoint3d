@@ -1,7 +1,8 @@
 """Scan gallery for the mid-project report: what the model sees (grey, 8192 points), everyday + local objects.
 
-usage: python reports/build/mid_figs.py <everyday scans dir> <local preview dir from notebook 03> <out.png>
-The local pictures are the scan_*.png files notebook 03 saves; the everyday ones are made here.
+usage: python reports/build/mid_figs.py data/Models_Cleaned reports/figures/2026-10-31_scans <out.png>
+The local pictures are the scan_*.png files notebook 03 saved (kept in reports/figures/2026-10-31_scans);
+the everyday ones are made here from the local scans.
 """
 import glob
 import os

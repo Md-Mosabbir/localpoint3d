@@ -75,7 +75,7 @@ Full write-up: [`reports/2026-10-18_pointllm_baseline.md`](../reports/2026-10-18
 - PointLLM-7B v1.2 on a Colab T4.
 - 17 Scaniverse PLY scans from `Drive/Models`: 8 chairs, 4 cups, 3 keyboards, 2 tables. All are ModelNet40 classes, so this is the *easy* baseline.
 - Rotation `None`, the 3 paper prompts.
-- Raw output: [`results/pointllm_2026-10-18_baseline.csv`](../results/pointllm_2026-10-18_baseline.csv)
+- Raw output: [`results/pointllm_open_questions/pointllm_2026-10-18_baseline.csv`](../results/pointllm_open_questions/pointllm_2026-10-18_baseline.csv)
 
 **Scoring:** an answer counts as correct if it names the right kind of object. Judged by reading the answers (Claude, to be double-checked by the team).
 - I = "What is this?"
@@ -179,7 +179,7 @@ Drew every scan from the raw PLY on the laptop and measured each one. Figures an
 
 ## 2026-10-21 · Md (runs) + Claude (analysis) · colour and floor test
 
-Full write-up: [reports/2026-10-21_colour_and_floor_test.md](../reports/2026-10-21_colour_and_floor_test.md). CSVs: `results/original_grey_floor_kept.csv` and `results/original_grey_floor_removed.csv`, scored.
+Full write-up: [reports/2026-10-21_colour_and_floor_test.md](../reports/2026-10-21_colour_and_floor_test.md). CSVs: `results/pointllm_open_questions/original_grey_floor_kept.csv` and `results/pointllm_open_questions/original_grey_floor_removed.csv`, scored.
 
 **Measured (answers correct of 51):**
 - colour, floor kept: 24
@@ -248,7 +248,7 @@ In the Colab previews of the cleaned Chair_04, Table_1 and Keyboard_1, the objec
 
 ## 2026-10-23 · Md (run) + Claude (analysis) · hand-cleaned scans, colour vs grey, 3 seeds
 
-Report: [reports/2026-10-23_cleaned_scans.md](../reports/2026-10-23_cleaned_scans.md). CSV: `results/pointllm_cleaned_2026-10-23.csv` (306 answers, scored).
+Report: [reports/2026-10-23_cleaned_scans.md](../reports/2026-10-23_cleaned_scans.md). CSV: `results/pointllm_open_questions/pointllm_cleaned_2026-10-23.csv` (306 answers, scored).
 
 **Measured (answers correct of 51, majority over 3 seeds):**
 - colour: 33 (raw 21 Oct: 24)
@@ -275,7 +275,7 @@ Report: [reports/2026-10-23_cleaned_scans.md](../reports/2026-10-23_cleaned_scan
 
 ## 2026-10-25 · team (run) + Claude (analysis) · Bangladeshi objects, colour vs grey, 3 seeds
 
-Report: [reports/2026-10-25_local_objects.md](../reports/2026-10-25_local_objects.md). CSV: `results/pointllm_local_objects_2026-10-25.csv` (180 answers, scored; from the sheet `Bangla_stuff.xlsx`).
+Report: [reports/2026-10-25_local_objects.md](../reports/2026-10-25_local_objects.md). CSV: `results/pointllm_open_questions/pointllm_local_objects_2026-10-25.csv` (180 answers, scored; from the sheet `Bangla_stuff.xlsx`).
 
 **Scans:** 10 hand-cleaned PLYs: Bodna_1, Hurricane_Lamp_1, Kula_1, Kula_2, Matir_Cup_1, Muura_1, Piri_2, Piri_3, Piri_4, Rehal_1. Same settings as 23 Oct.
 

@@ -1,6 +1,6 @@
 """Re-make the summary tables and charts of a notebook-03 run from its saved raw CSV (no GPU needed).
 
-usage: python reports/build/mcq_reanalyse.py results/pointllm_mcq_near_ood_2026-10-31.csv OPTIONS.csv OUT_PREFIX
+usage: python reports/build/mcq_reanalyse.py results/pointllm_multiple_choice/pointllm_mcq_near_ood_2026-10-31.csv OPTIONS.csv OUT_PREFIX
 OPTIONS.csv must be the options file the run used (the answer texts are in the raw CSV, the roles come from it).
 """
 import os

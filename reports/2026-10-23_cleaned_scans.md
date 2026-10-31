@@ -7,7 +7,7 @@
 | **Team** | Shahedul Islam Shikder · Fahim Muntasir · Md Mosabbir |
 | **Cleaning and run** | Md Mosabbir (CloudCompare cleaning; Colab T4 run) |
 | **Data** | the same 17 objects as before, cleaned by hand (`Models_Cleaned/`, e.g. `Chair_04_cleaned.ply`) |
-| **Results** | [`results/pointllm_cleaned_2026-10-23.csv`](../results/pointllm_cleaned_2026-10-23.csv): 306 answers, scored in the `correct` column |
+| **Results** | [`results/pointllm_open_questions/pointllm_cleaned_2026-10-23.csv`](../results/pointllm_open_questions/pointllm_cleaned_2026-10-23.csv): 306 answers, scored in the `correct` column |
 | **Earlier runs** | [baseline, 18 Oct](2026-10-18_pointllm_baseline.md) · [colour and floor test, 21 Oct](2026-10-21_colour_and_floor_test.md) |
 
 ---
@@ -144,7 +144,7 @@ The raw scans were described as **scenes** ("ranch", "beach scene", "location").
 |---|---|---|
 | 1 | Rotation test on the cleaned scans: `ROTATIONS_TO_TRY = ["None", "-90 deg about X"]`, seeds [0, 1, 2], colour only | Find which way is "up" for PointLLM (hint: Chair_08 "flipped upside down") |
 | 2 | Quick check: ask 2–3 questions twice with the same seed | Confirm the seed fix makes answers repeatable |
-| 3 | A teammate re-scores `results/pointllm_cleaned_2026-10-23.csv` | Remove single-rater bias |
+| 3 | A teammate re-scores `results/pointllm_open_questions/pointllm_cleaned_2026-10-23.csv` | Remove single-rater bias |
 | 4 | Clean the local-object scans the same way (CloudCompare), named `<Object>_<take>_cleaned` | Then the real test: rickshaw, thelagari, … with the same settings |
 
 ---

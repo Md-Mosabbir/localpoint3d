@@ -7,8 +7,8 @@
 | **Team** | Shahedul Islam Shikder · Fahim Muntasir · Md Mosabbir |
 | **Notebook** | [`03_pointllm_mcq_near_ood.ipynb`](../notebooks/03_pointllm_mcq_near_ood.ipynb) |
 | **Data** | 14 cleaned scans of 8 local objects + the 17 cleaned everyday scans, **grey** (no colour). Wooden_Benched ×3 is in the OOD check only (no answer options yet) |
-| **Results** | [raw scores](../results/pointllm_mcq_near_ood_2026-10-31.csv) (1,340 rows) · [summary](../results/pointllm_mcq_near_ood_2026-10-31_summary.csv) · [per scan](../results/pointllm_mcq_near_ood_2026-10-31_per_scan.csv) · [calibrated](../results/pointllm_mcq_near_ood_2026-10-31_calibrated.csv) · [OOD distances](../results/pointllm_mcq_near_ood_2026-10-31_ood.csv) · [training words](../results/pointllm_mcq_near_ood_2026-10-31_training_words.csv) |
-| **Re-run** | same scans with short options (1–2 words): [raw](../results/pointllm_mcq_near_ood_short_options_2026-10-31.csv) · [summary](../results/pointllm_mcq_near_ood_short_options_2026-10-31_summary.csv) · [calibrated](../results/pointllm_mcq_near_ood_short_options_2026-10-31_calibrated.csv), see §7 |
+| **Results** | [raw scores](../results/pointllm_multiple_choice/pointllm_mcq_near_ood_2026-10-31.csv) (1,340 rows) · [summary](../results/pointllm_multiple_choice/pointllm_mcq_near_ood_2026-10-31_summary.csv) · [per scan](../results/pointllm_multiple_choice/pointllm_mcq_near_ood_2026-10-31_per_scan.csv) · [calibrated](../results/pointllm_multiple_choice/pointllm_mcq_near_ood_2026-10-31_calibrated.csv) · [OOD distances](../results/pointllm_multiple_choice/pointllm_mcq_near_ood_2026-10-31_ood.csv) · [training words](../results/pointllm_multiple_choice/pointllm_mcq_near_ood_2026-10-31_training_words.csv) |
+| **Re-run** | same scans with short options (1–2 words): [raw](../results/pointllm_multiple_choice/pointllm_mcq_near_ood_short_options_2026-10-31.csv) · [calibrated](../results/pointllm_multiple_choice/pointllm_mcq_near_ood_short_options_2026-10-31_calibrated.csv). Its picks, summary and per-scan tables are identical to run 1, so only run 1's are kept. See §7 |
 | **Earlier runs** | [local objects, open answers, 25 Oct](2026-10-25_local_objects.md) · [everyday cleaned scans, 23 Oct](2026-10-23_cleaned_scans.md) |
 
 ---
@@ -132,7 +132,7 @@ This view is only supporting evidence. It is also harsher on everyday scans (11 
 
 The notebook first compared answers by likelihood **per letter**. With our options that favoured the **longest** answer: for ball and noise it picked the longest option 71 % of the time. Because the local "correct" answers were long ("spouted water pot") and the wrong ones short ("vase"), the first summary claimed **11 of 14 local scans correct**, and random noise got 7 of 8.
 
-That number is wrong. Everything in this report uses the plain likelihood, re-computed from the saved raw scores with [`reports/build/mcq_reanalyse.py`](build/mcq_reanalyse.py). The flawed tables are kept in `reports/results/flawed_per_char_scoring/` for the record.
+That number is wrong. Everything in this report uses the plain likelihood, re-computed from the saved raw scores with [`reports/build/mcq_reanalyse.py`](build/mcq_reanalyse.py). The flawed tables were deleted. They can be re-made from the raw CSV by scoring with `log_prob_per_char`.
 
 Fixes now in the notebook:
 - Plain likelihood is the default.
@@ -164,7 +164,7 @@ Same scans, same settings. Only the "correct" answers were shortened to 1–2 wo
 | **Local, plain likelihood** | **0 / 14** | **0 / 14** |
 | Local, calibrated (vs ball and noise) | 5 / 14 | 3 / 14 |
 
-![Re-run: what PointLLM picks](figures/2026-10-31_mcq_short_options_picks_local.png)
+![What PointLLM picks (identical in both runs)](figures/2026-10-31_mcq_picks_local.png)
 
 - **The picks are the same as in run 1:** patil and matir cup → bowl, bodna → vase, muura/kula/hurricane lamp → chair, piri → bench/box, rehal → bench. Shorter correct answers didn't win a single scan.
 - **Where the correct answer came closest** (average log-probability; closer to 0 = more likely):

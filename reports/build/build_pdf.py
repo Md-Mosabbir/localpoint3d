@@ -84,7 +84,7 @@ def ok(v): return {"yes": '<font color="#1a7f37"><b>✓</b></font>', "no": '<fon
                    "partly": '<font color="#5b5a56"><b>~</b></font>'}[v]
 
 
-answers = list(csv.DictReader(open(f"{REPO}/results/pointllm_2026-10-18_baseline.csv", encoding="utf-8")))
+answers = list(csv.DictReader(open(f"{REPO}/results/pointllm_open_questions/pointllm_2026-10-18_baseline.csv", encoding="utf-8")))
 def answer(scan, prompt):
     return [r for r in answers if r["file"] == scan + ".ply" and r["prompt"] == prompt][0]
 
@@ -210,7 +210,7 @@ for name, said in per_scan:
     rows.append([name] + [ok(answer(name, p)["correct"]) for p in (I, C, CAP)] + [said])
 S += [KeepTogether([table(rows, [2.4 * cm, 0.9 * cm, 0.9 * cm, 1.0 * cm, 11.8 * cm]),
       cap("Table 3. Every scan and prompt. ✓ correct, ✗ wrong, ~ object mentioned but as part of a scene. "
-          "Full answers are in results/pointllm_2026-10-18_baseline.csv.")])]
+          "Full answers are in results/pointllm_open_questions/pointllm_2026-10-18_baseline.csv.")])]
 
 S += [H2("Example answers, exactly as PointLLM wrote them")]
 examples = [("Chair_1", I), ("Cup_1", I), ("Keyboard_2", I), ("Chair_2", I),

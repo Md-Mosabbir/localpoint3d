@@ -42,7 +42,7 @@ The user wants to **learn Python and the ML/3D concepts as they go**. So:
 - `data/mcq_options.csv`: answer options per object, shared by the PointLLM and CLIP MCQ notebooks
 - `journal/`: research log, one Markdown file per topic, dated entries. **Update it whenever we research or measure something.** Keep sources (links) separate from our own measurements.
 - `data/README.md`: capture protocol + file naming `<object>_<method>_<take>.<ext>` (method = `lidar` | `photo`)
-- `results/`: CSVs worth keeping. Scans themselves are on Google Drive (`MyDrive/Models`, flat list like `Chair_1.ply`; local copy in `data/Models/`), never in git. Hand-cleaned copies: `MyDrive/Models_Cleaned` / `data/Models_Cleaned/`, named `Chair_01_cleaned.ply` (parse_scan_name → version=cleaned, take 1).
+- `results/`: tables worth keeping, one folder per kind of test (`pointllm_open_questions/`, `pointllm_multiple_choice/`, `clip/`), indexed in `results/README.md`. No duplicates: raw Colab exports stay on Drive. Scans themselves are on Google Drive (`MyDrive/Models`, flat list like `Chair_1.ply`; local copy in `data/Models/`), never in git. Hand-cleaned copies: `MyDrive/Models_Cleaned` / `data/Models_Cleaned/`, named `Chair_01_cleaned.ply` (parse_scan_name → version=cleaned, take 1).
 - `archive/`: old notebooks, read-only reference
 
 ## Facts worth remembering

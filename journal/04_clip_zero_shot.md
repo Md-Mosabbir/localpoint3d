@@ -31,20 +31,20 @@ So this list compared wordings as much as objects. It can't be read as "the mode
 **How to run it fairly next time**
 1. Use one template for every label: `a 3D scan of a {chair, cup, bottle, keyboard, table, building, …}`.
 2. Better still, average over several templates. This is prompt ensembling, as in the CLIP paper (Radford et al. 2021, https://arxiv.org/abs/2103.00020).
-3. Run all 17 scans and compare with PointLLM scan by scan (`results/pointllm_2026-10-18_baseline.csv`).
+3. Run all 17 scans and compare with PointLLM scan by scan (`results/pointllm_open_questions/pointllm_2026-10-18_baseline.csv`).
 
 ---
 
 ## 2026-11-01 · Shahedul (run) + Claude (reading) · "MetaCLIP" on 11 local scans
 
 **Files** (uploaded to `results/`, commit 17f26d3):
-- `MetaCLIP results 3.xlsx`: 4 English labels per object, the same test 3 times with the label order shuffled.
-- `English Named Bangla Object results.xlsx`: 5 English labels, including a descriptive one ("folding book rest", "floor stool", "winnowing basket", …).
-- `Bangla Named in english results.xlsx`: the same + the local name in Latin letters ("bodna", "rehal").
-- `Bangla Letters used results.xlsx`: the same + the local name in Bangla script (বদনা, রেহাল).
+- `results/clip/metaclip_4_labels_3_runs.xlsx`: 4 English labels per object, the same test 3 times with the label order shuffled.
+- `results/clip/metaclip_5_labels_with_description.xlsx`: 5 English labels, including a descriptive one ("folding book rest", "floor stool", "winnowing basket", …).
+- `results/clip/metaclip_plus_local_name_latin.xlsx`: the same + the local name in Latin letters ("bodna", "rehal").
+- `results/clip/metaclip_plus_local_name_bangla_script.xlsx`: the same + the local name in Bangla script (বদনা, রেহাল).
 
 **Setup:** 11 scans (Bodna 1–2, Kula 1–2, Muura, Patil 1–2, Piri 3–4, Rehal, Wooden_Bench), 8192 points, `has_color` False.
-**Not recorded yet:** which 3D encoder sits on top of MetaCLIP, and the text template.
+**Model:** MetaCLIP, a **2D** CLIP model, on **depth-shaded pictures rendered** from the 8192-point scans. We know this from the title of Shahedul's chart, `results/clip/metaclip_4_labels_3_runs_chart.jpg`. It is not a 3D point encoder. **Still not recorded:** the text template and how many views were rendered.
 
 **Top-1 pick, 4 English labels:**
 

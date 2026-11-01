@@ -73,7 +73,7 @@ def fig(name, width=W, max_height=None):
 
 
 def side_by_side(fig_a, cap_a, fig_b, cap_b):
-    t = Table([[fig_a, fig_b], [cap_a, cap_b]], colWidths=[W / 2, W / 2])
+    t = Table([[[fig_a, cap_a], [fig_b, cap_b]]], colWidths=[W / 2, W / 2])  # one row: a caption never leaves its figure
     t.setStyle(TableStyle([("VALIGN", (0, 0), (-1, -1), "TOP"), ("LEFTPADDING", (0, 0), (-1, -1), 2),
                            ("RIGHTPADDING", (0, 0), (-1, -1), 2)]))
     return t
@@ -161,9 +161,20 @@ S += [H2("2.2 A reproducible test pipeline"),
                   "and other models.")]
 
 S += [H2("2.3 Everyday objects: baseline and the effect of cleaning"),
+      fig("2026-10-21_accuracy_by_condition.png", width=W * 0.85),
+      cap("Figure 2. Raw scans, 18 and 21 Oct: answers correct of 51. Without colour (grey) the score halved; removing "
+          "the floor automatically helped grey scans only. The same input run twice flipped 6 answers: PointLLM was "
+          "random before we fixed the seed."),
       fig("2026-10-23_raw_vs_cleaned.png", width=W * 0.78),
-      cap("Figure 2. PointLLM, 17 everyday scans, 3 questions each (51 answers). Cleaning the scans helped most, "
-          "especially in grey."),
+      cap("Figure 3. PointLLM, 17 everyday scans, 3 questions each (51 answers). Cleaning the scans helped most, "
+          "especially in grey. Dots: the three seeds."),
+      side_by_side(
+          fig("2026-10-21_per_scan_heatmap.png", width=W / 2 - 0.3 * cm),
+          cap("Figure 4. Raw scans, every scan (correct of 3 questions). Cups and most chairs work; tables, keyboards "
+              "and Chairs 2–4 fail in every setting."),
+          fig("2026-10-23_per_scan_raw_vs_cleaned.png", width=W / 2 - 0.3 * cm),
+          cap("Figure 5. Raw vs hand-cleaned, every scan. Cleaning fixed Chair_03, Chair_04 and Table_1 and made most "
+              "grey chairs work; keyboards, Table_2, Cup_4 and Chair_02 still fail.")),
       table([["Run", "Result"],
              ["18 Oct, raw scans", "9 of 17 scans named correctly"],
              ["21 Oct, raw, colour vs grey", "24 vs 13 of 51 answers correct: colour seemed essential"],
@@ -174,8 +185,11 @@ S += [H2("2.3 Everyday objects: baseline and the effect of cleaning"),
 
 S += [KeepTogether([H2("2.4 Bangladeshi objects, open questions (25 Oct)"),
       fig("2026-10-25_everyday_vs_local.png", width=W * 0.72),
-      cap("Figure 3. Share of answers correct, same settings. Everyday 65 % / 58 %, Bangladeshi 13 % / 20 % "
+      cap("Figure 6. Share of answers correct, same settings. Everyday 65 % / 58 %, Bangladeshi 13 % / 20 % "
           "(colour / grey).")]),
+      KeepTogether([fig("2026-10-25_local_per_scan.png", width=W * 0.78),
+      cap("Figure 7. The 10 local scans of 25 Oct, correct answers of 9 (3 questions × 3 seeds), and what PointLLM "
+          "usually said. Correct = the nearest English word (e.g. pot for bodna, stool or chair for muura).")]),
       P("Only the matir cup was recognised (“a cup and saucer”). The model often described the <b>shape</b> "
         "correctly but named the wrong object: rehal → “a bench with legs at 45 degrees” (18 of 18), kula → "
         "“a flat, oval-shaped board”. When unsure it invented familiar things (hurricane lamp → “a sculpture "
@@ -186,23 +200,30 @@ S += [H2("2.5 Are the local objects “near out-of-distribution”?"),
       P("<i>Near-OOD</i> means a new kind of object that looks like something the model knows. We checked this in two ways."),
       side_by_side(
           fig("2026-10-31_training_words.png", width=W / 2 - 0.3 * cm),
-          cap("Figure 4. Number of PointLLM's 658,577 training captions that contain each word. The local names never "
+          cap("Figure 8. Number of PointLLM's 658,577 training captions that contain each word. The local names never "
               "appear; their look-alikes are common."),
           fig("2026-10-31_ood_distance.png", width=W / 2 - 0.3 * cm),
-          cap("Figure 5. How far each scan is from the everyday scans in PointLLM's own “shape fingerprint”. "
+          cap("Figure 9. How far each scan is from the everyday scans in PointLLM's own “shape fingerprint”. "
               "Local scans (blue, 0.66–0.86) are farther than almost all everyday scans (mostly 0.30–0.60).")),
+      KeepTogether([fig("2026-10-31_fingerprint_map.png", width=W * 0.72),
+      cap("Figure 10. PointLLM's shape fingerprints flattened to 2D (dots = everyday, stars = local). Local objects form "
+          "their own groups, next to their look-alikes: piri and rehal near the wooden benches and keyboards, "
+          "patil, bodna and matir cup together, away from the cups.")]),
       contributes("evidence that our objects are genuinely new to the model, both by name and by shape.")]
 
-S += [H2("2.6 Multiple choice in grey: does it read the shape? (31 Oct)"),
+S += [KeepTogether([H2("2.6 Multiple choice in grey: does it read the shape? (31 Oct)"),
       P("For each scan PointLLM chose between 4 answers: the correct one, a look-alike, a related object and an unrelated "
         "object (25 % by guessing). It does not write anything: we measure how likely it finds each answer. We also "
         "asked the same question about a featureless ball, random noise and a different object (“blind” inputs)."),
       fig("2026-10-31_mcq_accuracy_real_vs_blind.png"),
-      cap("Figure 6. Everyday scans 15 of 17 correct, while the blind inputs are at chance. Bangladeshi scans "
-          "0 of 14, in two runs with differently worded answers."),
+      cap("Figure 11. Everyday scans 15 of 17 correct, while the blind inputs are at chance. Bangladeshi scans "
+          "0 of 14, in two runs with differently worded answers.")]),
+      fig("2026-10-31_mcq_picks_everyday.png", width=W * 0.85),
+      cap("Figure 12. Everyday objects: the correct answer wins most of the time (tables 100 %, chairs 98 %, cups 70 %, "
+          "keyboards 53 %)."),
       fig("2026-10-31_mcq_picks_local.png", width=W * 0.9),
-      cap("Figure 7. What PointLLM picks for each local object: almost always a familiar look-alike or a related object, "
-          "never the correct one."),
+      cap("Figure 13. Local objects: almost always a familiar look-alike or a related object. The correct answer wins "
+          "only in a minority of seeds for matir cup (20 %), and never as the majority pick."),
       table([["Object", "Correct answer", "PointLLM picks"],
              ["rehal", "book stand", "bench"], ["patil", "cooking pot", "bowl"], ["matir cup", "clay cup", "bowl (a near tie)"],
              ["bodna", "water jug", "vase / teapot"], ["piri", "low stool", "bench / box"],
@@ -216,6 +237,15 @@ S += [H2("2.6 Multiple choice in grey: does it read the shape? (31 Oct)"),
           "<b>A mistake we caught:</b> our first scoring divided by answer length and favoured long answers (even random "
           "noise looked “correct”). We found it with the blind inputs, fixed it and re-scored the saved data.",
       ]),
+      P("<b>Calibrated view.</b> Common words like “chair” score high even for a ball or noise. Subtracting that "
+        "baseline shows whether the <i>shape itself</i> points to the right answer:"),
+      side_by_side(
+          fig("2026-10-31_mcq_calibrated_margin.png", width=W / 2 - 0.3 * cm),
+          cap("Figure 14. Run 1 (long answers). Blue = the shape favours the correct answer. Local: 5 of 14 "
+              "(matir cup, patil ×2, muura, hurricane lamp). Rehal and piri clearly favour “bench”."),
+          fig("2026-10-31_mcq_short_options_calibrated_margin.png", width=W / 2 - 0.3 * cm),
+          cap("Figure 15. Run 2 (short answers, 1–2 words). Local: 3 of 14. Plain picks are identical to run 1 "
+              "(still 0 of 14), so the result doesn't depend on how the answers are worded.")),
       contributes("the main finding so far, with a method that separates “doesn't see the shape” from "
                   "“sees it but has no name for it”.")]
 
@@ -233,6 +263,10 @@ S += [KeepTogether([H2("2.7 CLIP-style model (MetaCLIP), first results"),
              ["rehal", "book stand / chair / small table / bench", "small table", "bench"],
              ["wooden bench", "bench / table / stool / chair", "bench", "–"]],
             [2.4 * cm, 5.6 * cm, 3.4 * cm, W - 11.4 * cm])]),
+      Spacer(1, 6),
+      fig("../../results/clip/metaclip_4_labels_3_runs_chart.jpg"),
+      cap("Figure 16. MetaCLIP on 11 local scans, 4 labels each, 3 runs with the label order shuffled (dots). "
+          "Dark bar = top pick. Red subtitles mark near ties (top-1 minus top-2 under 11 points)."),
       Spacer(1, 4),
       bullets([
           "Both models make the <b>same kind of mistake</b>: patil → bowl, bodna → teapot.",

@@ -249,7 +249,31 @@ Blind inputs (ball, noise) were never correct for near- or far-OOD, and 1/10 for
 **Before the next run:**
 - clean Rickshaw
 - re-run with the thela_gari override
-- copy `tables/` into `results/pointllm_far_ood/`
 - use more than 1 seed for the all-labels test (`CONFUSION_SEEDS = [0, 1, 2]`)
 
 Notebook 04 now writes the plain predictions into the summary and per-scan table (calibrated is still in the second matrix).
+
+**Tables added (2026-11-08):** they are in `results/pointllm_far_ood/`. Below, recomputed with **thela gari moved to near-OOD**: 20 everyday, 19 near-OOD, 3 far-OOD. p = one-sided Mann-Whitney test, which asks whether one group's values are generally higher than another's without assuming a bell curve.
+
+| | everyday (20) | near-OOD (19) | far-OOD (3) | everyday vs all local | near vs far |
+|---|---|---|---|---|---|
+| distance, median | 0.45 | 0.74 | 0.77 | p = 0.0002 | p = 0.43 |
+| confidence, median | 0.84 | 0.53 | 0.30 | p = 0.005 | p = 0.08 |
+| all labels, plain top-1 | 14/20 | 0/19 | 0/3 | | |
+
+Per scan:
+- distance: Sheel_Pata 0.83, Tubewell 0.77, Rickshaw 0.60 (raw scan), Thela_Gari 0.58–0.67
+- confidence: Tubewell 0.22, Sheel_Pata 0.30, Rickshaw 0.45, Thela_Gari 0.34–0.68, Kula 0.18/0.22 (lowest of all)
+
+What this shows:
+- Both measures separate **everyday from local** objects clearly.
+- **Near vs far is not significant.** With 3 far scans no test could be. Confidence points the right way (p = 0.08); distance does not.
+
+Plain all-labels picks for far-OOD:
+- tubewell → chair (top 3: chair, laptop, tricycle)
+- sheel pata → chair (chair, stool, bowl)
+- rickshaw → chair, with tricycle 2nd
+
+Thela gari → carriage ×2, chair ×2, bookshelf ×1 (carriage/wagon in the top 3 of 4 of the 5 scans).
+
+Correction to the "Our reading" list above: the matrix picks for patil, bodna and piri come from the plain table. Matir cup → cup.

@@ -1,0 +1,7 @@
+group,scans,top1,top3,score
+everyday,20,14,17,plain
+near_ood,14,0,2,plain
+far_ood,8,0,0,plain
+everyday,20,5,12,calibrated
+near_ood,14,1,5,calibrated
+far_ood,8,0,0,calibrated

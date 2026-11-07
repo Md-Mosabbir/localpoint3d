@@ -1,0 +1,43 @@
+group,object,file,predicted,top3,correct_label,correct,in_top3
+everyday,chair,Chair_01_cleaned.ply,bench,"bench, chair, rickshaw",chair,False,True
+everyday,chair,Chair_02_cleaned.ply,stool,"stool, chair, rickshaw",chair,False,True
+everyday,chair,Chair_03_cleaned.ply,rickshaw,"rickshaw, chair, bench",chair,False,True
+everyday,chair,Chair_04_cleaned.ply,rickshaw,"rickshaw, low stool, chair",chair,False,True
+everyday,chair,Chair_05_cleaned.ply,chair,"chair, stool, bench",chair,True,True
+everyday,chair,Chair_06_cleaned.ply,bench,"bench, rickshaw, book stand",chair,False,False
+everyday,chair,Chair_07_cleaned.ply,rickshaw,"rickshaw, bench, chair",chair,False,True
+everyday,chair,Chair_08_cleaned.ply,chair,"chair, rickshaw, bench",chair,True,True
+everyday,cup,Cup_1_cleaned.ply,clay cup,"clay cup, faucet, bench",cup,False,False
+everyday,cup,Cup_2_cleaned.ply,clay cup,"clay cup, faucet, bench",cup,False,False
+everyday,cup,Cup_3_cleaned.ply,bench,"bench, grinding stone, clay cup",cup,False,False
+everyday,cup,Cup_4_cleaned.ply,bench,"bench, tray, faucet",cup,False,False
+everyday,keyboard,Keyboard_1_cleaned.ply,bench,"bench, grinding stone, cutting board",keyboard,False,False
+everyday,keyboard,Keyboard_2_cleaned.ply,bench,"bench, keyboard, shelf",keyboard,False,True
+everyday,keyboard,Keyboard_3_cleaned.ply,bench,"bench, grinding stone, cutting board",keyboard,False,False
+everyday,table,Table_1_cleaned.ply,bench,"bench, table, book stand",table,False,True
+everyday,table,Table_2_cleaned.ply,bench,"bench, stool, low stool",table,False,False
+everyday,wooden_benched,Wooden_Benched_1_cleaned.ply,bench,"bench, shelf, low stool",bench,True,True
+everyday,wooden_benched,Wooden_Benched_2_cleaned.ply,bench,"bench, low stool, stool",bench,True,True
+everyday,wooden_benched,Wooden_Benched_3_cleaned.ply,bench,"bench, low stool, shelf",bench,True,True
+far_ood,rickshaw,Rickshaw_1.ply,bench,"bench, grinding stone, faucet",rickshaw,False,False
+far_ood,sheel_pata,Sheel_Pata_1_cleaned.ply,faucet,"faucet, bench, low stool",grinding stone,False,False
+far_ood,thela_gari,Thela_Gari_1_cleaned.ply,bench,"bench, rickshaw, low stool",push cart,False,False
+far_ood,thela_gari,Thela_Gari_2_cleaned.ply,low stool,"low stool, bench, rickshaw",push cart,False,False
+far_ood,thela_gari,Thela_Gari_3_cleaned.ply,bench,"bench, rickshaw, low stool",push cart,False,False
+far_ood,thela_gari,Thela_Gari_4_cleaned.ply,low stool,"low stool, bench, rickshaw",push cart,False,False
+far_ood,thela_gari,Thela_Gari_5_cleaned.ply,bench,"bench, low stool, grinding stone",push cart,False,False
+far_ood,tubewell,Tubewell_1_cleaned.ply,bench,"bench, faucet, rickshaw",hand pump,False,False
+near_ood,bodna,Bodna_1_cleaned.ply,teapot,"teapot, faucet, bench",water jug,False,False
+near_ood,bodna,Bodna_2_cleaned.ply,teapot,"teapot, low stool, faucet",water jug,False,False
+near_ood,hurricane_lamp,Hurricane_Lamp_1_cleaned.ply,bench,"bench, faucet, book stand",lantern,False,False
+near_ood,kula,Kula_1_cleaned.ply,grinding stone,"grinding stone, cutting board, bench",bamboo tray,False,False
+near_ood,kula,Kula_2_cleaned.ply,grinding stone,"grinding stone, bench, cutting board",bamboo tray,False,False
+near_ood,matir_cup,Matir_Cup_1_cleaned.ply,clay cup,"clay cup, bench, cup",clay cup,True,True
+near_ood,muura,Muura_1_cleaned.ply,low stool,"low stool, stool, bench",cane stool,False,False
+near_ood,patil,Patil_1_cleaned.ply,clay cup,"clay cup, teapot, bamboo tray",cooking pot,False,False
+near_ood,patil,Patil_2_cleaned.ply,low stool,"low stool, bench, clay cup",cooking pot,False,False
+near_ood,piri,Piri_1_cleaned.ply,bench,"bench, low stool, stool",low stool,False,True
+near_ood,piri,Piri_2_cleaned.ply,stool,"stool, low stool, bench",low stool,False,True
+near_ood,piri,Piri_3_cleaned.ply,bench,"bench, low stool, tray",low stool,False,True
+near_ood,piri,Piri_4_cleaned.ply,stool,"stool, bench, low stool",low stool,False,True
+near_ood,rehal,Rehal_1_cleaned.ply,bench,"bench, low stool, stool",book stand,False,False

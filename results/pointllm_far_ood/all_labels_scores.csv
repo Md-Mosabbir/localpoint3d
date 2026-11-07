@@ -1,0 +1,1717 @@
+group,object,input,file,seed,label,log_prob,n_tokens,blind_log_prob,calibrated
+everyday,wooden_benched,real,Wooden_Benched_1_cleaned.ply,0,bamboo tray,-36.747337341308594,8,-41.7613582611084,5.014020919799805
+everyday,wooden_benched,real,Wooden_Benched_1_cleaned.ply,0,basket,-25.858903884887695,3,-27.26796245574951,1.4090585708618164
+everyday,wooden_benched,real,Wooden_Benched_1_cleaned.ply,0,bench,-19.146160125732422,4,-37.14804267883301,18.001882553100586
+everyday,wooden_benched,real,Wooden_Benched_1_cleaned.ply,0,book stand,-28.282939910888672,4,-37.61955642700195,9.336616516113281
+everyday,wooden_benched,real,Wooden_Benched_1_cleaned.ply,0,bookshelf,-21.88762855529785,5,-29.061694145202637,7.174065589904785
+everyday,wooden_benched,real,Wooden_Benched_1_cleaned.ply,0,bowl,-24.158248901367188,4,-24.654773712158203,0.4965248107910156
+everyday,wooden_benched,real,Wooden_Benched_1_cleaned.ply,0,box,-26.1513671875,3,-29.49934482574463,3.347977638244629
+everyday,wooden_benched,real,Wooden_Benched_1_cleaned.ply,0,bucket,-28.902820587158203,3,-29.70991611480713,0.8070955276489258
+everyday,wooden_benched,real,Wooden_Benched_1_cleaned.ply,0,candle,-38.57337188720703,4,-29.054649353027344,-9.518722534179688
+everyday,wooden_benched,real,Wooden_Benched_1_cleaned.ply,0,cane stool,-37.417388916015625,6,-41.2480525970459,3.8306636810302734
+everyday,wooden_benched,real,Wooden_Benched_1_cleaned.ply,0,carriage,-21.250497817993164,3,-28.10142421722412,6.850926399230957
+everyday,wooden_benched,real,Wooden_Benched_1_cleaned.ply,0,chair,-20.764570236206055,3,-29.07843017578125,8.313859939575195
+everyday,wooden_benched,real,Wooden_Benched_1_cleaned.ply,0,clay cup,-37.92073059082031,5,-39.37798881530762,1.4572582244873047
+everyday,wooden_benched,real,Wooden_Benched_1_cleaned.ply,0,cooking pot,-35.96261978149414,5,-31.720961570739746,-4.2416582107543945
+everyday,wooden_benched,real,Wooden_Benched_1_cleaned.ply,0,cup,-29.606979370117188,3,-25.894363403320312,-3.712615966796875
+everyday,wooden_benched,real,Wooden_Benched_1_cleaned.ply,0,cutting board,-26.537504196166992,4,-35.699960708618164,9.162456512451172
+everyday,wooden_benched,real,Wooden_Benched_1_cleaned.ply,0,drum,-27.77391815185547,3,-29.20089626312256,1.4269781112670898
+everyday,wooden_benched,real,Wooden_Benched_1_cleaned.ply,0,faucet,-32.665348052978516,5,-41.28995132446289,8.624603271484375
+everyday,wooden_benched,real,Wooden_Benched_1_cleaned.ply,0,fire hydrant,-30.496349334716797,5,-33.81854438781738,3.322195053100586
+everyday,wooden_benched,real,Wooden_Benched_1_cleaned.ply,0,flower pot,-32.02046585083008,4,-30.033885955810547,-1.9865798950195312
+everyday,wooden_benched,real,Wooden_Benched_1_cleaned.ply,0,glass jar,-36.64387130737305,4,-24.017366409301758,-12.626504898071289
+everyday,wooden_benched,real,Wooden_Benched_1_cleaned.ply,0,grinding stone,-25.315685272216797,5,-36.60917854309082,11.293493270874023
+everyday,wooden_benched,real,Wooden_Benched_1_cleaned.ply,0,hand pump,-33.0290412902832,5,-37.17997169494629,4.150930404663086
+everyday,wooden_benched,real,Wooden_Benched_1_cleaned.ply,0,keyboard,-24.668943405151367,3,-29.135533332824707,4.46658992767334
+everyday,wooden_benched,real,Wooden_Benched_1_cleaned.ply,0,lantern,-24.82061004638672,4,-26.242703437805176,1.422093391418457
+everyday,wooden_benched,real,Wooden_Benched_1_cleaned.ply,0,laptop,-24.66391944885254,3,-27.948243141174316,3.2843236923217773
+everyday,wooden_benched,real,Wooden_Benched_1_cleaned.ply,0,low stool,-32.095699310302734,5,-45.47221755981445,13.376518249511719
+everyday,wooden_benched,real,Wooden_Benched_1_cleaned.ply,0,push cart,-25.594430923461914,4,-33.10416603088379,7.509735107421875
+everyday,wooden_benched,real,Wooden_Benched_1_cleaned.ply,0,rickshaw,-32.770999908447266,6,-44.995426177978516,12.22442626953125
+everyday,wooden_benched,real,Wooden_Benched_1_cleaned.ply,0,rolling pin,-34.76653289794922,4,-29.571860313415527,-5.194672584533691
+everyday,wooden_benched,real,Wooden_Benched_1_cleaned.ply,0,shelf,-16.497758865356445,4,-31.957433700561523,15.459674835205078
+everyday,wooden_benched,real,Wooden_Benched_1_cleaned.ply,0,stool,-21.770641326904297,4,-32.35316276550293,10.582521438598633
+everyday,wooden_benched,real,Wooden_Benched_1_cleaned.ply,0,table,-21.947473526000977,3,-28.690317153930664,6.7428436279296875
+everyday,wooden_benched,real,Wooden_Benched_1_cleaned.ply,0,teapot,-32.12930679321289,5,-33.266414642333984,1.1371078491210938
+everyday,wooden_benched,real,Wooden_Benched_1_cleaned.ply,0,tray,-21.508678436279297,4,-32.92070484161377,11.412026405334473
+everyday,wooden_benched,real,Wooden_Benched_1_cleaned.ply,0,tricycle,-19.224300384521484,5,-27.19069480895996,7.966394424438477
+everyday,wooden_benched,real,Wooden_Benched_1_cleaned.ply,0,vase,-30.876888275146484,4,-28.582079887390137,-2.2948083877563477
+everyday,wooden_benched,real,Wooden_Benched_1_cleaned.ply,0,wagon,-26.113773345947266,4,-31.235685348510742,5.121912002563477
+everyday,wooden_benched,real,Wooden_Benched_1_cleaned.ply,0,water jug,-36.039939880371094,4,-34.04897117614746,-1.9909687042236328
+everyday,wooden_benched,real,Wooden_Benched_2_cleaned.ply,0,bamboo tray,-41.203338623046875,8,-41.7613582611084,0.5580196380615234
+everyday,wooden_benched,real,Wooden_Benched_2_cleaned.ply,0,basket,-29.643953323364258,3,-27.26796245574951,-2.375990867614746
+everyday,wooden_benched,real,Wooden_Benched_2_cleaned.ply,0,bench,-17.942922592163086,4,-37.14804267883301,19.205120086669922
+everyday,wooden_benched,real,Wooden_Benched_2_cleaned.ply,0,book stand,-25.40381622314453,4,-37.61955642700195,12.215740203857422
+everyday,wooden_benched,real,Wooden_Benched_2_cleaned.ply,0,bookshelf,-23.65069580078125,5,-29.061694145202637,5.410998344421387
+everyday,wooden_benched,real,Wooden_Benched_2_cleaned.ply,0,bowl,-26.836233139038086,4,-24.654773712158203,-2.181459426879883
+everyday,wooden_benched,real,Wooden_Benched_2_cleaned.ply,0,box,-27.652355194091797,3,-29.49934482574463,1.846989631652832
+everyday,wooden_benched,real,Wooden_Benched_2_cleaned.ply,0,bucket,-31.043554306030273,3,-29.70991611480713,-1.3336381912231445
+everyday,wooden_benched,real,Wooden_Benched_2_cleaned.ply,0,candle,-39.346832275390625,4,-29.054649353027344,-10.292182922363281
+everyday,wooden_benched,real,Wooden_Benched_2_cleaned.ply,0,cane stool,-35.70560073852539,6,-41.2480525970459,5.542451858520508
+everyday,wooden_benched,real,Wooden_Benched_2_cleaned.ply,0,carriage,-24.443744659423828,3,-28.10142421722412,3.657679557800293
+everyday,wooden_benched,real,Wooden_Benched_2_cleaned.ply,0,chair,-18.848251342773438,3,-29.07843017578125,10.230178833007812
+everyday,wooden_benched,real,Wooden_Benched_2_cleaned.ply,0,clay cup,-40.97407531738281,5,-39.37798881530762,-1.5960865020751953
+everyday,wooden_benched,real,Wooden_Benched_2_cleaned.ply,0,cooking pot,-40.37779235839844,5,-31.720961570739746,-8.656830787658691
+everyday,wooden_benched,real,Wooden_Benched_2_cleaned.ply,0,cup,-35.77397155761719,3,-25.894363403320312,-9.879608154296875
+everyday,wooden_benched,real,Wooden_Benched_2_cleaned.ply,0,cutting board,-28.721656799316406,4,-35.699960708618164,6.978303909301758
+everyday,wooden_benched,real,Wooden_Benched_2_cleaned.ply,0,drum,-31.72606086730957,3,-29.20089626312256,-2.5251646041870117
+everyday,wooden_benched,real,Wooden_Benched_2_cleaned.ply,0,faucet,-35.847808837890625,5,-41.28995132446289,5.442142486572266
+everyday,wooden_benched,real,Wooden_Benched_2_cleaned.ply,0,fire hydrant,-37.86863708496094,5,-33.81854438781738,-4.050092697143555
+everyday,wooden_benched,real,Wooden_Benched_2_cleaned.ply,0,flower pot,-35.050743103027344,4,-30.033885955810547,-5.016857147216797
+everyday,wooden_benched,real,Wooden_Benched_2_cleaned.ply,0,glass jar,-37.489654541015625,4,-24.017366409301758,-13.472288131713867
+everyday,wooden_benched,real,Wooden_Benched_2_cleaned.ply,0,grinding stone,-26.850379943847656,5,-36.60917854309082,9.758798599243164
+everyday,wooden_benched,real,Wooden_Benched_2_cleaned.ply,0,hand pump,-36.56480026245117,5,-37.17997169494629,0.6151714324951172
+everyday,wooden_benched,real,Wooden_Benched_2_cleaned.ply,0,keyboard,-25.541397094726562,3,-29.135533332824707,3.5941362380981445
+everyday,wooden_benched,real,Wooden_Benched_2_cleaned.ply,0,lantern,-27.002317428588867,4,-26.242703437805176,-0.7596139907836914
+everyday,wooden_benched,real,Wooden_Benched_2_cleaned.ply,0,laptop,-24.31188201904297,3,-27.948243141174316,3.6363611221313477
+everyday,wooden_benched,real,Wooden_Benched_2_cleaned.ply,0,low stool,-28.43120002746582,5,-45.47221755981445,17.041017532348633
+everyday,wooden_benched,real,Wooden_Benched_2_cleaned.ply,0,push cart,-26.464096069335938,4,-33.10416603088379,6.640069961547852
+everyday,wooden_benched,real,Wooden_Benched_2_cleaned.ply,0,rickshaw,-43.034751892089844,6,-44.995426177978516,1.9606742858886719
+everyday,wooden_benched,real,Wooden_Benched_2_cleaned.ply,0,rolling pin,-34.26142883300781,4,-29.571860313415527,-4.689568519592285
+everyday,wooden_benched,real,Wooden_Benched_2_cleaned.ply,0,shelf,-20.611371994018555,4,-31.957433700561523,11.346061706542969
+everyday,wooden_benched,real,Wooden_Benched_2_cleaned.ply,0,stool,-20.020700454711914,4,-32.35316276550293,12.332462310791016
+everyday,wooden_benched,real,Wooden_Benched_2_cleaned.ply,0,table,-18.598474502563477,3,-28.690317153930664,10.091842651367188
+everyday,wooden_benched,real,Wooden_Benched_2_cleaned.ply,0,teapot,-32.438697814941406,5,-33.266414642333984,0.8277168273925781
+everyday,wooden_benched,real,Wooden_Benched_2_cleaned.ply,0,tray,-27.9964542388916,4,-32.92070484161377,4.924250602722168
+everyday,wooden_benched,real,Wooden_Benched_2_cleaned.ply,0,tricycle,-25.56536102294922,5,-27.19069480895996,1.6253337860107422
+everyday,wooden_benched,real,Wooden_Benched_2_cleaned.ply,0,vase,-31.32785415649414,4,-28.582079887390137,-2.745774269104004
+everyday,wooden_benched,real,Wooden_Benched_2_cleaned.ply,0,wagon,-28.2950382232666,4,-31.235685348510742,2.9406471252441406
+everyday,wooden_benched,real,Wooden_Benched_2_cleaned.ply,0,water jug,-38.46464157104492,4,-34.04897117614746,-4.415670394897461
+everyday,wooden_benched,real,Wooden_Benched_3_cleaned.ply,0,bamboo tray,-41.41706848144531,8,-41.7613582611084,0.34428977966308594
+everyday,wooden_benched,real,Wooden_Benched_3_cleaned.ply,0,basket,-29.366588592529297,3,-27.26796245574951,-2.098626136779785
+everyday,wooden_benched,real,Wooden_Benched_3_cleaned.ply,0,bench,-18.2575740814209,4,-37.14804267883301,18.89046859741211
+everyday,wooden_benched,real,Wooden_Benched_3_cleaned.ply,0,book stand,-26.034543991088867,4,-37.61955642700195,11.585012435913086
+everyday,wooden_benched,real,Wooden_Benched_3_cleaned.ply,0,bookshelf,-23.320838928222656,5,-29.061694145202637,5.7408552169799805
+everyday,wooden_benched,real,Wooden_Benched_3_cleaned.ply,0,bowl,-26.273578643798828,4,-24.654773712158203,-1.618804931640625
+everyday,wooden_benched,real,Wooden_Benched_3_cleaned.ply,0,box,-27.11695098876953,3,-29.49934482574463,2.3823938369750977
+everyday,wooden_benched,real,Wooden_Benched_3_cleaned.ply,0,bucket,-30.67327880859375,3,-29.70991611480713,-0.9633626937866211
+everyday,wooden_benched,real,Wooden_Benched_3_cleaned.ply,0,candle,-38.99811553955078,4,-29.054649353027344,-9.943466186523438
+everyday,wooden_benched,real,Wooden_Benched_3_cleaned.ply,0,cane stool,-37.453857421875,6,-41.2480525970459,3.7941951751708984
+everyday,wooden_benched,real,Wooden_Benched_3_cleaned.ply,0,carriage,-23.949548721313477,3,-28.10142421722412,4.1518754959106445
+everyday,wooden_benched,real,Wooden_Benched_3_cleaned.ply,0,chair,-19.10684585571289,3,-29.07843017578125,9.97158432006836
+everyday,wooden_benched,real,Wooden_Benched_3_cleaned.ply,0,clay cup,-40.94012451171875,5,-39.37798881530762,-1.5621356964111328
+everyday,wooden_benched,real,Wooden_Benched_3_cleaned.ply,0,cooking pot,-39.523590087890625,5,-31.720961570739746,-7.802628517150879
+everyday,wooden_benched,real,Wooden_Benched_3_cleaned.ply,0,cup,-35.284244537353516,3,-25.894363403320312,-9.389881134033203
+everyday,wooden_benched,real,Wooden_Benched_3_cleaned.ply,0,cutting board,-29.05152702331543,4,-35.699960708618164,6.648433685302734
+everyday,wooden_benched,real,Wooden_Benched_3_cleaned.ply,0,drum,-31.68991470336914,3,-29.20089626312256,-2.489018440246582
+everyday,wooden_benched,real,Wooden_Benched_3_cleaned.ply,0,faucet,-35.90532684326172,5,-41.28995132446289,5.384624481201172
+everyday,wooden_benched,real,Wooden_Benched_3_cleaned.ply,0,fire hydrant,-37.2698974609375,5,-33.81854438781738,-3.451353073120117
+everyday,wooden_benched,real,Wooden_Benched_3_cleaned.ply,0,flower pot,-34.30559539794922,4,-30.033885955810547,-4.271709442138672
+everyday,wooden_benched,real,Wooden_Benched_3_cleaned.ply,0,glass jar,-37.566368103027344,4,-24.017366409301758,-13.549001693725586
+everyday,wooden_benched,real,Wooden_Benched_3_cleaned.ply,0,grinding stone,-26.82293128967285,5,-36.60917854309082,9.786247253417969
+everyday,wooden_benched,real,Wooden_Benched_3_cleaned.ply,0,hand pump,-36.43016052246094,5,-37.17997169494629,0.7498111724853516
+everyday,wooden_benched,real,Wooden_Benched_3_cleaned.ply,0,keyboard,-25.23094940185547,3,-29.135533332824707,3.9045839309692383
+everyday,wooden_benched,real,Wooden_Benched_3_cleaned.ply,0,lantern,-26.935997009277344,4,-26.242703437805176,-0.693293571472168
+everyday,wooden_benched,real,Wooden_Benched_3_cleaned.ply,0,laptop,-24.03289222717285,3,-27.948243141174316,3.915350914001465
+everyday,wooden_benched,real,Wooden_Benched_3_cleaned.ply,0,low stool,-29.099197387695312,5,-45.47221755981445,16.37302017211914
+everyday,wooden_benched,real,Wooden_Benched_3_cleaned.ply,0,push cart,-26.816547393798828,4,-33.10416603088379,6.287618637084961
+everyday,wooden_benched,real,Wooden_Benched_3_cleaned.ply,0,rickshaw,-43.98230743408203,6,-44.995426177978516,1.0131187438964844
+everyday,wooden_benched,real,Wooden_Benched_3_cleaned.ply,0,rolling pin,-34.269073486328125,4,-29.571860313415527,-4.697213172912598
+everyday,wooden_benched,real,Wooden_Benched_3_cleaned.ply,0,shelf,-20.12274169921875,4,-31.957433700561523,11.834692001342773
+everyday,wooden_benched,real,Wooden_Benched_3_cleaned.ply,0,stool,-20.54435157775879,4,-32.35316276550293,11.80881118774414
+everyday,wooden_benched,real,Wooden_Benched_3_cleaned.ply,0,table,-19.195228576660156,3,-28.690317153930664,9.495088577270508
+everyday,wooden_benched,real,Wooden_Benched_3_cleaned.ply,0,teapot,-32.14854431152344,5,-33.266414642333984,1.1178703308105469
+everyday,wooden_benched,real,Wooden_Benched_3_cleaned.ply,0,tray,-28.46100616455078,4,-32.92070484161377,4.459698677062988
+everyday,wooden_benched,real,Wooden_Benched_3_cleaned.ply,0,tricycle,-25.520959854125977,5,-27.19069480895996,1.6697349548339844
+everyday,wooden_benched,real,Wooden_Benched_3_cleaned.ply,0,vase,-31.378093719482422,4,-28.582079887390137,-2.796013832092285
+everyday,wooden_benched,real,Wooden_Benched_3_cleaned.ply,0,wagon,-28.400394439697266,4,-31.235685348510742,2.8352909088134766
+everyday,wooden_benched,real,Wooden_Benched_3_cleaned.ply,0,water jug,-38.317474365234375,4,-34.04897117614746,-4.268503189086914
+everyday,chair,real,Chair_01_cleaned.ply,0,bamboo tray,-36.47895050048828,8,-41.7613582611084,5.282407760620117
+everyday,chair,real,Chair_01_cleaned.ply,0,basket,-27.395275115966797,3,-27.26796245574951,-0.12731266021728516
+everyday,chair,real,Chair_01_cleaned.ply,0,bench,-24.749300003051758,4,-37.14804267883301,12.39874267578125
+everyday,chair,real,Chair_01_cleaned.ply,0,book stand,-30.550865173339844,4,-37.61955642700195,7.068691253662109
+everyday,chair,real,Chair_01_cleaned.ply,0,bookshelf,-26.659976959228516,5,-29.061694145202637,2.401717185974121
+everyday,chair,real,Chair_01_cleaned.ply,0,bowl,-26.00127601623535,4,-24.654773712158203,-1.3465023040771484
+everyday,chair,real,Chair_01_cleaned.ply,0,box,-27.227046966552734,3,-29.49934482574463,2.2722978591918945
+everyday,chair,real,Chair_01_cleaned.ply,0,bucket,-25.882953643798828,3,-29.70991611480713,3.826962471008301
+everyday,chair,real,Chair_01_cleaned.ply,0,candle,-38.501800537109375,4,-29.054649353027344,-9.447151184082031
+everyday,chair,real,Chair_01_cleaned.ply,0,cane stool,-35.52756118774414,6,-41.2480525970459,5.720491409301758
+everyday,chair,real,Chair_01_cleaned.ply,0,carriage,-26.47435188293457,3,-28.10142421722412,1.6270723342895508
+everyday,chair,real,Chair_01_cleaned.ply,0,chair,-17.42608642578125,3,-29.07843017578125,11.65234375
+everyday,chair,real,Chair_01_cleaned.ply,0,clay cup,-37.002952575683594,5,-39.37798881530762,2.3750362396240234
+everyday,chair,real,Chair_01_cleaned.ply,0,cooking pot,-33.52488327026367,5,-31.720961570739746,-1.8039216995239258
+everyday,chair,real,Chair_01_cleaned.ply,0,cup,-27.45635986328125,3,-25.894363403320312,-1.5619964599609375
+everyday,chair,real,Chair_01_cleaned.ply,0,cutting board,-31.288291931152344,4,-35.699960708618164,4.41166877746582
+everyday,chair,real,Chair_01_cleaned.ply,0,drum,-27.23056411743164,3,-29.20089626312256,1.970332145690918
+everyday,chair,real,Chair_01_cleaned.ply,0,faucet,-31.83510398864746,5,-41.28995132446289,9.45484733581543
+everyday,chair,real,Chair_01_cleaned.ply,0,fire hydrant,-32.86500549316406,5,-33.81854438781738,0.9535388946533203
+everyday,chair,real,Chair_01_cleaned.ply,0,flower pot,-30.394458770751953,4,-30.033885955810547,-0.36057281494140625
+everyday,chair,real,Chair_01_cleaned.ply,0,glass jar,-31.107437133789062,4,-24.017366409301758,-7.090070724487305
+everyday,chair,real,Chair_01_cleaned.ply,0,grinding stone,-31.50237464904785,5,-36.60917854309082,5.106803894042969
+everyday,chair,real,Chair_01_cleaned.ply,0,hand pump,-33.94305419921875,5,-37.17997169494629,3.236917495727539
+everyday,chair,real,Chair_01_cleaned.ply,0,keyboard,-24.947006225585938,3,-29.135533332824707,4.1885271072387695
+everyday,chair,real,Chair_01_cleaned.ply,0,lantern,-28.08124542236328,4,-26.242703437805176,-1.8385419845581055
+everyday,chair,real,Chair_01_cleaned.ply,0,laptop,-23.38204574584961,3,-27.948243141174316,4.566197395324707
+everyday,chair,real,Chair_01_cleaned.ply,0,low stool,-37.45128631591797,5,-45.47221755981445,8.020931243896484
+everyday,chair,real,Chair_01_cleaned.ply,0,push cart,-26.65414047241211,4,-33.10416603088379,6.45002555847168
+everyday,chair,real,Chair_01_cleaned.ply,0,rickshaw,-35.456451416015625,6,-44.995426177978516,9.53897476196289
+everyday,chair,real,Chair_01_cleaned.ply,0,rolling pin,-28.08118438720703,4,-29.571860313415527,1.490675926208496
+everyday,chair,real,Chair_01_cleaned.ply,0,shelf,-28.033287048339844,4,-31.957433700561523,3.9241466522216797
+everyday,chair,real,Chair_01_cleaned.ply,0,stool,-25.203784942626953,4,-32.35316276550293,7.149377822875977
+everyday,chair,real,Chair_01_cleaned.ply,0,table,-23.343570709228516,3,-28.690317153930664,5.346746444702148
+everyday,chair,real,Chair_01_cleaned.ply,0,teapot,-30.652748107910156,5,-33.266414642333984,2.613666534423828
+everyday,chair,real,Chair_01_cleaned.ply,0,tray,-28.297237396240234,4,-32.92070484161377,4.623467445373535
+everyday,chair,real,Chair_01_cleaned.ply,0,tricycle,-21.276386260986328,5,-27.19069480895996,5.914308547973633
+everyday,chair,real,Chair_01_cleaned.ply,0,vase,-28.173328399658203,4,-28.582079887390137,0.4087514877319336
+everyday,chair,real,Chair_01_cleaned.ply,0,wagon,-28.02645492553711,4,-31.235685348510742,3.209230422973633
+everyday,chair,real,Chair_01_cleaned.ply,0,water jug,-37.17879867553711,4,-34.04897117614746,-3.1298274993896484
+everyday,chair,real,Chair_02_cleaned.ply,0,bamboo tray,-36.82945251464844,8,-41.7613582611084,4.931905746459961
+everyday,chair,real,Chair_02_cleaned.ply,0,basket,-27.172483444213867,3,-27.26796245574951,0.09547901153564453
+everyday,chair,real,Chair_02_cleaned.ply,0,bench,-26.20069694519043,4,-37.14804267883301,10.947345733642578
+everyday,chair,real,Chair_02_cleaned.ply,0,book stand,-29.4980525970459,4,-37.61955642700195,8.121503829956055
+everyday,chair,real,Chair_02_cleaned.ply,0,bookshelf,-23.935062408447266,5,-29.061694145202637,5.126631736755371
+everyday,chair,real,Chair_02_cleaned.ply,0,bowl,-26.663772583007812,4,-24.654773712158203,-2.0089988708496094
+everyday,chair,real,Chair_02_cleaned.ply,0,box,-29.085037231445312,3,-29.49934482574463,0.4143075942993164
+everyday,chair,real,Chair_02_cleaned.ply,0,bucket,-27.701007843017578,3,-29.70991611480713,2.008908271789551
+everyday,chair,real,Chair_02_cleaned.ply,0,candle,-40.50908660888672,4,-29.054649353027344,-11.454437255859375
+everyday,chair,real,Chair_02_cleaned.ply,0,cane stool,-36.607269287109375,6,-41.2480525970459,4.640783309936523
+everyday,chair,real,Chair_02_cleaned.ply,0,carriage,-26.06744384765625,3,-28.10142421722412,2.033980369567871
+everyday,chair,real,Chair_02_cleaned.ply,0,chair,-15.336501121520996,3,-29.07843017578125,13.741929054260254
+everyday,chair,real,Chair_02_cleaned.ply,0,clay cup,-43.587677001953125,5,-39.37798881530762,-4.209688186645508
+everyday,chair,real,Chair_02_cleaned.ply,0,cooking pot,-32.53147888183594,5,-31.720961570739746,-0.8105173110961914
+everyday,chair,real,Chair_02_cleaned.ply,0,cup,-28.5419921875,3,-25.894363403320312,-2.6476287841796875
+everyday,chair,real,Chair_02_cleaned.ply,0,cutting board,-33.61382293701172,4,-35.699960708618164,2.0861377716064453
+everyday,chair,real,Chair_02_cleaned.ply,0,drum,-24.44489288330078,3,-29.20089626312256,4.756003379821777
+everyday,chair,real,Chair_02_cleaned.ply,0,faucet,-34.3087158203125,5,-41.28995132446289,6.981235504150391
+everyday,chair,real,Chair_02_cleaned.ply,0,fire hydrant,-35.90441131591797,5,-33.81854438781738,-2.085866928100586
+everyday,chair,real,Chair_02_cleaned.ply,0,flower pot,-32.36952209472656,4,-30.033885955810547,-2.3356361389160156
+everyday,chair,real,Chair_02_cleaned.ply,0,glass jar,-35.8255500793457,4,-24.017366409301758,-11.808183670043945
+everyday,chair,real,Chair_02_cleaned.ply,0,grinding stone,-33.86590576171875,5,-36.60917854309082,2.7432727813720703
+everyday,chair,real,Chair_02_cleaned.ply,0,hand pump,-37.85321044921875,5,-37.17997169494629,-0.6732387542724609
+everyday,chair,real,Chair_02_cleaned.ply,0,keyboard,-23.505794525146484,3,-29.135533332824707,5.629738807678223
+everyday,chair,real,Chair_02_cleaned.ply,0,lantern,-30.182100296020508,4,-26.242703437805176,-3.939396858215332
+everyday,chair,real,Chair_02_cleaned.ply,0,laptop,-24.781482696533203,3,-27.948243141174316,3.1667604446411133
+everyday,chair,real,Chair_02_cleaned.ply,0,low stool,-35.832759857177734,5,-45.47221755981445,9.639457702636719
+everyday,chair,real,Chair_02_cleaned.ply,0,push cart,-25.399028778076172,4,-33.10416603088379,7.705137252807617
+everyday,chair,real,Chair_02_cleaned.ply,0,rickshaw,-31.742446899414062,6,-44.995426177978516,13.252979278564453
+everyday,chair,real,Chair_02_cleaned.ply,0,rolling pin,-35.90677261352539,4,-29.571860313415527,-6.334912300109863
+everyday,chair,real,Chair_02_cleaned.ply,0,shelf,-29.654624938964844,4,-31.957433700561523,2.3028087615966797
+everyday,chair,real,Chair_02_cleaned.ply,0,stool,-16.35022735595703,4,-32.35316276550293,16.0029354095459
+everyday,chair,real,Chair_02_cleaned.ply,0,table,-25.797155380249023,3,-28.690317153930664,2.8931617736816406
+everyday,chair,real,Chair_02_cleaned.ply,0,teapot,-32.04045486450195,5,-33.266414642333984,1.2259597778320312
+everyday,chair,real,Chair_02_cleaned.ply,0,tray,-27.144502639770508,4,-32.92070484161377,5.776202201843262
+everyday,chair,real,Chair_02_cleaned.ply,0,tricycle,-22.174304962158203,5,-27.19069480895996,5.016389846801758
+everyday,chair,real,Chair_02_cleaned.ply,0,vase,-29.27837562561035,4,-28.582079887390137,-0.6962957382202148
+everyday,chair,real,Chair_02_cleaned.ply,0,wagon,-30.557212829589844,4,-31.235685348510742,0.6784725189208984
+everyday,chair,real,Chair_02_cleaned.ply,0,water jug,-37.70942306518555,4,-34.04897117614746,-3.660451889038086
+everyday,chair,real,Chair_03_cleaned.ply,0,bamboo tray,-34.1480598449707,8,-41.7613582611084,7.613298416137695
+everyday,chair,real,Chair_03_cleaned.ply,0,basket,-25.9088134765625,3,-27.26796245574951,1.3591489791870117
+everyday,chair,real,Chair_03_cleaned.ply,0,bench,-25.01468276977539,4,-37.14804267883301,12.133359909057617
+everyday,chair,real,Chair_03_cleaned.ply,0,book stand,-32.430442810058594,4,-37.61955642700195,5.189113616943359
+everyday,chair,real,Chair_03_cleaned.ply,0,bookshelf,-25.38935089111328,5,-29.061694145202637,3.6723432540893555
+everyday,chair,real,Chair_03_cleaned.ply,0,bowl,-28.452987670898438,4,-24.654773712158203,-3.7982139587402344
+everyday,chair,real,Chair_03_cleaned.ply,0,box,-26.34552764892578,3,-29.49934482574463,3.1538171768188477
+everyday,chair,real,Chair_03_cleaned.ply,0,bucket,-27.64797019958496,3,-29.70991611480713,2.061945915222168
+everyday,chair,real,Chair_03_cleaned.ply,0,candle,-36.01669692993164,4,-29.054649353027344,-6.962047576904297
+everyday,chair,real,Chair_03_cleaned.ply,0,cane stool,-31.641496658325195,6,-41.2480525970459,9.606555938720703
+everyday,chair,real,Chair_03_cleaned.ply,0,carriage,-22.933441162109375,3,-28.10142421722412,5.167983055114746
+everyday,chair,real,Chair_03_cleaned.ply,0,chair,-14.201740264892578,3,-29.07843017578125,14.876689910888672
+everyday,chair,real,Chair_03_cleaned.ply,0,clay cup,-40.65392303466797,5,-39.37798881530762,-1.2759342193603516
+everyday,chair,real,Chair_03_cleaned.ply,0,cooking pot,-35.73663330078125,5,-31.720961570739746,-4.015671730041504
+everyday,chair,real,Chair_03_cleaned.ply,0,cup,-25.380870819091797,3,-25.894363403320312,0.5134925842285156
+everyday,chair,real,Chair_03_cleaned.ply,0,cutting board,-32.053009033203125,4,-35.699960708618164,3.646951675415039
+everyday,chair,real,Chair_03_cleaned.ply,0,drum,-29.57194709777832,3,-29.20089626312256,-0.3710508346557617
+everyday,chair,real,Chair_03_cleaned.ply,0,faucet,-33.95806121826172,5,-41.28995132446289,7.331890106201172
+everyday,chair,real,Chair_03_cleaned.ply,0,fire hydrant,-35.62972640991211,5,-33.81854438781738,-1.8111820220947266
+everyday,chair,real,Chair_03_cleaned.ply,0,flower pot,-33.10409927368164,4,-30.033885955810547,-3.0702133178710938
+everyday,chair,real,Chair_03_cleaned.ply,0,glass jar,-30.888046264648438,4,-24.017366409301758,-6.87067985534668
+everyday,chair,real,Chair_03_cleaned.ply,0,grinding stone,-34.64793395996094,5,-36.60917854309082,1.9612445831298828
+everyday,chair,real,Chair_03_cleaned.ply,0,hand pump,-35.739234924316406,5,-37.17997169494629,1.4407367706298828
+everyday,chair,real,Chair_03_cleaned.ply,0,keyboard,-25.09079360961914,3,-29.135533332824707,4.044739723205566
+everyday,chair,real,Chair_03_cleaned.ply,0,lantern,-29.38675880432129,4,-26.242703437805176,-3.1440553665161133
+everyday,chair,real,Chair_03_cleaned.ply,0,laptop,-24.095359802246094,3,-27.948243141174316,3.8528833389282227
+everyday,chair,real,Chair_03_cleaned.ply,0,low stool,-37.860252380371094,5,-45.47221755981445,7.611965179443359
+everyday,chair,real,Chair_03_cleaned.ply,0,push cart,-25.566408157348633,4,-33.10416603088379,7.537757873535156
+everyday,chair,real,Chair_03_cleaned.ply,0,rickshaw,-28.483154296875,6,-44.995426177978516,16.512271881103516
+everyday,chair,real,Chair_03_cleaned.ply,0,rolling pin,-34.78063201904297,4,-29.571860313415527,-5.208771705627441
+everyday,chair,real,Chair_03_cleaned.ply,0,shelf,-27.7423095703125,4,-31.957433700561523,4.215124130249023
+everyday,chair,real,Chair_03_cleaned.ply,0,stool,-21.013368606567383,4,-32.35316276550293,11.339794158935547
+everyday,chair,real,Chair_03_cleaned.ply,0,table,-23.541902542114258,3,-28.690317153930664,5.148414611816406
+everyday,chair,real,Chair_03_cleaned.ply,0,teapot,-30.32596778869629,5,-33.266414642333984,2.9404468536376953
+everyday,chair,real,Chair_03_cleaned.ply,0,tray,-24.81482696533203,4,-32.92070484161377,8.105877876281738
+everyday,chair,real,Chair_03_cleaned.ply,0,tricycle,-21.11139678955078,5,-27.19069480895996,6.07929801940918
+everyday,chair,real,Chair_03_cleaned.ply,0,vase,-26.361846923828125,4,-28.582079887390137,2.2202329635620117
+everyday,chair,real,Chair_03_cleaned.ply,0,wagon,-25.569303512573242,4,-31.235685348510742,5.6663818359375
+everyday,chair,real,Chair_03_cleaned.ply,0,water jug,-31.571674346923828,4,-34.04897117614746,2.477296829223633
+everyday,chair,real,Chair_04_cleaned.ply,0,bamboo tray,-33.08140563964844,8,-41.7613582611084,8.679952621459961
+everyday,chair,real,Chair_04_cleaned.ply,0,basket,-26.071619033813477,3,-27.26796245574951,1.1963434219360352
+everyday,chair,real,Chair_04_cleaned.ply,0,bench,-26.222631454467773,4,-37.14804267883301,10.925411224365234
+everyday,chair,real,Chair_04_cleaned.ply,0,book stand,-31.327869415283203,4,-37.61955642700195,6.29168701171875
+everyday,chair,real,Chair_04_cleaned.ply,0,bookshelf,-23.669790267944336,5,-29.061694145202637,5.391903877258301
+everyday,chair,real,Chair_04_cleaned.ply,0,bowl,-25.506305694580078,4,-24.654773712158203,-0.851531982421875
+everyday,chair,real,Chair_04_cleaned.ply,0,box,-28.232189178466797,3,-29.49934482574463,1.267155647277832
+everyday,chair,real,Chair_04_cleaned.ply,0,bucket,-27.50312042236328,3,-29.70991611480713,2.2067956924438477
+everyday,chair,real,Chair_04_cleaned.ply,0,candle,-35.29682159423828,4,-29.054649353027344,-6.2421722412109375
+everyday,chair,real,Chair_04_cleaned.ply,0,cane stool,-33.92353057861328,6,-41.2480525970459,7.324522018432617
+everyday,chair,real,Chair_04_cleaned.ply,0,carriage,-24.537307739257812,3,-28.10142421722412,3.5641164779663086
+everyday,chair,real,Chair_04_cleaned.ply,0,chair,-15.584951400756836,3,-29.07843017578125,13.493478775024414
+everyday,chair,real,Chair_04_cleaned.ply,0,clay cup,-40.29851531982422,5,-39.37798881530762,-0.9205265045166016
+everyday,chair,real,Chair_04_cleaned.ply,0,cooking pot,-31.941089630126953,5,-31.720961570739746,-0.22012805938720703
+everyday,chair,real,Chair_04_cleaned.ply,0,cup,-30.184951782226562,3,-25.894363403320312,-4.29058837890625
+everyday,chair,real,Chair_04_cleaned.ply,0,cutting board,-31.945571899414062,4,-35.699960708618164,3.7543888092041016
+everyday,chair,real,Chair_04_cleaned.ply,0,drum,-27.344642639160156,3,-29.20089626312256,1.8562536239624023
+everyday,chair,real,Chair_04_cleaned.ply,0,faucet,-36.906185150146484,5,-41.28995132446289,4.383766174316406
+everyday,chair,real,Chair_04_cleaned.ply,0,fire hydrant,-33.902774810791016,5,-33.81854438781738,-0.08423042297363281
+everyday,chair,real,Chair_04_cleaned.ply,0,flower pot,-32.9413948059082,4,-30.033885955810547,-2.9075088500976562
+everyday,chair,real,Chair_04_cleaned.ply,0,glass jar,-32.59608459472656,4,-24.017366409301758,-8.578718185424805
+everyday,chair,real,Chair_04_cleaned.ply,0,grinding stone,-32.46691131591797,5,-36.60917854309082,4.142267227172852
+everyday,chair,real,Chair_04_cleaned.ply,0,hand pump,-36.80830764770508,5,-37.17997169494629,0.37166404724121094
+everyday,chair,real,Chair_04_cleaned.ply,0,keyboard,-25.646730422973633,3,-29.135533332824707,3.488802909851074
+everyday,chair,real,Chair_04_cleaned.ply,0,lantern,-27.275840759277344,4,-26.242703437805176,-1.033137321472168
+everyday,chair,real,Chair_04_cleaned.ply,0,laptop,-23.643712997436523,3,-27.948243141174316,4.304530143737793
+everyday,chair,real,Chair_04_cleaned.ply,0,low stool,-31.554718017578125,5,-45.47221755981445,13.917499542236328
+everyday,chair,real,Chair_04_cleaned.ply,0,push cart,-26.95687484741211,4,-33.10416603088379,6.14729118347168
+everyday,chair,real,Chair_04_cleaned.ply,0,rickshaw,-28.045339584350586,6,-44.995426177978516,16.95008659362793
+everyday,chair,real,Chair_04_cleaned.ply,0,rolling pin,-32.78681182861328,4,-29.571860313415527,-3.214951515197754
+everyday,chair,real,Chair_04_cleaned.ply,0,shelf,-26.58545684814453,4,-31.957433700561523,5.371976852416992
+everyday,chair,real,Chair_04_cleaned.ply,0,stool,-21.759931564331055,4,-32.35316276550293,10.593231201171875
+everyday,chair,real,Chair_04_cleaned.ply,0,table,-24.629695892333984,3,-28.690317153930664,4.06062126159668
+everyday,chair,real,Chair_04_cleaned.ply,0,teapot,-34.07086944580078,5,-33.266414642333984,-0.8044548034667969
+everyday,chair,real,Chair_04_cleaned.ply,0,tray,-24.091442108154297,4,-32.92070484161377,8.829262733459473
+everyday,chair,real,Chair_04_cleaned.ply,0,tricycle,-22.362319946289062,5,-27.19069480895996,4.828374862670898
+everyday,chair,real,Chair_04_cleaned.ply,0,vase,-29.220333099365234,4,-28.582079887390137,-0.6382532119750977
+everyday,chair,real,Chair_04_cleaned.ply,0,wagon,-30.98686981201172,4,-31.235685348510742,0.24881553649902344
+everyday,chair,real,Chair_04_cleaned.ply,0,water jug,-35.89881896972656,4,-34.04897117614746,-1.8498477935791016
+everyday,chair,real,Chair_05_cleaned.ply,0,bamboo tray,-34.659427642822266,8,-41.7613582611084,7.101930618286133
+everyday,chair,real,Chair_05_cleaned.ply,0,basket,-24.938701629638672,3,-27.26796245574951,2.32926082611084
+everyday,chair,real,Chair_05_cleaned.ply,0,bench,-23.654569625854492,4,-37.14804267883301,13.493473052978516
+everyday,chair,real,Chair_05_cleaned.ply,0,book stand,-30.42517852783203,4,-37.61955642700195,7.194377899169922
+everyday,chair,real,Chair_05_cleaned.ply,0,bookshelf,-24.407211303710938,5,-29.061694145202637,4.654482841491699
+everyday,chair,real,Chair_05_cleaned.ply,0,bowl,-26.040464401245117,4,-24.654773712158203,-1.385690689086914
+everyday,chair,real,Chair_05_cleaned.ply,0,box,-27.990840911865234,3,-29.49934482574463,1.5085039138793945
+everyday,chair,real,Chair_05_cleaned.ply,0,bucket,-27.052061080932617,3,-29.70991611480713,2.6578550338745117
+everyday,chair,real,Chair_05_cleaned.ply,0,candle,-37.91267776489258,4,-29.054649353027344,-8.858028411865234
+everyday,chair,real,Chair_05_cleaned.ply,0,cane stool,-32.66770935058594,6,-41.2480525970459,8.580343246459961
+everyday,chair,real,Chair_05_cleaned.ply,0,carriage,-24.768726348876953,3,-28.10142421722412,3.332697868347168
+everyday,chair,real,Chair_05_cleaned.ply,0,chair,-14.392078399658203,3,-29.07843017578125,14.686351776123047
+everyday,chair,real,Chair_05_cleaned.ply,0,clay cup,-42.068031311035156,5,-39.37798881530762,-2.690042495727539
+everyday,chair,real,Chair_05_cleaned.ply,0,cooking pot,-37.08915710449219,5,-31.720961570739746,-5.368195533752441
+everyday,chair,real,Chair_05_cleaned.ply,0,cup,-31.15035057067871,3,-25.894363403320312,-5.255987167358398
+everyday,chair,real,Chair_05_cleaned.ply,0,cutting board,-34.92045593261719,4,-35.699960708618164,0.7795047760009766
+everyday,chair,real,Chair_05_cleaned.ply,0,drum,-23.368610382080078,3,-29.20089626312256,5.8322858810424805
+everyday,chair,real,Chair_05_cleaned.ply,0,faucet,-35.47453689575195,5,-41.28995132446289,5.8154144287109375
+everyday,chair,real,Chair_05_cleaned.ply,0,fire hydrant,-34.64350891113281,5,-33.81854438781738,-0.8249645233154297
+everyday,chair,real,Chair_05_cleaned.ply,0,flower pot,-38.4031867980957,4,-30.033885955810547,-8.369300842285156
+everyday,chair,real,Chair_05_cleaned.ply,0,glass jar,-35.613380432128906,4,-24.017366409301758,-11.596014022827148
+everyday,chair,real,Chair_05_cleaned.ply,0,grinding stone,-31.55301284790039,5,-36.60917854309082,5.05616569519043
+everyday,chair,real,Chair_05_cleaned.ply,0,hand pump,-40.806026458740234,5,-37.17997169494629,-3.6260547637939453
+everyday,chair,real,Chair_05_cleaned.ply,0,keyboard,-23.081825256347656,3,-29.135533332824707,6.053708076477051
+everyday,chair,real,Chair_05_cleaned.ply,0,lantern,-29.671510696411133,4,-26.242703437805176,-3.428807258605957
+everyday,chair,real,Chair_05_cleaned.ply,0,laptop,-21.886537551879883,3,-27.948243141174316,6.061705589294434
+everyday,chair,real,Chair_05_cleaned.ply,0,low stool,-32.78886032104492,5,-45.47221755981445,12.683357238769531
+everyday,chair,real,Chair_05_cleaned.ply,0,push cart,-25.7604923248291,4,-33.10416603088379,7.3436737060546875
+everyday,chair,real,Chair_05_cleaned.ply,0,rickshaw,-32.60002899169922,6,-44.995426177978516,12.395397186279297
+everyday,chair,real,Chair_05_cleaned.ply,0,rolling pin,-35.80760955810547,4,-29.571860313415527,-6.235749244689941
+everyday,chair,real,Chair_05_cleaned.ply,0,shelf,-28.056020736694336,4,-31.957433700561523,3.9014129638671875
+everyday,chair,real,Chair_05_cleaned.ply,0,stool,-18.743064880371094,4,-32.35316276550293,13.610097885131836
+everyday,chair,real,Chair_05_cleaned.ply,0,table,-25.476892471313477,3,-28.690317153930664,3.2134246826171875
+everyday,chair,real,Chair_05_cleaned.ply,0,teapot,-35.04435729980469,5,-33.266414642333984,-1.7779426574707031
+everyday,chair,real,Chair_05_cleaned.ply,0,tray,-21.400793075561523,4,-32.92070484161377,11.519911766052246
+everyday,chair,real,Chair_05_cleaned.ply,0,tricycle,-23.433712005615234,5,-27.19069480895996,3.7569828033447266
+everyday,chair,real,Chair_05_cleaned.ply,0,vase,-31.15976333618164,4,-28.582079887390137,-2.577683448791504
+everyday,chair,real,Chair_05_cleaned.ply,0,wagon,-30.44271469116211,4,-31.235685348510742,0.7929706573486328
+everyday,chair,real,Chair_05_cleaned.ply,0,water jug,-38.89447784423828,4,-34.04897117614746,-4.84550666809082
+everyday,chair,real,Chair_06_cleaned.ply,0,bamboo tray,-42.23479461669922,8,-41.7613582611084,-0.4734363555908203
+everyday,chair,real,Chair_06_cleaned.ply,0,basket,-28.78087615966797,3,-27.26796245574951,-1.512913703918457
+everyday,chair,real,Chair_06_cleaned.ply,0,bench,-25.14959144592285,4,-37.14804267883301,11.998451232910156
+everyday,chair,real,Chair_06_cleaned.ply,0,book stand,-27.762001037597656,4,-37.61955642700195,9.857555389404297
+everyday,chair,real,Chair_06_cleaned.ply,0,bookshelf,-25.71198081970215,5,-29.061694145202637,3.3497133255004883
+everyday,chair,real,Chair_06_cleaned.ply,0,bowl,-26.391448974609375,4,-24.654773712158203,-1.7366752624511719
+everyday,chair,real,Chair_06_cleaned.ply,0,box,-25.899158477783203,3,-29.49934482574463,3.600186347961426
+everyday,chair,real,Chair_06_cleaned.ply,0,bucket,-27.751068115234375,3,-29.70991611480713,1.958847999572754
+everyday,chair,real,Chair_06_cleaned.ply,0,candle,-39.51514434814453,4,-29.054649353027344,-10.460494995117188
+everyday,chair,real,Chair_06_cleaned.ply,0,cane stool,-39.299903869628906,6,-41.2480525970459,1.9481487274169922
+everyday,chair,real,Chair_06_cleaned.ply,0,carriage,-25.994577407836914,3,-28.10142421722412,2.106846809387207
+everyday,chair,real,Chair_06_cleaned.ply,0,chair,-20.169771194458008,3,-29.07843017578125,8.908658981323242
+everyday,chair,real,Chair_06_cleaned.ply,0,clay cup,-43.793270111083984,5,-39.37798881530762,-4.415281295776367
+everyday,chair,real,Chair_06_cleaned.ply,0,cooking pot,-30.018096923828125,5,-31.720961570739746,1.702864646911621
+everyday,chair,real,Chair_06_cleaned.ply,0,cup,-27.821102142333984,3,-25.894363403320312,-1.9267387390136719
+everyday,chair,real,Chair_06_cleaned.ply,0,cutting board,-35.734046936035156,4,-35.699960708618164,-0.03408622741699219
+everyday,chair,real,Chair_06_cleaned.ply,0,drum,-26.767757415771484,3,-29.20089626312256,2.433138847351074
+everyday,chair,real,Chair_06_cleaned.ply,0,faucet,-33.168331146240234,5,-41.28995132446289,8.121620178222656
+everyday,chair,real,Chair_06_cleaned.ply,0,fire hydrant,-34.17671585083008,5,-33.81854438781738,-0.3581714630126953
+everyday,chair,real,Chair_06_cleaned.ply,0,flower pot,-36.25204086303711,4,-30.033885955810547,-6.2181549072265625
+everyday,chair,real,Chair_06_cleaned.ply,0,glass jar,-30.20680046081543,4,-24.017366409301758,-6.189434051513672
+everyday,chair,real,Chair_06_cleaned.ply,0,grinding stone,-29.470775604248047,5,-36.60917854309082,7.138402938842773
+everyday,chair,real,Chair_06_cleaned.ply,0,hand pump,-38.01356887817383,5,-37.17997169494629,-0.8335971832275391
+everyday,chair,real,Chair_06_cleaned.ply,0,keyboard,-27.466157913208008,3,-29.135533332824707,1.6693754196166992
+everyday,chair,real,Chair_06_cleaned.ply,0,lantern,-25.571985244750977,4,-26.242703437805176,0.6707181930541992
+everyday,chair,real,Chair_06_cleaned.ply,0,laptop,-23.831525802612305,3,-27.948243141174316,4.116717338562012
+everyday,chair,real,Chair_06_cleaned.ply,0,low stool,-38.40058135986328,5,-45.47221755981445,7.071636199951172
+everyday,chair,real,Chair_06_cleaned.ply,0,push cart,-25.96837043762207,4,-33.10416603088379,7.135795593261719
+everyday,chair,real,Chair_06_cleaned.ply,0,rickshaw,-34.57284927368164,6,-44.995426177978516,10.422576904296875
+everyday,chair,real,Chair_06_cleaned.ply,0,rolling pin,-31.362701416015625,4,-29.571860313415527,-1.7908411026000977
+everyday,chair,real,Chair_06_cleaned.ply,0,shelf,-31.914371490478516,4,-31.957433700561523,0.04306221008300781
+everyday,chair,real,Chair_06_cleaned.ply,0,stool,-22.51559066772461,4,-32.35316276550293,9.83757209777832
+everyday,chair,real,Chair_06_cleaned.ply,0,table,-26.108665466308594,3,-28.690317153930664,2.5816516876220703
+everyday,chair,real,Chair_06_cleaned.ply,0,teapot,-34.190555572509766,5,-33.266414642333984,-0.9241409301757812
+everyday,chair,real,Chair_06_cleaned.ply,0,tray,-27.435501098632812,4,-32.92070484161377,5.485203742980957
+everyday,chair,real,Chair_06_cleaned.ply,0,tricycle,-23.09798812866211,5,-27.19069480895996,4.092706680297852
+everyday,chair,real,Chair_06_cleaned.ply,0,vase,-28.413127899169922,4,-28.582079887390137,0.16895198822021484
+everyday,chair,real,Chair_06_cleaned.ply,0,wagon,-28.561912536621094,4,-31.235685348510742,2.6737728118896484
+everyday,chair,real,Chair_06_cleaned.ply,0,water jug,-39.11616516113281,4,-34.04897117614746,-5.067193984985352
+everyday,chair,real,Chair_07_cleaned.ply,0,bamboo tray,-37.11289978027344,8,-41.7613582611084,4.648458480834961
+everyday,chair,real,Chair_07_cleaned.ply,0,basket,-29.544469833374023,3,-27.26796245574951,-2.2765073776245117
+everyday,chair,real,Chair_07_cleaned.ply,0,bench,-24.212425231933594,4,-37.14804267883301,12.935617446899414
+everyday,chair,real,Chair_07_cleaned.ply,0,book stand,-31.159095764160156,4,-37.61955642700195,6.460460662841797
+everyday,chair,real,Chair_07_cleaned.ply,0,bookshelf,-24.780872344970703,5,-29.061694145202637,4.280821800231934
+everyday,chair,real,Chair_07_cleaned.ply,0,bowl,-25.701623916625977,4,-24.654773712158203,-1.0468502044677734
+everyday,chair,real,Chair_07_cleaned.ply,0,box,-28.269733428955078,3,-29.49934482574463,1.2296113967895508
+everyday,chair,real,Chair_07_cleaned.ply,0,bucket,-28.05270767211914,3,-29.70991611480713,1.6572084426879883
+everyday,chair,real,Chair_07_cleaned.ply,0,candle,-35.13123321533203,4,-29.054649353027344,-6.0765838623046875
+everyday,chair,real,Chair_07_cleaned.ply,0,cane stool,-34.07139587402344,6,-41.2480525970459,7.176656723022461
+everyday,chair,real,Chair_07_cleaned.ply,0,carriage,-24.745555877685547,3,-28.10142421722412,3.355868339538574
+everyday,chair,real,Chair_07_cleaned.ply,0,chair,-16.39006996154785,3,-29.07843017578125,12.688360214233398
+everyday,chair,real,Chair_07_cleaned.ply,0,clay cup,-37.974266052246094,5,-39.37798881530762,1.4037227630615234
+everyday,chair,real,Chair_07_cleaned.ply,0,cooking pot,-32.623573303222656,5,-31.720961570739746,-0.9026117324829102
+everyday,chair,real,Chair_07_cleaned.ply,0,cup,-25.868087768554688,3,-25.894363403320312,0.026275634765625
+everyday,chair,real,Chair_07_cleaned.ply,0,cutting board,-29.953227996826172,4,-35.699960708618164,5.746732711791992
+everyday,chair,real,Chair_07_cleaned.ply,0,drum,-28.866565704345703,3,-29.20089626312256,0.33433055877685547
+everyday,chair,real,Chair_07_cleaned.ply,0,faucet,-34.20220947265625,5,-41.28995132446289,7.087741851806641
+everyday,chair,real,Chair_07_cleaned.ply,0,fire hydrant,-34.433509826660156,5,-33.81854438781738,-0.6149654388427734
+everyday,chair,real,Chair_07_cleaned.ply,0,flower pot,-31.661027908325195,4,-30.033885955810547,-1.6271419525146484
+everyday,chair,real,Chair_07_cleaned.ply,0,glass jar,-33.42713165283203,4,-24.017366409301758,-9.409765243530273
+everyday,chair,real,Chair_07_cleaned.ply,0,grinding stone,-30.65962791442871,5,-36.60917854309082,5.949550628662109
+everyday,chair,real,Chair_07_cleaned.ply,0,hand pump,-34.49689483642578,5,-37.17997169494629,2.683076858520508
+everyday,chair,real,Chair_07_cleaned.ply,0,keyboard,-23.422176361083984,3,-29.135533332824707,5.713356971740723
+everyday,chair,real,Chair_07_cleaned.ply,0,lantern,-29.15730094909668,4,-26.242703437805176,-2.914597511291504
+everyday,chair,real,Chair_07_cleaned.ply,0,laptop,-23.206008911132812,3,-27.948243141174316,4.742234230041504
+everyday,chair,real,Chair_07_cleaned.ply,0,low stool,-37.144474029541016,5,-45.47221755981445,8.327743530273438
+everyday,chair,real,Chair_07_cleaned.ply,0,push cart,-25.97784423828125,4,-33.10416603088379,7.126321792602539
+everyday,chair,real,Chair_07_cleaned.ply,0,rickshaw,-32.0451545715332,6,-44.995426177978516,12.950271606445312
+everyday,chair,real,Chair_07_cleaned.ply,0,rolling pin,-31.787429809570312,4,-29.571860313415527,-2.215569496154785
+everyday,chair,real,Chair_07_cleaned.ply,0,shelf,-25.43166732788086,4,-31.957433700561523,6.525766372680664
+everyday,chair,real,Chair_07_cleaned.ply,0,stool,-23.775917053222656,4,-32.35316276550293,8.577245712280273
+everyday,chair,real,Chair_07_cleaned.ply,0,table,-23.338586807250977,3,-28.690317153930664,5.3517303466796875
+everyday,chair,real,Chair_07_cleaned.ply,0,teapot,-32.50750732421875,5,-33.266414642333984,0.7589073181152344
+everyday,chair,real,Chair_07_cleaned.ply,0,tray,-25.811948776245117,4,-32.92070484161377,7.108756065368652
+everyday,chair,real,Chair_07_cleaned.ply,0,tricycle,-20.746583938598633,5,-27.19069480895996,6.444110870361328
+everyday,chair,real,Chair_07_cleaned.ply,0,vase,-27.46099853515625,4,-28.582079887390137,1.1210813522338867
+everyday,chair,real,Chair_07_cleaned.ply,0,wagon,-24.419357299804688,4,-31.235685348510742,6.816328048706055
+everyday,chair,real,Chair_07_cleaned.ply,0,water jug,-36.81444549560547,4,-34.04897117614746,-2.765474319458008
+everyday,chair,real,Chair_08_cleaned.ply,0,bamboo tray,-34.532501220703125,8,-41.7613582611084,7.228857040405273
+everyday,chair,real,Chair_08_cleaned.ply,0,basket,-26.809040069580078,3,-27.26796245574951,0.4589223861694336
+everyday,chair,real,Chair_08_cleaned.ply,0,bench,-24.862468719482422,4,-37.14804267883301,12.285573959350586
+everyday,chair,real,Chair_08_cleaned.ply,0,book stand,-28.713468551635742,4,-37.61955642700195,8.906087875366211
+everyday,chair,real,Chair_08_cleaned.ply,0,bookshelf,-20.271697998046875,5,-29.061694145202637,8.789996147155762
+everyday,chair,real,Chair_08_cleaned.ply,0,bowl,-26.017202377319336,4,-24.654773712158203,-1.3624286651611328
+everyday,chair,real,Chair_08_cleaned.ply,0,box,-26.593204498291016,3,-29.49934482574463,2.9061403274536133
+everyday,chair,real,Chair_08_cleaned.ply,0,bucket,-28.439983367919922,3,-29.70991611480713,1.269932746887207
+everyday,chair,real,Chair_08_cleaned.ply,0,candle,-34.07969665527344,4,-29.054649353027344,-5.025047302246094
+everyday,chair,real,Chair_08_cleaned.ply,0,cane stool,-35.71485900878906,6,-41.2480525970459,5.533193588256836
+everyday,chair,real,Chair_08_cleaned.ply,0,carriage,-23.718547821044922,3,-28.10142421722412,4.382876396179199
+everyday,chair,real,Chair_08_cleaned.ply,0,chair,-15.927209854125977,3,-29.07843017578125,13.151220321655273
+everyday,chair,real,Chair_08_cleaned.ply,0,clay cup,-37.36145782470703,5,-39.37798881530762,2.016530990600586
+everyday,chair,real,Chair_08_cleaned.ply,0,cooking pot,-30.465213775634766,5,-31.720961570739746,1.2557477951049805
+everyday,chair,real,Chair_08_cleaned.ply,0,cup,-27.19567108154297,3,-25.894363403320312,-1.3013076782226562
+everyday,chair,real,Chair_08_cleaned.ply,0,cutting board,-31.526103973388672,4,-35.699960708618164,4.173856735229492
+everyday,chair,real,Chair_08_cleaned.ply,0,drum,-27.889280319213867,3,-29.20089626312256,1.3116159439086914
+everyday,chair,real,Chair_08_cleaned.ply,0,faucet,-33.606998443603516,5,-41.28995132446289,7.682952880859375
+everyday,chair,real,Chair_08_cleaned.ply,0,fire hydrant,-33.18620300292969,5,-33.81854438781738,0.6323413848876953
+everyday,chair,real,Chair_08_cleaned.ply,0,flower pot,-31.379823684692383,4,-30.033885955810547,-1.345937728881836
+everyday,chair,real,Chair_08_cleaned.ply,0,glass jar,-33.70606231689453,4,-24.017366409301758,-9.688695907592773
+everyday,chair,real,Chair_08_cleaned.ply,0,grinding stone,-32.314735412597656,5,-36.60917854309082,4.294443130493164
+everyday,chair,real,Chair_08_cleaned.ply,0,hand pump,-33.971214294433594,5,-37.17997169494629,3.2087574005126953
+everyday,chair,real,Chair_08_cleaned.ply,0,keyboard,-23.388591766357422,3,-29.135533332824707,5.746941566467285
+everyday,chair,real,Chair_08_cleaned.ply,0,lantern,-26.779144287109375,4,-26.242703437805176,-0.5364408493041992
+everyday,chair,real,Chair_08_cleaned.ply,0,laptop,-21.332294464111328,3,-27.948243141174316,6.615948677062988
+everyday,chair,real,Chair_08_cleaned.ply,0,low stool,-36.01066589355469,5,-45.47221755981445,9.461551666259766
+everyday,chair,real,Chair_08_cleaned.ply,0,push cart,-22.58456802368164,4,-33.10416603088379,10.519598007202148
+everyday,chair,real,Chair_08_cleaned.ply,0,rickshaw,-32.39250564575195,6,-44.995426177978516,12.602920532226562
+everyday,chair,real,Chair_08_cleaned.ply,0,rolling pin,-32.40320587158203,4,-29.571860313415527,-2.831345558166504
+everyday,chair,real,Chair_08_cleaned.ply,0,shelf,-21.477127075195312,4,-31.957433700561523,10.480306625366211
+everyday,chair,real,Chair_08_cleaned.ply,0,stool,-24.74386215209961,4,-32.35316276550293,7.60930061340332
+everyday,chair,real,Chair_08_cleaned.ply,0,table,-21.35314178466797,3,-28.690317153930664,7.337175369262695
+everyday,chair,real,Chair_08_cleaned.ply,0,teapot,-31.59451675415039,5,-33.266414642333984,1.6718978881835938
+everyday,chair,real,Chair_08_cleaned.ply,0,tray,-24.84778594970703,4,-32.92070484161377,8.072918891906738
+everyday,chair,real,Chair_08_cleaned.ply,0,tricycle,-21.931488037109375,5,-27.19069480895996,5.259206771850586
+everyday,chair,real,Chair_08_cleaned.ply,0,vase,-28.59052085876465,4,-28.582079887390137,-0.008440971374511719
+everyday,chair,real,Chair_08_cleaned.ply,0,wagon,-24.980968475341797,4,-31.235685348510742,6.254716873168945
+everyday,chair,real,Chair_08_cleaned.ply,0,water jug,-35.091915130615234,4,-34.04897117614746,-1.0429439544677734
+everyday,cup,real,Cup_1_cleaned.ply,0,bamboo tray,-39.710166931152344,8,-41.7613582611084,2.0511913299560547
+everyday,cup,real,Cup_1_cleaned.ply,0,basket,-27.52410125732422,3,-27.26796245574951,-0.25613880157470703
+everyday,cup,real,Cup_1_cleaned.ply,0,bench,-26.57334327697754,4,-37.14804267883301,10.574699401855469
+everyday,cup,real,Cup_1_cleaned.ply,0,book stand,-37.00334930419922,4,-37.61955642700195,0.6162071228027344
+everyday,cup,real,Cup_1_cleaned.ply,0,bookshelf,-25.560142517089844,5,-29.061694145202637,3.501551628112793
+everyday,cup,real,Cup_1_cleaned.ply,0,bowl,-21.841035842895508,4,-24.654773712158203,2.8137378692626953
+everyday,cup,real,Cup_1_cleaned.ply,0,box,-29.27405548095703,3,-29.49934482574463,0.22528934478759766
+everyday,cup,real,Cup_1_cleaned.ply,0,bucket,-25.22052001953125,3,-29.70991611480713,4.489396095275879
+everyday,cup,real,Cup_1_cleaned.ply,0,candle,-23.89324188232422,4,-29.054649353027344,5.161407470703125
+everyday,cup,real,Cup_1_cleaned.ply,0,cane stool,-38.37232971191406,6,-41.2480525970459,2.875722885131836
+everyday,cup,real,Cup_1_cleaned.ply,0,carriage,-25.345958709716797,3,-28.10142421722412,2.755465507507324
+everyday,cup,real,Cup_1_cleaned.ply,0,chair,-24.721599578857422,3,-29.07843017578125,4.356830596923828
+everyday,cup,real,Cup_1_cleaned.ply,0,clay cup,-22.29949951171875,5,-39.37798881530762,17.078489303588867
+everyday,cup,real,Cup_1_cleaned.ply,0,cooking pot,-28.243724822998047,5,-31.720961570739746,3.477236747741699
+everyday,cup,real,Cup_1_cleaned.ply,0,cup,-17.177505493164062,3,-25.894363403320312,8.71685791015625
+everyday,cup,real,Cup_1_cleaned.ply,0,cutting board,-36.68130874633789,4,-35.699960708618164,-0.9813480377197266
+everyday,cup,real,Cup_1_cleaned.ply,0,drum,-25.249048233032227,3,-29.20089626312256,3.951848030090332
+everyday,cup,real,Cup_1_cleaned.ply,0,faucet,-26.364627838134766,5,-41.28995132446289,14.925323486328125
+everyday,cup,real,Cup_1_cleaned.ply,0,fire hydrant,-30.07568359375,5,-33.81854438781738,3.742860794067383
+everyday,cup,real,Cup_1_cleaned.ply,0,flower pot,-27.57392692565918,4,-30.033885955810547,2.459959030151367
+everyday,cup,real,Cup_1_cleaned.ply,0,glass jar,-24.730104446411133,4,-24.017366409301758,-0.712738037109375
+everyday,cup,real,Cup_1_cleaned.ply,0,grinding stone,-27.92363739013672,5,-36.60917854309082,8.685541152954102
+everyday,cup,real,Cup_1_cleaned.ply,0,hand pump,-37.493736267089844,5,-37.17997169494629,-0.3137645721435547
+everyday,cup,real,Cup_1_cleaned.ply,0,keyboard,-25.656572341918945,3,-29.135533332824707,3.4789609909057617
+everyday,cup,real,Cup_1_cleaned.ply,0,lantern,-25.865108489990234,4,-26.242703437805176,0.3775949478149414
+everyday,cup,real,Cup_1_cleaned.ply,0,laptop,-23.524124145507812,3,-27.948243141174316,4.424118995666504
+everyday,cup,real,Cup_1_cleaned.ply,0,low stool,-40.73825454711914,5,-45.47221755981445,4.7339630126953125
+everyday,cup,real,Cup_1_cleaned.ply,0,push cart,-28.681427001953125,4,-33.10416603088379,4.422739028930664
+everyday,cup,real,Cup_1_cleaned.ply,0,rickshaw,-39.39599609375,6,-44.995426177978516,5.599430084228516
+everyday,cup,real,Cup_1_cleaned.ply,0,rolling pin,-26.977455139160156,4,-29.571860313415527,2.594405174255371
+everyday,cup,real,Cup_1_cleaned.ply,0,shelf,-31.920900344848633,4,-31.957433700561523,0.036533355712890625
+everyday,cup,real,Cup_1_cleaned.ply,0,stool,-26.200191497802734,4,-32.35316276550293,6.152971267700195
+everyday,cup,real,Cup_1_cleaned.ply,0,table,-28.425174713134766,3,-28.690317153930664,0.26514244079589844
+everyday,cup,real,Cup_1_cleaned.ply,0,teapot,-26.555660247802734,5,-33.266414642333984,6.71075439453125
+everyday,cup,real,Cup_1_cleaned.ply,0,tray,-31.00083351135254,4,-32.92070484161377,1.9198713302612305
+everyday,cup,real,Cup_1_cleaned.ply,0,tricycle,-23.888328552246094,5,-27.19069480895996,3.302366256713867
+everyday,cup,real,Cup_1_cleaned.ply,0,vase,-23.674728393554688,4,-28.582079887390137,4.907351493835449
+everyday,cup,real,Cup_1_cleaned.ply,0,wagon,-28.134849548339844,4,-31.235685348510742,3.1008358001708984
+everyday,cup,real,Cup_1_cleaned.ply,0,water jug,-26.332164764404297,4,-34.04897117614746,7.716806411743164
+everyday,cup,real,Cup_2_cleaned.ply,0,bamboo tray,-37.009437561035156,8,-41.7613582611084,4.751920700073242
+everyday,cup,real,Cup_2_cleaned.ply,0,basket,-28.422149658203125,3,-27.26796245574951,-1.1541872024536133
+everyday,cup,real,Cup_2_cleaned.ply,0,bench,-28.392322540283203,4,-37.14804267883301,8.755720138549805
+everyday,cup,real,Cup_2_cleaned.ply,0,book stand,-35.60734939575195,4,-37.61955642700195,2.01220703125
+everyday,cup,real,Cup_2_cleaned.ply,0,bookshelf,-25.702056884765625,5,-29.061694145202637,3.3596372604370117
+everyday,cup,real,Cup_2_cleaned.ply,0,bowl,-22.766233444213867,4,-24.654773712158203,1.888540267944336
+everyday,cup,real,Cup_2_cleaned.ply,0,box,-29.854103088378906,3,-29.49934482574463,-0.35475826263427734
+everyday,cup,real,Cup_2_cleaned.ply,0,bucket,-27.373279571533203,3,-29.70991611480713,2.336636543273926
+everyday,cup,real,Cup_2_cleaned.ply,0,candle,-24.75895118713379,4,-29.054649353027344,4.295698165893555
+everyday,cup,real,Cup_2_cleaned.ply,0,cane stool,-38.40732955932617,6,-41.2480525970459,2.8407230377197266
+everyday,cup,real,Cup_2_cleaned.ply,0,carriage,-26.955455780029297,3,-28.10142421722412,1.1459684371948242
+everyday,cup,real,Cup_2_cleaned.ply,0,chair,-25.609237670898438,3,-29.07843017578125,3.4691925048828125
+everyday,cup,real,Cup_2_cleaned.ply,0,clay cup,-21.86861801147461,5,-39.37798881530762,17.509370803833008
+everyday,cup,real,Cup_2_cleaned.ply,0,cooking pot,-28.80692481994629,5,-31.720961570739746,2.914036750793457
+everyday,cup,real,Cup_2_cleaned.ply,0,cup,-17.393932342529297,3,-25.894363403320312,8.500431060791016
+everyday,cup,real,Cup_2_cleaned.ply,0,cutting board,-37.929840087890625,4,-35.699960708618164,-2.229879379272461
+everyday,cup,real,Cup_2_cleaned.ply,0,drum,-28.216489791870117,3,-29.20089626312256,0.9844064712524414
+everyday,cup,real,Cup_2_cleaned.ply,0,faucet,-29.25234603881836,5,-41.28995132446289,12.037605285644531
+everyday,cup,real,Cup_2_cleaned.ply,0,fire hydrant,-33.56489562988281,5,-33.81854438781738,0.2536487579345703
+everyday,cup,real,Cup_2_cleaned.ply,0,flower pot,-30.440265655517578,4,-30.033885955810547,-0.40637969970703125
+everyday,cup,real,Cup_2_cleaned.ply,0,glass jar,-25.093299865722656,4,-24.017366409301758,-1.0759334564208984
+everyday,cup,real,Cup_2_cleaned.ply,0,grinding stone,-33.031429290771484,5,-36.60917854309082,3.577749252319336
+everyday,cup,real,Cup_2_cleaned.ply,0,hand pump,-42.118736267089844,5,-37.17997169494629,-4.938764572143555
+everyday,cup,real,Cup_2_cleaned.ply,0,keyboard,-26.74676513671875,3,-29.135533332824707,2.388768196105957
+everyday,cup,real,Cup_2_cleaned.ply,0,lantern,-27.682416915893555,4,-26.242703437805176,-1.439713478088379
+everyday,cup,real,Cup_2_cleaned.ply,0,laptop,-24.87510108947754,3,-27.948243141174316,3.0731420516967773
+everyday,cup,real,Cup_2_cleaned.ply,0,low stool,-38.60992431640625,5,-45.47221755981445,6.862293243408203
+everyday,cup,real,Cup_2_cleaned.ply,0,push cart,-29.38426971435547,4,-33.10416603088379,3.7198963165283203
+everyday,cup,real,Cup_2_cleaned.ply,0,rickshaw,-38.83323669433594,6,-44.995426177978516,6.162189483642578
+everyday,cup,real,Cup_2_cleaned.ply,0,rolling pin,-28.55392074584961,4,-29.571860313415527,1.017939567565918
+everyday,cup,real,Cup_2_cleaned.ply,0,shelf,-31.755441665649414,4,-31.957433700561523,0.20199203491210938
+everyday,cup,real,Cup_2_cleaned.ply,0,stool,-27.804134368896484,4,-32.35316276550293,4.549028396606445
+everyday,cup,real,Cup_2_cleaned.ply,0,table,-31.716960906982422,3,-28.690317153930664,-3.026643753051758
+everyday,cup,real,Cup_2_cleaned.ply,0,teapot,-27.380157470703125,5,-33.266414642333984,5.886257171630859
+everyday,cup,real,Cup_2_cleaned.ply,0,tray,-30.968265533447266,4,-32.92070484161377,1.952439308166504
+everyday,cup,real,Cup_2_cleaned.ply,0,tricycle,-25.091798782348633,5,-27.19069480895996,2.098896026611328
+everyday,cup,real,Cup_2_cleaned.ply,0,vase,-26.462343215942383,4,-28.582079887390137,2.119736671447754
+everyday,cup,real,Cup_2_cleaned.ply,0,wagon,-29.393444061279297,4,-31.235685348510742,1.8422412872314453
+everyday,cup,real,Cup_2_cleaned.ply,0,water jug,-29.26144027709961,4,-34.04897117614746,4.787530899047852
+everyday,cup,real,Cup_3_cleaned.ply,0,bamboo tray,-43.08609390258789,8,-41.7613582611084,-1.3247356414794922
+everyday,cup,real,Cup_3_cleaned.ply,0,basket,-27.305810928344727,3,-27.26796245574951,-0.037848472595214844
+everyday,cup,real,Cup_3_cleaned.ply,0,bench,-26.1643123626709,4,-37.14804267883301,10.98373031616211
+everyday,cup,real,Cup_3_cleaned.ply,0,book stand,-33.331146240234375,4,-37.61955642700195,4.288410186767578
+everyday,cup,real,Cup_3_cleaned.ply,0,bookshelf,-23.665685653686523,5,-29.061694145202637,5.396008491516113
+everyday,cup,real,Cup_3_cleaned.ply,0,bowl,-22.86626434326172,4,-24.654773712158203,1.7885093688964844
+everyday,cup,real,Cup_3_cleaned.ply,0,box,-28.2622127532959,3,-29.49934482574463,1.2371320724487305
+everyday,cup,real,Cup_3_cleaned.ply,0,bucket,-27.64569091796875,3,-29.70991611480713,2.064225196838379
+everyday,cup,real,Cup_3_cleaned.ply,0,candle,-26.417118072509766,4,-29.054649353027344,2.637531280517578
+everyday,cup,real,Cup_3_cleaned.ply,0,cane stool,-39.23307418823242,6,-41.2480525970459,2.0149784088134766
+everyday,cup,real,Cup_3_cleaned.ply,0,carriage,-27.103063583374023,3,-28.10142421722412,0.9983606338500977
+everyday,cup,real,Cup_3_cleaned.ply,0,chair,-25.689380645751953,3,-29.07843017578125,3.389049530029297
+everyday,cup,real,Cup_3_cleaned.ply,0,clay cup,-30.30181121826172,5,-39.37798881530762,9.076177597045898
+everyday,cup,real,Cup_3_cleaned.ply,0,cooking pot,-29.974346160888672,5,-31.720961570739746,1.7466154098510742
+everyday,cup,real,Cup_3_cleaned.ply,0,cup,-23.278656005859375,3,-25.894363403320312,2.6157073974609375
+everyday,cup,real,Cup_3_cleaned.ply,0,cutting board,-33.85333251953125,4,-35.699960708618164,1.846628189086914
+everyday,cup,real,Cup_3_cleaned.ply,0,drum,-24.51300811767578,3,-29.20089626312256,4.687888145446777
+everyday,cup,real,Cup_3_cleaned.ply,0,faucet,-32.7036018371582,5,-41.28995132446289,8.586349487304688
+everyday,cup,real,Cup_3_cleaned.ply,0,fire hydrant,-30.925798416137695,5,-33.81854438781738,2.8927459716796875
+everyday,cup,real,Cup_3_cleaned.ply,0,flower pot,-25.220867156982422,4,-30.033885955810547,4.813018798828125
+everyday,cup,real,Cup_3_cleaned.ply,0,glass jar,-27.42642593383789,4,-24.017366409301758,-3.409059524536133
+everyday,cup,real,Cup_3_cleaned.ply,0,grinding stone,-27.394744873046875,5,-36.60917854309082,9.214433670043945
+everyday,cup,real,Cup_3_cleaned.ply,0,hand pump,-36.29462432861328,5,-37.17997169494629,0.8853473663330078
+everyday,cup,real,Cup_3_cleaned.ply,0,keyboard,-30.351848602294922,3,-29.135533332824707,-1.2163152694702148
+everyday,cup,real,Cup_3_cleaned.ply,0,lantern,-26.706356048583984,4,-26.242703437805176,-0.4636526107788086
+everyday,cup,real,Cup_3_cleaned.ply,0,laptop,-27.18099594116211,3,-27.948243141174316,0.767247200012207
+everyday,cup,real,Cup_3_cleaned.ply,0,low stool,-40.0521240234375,5,-45.47221755981445,5.420093536376953
+everyday,cup,real,Cup_3_cleaned.ply,0,push cart,-27.75872802734375,4,-33.10416603088379,5.345438003540039
+everyday,cup,real,Cup_3_cleaned.ply,0,rickshaw,-38.36729431152344,6,-44.995426177978516,6.628131866455078
+everyday,cup,real,Cup_3_cleaned.ply,0,rolling pin,-23.567123413085938,4,-29.571860313415527,6.00473690032959
+everyday,cup,real,Cup_3_cleaned.ply,0,shelf,-28.825048446655273,4,-31.957433700561523,3.13238525390625
+everyday,cup,real,Cup_3_cleaned.ply,0,stool,-33.892555236816406,4,-32.35316276550293,-1.5393924713134766
+everyday,cup,real,Cup_3_cleaned.ply,0,table,-28.287723541259766,3,-28.690317153930664,0.40259361267089844
+everyday,cup,real,Cup_3_cleaned.ply,0,teapot,-28.237977981567383,5,-33.266414642333984,5.028436660766602
+everyday,cup,real,Cup_3_cleaned.ply,0,tray,-30.399005889892578,4,-32.92070484161377,2.5216989517211914
+everyday,cup,real,Cup_3_cleaned.ply,0,tricycle,-24.752315521240234,5,-27.19069480895996,2.4383792877197266
+everyday,cup,real,Cup_3_cleaned.ply,0,vase,-28.56293487548828,4,-28.582079887390137,0.01914501190185547
+everyday,cup,real,Cup_3_cleaned.ply,0,wagon,-30.530921936035156,4,-31.235685348510742,0.7047634124755859
+everyday,cup,real,Cup_3_cleaned.ply,0,water jug,-32.2242317199707,4,-34.04897117614746,1.8247394561767578
+everyday,cup,real,Cup_4_cleaned.ply,0,bamboo tray,-35.44337463378906,8,-41.7613582611084,6.317983627319336
+everyday,cup,real,Cup_4_cleaned.ply,0,basket,-23.83599090576172,3,-27.26796245574951,3.431971549987793
+everyday,cup,real,Cup_4_cleaned.ply,0,bench,-25.37384033203125,4,-37.14804267883301,11.774202346801758
+everyday,cup,real,Cup_4_cleaned.ply,0,book stand,-33.47867965698242,4,-37.61955642700195,4.140876770019531
+everyday,cup,real,Cup_4_cleaned.ply,0,bookshelf,-27.139591217041016,5,-29.061694145202637,1.922102928161621
+everyday,cup,real,Cup_4_cleaned.ply,0,bowl,-23.660799026489258,4,-24.654773712158203,0.9939746856689453
+everyday,cup,real,Cup_4_cleaned.ply,0,box,-27.385902404785156,3,-29.49934482574463,2.1134424209594727
+everyday,cup,real,Cup_4_cleaned.ply,0,bucket,-27.009883880615234,3,-29.70991611480713,2.7000322341918945
+everyday,cup,real,Cup_4_cleaned.ply,0,candle,-28.938074111938477,4,-29.054649353027344,0.11657524108886719
+everyday,cup,real,Cup_4_cleaned.ply,0,cane stool,-40.59825897216797,6,-41.2480525970459,0.6497936248779297
+everyday,cup,real,Cup_4_cleaned.ply,0,carriage,-24.912635803222656,3,-28.10142421722412,3.188788414001465
+everyday,cup,real,Cup_4_cleaned.ply,0,chair,-23.616867065429688,3,-29.07843017578125,5.4615631103515625
+everyday,cup,real,Cup_4_cleaned.ply,0,clay cup,-35.15472412109375,5,-39.37798881530762,4.223264694213867
+everyday,cup,real,Cup_4_cleaned.ply,0,cooking pot,-30.584503173828125,5,-31.720961570739746,1.136458396911621
+everyday,cup,real,Cup_4_cleaned.ply,0,cup,-25.85649871826172,3,-25.894363403320312,0.03786468505859375
+everyday,cup,real,Cup_4_cleaned.ply,0,cutting board,-29.767452239990234,4,-35.699960708618164,5.93250846862793
+everyday,cup,real,Cup_4_cleaned.ply,0,drum,-24.600780487060547,3,-29.20089626312256,4.600115776062012
+everyday,cup,real,Cup_4_cleaned.ply,0,faucet,-34.181121826171875,5,-41.28995132446289,7.108829498291016
+everyday,cup,real,Cup_4_cleaned.ply,0,fire hydrant,-29.94719696044922,5,-33.81854438781738,3.871347427368164
+everyday,cup,real,Cup_4_cleaned.ply,0,flower pot,-23.77960205078125,4,-30.033885955810547,6.254283905029297
+everyday,cup,real,Cup_4_cleaned.ply,0,glass jar,-29.183698654174805,4,-24.017366409301758,-5.166332244873047
+everyday,cup,real,Cup_4_cleaned.ply,0,grinding stone,-30.159725189208984,5,-36.60917854309082,6.449453353881836
+everyday,cup,real,Cup_4_cleaned.ply,0,hand pump,-33.32205581665039,5,-37.17997169494629,3.8579158782958984
+everyday,cup,real,Cup_4_cleaned.ply,0,keyboard,-29.886728286743164,3,-29.135533332824707,-0.751194953918457
+everyday,cup,real,Cup_4_cleaned.ply,0,lantern,-25.46903419494629,4,-26.242703437805176,0.7736692428588867
+everyday,cup,real,Cup_4_cleaned.ply,0,laptop,-27.21217918395996,3,-27.948243141174316,0.7360639572143555
+everyday,cup,real,Cup_4_cleaned.ply,0,low stool,-39.313018798828125,5,-45.47221755981445,6.159198760986328
+everyday,cup,real,Cup_4_cleaned.ply,0,push cart,-28.509254455566406,4,-33.10416603088379,4.594911575317383
+everyday,cup,real,Cup_4_cleaned.ply,0,rickshaw,-38.487449645996094,6,-44.995426177978516,6.507976531982422
+everyday,cup,real,Cup_4_cleaned.ply,0,rolling pin,-23.32956886291504,4,-29.571860313415527,6.242291450500488
+everyday,cup,real,Cup_4_cleaned.ply,0,shelf,-27.53148651123047,4,-31.957433700561523,4.425947189331055
+everyday,cup,real,Cup_4_cleaned.ply,0,stool,-30.184642791748047,4,-32.35316276550293,2.168519973754883
+everyday,cup,real,Cup_4_cleaned.ply,0,table,-25.723052978515625,3,-28.690317153930664,2.967264175415039
+everyday,cup,real,Cup_4_cleaned.ply,0,teapot,-28.247617721557617,5,-33.266414642333984,5.018796920776367
+everyday,cup,real,Cup_4_cleaned.ply,0,tray,-25.431808471679688,4,-32.92070484161377,7.488896369934082
+everyday,cup,real,Cup_4_cleaned.ply,0,tricycle,-23.812889099121094,5,-27.19069480895996,3.377805709838867
+everyday,cup,real,Cup_4_cleaned.ply,0,vase,-24.194740295410156,4,-28.582079887390137,4.3873395919799805
+everyday,cup,real,Cup_4_cleaned.ply,0,wagon,-30.21277618408203,4,-31.235685348510742,1.022909164428711
+everyday,cup,real,Cup_4_cleaned.ply,0,water jug,-31.6028995513916,4,-34.04897117614746,2.4460716247558594
+everyday,keyboard,real,Keyboard_1_cleaned.ply,0,bamboo tray,-34.4211540222168,8,-41.7613582611084,7.340204238891602
+everyday,keyboard,real,Keyboard_1_cleaned.ply,0,basket,-27.420568466186523,3,-27.26796245574951,-0.15260601043701172
+everyday,keyboard,real,Keyboard_1_cleaned.ply,0,bench,-23.69977378845215,4,-37.14804267883301,13.44826889038086
+everyday,keyboard,real,Keyboard_1_cleaned.ply,0,book stand,-33.99726104736328,4,-37.61955642700195,3.622295379638672
+everyday,keyboard,real,Keyboard_1_cleaned.ply,0,bookshelf,-23.11457061767578,5,-29.061694145202637,5.9471235275268555
+everyday,keyboard,real,Keyboard_1_cleaned.ply,0,bowl,-29.21593475341797,4,-24.654773712158203,-4.561161041259766
+everyday,keyboard,real,Keyboard_1_cleaned.ply,0,box,-23.15472984313965,3,-29.49934482574463,6.3446149826049805
+everyday,keyboard,real,Keyboard_1_cleaned.ply,0,bucket,-27.659957885742188,3,-29.70991611480713,2.0499582290649414
+everyday,keyboard,real,Keyboard_1_cleaned.ply,0,candle,-29.001888275146484,4,-29.054649353027344,0.052761077880859375
+everyday,keyboard,real,Keyboard_1_cleaned.ply,0,cane stool,-38.134029388427734,6,-41.2480525970459,3.114023208618164
+everyday,keyboard,real,Keyboard_1_cleaned.ply,0,carriage,-24.04745101928711,3,-28.10142421722412,4.053973197937012
+everyday,keyboard,real,Keyboard_1_cleaned.ply,0,chair,-23.70854949951172,3,-29.07843017578125,5.369880676269531
+everyday,keyboard,real,Keyboard_1_cleaned.ply,0,clay cup,-33.096595764160156,5,-39.37798881530762,6.281393051147461
+everyday,keyboard,real,Keyboard_1_cleaned.ply,0,cooking pot,-32.67979049682617,5,-31.720961570739746,-0.9588289260864258
+everyday,keyboard,real,Keyboard_1_cleaned.ply,0,cup,-27.31551742553711,3,-25.894363403320312,-1.4211540222167969
+everyday,keyboard,real,Keyboard_1_cleaned.ply,0,cutting board,-24.219619750976562,4,-35.699960708618164,11.480340957641602
+everyday,keyboard,real,Keyboard_1_cleaned.ply,0,drum,-26.1209716796875,3,-29.20089626312256,3.0799245834350586
+everyday,keyboard,real,Keyboard_1_cleaned.ply,0,faucet,-34.52496337890625,5,-41.28995132446289,6.764987945556641
+everyday,keyboard,real,Keyboard_1_cleaned.ply,0,fire hydrant,-33.19833755493164,5,-33.81854438781738,0.6202068328857422
+everyday,keyboard,real,Keyboard_1_cleaned.ply,0,flower pot,-29.86366081237793,4,-30.033885955810547,0.1702251434326172
+everyday,keyboard,real,Keyboard_1_cleaned.ply,0,glass jar,-30.846086502075195,4,-24.017366409301758,-6.8287200927734375
+everyday,keyboard,real,Keyboard_1_cleaned.ply,0,grinding stone,-24.06844711303711,5,-36.60917854309082,12.540731430053711
+everyday,keyboard,real,Keyboard_1_cleaned.ply,0,hand pump,-31.70505714416504,5,-37.17997169494629,5.47491455078125
+everyday,keyboard,real,Keyboard_1_cleaned.ply,0,keyboard,-24.76043701171875,3,-29.135533332824707,4.375096321105957
+everyday,keyboard,real,Keyboard_1_cleaned.ply,0,lantern,-24.148649215698242,4,-26.242703437805176,2.0940542221069336
+everyday,keyboard,real,Keyboard_1_cleaned.ply,0,laptop,-23.334293365478516,3,-27.948243141174316,4.613949775695801
+everyday,keyboard,real,Keyboard_1_cleaned.ply,0,low stool,-40.00172424316406,5,-45.47221755981445,5.470493316650391
+everyday,keyboard,real,Keyboard_1_cleaned.ply,0,push cart,-26.168292999267578,4,-33.10416603088379,6.935873031616211
+everyday,keyboard,real,Keyboard_1_cleaned.ply,0,rickshaw,-37.85466766357422,6,-44.995426177978516,7.140758514404297
+everyday,keyboard,real,Keyboard_1_cleaned.ply,0,rolling pin,-29.443111419677734,4,-29.571860313415527,0.12874889373779297
+everyday,keyboard,real,Keyboard_1_cleaned.ply,0,shelf,-22.20894432067871,4,-31.957433700561523,9.748489379882812
+everyday,keyboard,real,Keyboard_1_cleaned.ply,0,stool,-30.62271499633789,4,-32.35316276550293,1.730447769165039
+everyday,keyboard,real,Keyboard_1_cleaned.ply,0,table,-23.650846481323242,3,-28.690317153930664,5.039470672607422
+everyday,keyboard,real,Keyboard_1_cleaned.ply,0,teapot,-30.72473907470703,5,-33.266414642333984,2.541675567626953
+everyday,keyboard,real,Keyboard_1_cleaned.ply,0,tray,-23.960796356201172,4,-32.92070484161377,8.959908485412598
+everyday,keyboard,real,Keyboard_1_cleaned.ply,0,tricycle,-28.38956642150879,5,-27.19069480895996,-1.1988716125488281
+everyday,keyboard,real,Keyboard_1_cleaned.ply,0,vase,-27.52704620361328,4,-28.582079887390137,1.0550336837768555
+everyday,keyboard,real,Keyboard_1_cleaned.ply,0,wagon,-30.1546630859375,4,-31.235685348510742,1.0810222625732422
+everyday,keyboard,real,Keyboard_1_cleaned.ply,0,water jug,-36.07293701171875,4,-34.04897117614746,-2.023965835571289
+everyday,keyboard,real,Keyboard_2_cleaned.ply,0,bamboo tray,-32.98761749267578,8,-41.7613582611084,8.773740768432617
+everyday,keyboard,real,Keyboard_2_cleaned.ply,0,basket,-27.16364097595215,3,-27.26796245574951,0.10432147979736328
+everyday,keyboard,real,Keyboard_2_cleaned.ply,0,bench,-24.14140510559082,4,-37.14804267883301,13.006637573242188
+everyday,keyboard,real,Keyboard_2_cleaned.ply,0,book stand,-30.690746307373047,4,-37.61955642700195,6.928810119628906
+everyday,keyboard,real,Keyboard_2_cleaned.ply,0,bookshelf,-21.041166305541992,5,-29.061694145202637,8.020527839660645
+everyday,keyboard,real,Keyboard_2_cleaned.ply,0,bowl,-32.91940689086914,4,-24.654773712158203,-8.264633178710938
+everyday,keyboard,real,Keyboard_2_cleaned.ply,0,box,-25.962514877319336,3,-29.49934482574463,3.536829948425293
+everyday,keyboard,real,Keyboard_2_cleaned.ply,0,bucket,-29.095909118652344,3,-29.70991611480713,0.6140069961547852
+everyday,keyboard,real,Keyboard_2_cleaned.ply,0,candle,-34.11581802368164,4,-29.054649353027344,-5.061168670654297
+everyday,keyboard,real,Keyboard_2_cleaned.ply,0,cane stool,-38.664608001708984,6,-41.2480525970459,2.583444595336914
+everyday,keyboard,real,Keyboard_2_cleaned.ply,0,carriage,-24.04377555847168,3,-28.10142421722412,4.057648658752441
+everyday,keyboard,real,Keyboard_2_cleaned.ply,0,chair,-23.641368865966797,3,-29.07843017578125,5.437061309814453
+everyday,keyboard,real,Keyboard_2_cleaned.ply,0,clay cup,-38.507591247558594,5,-39.37798881530762,0.8703975677490234
+everyday,keyboard,real,Keyboard_2_cleaned.ply,0,cooking pot,-32.77610397338867,5,-31.720961570739746,-1.0551424026489258
+everyday,keyboard,real,Keyboard_2_cleaned.ply,0,cup,-28.293067932128906,3,-25.894363403320312,-2.3987045288085938
+everyday,keyboard,real,Keyboard_2_cleaned.ply,0,cutting board,-25.806499481201172,4,-35.699960708618164,9.893461227416992
+everyday,keyboard,real,Keyboard_2_cleaned.ply,0,drum,-25.400482177734375,3,-29.20089626312256,3.8004140853881836
+everyday,keyboard,real,Keyboard_2_cleaned.ply,0,faucet,-34.157188415527344,5,-41.28995132446289,7.132762908935547
+everyday,keyboard,real,Keyboard_2_cleaned.ply,0,fire hydrant,-36.127296447753906,5,-33.81854438781738,-2.3087520599365234
+everyday,keyboard,real,Keyboard_2_cleaned.ply,0,flower pot,-32.60399627685547,4,-30.033885955810547,-2.570110321044922
+everyday,keyboard,real,Keyboard_2_cleaned.ply,0,glass jar,-36.25368881225586,4,-24.017366409301758,-12.236322402954102
+everyday,keyboard,real,Keyboard_2_cleaned.ply,0,grinding stone,-29.274986267089844,5,-36.60917854309082,7.334192276000977
+everyday,keyboard,real,Keyboard_2_cleaned.ply,0,hand pump,-32.427391052246094,5,-37.17997169494629,4.752580642700195
+everyday,keyboard,real,Keyboard_2_cleaned.ply,0,keyboard,-18.60055160522461,3,-29.135533332824707,10.534981727600098
+everyday,keyboard,real,Keyboard_2_cleaned.ply,0,lantern,-25.490814208984375,4,-26.242703437805176,0.7518892288208008
+everyday,keyboard,real,Keyboard_2_cleaned.ply,0,laptop,-20.5052433013916,3,-27.948243141174316,7.442999839782715
+everyday,keyboard,real,Keyboard_2_cleaned.ply,0,low stool,-37.272438049316406,5,-45.47221755981445,8.199779510498047
+everyday,keyboard,real,Keyboard_2_cleaned.ply,0,push cart,-27.697969436645508,4,-33.10416603088379,5.406196594238281
+everyday,keyboard,real,Keyboard_2_cleaned.ply,0,rickshaw,-38.16255187988281,6,-44.995426177978516,6.832874298095703
+everyday,keyboard,real,Keyboard_2_cleaned.ply,0,rolling pin,-31.155921936035156,4,-29.571860313415527,-1.584061622619629
+everyday,keyboard,real,Keyboard_2_cleaned.ply,0,shelf,-21.78759765625,4,-31.957433700561523,10.169836044311523
+everyday,keyboard,real,Keyboard_2_cleaned.ply,0,stool,-28.213851928710938,4,-32.35316276550293,4.139310836791992
+everyday,keyboard,real,Keyboard_2_cleaned.ply,0,table,-23.310523986816406,3,-28.690317153930664,5.379793167114258
+everyday,keyboard,real,Keyboard_2_cleaned.ply,0,teapot,-32.037532806396484,5,-33.266414642333984,1.2288818359375
+everyday,keyboard,real,Keyboard_2_cleaned.ply,0,tray,-24.191017150878906,4,-32.92070484161377,8.729687690734863
+everyday,keyboard,real,Keyboard_2_cleaned.ply,0,tricycle,-24.852569580078125,5,-27.19069480895996,2.338125228881836
+everyday,keyboard,real,Keyboard_2_cleaned.ply,0,vase,-27.42793083190918,4,-28.582079887390137,1.154149055480957
+everyday,keyboard,real,Keyboard_2_cleaned.ply,0,wagon,-31.377382278442383,4,-31.235685348510742,-0.14169692993164062
+everyday,keyboard,real,Keyboard_2_cleaned.ply,0,water jug,-37.160945892333984,4,-34.04897117614746,-3.1119747161865234
+everyday,keyboard,real,Keyboard_3_cleaned.ply,0,bamboo tray,-33.30170822143555,8,-41.7613582611084,8.459650039672852
+everyday,keyboard,real,Keyboard_3_cleaned.ply,0,basket,-27.579172134399414,3,-27.26796245574951,-0.31120967864990234
+everyday,keyboard,real,Keyboard_3_cleaned.ply,0,bench,-24.092269897460938,4,-37.14804267883301,13.05577278137207
+everyday,keyboard,real,Keyboard_3_cleaned.ply,0,book stand,-30.807903289794922,4,-37.61955642700195,6.811653137207031
+everyday,keyboard,real,Keyboard_3_cleaned.ply,0,bookshelf,-20.615886688232422,5,-29.061694145202637,8.445807456970215
+everyday,keyboard,real,Keyboard_3_cleaned.ply,0,bowl,-29.23023796081543,4,-24.654773712158203,-4.575464248657227
+everyday,keyboard,real,Keyboard_3_cleaned.ply,0,box,-24.759653091430664,3,-29.49934482574463,4.739691734313965
+everyday,keyboard,real,Keyboard_3_cleaned.ply,0,bucket,-27.9542236328125,3,-29.70991611480713,1.755692481994629
+everyday,keyboard,real,Keyboard_3_cleaned.ply,0,candle,-31.777408599853516,4,-29.054649353027344,-2.722759246826172
+everyday,keyboard,real,Keyboard_3_cleaned.ply,0,cane stool,-38.93033981323242,6,-41.2480525970459,2.3177127838134766
+everyday,keyboard,real,Keyboard_3_cleaned.ply,0,carriage,-22.951305389404297,3,-28.10142421722412,5.150118827819824
+everyday,keyboard,real,Keyboard_3_cleaned.ply,0,chair,-23.860923767089844,3,-29.07843017578125,5.217506408691406
+everyday,keyboard,real,Keyboard_3_cleaned.ply,0,clay cup,-35.23377990722656,5,-39.37798881530762,4.144208908081055
+everyday,keyboard,real,Keyboard_3_cleaned.ply,0,cooking pot,-31.83529281616211,5,-31.720961570739746,-0.11433124542236328
+everyday,keyboard,real,Keyboard_3_cleaned.ply,0,cup,-26.686485290527344,3,-25.894363403320312,-0.7921218872070312
+everyday,keyboard,real,Keyboard_3_cleaned.ply,0,cutting board,-27.057266235351562,4,-35.699960708618164,8.642694473266602
+everyday,keyboard,real,Keyboard_3_cleaned.ply,0,drum,-26.6418514251709,3,-29.20089626312256,2.55904483795166
+everyday,keyboard,real,Keyboard_3_cleaned.ply,0,faucet,-32.8867073059082,5,-41.28995132446289,8.403244018554688
+everyday,keyboard,real,Keyboard_3_cleaned.ply,0,fire hydrant,-34.23828125,5,-33.81854438781738,-0.4197368621826172
+everyday,keyboard,real,Keyboard_3_cleaned.ply,0,flower pot,-31.149009704589844,4,-30.033885955810547,-1.1151237487792969
+everyday,keyboard,real,Keyboard_3_cleaned.ply,0,glass jar,-31.256370544433594,4,-24.017366409301758,-7.239004135131836
+everyday,keyboard,real,Keyboard_3_cleaned.ply,0,grinding stone,-26.3399658203125,5,-36.60917854309082,10.26921272277832
+everyday,keyboard,real,Keyboard_3_cleaned.ply,0,hand pump,-32.52848434448242,5,-37.17997169494629,4.651487350463867
+everyday,keyboard,real,Keyboard_3_cleaned.ply,0,keyboard,-22.887798309326172,3,-29.135533332824707,6.247735023498535
+everyday,keyboard,real,Keyboard_3_cleaned.ply,0,lantern,-24.327239990234375,4,-26.242703437805176,1.9154634475708008
+everyday,keyboard,real,Keyboard_3_cleaned.ply,0,laptop,-22.53192901611328,3,-27.948243141174316,5.416314125061035
+everyday,keyboard,real,Keyboard_3_cleaned.ply,0,low stool,-39.397735595703125,5,-45.47221755981445,6.074481964111328
+everyday,keyboard,real,Keyboard_3_cleaned.ply,0,push cart,-27.402061462402344,4,-33.10416603088379,5.702104568481445
+everyday,keyboard,real,Keyboard_3_cleaned.ply,0,rickshaw,-38.63520812988281,6,-44.995426177978516,6.360218048095703
+everyday,keyboard,real,Keyboard_3_cleaned.ply,0,rolling pin,-32.07345199584961,4,-29.571860313415527,-2.501591682434082
+everyday,keyboard,real,Keyboard_3_cleaned.ply,0,shelf,-23.352807998657227,4,-31.957433700561523,8.604625701904297
+everyday,keyboard,real,Keyboard_3_cleaned.ply,0,stool,-30.19216537475586,4,-32.35316276550293,2.1609973907470703
+everyday,keyboard,real,Keyboard_3_cleaned.ply,0,table,-21.131277084350586,3,-28.690317153930664,7.559040069580078
+everyday,keyboard,real,Keyboard_3_cleaned.ply,0,teapot,-30.828950881958008,5,-33.266414642333984,2.4374637603759766
+everyday,keyboard,real,Keyboard_3_cleaned.ply,0,tray,-25.01360321044922,4,-32.92070484161377,7.907101631164551
+everyday,keyboard,real,Keyboard_3_cleaned.ply,0,tricycle,-28.925949096679688,5,-27.19069480895996,-1.7352542877197266
+everyday,keyboard,real,Keyboard_3_cleaned.ply,0,vase,-26.771732330322266,4,-28.582079887390137,1.810347557067871
+everyday,keyboard,real,Keyboard_3_cleaned.ply,0,wagon,-25.23658561706543,4,-31.235685348510742,5.9990997314453125
+everyday,keyboard,real,Keyboard_3_cleaned.ply,0,water jug,-36.90391159057617,4,-34.04897117614746,-2.854940414428711
+everyday,table,real,Table_1_cleaned.ply,0,bamboo tray,-37.33615493774414,8,-41.7613582611084,4.425203323364258
+everyday,table,real,Table_1_cleaned.ply,0,basket,-30.33025360107422,3,-27.26796245574951,-3.062291145324707
+everyday,table,real,Table_1_cleaned.ply,0,bench,-25.036956787109375,4,-37.14804267883301,12.111085891723633
+everyday,table,real,Table_1_cleaned.ply,0,book stand,-26.598237991333008,4,-37.61955642700195,11.021318435668945
+everyday,table,real,Table_1_cleaned.ply,0,bookshelf,-27.813003540039062,5,-29.061694145202637,1.2486906051635742
+everyday,table,real,Table_1_cleaned.ply,0,bowl,-33.045379638671875,4,-24.654773712158203,-8.390605926513672
+everyday,table,real,Table_1_cleaned.ply,0,box,-25.205345153808594,3,-29.49934482574463,4.293999671936035
+everyday,table,real,Table_1_cleaned.ply,0,bucket,-30.516910552978516,3,-29.70991611480713,-0.8069944381713867
+everyday,table,real,Table_1_cleaned.ply,0,candle,-39.36789321899414,4,-29.054649353027344,-10.313243865966797
+everyday,table,real,Table_1_cleaned.ply,0,cane stool,-38.06602478027344,6,-41.2480525970459,3.182027816772461
+everyday,table,real,Table_1_cleaned.ply,0,carriage,-25.603565216064453,3,-28.10142421722412,2.497859001159668
+everyday,table,real,Table_1_cleaned.ply,0,chair,-23.993152618408203,3,-29.07843017578125,5.085277557373047
+everyday,table,real,Table_1_cleaned.ply,0,clay cup,-36.28828430175781,5,-39.37798881530762,3.0897045135498047
+everyday,table,real,Table_1_cleaned.ply,0,cooking pot,-36.00956344604492,5,-31.720961570739746,-4.288601875305176
+everyday,table,real,Table_1_cleaned.ply,0,cup,-29.135210037231445,3,-25.894363403320312,-3.240846633911133
+everyday,table,real,Table_1_cleaned.ply,0,cutting board,-30.09054946899414,4,-35.699960708618164,5.609411239624023
+everyday,table,real,Table_1_cleaned.ply,0,drum,-26.9041805267334,3,-29.20089626312256,2.29671573638916
+everyday,table,real,Table_1_cleaned.ply,0,faucet,-39.008663177490234,5,-41.28995132446289,2.2812881469726562
+everyday,table,real,Table_1_cleaned.ply,0,fire hydrant,-34.61255645751953,5,-33.81854438781738,-0.7940120697021484
+everyday,table,real,Table_1_cleaned.ply,0,flower pot,-38.967529296875,4,-30.033885955810547,-8.933643341064453
+everyday,table,real,Table_1_cleaned.ply,0,glass jar,-38.813846588134766,4,-24.017366409301758,-14.796480178833008
+everyday,table,real,Table_1_cleaned.ply,0,grinding stone,-34.21413040161133,5,-36.60917854309082,2.395048141479492
+everyday,table,real,Table_1_cleaned.ply,0,hand pump,-34.80170822143555,5,-37.17997169494629,2.378263473510742
+everyday,table,real,Table_1_cleaned.ply,0,keyboard,-22.621646881103516,3,-29.135533332824707,6.513886451721191
+everyday,table,real,Table_1_cleaned.ply,0,lantern,-27.479352951049805,4,-26.242703437805176,-1.236649513244629
+everyday,table,real,Table_1_cleaned.ply,0,laptop,-25.187732696533203,3,-27.948243141174316,2.7605104446411133
+everyday,table,real,Table_1_cleaned.ply,0,low stool,-35.757286071777344,5,-45.47221755981445,9.71493148803711
+everyday,table,real,Table_1_cleaned.ply,0,push cart,-22.579769134521484,4,-33.10416603088379,10.524396896362305
+everyday,table,real,Table_1_cleaned.ply,0,rickshaw,-39.336387634277344,6,-44.995426177978516,5.659038543701172
+everyday,table,real,Table_1_cleaned.ply,0,rolling pin,-29.744213104248047,4,-29.571860313415527,-0.17235279083251953
+everyday,table,real,Table_1_cleaned.ply,0,shelf,-27.172481536865234,4,-31.957433700561523,4.784952163696289
+everyday,table,real,Table_1_cleaned.ply,0,stool,-26.089786529541016,4,-32.35316276550293,6.263376235961914
+everyday,table,real,Table_1_cleaned.ply,0,table,-17.046653747558594,3,-28.690317153930664,11.64366340637207
+everyday,table,real,Table_1_cleaned.ply,0,teapot,-34.32839584350586,5,-33.266414642333984,-1.061981201171875
+everyday,table,real,Table_1_cleaned.ply,0,tray,-23.724857330322266,4,-32.92070484161377,9.195847511291504
+everyday,table,real,Table_1_cleaned.ply,0,tricycle,-20.008544921875,5,-27.19069480895996,7.182149887084961
+everyday,table,real,Table_1_cleaned.ply,0,vase,-31.722640991210938,4,-28.582079887390137,-3.140561103820801
+everyday,table,real,Table_1_cleaned.ply,0,wagon,-29.02068328857422,4,-31.235685348510742,2.2150020599365234
+everyday,table,real,Table_1_cleaned.ply,0,water jug,-41.08262634277344,4,-34.04897117614746,-7.033655166625977
+everyday,table,real,Table_2_cleaned.ply,0,bamboo tray,-39.83082580566406,8,-41.7613582611084,1.930532455444336
+everyday,table,real,Table_2_cleaned.ply,0,basket,-28.604692459106445,3,-27.26796245574951,-1.3367300033569336
+everyday,table,real,Table_2_cleaned.ply,0,bench,-24.60407257080078,4,-37.14804267883301,12.543970108032227
+everyday,table,real,Table_2_cleaned.ply,0,book stand,-29.9031982421875,4,-37.61955642700195,7.716358184814453
+everyday,table,real,Table_2_cleaned.ply,0,bookshelf,-28.121047973632812,5,-29.061694145202637,0.9406461715698242
+everyday,table,real,Table_2_cleaned.ply,0,bowl,-23.678606033325195,4,-24.654773712158203,0.9761676788330078
+everyday,table,real,Table_2_cleaned.ply,0,box,-29.37221908569336,3,-29.49934482574463,0.12712574005126953
+everyday,table,real,Table_2_cleaned.ply,0,bucket,-26.16452407836914,3,-29.70991611480713,3.5453920364379883
+everyday,table,real,Table_2_cleaned.ply,0,candle,-33.48693084716797,4,-29.054649353027344,-4.432281494140625
+everyday,table,real,Table_2_cleaned.ply,0,cane stool,-32.21625900268555,6,-41.2480525970459,9.031793594360352
+everyday,table,real,Table_2_cleaned.ply,0,carriage,-26.9772891998291,3,-28.10142421722412,1.1241350173950195
+everyday,table,real,Table_2_cleaned.ply,0,chair,-21.625370025634766,3,-29.07843017578125,7.453060150146484
+everyday,table,real,Table_2_cleaned.ply,0,clay cup,-37.11020278930664,5,-39.37798881530762,2.2677860260009766
+everyday,table,real,Table_2_cleaned.ply,0,cooking pot,-32.23515701293945,5,-31.720961570739746,-0.514195442199707
+everyday,table,real,Table_2_cleaned.ply,0,cup,-25.17147445678711,3,-25.894363403320312,0.7228889465332031
+everyday,table,real,Table_2_cleaned.ply,0,cutting board,-28.11614227294922,4,-35.699960708618164,7.583818435668945
+everyday,table,real,Table_2_cleaned.ply,0,drum,-22.971019744873047,3,-29.20089626312256,6.229876518249512
+everyday,table,real,Table_2_cleaned.ply,0,faucet,-32.194236755371094,5,-41.28995132446289,9.095714569091797
+everyday,table,real,Table_2_cleaned.ply,0,fire hydrant,-32.52611541748047,5,-33.81854438781738,1.292428970336914
+everyday,table,real,Table_2_cleaned.ply,0,flower pot,-30.997020721435547,4,-30.033885955810547,-0.963134765625
+everyday,table,real,Table_2_cleaned.ply,0,glass jar,-26.692886352539062,4,-24.017366409301758,-2.6755199432373047
+everyday,table,real,Table_2_cleaned.ply,0,grinding stone,-28.961505889892578,5,-36.60917854309082,7.647672653198242
+everyday,table,real,Table_2_cleaned.ply,0,hand pump,-35.52313232421875,5,-37.17997169494629,1.656839370727539
+everyday,table,real,Table_2_cleaned.ply,0,keyboard,-25.48743438720703,3,-29.135533332824707,3.648098945617676
+everyday,table,real,Table_2_cleaned.ply,0,lantern,-28.67569923400879,4,-26.242703437805176,-2.4329957962036133
+everyday,table,real,Table_2_cleaned.ply,0,laptop,-25.682659149169922,3,-27.948243141174316,2.2655839920043945
+everyday,table,real,Table_2_cleaned.ply,0,low stool,-36.33130645751953,5,-45.47221755981445,9.140911102294922
+everyday,table,real,Table_2_cleaned.ply,0,push cart,-29.357593536376953,4,-33.10416603088379,3.746572494506836
+everyday,table,real,Table_2_cleaned.ply,0,rickshaw,-41.11214065551758,6,-44.995426177978516,3.8832855224609375
+everyday,table,real,Table_2_cleaned.ply,0,rolling pin,-28.66193962097168,4,-29.571860313415527,0.9099206924438477
+everyday,table,real,Table_2_cleaned.ply,0,shelf,-33.64833068847656,4,-31.957433700561523,-1.690896987915039
+everyday,table,real,Table_2_cleaned.ply,0,stool,-20.338130950927734,4,-32.35316276550293,12.015031814575195
+everyday,table,real,Table_2_cleaned.ply,0,table,-21.06358528137207,3,-28.690317153930664,7.626731872558594
+everyday,table,real,Table_2_cleaned.ply,0,teapot,-30.93645477294922,5,-33.266414642333984,2.3299598693847656
+everyday,table,real,Table_2_cleaned.ply,0,tray,-27.782941818237305,4,-32.92070484161377,5.137763023376465
+everyday,table,real,Table_2_cleaned.ply,0,tricycle,-22.43236541748047,5,-27.19069480895996,4.758329391479492
+everyday,table,real,Table_2_cleaned.ply,0,vase,-26.551288604736328,4,-28.582079887390137,2.0307912826538086
+everyday,table,real,Table_2_cleaned.ply,0,wagon,-29.180349349975586,4,-31.235685348510742,2.0553359985351562
+everyday,table,real,Table_2_cleaned.ply,0,water jug,-29.654266357421875,4,-34.04897117614746,4.394704818725586
+near_ood,bodna,real,Bodna_1_cleaned.ply,0,bamboo tray,-34.608154296875,8,-41.7613582611084,7.153203964233398
+near_ood,bodna,real,Bodna_1_cleaned.ply,0,basket,-24.824522018432617,3,-27.26796245574951,2.4434404373168945
+near_ood,bodna,real,Bodna_1_cleaned.ply,0,bench,-25.309494018554688,4,-37.14804267883301,11.83854866027832
+near_ood,bodna,real,Bodna_1_cleaned.ply,0,book stand,-30.324235916137695,4,-37.61955642700195,7.295320510864258
+near_ood,bodna,real,Bodna_1_cleaned.ply,0,bookshelf,-24.465808868408203,5,-29.061694145202637,4.595885276794434
+near_ood,bodna,real,Bodna_1_cleaned.ply,0,bowl,-20.49302864074707,4,-24.654773712158203,4.161745071411133
+near_ood,bodna,real,Bodna_1_cleaned.ply,0,box,-25.952072143554688,3,-29.49934482574463,3.5472726821899414
+near_ood,bodna,real,Bodna_1_cleaned.ply,0,bucket,-26.58899688720703,3,-29.70991611480713,3.1209192276000977
+near_ood,bodna,real,Bodna_1_cleaned.ply,0,candle,-22.080392837524414,4,-29.054649353027344,6.97425651550293
+near_ood,bodna,real,Bodna_1_cleaned.ply,0,cane stool,-37.898319244384766,6,-41.2480525970459,3.349733352661133
+near_ood,bodna,real,Bodna_1_cleaned.ply,0,carriage,-24.841203689575195,3,-28.10142421722412,3.260220527648926
+near_ood,bodna,real,Bodna_1_cleaned.ply,0,chair,-23.242950439453125,3,-29.07843017578125,5.835479736328125
+near_ood,bodna,real,Bodna_1_cleaned.ply,0,clay cup,-27.99251365661621,5,-39.37798881530762,11.385475158691406
+near_ood,bodna,real,Bodna_1_cleaned.ply,0,cooking pot,-23.650794982910156,5,-31.720961570739746,8.07016658782959
+near_ood,bodna,real,Bodna_1_cleaned.ply,0,cup,-20.16803741455078,3,-25.894363403320312,5.726325988769531
+near_ood,bodna,real,Bodna_1_cleaned.ply,0,cutting board,-28.64715576171875,4,-35.699960708618164,7.052804946899414
+near_ood,bodna,real,Bodna_1_cleaned.ply,0,drum,-25.674152374267578,3,-29.20089626312256,3.5267438888549805
+near_ood,bodna,real,Bodna_1_cleaned.ply,0,faucet,-29.170543670654297,5,-41.28995132446289,12.119407653808594
+near_ood,bodna,real,Bodna_1_cleaned.ply,0,fire hydrant,-27.48273468017578,5,-33.81854438781738,6.335809707641602
+near_ood,bodna,real,Bodna_1_cleaned.ply,0,flower pot,-24.011890411376953,4,-30.033885955810547,6.021995544433594
+near_ood,bodna,real,Bodna_1_cleaned.ply,0,glass jar,-26.115489959716797,4,-24.017366409301758,-2.098123550415039
+near_ood,bodna,real,Bodna_1_cleaned.ply,0,grinding stone,-24.772602081298828,5,-36.60917854309082,11.836576461791992
+near_ood,bodna,real,Bodna_1_cleaned.ply,0,hand pump,-32.73900604248047,5,-37.17997169494629,4.44096565246582
+near_ood,bodna,real,Bodna_1_cleaned.ply,0,keyboard,-27.770965576171875,3,-29.135533332824707,1.364567756652832
+near_ood,bodna,real,Bodna_1_cleaned.ply,0,lantern,-24.166162490844727,4,-26.242703437805176,2.076540946960449
+near_ood,bodna,real,Bodna_1_cleaned.ply,0,laptop,-23.595840454101562,3,-27.948243141174316,4.352402687072754
+near_ood,bodna,real,Bodna_1_cleaned.ply,0,low stool,-33.84264373779297,5,-45.47221755981445,11.629573822021484
+near_ood,bodna,real,Bodna_1_cleaned.ply,0,push cart,-28.443750381469727,4,-33.10416603088379,4.6604156494140625
+near_ood,bodna,real,Bodna_1_cleaned.ply,0,rickshaw,-38.250244140625,6,-44.995426177978516,6.745182037353516
+near_ood,bodna,real,Bodna_1_cleaned.ply,0,rolling pin,-27.233470916748047,4,-29.571860313415527,2.3383893966674805
+near_ood,bodna,real,Bodna_1_cleaned.ply,0,shelf,-28.997634887695312,4,-31.957433700561523,2.959798812866211
+near_ood,bodna,real,Bodna_1_cleaned.ply,0,stool,-21.377700805664062,4,-32.35316276550293,10.975461959838867
+near_ood,bodna,real,Bodna_1_cleaned.ply,0,table,-27.143362045288086,3,-28.690317153930664,1.5469551086425781
+near_ood,bodna,real,Bodna_1_cleaned.ply,0,teapot,-20.504840850830078,5,-33.266414642333984,12.761573791503906
+near_ood,bodna,real,Bodna_1_cleaned.ply,0,tray,-29.68198585510254,4,-32.92070484161377,3.2387189865112305
+near_ood,bodna,real,Bodna_1_cleaned.ply,0,tricycle,-23.95071029663086,5,-27.19069480895996,3.2399845123291016
+near_ood,bodna,real,Bodna_1_cleaned.ply,0,vase,-19.66913414001465,4,-28.582079887390137,8.912945747375488
+near_ood,bodna,real,Bodna_1_cleaned.ply,0,wagon,-28.218482971191406,4,-31.235685348510742,3.017202377319336
+near_ood,bodna,real,Bodna_1_cleaned.ply,0,water jug,-28.148632049560547,4,-34.04897117614746,5.900339126586914
+near_ood,bodna,real,Bodna_2_cleaned.ply,0,bamboo tray,-40.3992919921875,8,-41.7613582611084,1.3620662689208984
+near_ood,bodna,real,Bodna_2_cleaned.ply,0,basket,-27.654943466186523,3,-27.26796245574951,-0.3869810104370117
+near_ood,bodna,real,Bodna_2_cleaned.ply,0,bench,-26.724342346191406,4,-37.14804267883301,10.423700332641602
+near_ood,bodna,real,Bodna_2_cleaned.ply,0,book stand,-35.02033233642578,4,-37.61955642700195,2.599224090576172
+near_ood,bodna,real,Bodna_2_cleaned.ply,0,bookshelf,-21.777517318725586,5,-29.061694145202637,7.284176826477051
+near_ood,bodna,real,Bodna_2_cleaned.ply,0,bowl,-22.01705551147461,4,-24.654773712158203,2.6377182006835938
+near_ood,bodna,real,Bodna_2_cleaned.ply,0,box,-28.14544677734375,3,-29.49934482574463,1.353898048400879
+near_ood,bodna,real,Bodna_2_cleaned.ply,0,bucket,-29.286251068115234,3,-29.70991611480713,0.42366504669189453
+near_ood,bodna,real,Bodna_2_cleaned.ply,0,candle,-23.7556209564209,4,-29.054649353027344,5.299028396606445
+near_ood,bodna,real,Bodna_2_cleaned.ply,0,cane stool,-38.085479736328125,6,-41.2480525970459,3.1625728607177734
+near_ood,bodna,real,Bodna_2_cleaned.ply,0,carriage,-28.082080841064453,3,-28.10142421722412,0.01934337615966797
+near_ood,bodna,real,Bodna_2_cleaned.ply,0,chair,-25.408721923828125,3,-29.07843017578125,3.669708251953125
+near_ood,bodna,real,Bodna_2_cleaned.ply,0,clay cup,-32.817283630371094,5,-39.37798881530762,6.560705184936523
+near_ood,bodna,real,Bodna_2_cleaned.ply,0,cooking pot,-20.737510681152344,5,-31.720961570739746,10.983450889587402
+near_ood,bodna,real,Bodna_2_cleaned.ply,0,cup,-22.51131820678711,3,-25.894363403320312,3.383045196533203
+near_ood,bodna,real,Bodna_2_cleaned.ply,0,cutting board,-33.70063781738281,4,-35.699960708618164,1.9993228912353516
+near_ood,bodna,real,Bodna_2_cleaned.ply,0,drum,-29.01334571838379,3,-29.20089626312256,0.18755054473876953
+near_ood,bodna,real,Bodna_2_cleaned.ply,0,faucet,-29.53209114074707,5,-41.28995132446289,11.75786018371582
+near_ood,bodna,real,Bodna_2_cleaned.ply,0,fire hydrant,-30.395450592041016,5,-33.81854438781738,3.423093795776367
+near_ood,bodna,real,Bodna_2_cleaned.ply,0,flower pot,-24.76091957092285,4,-30.033885955810547,5.272966384887695
+near_ood,bodna,real,Bodna_2_cleaned.ply,0,glass jar,-25.16529655456543,4,-24.017366409301758,-1.1479301452636719
+near_ood,bodna,real,Bodna_2_cleaned.ply,0,grinding stone,-28.96578598022461,5,-36.60917854309082,7.643392562866211
+near_ood,bodna,real,Bodna_2_cleaned.ply,0,hand pump,-31.68033218383789,5,-37.17997169494629,5.499639511108398
+near_ood,bodna,real,Bodna_2_cleaned.ply,0,keyboard,-28.89842987060547,3,-29.135533332824707,0.23710346221923828
+near_ood,bodna,real,Bodna_2_cleaned.ply,0,lantern,-24.36034393310547,4,-26.242703437805176,1.882359504699707
+near_ood,bodna,real,Bodna_2_cleaned.ply,0,laptop,-23.39212989807129,3,-27.948243141174316,4.556113243103027
+near_ood,bodna,real,Bodna_2_cleaned.ply,0,low stool,-32.684120178222656,5,-45.47221755981445,12.788097381591797
+near_ood,bodna,real,Bodna_2_cleaned.ply,0,push cart,-32.582313537597656,4,-33.10416603088379,0.5218524932861328
+near_ood,bodna,real,Bodna_2_cleaned.ply,0,rickshaw,-41.999752044677734,6,-44.995426177978516,2.9956741333007812
+near_ood,bodna,real,Bodna_2_cleaned.ply,0,rolling pin,-30.084686279296875,4,-29.571860313415527,-0.5128259658813477
+near_ood,bodna,real,Bodna_2_cleaned.ply,0,shelf,-33.16106414794922,4,-31.957433700561523,-1.2036304473876953
+near_ood,bodna,real,Bodna_2_cleaned.ply,0,stool,-27.04644203186035,4,-32.35316276550293,5.306720733642578
+near_ood,bodna,real,Bodna_2_cleaned.ply,0,table,-28.6302433013916,3,-28.690317153930664,0.0600738525390625
+near_ood,bodna,real,Bodna_2_cleaned.ply,0,teapot,-18.053730010986328,5,-33.266414642333984,15.212684631347656
+near_ood,bodna,real,Bodna_2_cleaned.ply,0,tray,-34.66188430786133,4,-32.92070484161377,-1.7411794662475586
+near_ood,bodna,real,Bodna_2_cleaned.ply,0,tricycle,-29.91749382019043,5,-27.19069480895996,-2.7267990112304688
+near_ood,bodna,real,Bodna_2_cleaned.ply,0,vase,-17.79694366455078,4,-28.582079887390137,10.785136222839355
+near_ood,bodna,real,Bodna_2_cleaned.ply,0,wagon,-30.895748138427734,4,-31.235685348510742,0.3399372100830078
+near_ood,bodna,real,Bodna_2_cleaned.ply,0,water jug,-28.21108627319336,4,-34.04897117614746,5.837884902954102
+near_ood,hurricane_lamp,real,Hurricane_Lamp_1_cleaned.ply,0,bamboo tray,-40.59782028198242,8,-41.7613582611084,1.1635379791259766
+near_ood,hurricane_lamp,real,Hurricane_Lamp_1_cleaned.ply,0,basket,-28.786785125732422,3,-27.26796245574951,-1.5188226699829102
+near_ood,hurricane_lamp,real,Hurricane_Lamp_1_cleaned.ply,0,bench,-24.193410873413086,4,-37.14804267883301,12.954631805419922
+near_ood,hurricane_lamp,real,Hurricane_Lamp_1_cleaned.ply,0,book stand,-28.638944625854492,4,-37.61955642700195,8.980611801147461
+near_ood,hurricane_lamp,real,Hurricane_Lamp_1_cleaned.ply,0,bookshelf,-27.066104888916016,5,-29.061694145202637,1.995589256286621
+near_ood,hurricane_lamp,real,Hurricane_Lamp_1_cleaned.ply,0,bowl,-26.29448699951172,4,-24.654773712158203,-1.6397132873535156
+near_ood,hurricane_lamp,real,Hurricane_Lamp_1_cleaned.ply,0,box,-25.98073387145996,3,-29.49934482574463,3.518610954284668
+near_ood,hurricane_lamp,real,Hurricane_Lamp_1_cleaned.ply,0,bucket,-29.338096618652344,3,-29.70991611480713,0.37181949615478516
+near_ood,hurricane_lamp,real,Hurricane_Lamp_1_cleaned.ply,0,candle,-29.877334594726562,4,-29.054649353027344,-0.8226852416992188
+near_ood,hurricane_lamp,real,Hurricane_Lamp_1_cleaned.ply,0,cane stool,-37.25545883178711,6,-41.2480525970459,3.992593765258789
+near_ood,hurricane_lamp,real,Hurricane_Lamp_1_cleaned.ply,0,carriage,-26.177635192871094,3,-28.10142421722412,1.9237890243530273
+near_ood,hurricane_lamp,real,Hurricane_Lamp_1_cleaned.ply,0,chair,-24.389734268188477,3,-29.07843017578125,4.688695907592773
+near_ood,hurricane_lamp,real,Hurricane_Lamp_1_cleaned.ply,0,clay cup,-35.371463775634766,5,-39.37798881530762,4.006525039672852
+near_ood,hurricane_lamp,real,Hurricane_Lamp_1_cleaned.ply,0,cooking pot,-28.950632095336914,5,-31.720961570739746,2.770329475402832
+near_ood,hurricane_lamp,real,Hurricane_Lamp_1_cleaned.ply,0,cup,-25.229618072509766,3,-25.894363403320312,0.6647453308105469
+near_ood,hurricane_lamp,real,Hurricane_Lamp_1_cleaned.ply,0,cutting board,-34.43864440917969,4,-35.699960708618164,1.2613162994384766
+near_ood,hurricane_lamp,real,Hurricane_Lamp_1_cleaned.ply,0,drum,-28.27773094177246,3,-29.20089626312256,0.9231653213500977
+near_ood,hurricane_lamp,real,Hurricane_Lamp_1_cleaned.ply,0,faucet,-32.21614074707031,5,-41.28995132446289,9.073810577392578
+near_ood,hurricane_lamp,real,Hurricane_Lamp_1_cleaned.ply,0,fire hydrant,-33.63427734375,5,-33.81854438781738,0.1842670440673828
+near_ood,hurricane_lamp,real,Hurricane_Lamp_1_cleaned.ply,0,flower pot,-33.646453857421875,4,-30.033885955810547,-3.612567901611328
+near_ood,hurricane_lamp,real,Hurricane_Lamp_1_cleaned.ply,0,glass jar,-30.04006576538086,4,-24.017366409301758,-6.022699356079102
+near_ood,hurricane_lamp,real,Hurricane_Lamp_1_cleaned.ply,0,grinding stone,-29.356576919555664,5,-36.60917854309082,7.252601623535156
+near_ood,hurricane_lamp,real,Hurricane_Lamp_1_cleaned.ply,0,hand pump,-36.73555374145508,5,-37.17997169494629,0.44441795349121094
+near_ood,hurricane_lamp,real,Hurricane_Lamp_1_cleaned.ply,0,keyboard,-28.074939727783203,3,-29.135533332824707,1.060593605041504
+near_ood,hurricane_lamp,real,Hurricane_Lamp_1_cleaned.ply,0,lantern,-25.97828483581543,4,-26.242703437805176,0.2644186019897461
+near_ood,hurricane_lamp,real,Hurricane_Lamp_1_cleaned.ply,0,laptop,-24.878658294677734,3,-27.948243141174316,3.069584846496582
+near_ood,hurricane_lamp,real,Hurricane_Lamp_1_cleaned.ply,0,low stool,-38.06479263305664,5,-45.47221755981445,7.4074249267578125
+near_ood,hurricane_lamp,real,Hurricane_Lamp_1_cleaned.ply,0,push cart,-29.213790893554688,4,-33.10416603088379,3.8903751373291016
+near_ood,hurricane_lamp,real,Hurricane_Lamp_1_cleaned.ply,0,rickshaw,-39.99371337890625,6,-44.995426177978516,5.001712799072266
+near_ood,hurricane_lamp,real,Hurricane_Lamp_1_cleaned.ply,0,rolling pin,-29.70557403564453,4,-29.571860313415527,-0.1337137222290039
+near_ood,hurricane_lamp,real,Hurricane_Lamp_1_cleaned.ply,0,shelf,-31.312297821044922,4,-31.957433700561523,0.6451358795166016
+near_ood,hurricane_lamp,real,Hurricane_Lamp_1_cleaned.ply,0,stool,-26.23807144165039,4,-32.35316276550293,6.115091323852539
+near_ood,hurricane_lamp,real,Hurricane_Lamp_1_cleaned.ply,0,table,-28.839017868041992,3,-28.690317153930664,-0.14870071411132812
+near_ood,hurricane_lamp,real,Hurricane_Lamp_1_cleaned.ply,0,teapot,-28.581897735595703,5,-33.266414642333984,4.684516906738281
+near_ood,hurricane_lamp,real,Hurricane_Lamp_1_cleaned.ply,0,tray,-28.796661376953125,4,-32.92070484161377,4.1240434646606445
+near_ood,hurricane_lamp,real,Hurricane_Lamp_1_cleaned.ply,0,tricycle,-27.29716682434082,5,-27.19069480895996,-0.10647201538085938
+near_ood,hurricane_lamp,real,Hurricane_Lamp_1_cleaned.ply,0,vase,-29.295551300048828,4,-28.582079887390137,-0.7134714126586914
+near_ood,hurricane_lamp,real,Hurricane_Lamp_1_cleaned.ply,0,wagon,-31.96414566040039,4,-31.235685348510742,-0.7284603118896484
+near_ood,hurricane_lamp,real,Hurricane_Lamp_1_cleaned.ply,0,water jug,-34.683326721191406,4,-34.04897117614746,-0.6343555450439453
+near_ood,kula,real,Kula_1_cleaned.ply,0,bamboo tray,-30.670366287231445,8,-41.7613582611084,11.090991973876953
+near_ood,kula,real,Kula_1_cleaned.ply,0,basket,-25.480037689208984,3,-27.26796245574951,1.7879247665405273
+near_ood,kula,real,Kula_1_cleaned.ply,0,bench,-24.17570686340332,4,-37.14804267883301,12.972335815429688
+near_ood,kula,real,Kula_1_cleaned.ply,0,book stand,-31.41809844970703,4,-37.61955642700195,6.201457977294922
+near_ood,kula,real,Kula_1_cleaned.ply,0,bookshelf,-25.47195053100586,5,-29.061694145202637,3.5897436141967773
+near_ood,kula,real,Kula_1_cleaned.ply,0,bowl,-23.034027099609375,4,-24.654773712158203,1.6207466125488281
+near_ood,kula,real,Kula_1_cleaned.ply,0,box,-24.058597564697266,3,-29.49934482574463,5.440747261047363
+near_ood,kula,real,Kula_1_cleaned.ply,0,bucket,-27.34760284423828,3,-29.70991611480713,2.3623132705688477
+near_ood,kula,real,Kula_1_cleaned.ply,0,candle,-25.573612213134766,4,-29.054649353027344,3.481037139892578
+near_ood,kula,real,Kula_1_cleaned.ply,0,cane stool,-41.99018478393555,6,-41.2480525970459,-0.7421321868896484
+near_ood,kula,real,Kula_1_cleaned.ply,0,carriage,-25.14385414123535,3,-28.10142421722412,2.9575700759887695
+near_ood,kula,real,Kula_1_cleaned.ply,0,chair,-22.419727325439453,3,-29.07843017578125,6.658702850341797
+near_ood,kula,real,Kula_1_cleaned.ply,0,clay cup,-29.891124725341797,5,-39.37798881530762,9.48686408996582
+near_ood,kula,real,Kula_1_cleaned.ply,0,cooking pot,-27.6773681640625,5,-31.720961570739746,4.043593406677246
+near_ood,kula,real,Kula_1_cleaned.ply,0,cup,-24.28008270263672,3,-25.894363403320312,1.6142807006835938
+near_ood,kula,real,Kula_1_cleaned.ply,0,cutting board,-22.72463607788086,4,-35.699960708618164,12.975324630737305
+near_ood,kula,real,Kula_1_cleaned.ply,0,drum,-29.427196502685547,3,-29.20089626312256,-0.22630023956298828
+near_ood,kula,real,Kula_1_cleaned.ply,0,faucet,-33.0050048828125,5,-41.28995132446289,8.28494644165039
+near_ood,kula,real,Kula_1_cleaned.ply,0,fire hydrant,-33.37020492553711,5,-33.81854438781738,0.44833946228027344
+near_ood,kula,real,Kula_1_cleaned.ply,0,flower pot,-28.84481430053711,4,-30.033885955810547,1.1890716552734375
+near_ood,kula,real,Kula_1_cleaned.ply,0,glass jar,-31.053970336914062,4,-24.017366409301758,-7.036603927612305
+near_ood,kula,real,Kula_1_cleaned.ply,0,grinding stone,-23.48990821838379,5,-36.60917854309082,13.119270324707031
+near_ood,kula,real,Kula_1_cleaned.ply,0,hand pump,-34.24735641479492,5,-37.17997169494629,2.932615280151367
+near_ood,kula,real,Kula_1_cleaned.ply,0,keyboard,-24.79003143310547,3,-29.135533332824707,4.345501899719238
+near_ood,kula,real,Kula_1_cleaned.ply,0,lantern,-27.0623722076416,4,-26.242703437805176,-0.8196687698364258
+near_ood,kula,real,Kula_1_cleaned.ply,0,laptop,-23.234365463256836,3,-27.948243141174316,4.7138776779174805
+near_ood,kula,real,Kula_1_cleaned.ply,0,low stool,-35.653865814208984,5,-45.47221755981445,9.818351745605469
+near_ood,kula,real,Kula_1_cleaned.ply,0,push cart,-28.285140991210938,4,-33.10416603088379,4.819025039672852
+near_ood,kula,real,Kula_1_cleaned.ply,0,rickshaw,-34.25653076171875,6,-44.995426177978516,10.738895416259766
+near_ood,kula,real,Kula_1_cleaned.ply,0,rolling pin,-30.073104858398438,4,-29.571860313415527,-0.5012445449829102
+near_ood,kula,real,Kula_1_cleaned.ply,0,shelf,-27.471872329711914,4,-31.957433700561523,4.485561370849609
+near_ood,kula,real,Kula_1_cleaned.ply,0,stool,-29.96622085571289,4,-32.35316276550293,2.386941909790039
+near_ood,kula,real,Kula_1_cleaned.ply,0,table,-25.98942756652832,3,-28.690317153930664,2.7008895874023438
+near_ood,kula,real,Kula_1_cleaned.ply,0,teapot,-29.671743392944336,5,-33.266414642333984,3.5946712493896484
+near_ood,kula,real,Kula_1_cleaned.ply,0,tray,-22.541706085205078,4,-32.92070484161377,10.378998756408691
+near_ood,kula,real,Kula_1_cleaned.ply,0,tricycle,-22.77309799194336,5,-27.19069480895996,4.417596817016602
+near_ood,kula,real,Kula_1_cleaned.ply,0,vase,-27.538101196289062,4,-28.582079887390137,1.0439786911010742
+near_ood,kula,real,Kula_1_cleaned.ply,0,wagon,-33.6334342956543,4,-31.235685348510742,-2.3977489471435547
+near_ood,kula,real,Kula_1_cleaned.ply,0,water jug,-34.33686065673828,4,-34.04897117614746,-0.2878894805908203
+near_ood,kula,real,Kula_2_cleaned.ply,0,bamboo tray,-31.78851890563965,8,-41.7613582611084,9.97283935546875
+near_ood,kula,real,Kula_2_cleaned.ply,0,basket,-27.125106811523438,3,-27.26796245574951,0.14285564422607422
+near_ood,kula,real,Kula_2_cleaned.ply,0,bench,-25.061243057250977,4,-37.14804267883301,12.086799621582031
+near_ood,kula,real,Kula_2_cleaned.ply,0,book stand,-30.661941528320312,4,-37.61955642700195,6.957614898681641
+near_ood,kula,real,Kula_2_cleaned.ply,0,bookshelf,-25.019603729248047,5,-29.061694145202637,4.04209041595459
+near_ood,kula,real,Kula_2_cleaned.ply,0,bowl,-24.021188735961914,4,-24.654773712158203,0.6335849761962891
+near_ood,kula,real,Kula_2_cleaned.ply,0,box,-24.326679229736328,3,-29.49934482574463,5.172665596008301
+near_ood,kula,real,Kula_2_cleaned.ply,0,bucket,-28.291671752929688,3,-29.70991611480713,1.4182443618774414
+near_ood,kula,real,Kula_2_cleaned.ply,0,candle,-26.123661041259766,4,-29.054649353027344,2.930988311767578
+near_ood,kula,real,Kula_2_cleaned.ply,0,cane stool,-39.43603515625,6,-41.2480525970459,1.8120174407958984
+near_ood,kula,real,Kula_2_cleaned.ply,0,carriage,-24.93435287475586,3,-28.10142421722412,3.1670713424682617
+near_ood,kula,real,Kula_2_cleaned.ply,0,chair,-22.961872100830078,3,-29.07843017578125,6.116558074951172
+near_ood,kula,real,Kula_2_cleaned.ply,0,clay cup,-30.4068603515625,5,-39.37798881530762,8.971128463745117
+near_ood,kula,real,Kula_2_cleaned.ply,0,cooking pot,-27.58615493774414,5,-31.720961570739746,4.1348066329956055
+near_ood,kula,real,Kula_2_cleaned.ply,0,cup,-24.854736328125,3,-25.894363403320312,1.0396270751953125
+near_ood,kula,real,Kula_2_cleaned.ply,0,cutting board,-24.02842903137207,4,-35.699960708618164,11.671531677246094
+near_ood,kula,real,Kula_2_cleaned.ply,0,drum,-28.068544387817383,3,-29.20089626312256,1.1323518753051758
+near_ood,kula,real,Kula_2_cleaned.ply,0,faucet,-32.939083099365234,5,-41.28995132446289,8.350868225097656
+near_ood,kula,real,Kula_2_cleaned.ply,0,fire hydrant,-34.0177001953125,5,-33.81854438781738,-0.1991558074951172
+near_ood,kula,real,Kula_2_cleaned.ply,0,flower pot,-29.906957626342773,4,-30.033885955810547,0.12692832946777344
+near_ood,kula,real,Kula_2_cleaned.ply,0,glass jar,-32.5073127746582,4,-24.017366409301758,-8.489946365356445
+near_ood,kula,real,Kula_2_cleaned.ply,0,grinding stone,-22.59823226928711,5,-36.60917854309082,14.010946273803711
+near_ood,kula,real,Kula_2_cleaned.ply,0,hand pump,-31.790210723876953,5,-37.17997169494629,5.389760971069336
+near_ood,kula,real,Kula_2_cleaned.ply,0,keyboard,-25.024932861328125,3,-29.135533332824707,4.110600471496582
+near_ood,kula,real,Kula_2_cleaned.ply,0,lantern,-27.40378761291504,4,-26.242703437805176,-1.1610841751098633
+near_ood,kula,real,Kula_2_cleaned.ply,0,laptop,-23.440431594848633,3,-27.948243141174316,4.507811546325684
+near_ood,kula,real,Kula_2_cleaned.ply,0,low stool,-37.519737243652344,5,-45.47221755981445,7.952480316162109
+near_ood,kula,real,Kula_2_cleaned.ply,0,push cart,-27.597620010375977,4,-33.10416603088379,5.5065460205078125
+near_ood,kula,real,Kula_2_cleaned.ply,0,rickshaw,-34.922298431396484,6,-44.995426177978516,10.073127746582031
+near_ood,kula,real,Kula_2_cleaned.ply,0,rolling pin,-29.903535842895508,4,-29.571860313415527,-0.33167552947998047
+near_ood,kula,real,Kula_2_cleaned.ply,0,shelf,-28.655990600585938,4,-31.957433700561523,3.301443099975586
+near_ood,kula,real,Kula_2_cleaned.ply,0,stool,-29.996936798095703,4,-32.35316276550293,2.3562259674072266
+near_ood,kula,real,Kula_2_cleaned.ply,0,table,-26.338056564331055,3,-28.690317153930664,2.3522605895996094
+near_ood,kula,real,Kula_2_cleaned.ply,0,teapot,-29.428516387939453,5,-33.266414642333984,3.8378982543945312
+near_ood,kula,real,Kula_2_cleaned.ply,0,tray,-23.067150115966797,4,-32.92070484161377,9.853554725646973
+near_ood,kula,real,Kula_2_cleaned.ply,0,tricycle,-22.5120849609375,5,-27.19069480895996,4.678609848022461
+near_ood,kula,real,Kula_2_cleaned.ply,0,vase,-29.241024017333984,4,-28.582079887390137,-0.6589441299438477
+near_ood,kula,real,Kula_2_cleaned.ply,0,wagon,-31.611042022705078,4,-31.235685348510742,-0.37535667419433594
+near_ood,kula,real,Kula_2_cleaned.ply,0,water jug,-35.32726287841797,4,-34.04897117614746,-1.2782917022705078
+near_ood,matir_cup,real,Matir_Cup_1_cleaned.ply,0,bamboo tray,-39.527435302734375,8,-41.7613582611084,2.2339229583740234
+near_ood,matir_cup,real,Matir_Cup_1_cleaned.ply,0,basket,-27.398170471191406,3,-27.26796245574951,-0.13020801544189453
+near_ood,matir_cup,real,Matir_Cup_1_cleaned.ply,0,bench,-27.58282470703125,4,-37.14804267883301,9.565217971801758
+near_ood,matir_cup,real,Matir_Cup_1_cleaned.ply,0,book stand,-34.16899871826172,4,-37.61955642700195,3.4505577087402344
+near_ood,matir_cup,real,Matir_Cup_1_cleaned.ply,0,bookshelf,-25.665311813354492,5,-29.061694145202637,3.3963823318481445
+near_ood,matir_cup,real,Matir_Cup_1_cleaned.ply,0,bowl,-21.85240364074707,4,-24.654773712158203,2.802370071411133
+near_ood,matir_cup,real,Matir_Cup_1_cleaned.ply,0,box,-28.136024475097656,3,-29.49934482574463,1.3633203506469727
+near_ood,matir_cup,real,Matir_Cup_1_cleaned.ply,0,bucket,-28.77556800842285,3,-29.70991611480713,0.9343481063842773
+near_ood,matir_cup,real,Matir_Cup_1_cleaned.ply,0,candle,-23.967477798461914,4,-29.054649353027344,5.08717155456543
+near_ood,matir_cup,real,Matir_Cup_1_cleaned.ply,0,cane stool,-37.364776611328125,6,-41.2480525970459,3.8832759857177734
+near_ood,matir_cup,real,Matir_Cup_1_cleaned.ply,0,carriage,-24.651348114013672,3,-28.10142421722412,3.450076103210449
+near_ood,matir_cup,real,Matir_Cup_1_cleaned.ply,0,chair,-25.725330352783203,3,-29.07843017578125,3.353099822998047
+near_ood,matir_cup,real,Matir_Cup_1_cleaned.ply,0,clay cup,-21.779420852661133,5,-39.37798881530762,17.598567962646484
+near_ood,matir_cup,real,Matir_Cup_1_cleaned.ply,0,cooking pot,-25.281185150146484,5,-31.720961570739746,6.439776420593262
+near_ood,matir_cup,real,Matir_Cup_1_cleaned.ply,0,cup,-17.146854400634766,3,-25.894363403320312,8.747509002685547
+near_ood,matir_cup,real,Matir_Cup_1_cleaned.ply,0,cutting board,-35.69219207763672,4,-35.699960708618164,0.0077686309814453125
+near_ood,matir_cup,real,Matir_Cup_1_cleaned.ply,0,drum,-28.501792907714844,3,-29.20089626312256,0.6991033554077148
+near_ood,matir_cup,real,Matir_Cup_1_cleaned.ply,0,faucet,-33.265296936035156,5,-41.28995132446289,8.024654388427734
+near_ood,matir_cup,real,Matir_Cup_1_cleaned.ply,0,fire hydrant,-35.275001525878906,5,-33.81854438781738,-1.4564571380615234
+near_ood,matir_cup,real,Matir_Cup_1_cleaned.ply,0,flower pot,-31.13007354736328,4,-30.033885955810547,-1.0961875915527344
+near_ood,matir_cup,real,Matir_Cup_1_cleaned.ply,0,glass jar,-29.5992488861084,4,-24.017366409301758,-5.581882476806641
+near_ood,matir_cup,real,Matir_Cup_1_cleaned.ply,0,grinding stone,-30.984392166137695,5,-36.60917854309082,5.624786376953125
+near_ood,matir_cup,real,Matir_Cup_1_cleaned.ply,0,hand pump,-40.98912048339844,5,-37.17997169494629,-3.8091487884521484
+near_ood,matir_cup,real,Matir_Cup_1_cleaned.ply,0,keyboard,-27.20965003967285,3,-29.135533332824707,1.9258832931518555
+near_ood,matir_cup,real,Matir_Cup_1_cleaned.ply,0,lantern,-27.03292465209961,4,-26.242703437805176,-0.7902212142944336
+near_ood,matir_cup,real,Matir_Cup_1_cleaned.ply,0,laptop,-23.191097259521484,3,-27.948243141174316,4.757145881652832
+near_ood,matir_cup,real,Matir_Cup_1_cleaned.ply,0,low stool,-37.97724914550781,5,-45.47221755981445,7.494968414306641
+near_ood,matir_cup,real,Matir_Cup_1_cleaned.ply,0,push cart,-35.4217643737793,4,-33.10416603088379,-2.317598342895508
+near_ood,matir_cup,real,Matir_Cup_1_cleaned.ply,0,rickshaw,-40.26286315917969,6,-44.995426177978516,4.732563018798828
+near_ood,matir_cup,real,Matir_Cup_1_cleaned.ply,0,rolling pin,-29.651844024658203,4,-29.571860313415527,-0.07998371124267578
+near_ood,matir_cup,real,Matir_Cup_1_cleaned.ply,0,shelf,-36.08890914916992,4,-31.957433700561523,-4.131475448608398
+near_ood,matir_cup,real,Matir_Cup_1_cleaned.ply,0,stool,-24.75177764892578,4,-32.35316276550293,7.601385116577148
+near_ood,matir_cup,real,Matir_Cup_1_cleaned.ply,0,table,-30.336261749267578,3,-28.690317153930664,-1.645944595336914
+near_ood,matir_cup,real,Matir_Cup_1_cleaned.ply,0,teapot,-26.21700668334961,5,-33.266414642333984,7.049407958984375
+near_ood,matir_cup,real,Matir_Cup_1_cleaned.ply,0,tray,-27.9765567779541,4,-32.92070484161377,4.944148063659668
+near_ood,matir_cup,real,Matir_Cup_1_cleaned.ply,0,tricycle,-26.808895111083984,5,-27.19069480895996,0.38179969787597656
+near_ood,matir_cup,real,Matir_Cup_1_cleaned.ply,0,vase,-24.545150756835938,4,-28.582079887390137,4.036929130554199
+near_ood,matir_cup,real,Matir_Cup_1_cleaned.ply,0,wagon,-26.531492233276367,4,-31.235685348510742,4.704193115234375
+near_ood,matir_cup,real,Matir_Cup_1_cleaned.ply,0,water jug,-29.989614486694336,4,-34.04897117614746,4.059356689453125
+near_ood,muura,real,Muura_1_cleaned.ply,0,bamboo tray,-37.78834533691406,8,-41.7613582611084,3.973012924194336
+near_ood,muura,real,Muura_1_cleaned.ply,0,basket,-28.35083770751953,3,-27.26796245574951,-1.0828752517700195
+near_ood,muura,real,Muura_1_cleaned.ply,0,bench,-22.695236206054688,4,-37.14804267883301,14.45280647277832
+near_ood,muura,real,Muura_1_cleaned.ply,0,book stand,-27.09115219116211,4,-37.61955642700195,10.528404235839844
+near_ood,muura,real,Muura_1_cleaned.ply,0,bookshelf,-23.428234100341797,5,-29.061694145202637,5.63346004486084
+near_ood,muura,real,Muura_1_cleaned.ply,0,bowl,-24.514183044433594,4,-24.654773712158203,0.14059066772460938
+near_ood,muura,real,Muura_1_cleaned.ply,0,box,-27.583152770996094,3,-29.49934482574463,1.9161920547485352
+near_ood,muura,real,Muura_1_cleaned.ply,0,bucket,-28.89907455444336,3,-29.70991611480713,0.8108415603637695
+near_ood,muura,real,Muura_1_cleaned.ply,0,candle,-28.95454216003418,4,-29.054649353027344,0.10010719299316406
+near_ood,muura,real,Muura_1_cleaned.ply,0,cane stool,-35.12522888183594,6,-41.2480525970459,6.122823715209961
+near_ood,muura,real,Muura_1_cleaned.ply,0,carriage,-29.950565338134766,3,-28.10142421722412,-1.8491411209106445
+near_ood,muura,real,Muura_1_cleaned.ply,0,chair,-17.906606674194336,3,-29.07843017578125,11.171823501586914
+near_ood,muura,real,Muura_1_cleaned.ply,0,clay cup,-35.19822692871094,5,-39.37798881530762,4.17976188659668
+near_ood,muura,real,Muura_1_cleaned.ply,0,cooking pot,-31.091785430908203,5,-31.720961570739746,0.629176139831543
+near_ood,muura,real,Muura_1_cleaned.ply,0,cup,-26.323253631591797,3,-25.894363403320312,-0.4288902282714844
+near_ood,muura,real,Muura_1_cleaned.ply,0,cutting board,-33.32309341430664,4,-35.699960708618164,2.3768672943115234
+near_ood,muura,real,Muura_1_cleaned.ply,0,drum,-23.77408218383789,3,-29.20089626312256,5.426814079284668
+near_ood,muura,real,Muura_1_cleaned.ply,0,faucet,-31.703937530517578,5,-41.28995132446289,9.586013793945312
+near_ood,muura,real,Muura_1_cleaned.ply,0,fire hydrant,-30.000171661376953,5,-33.81854438781738,3.8183727264404297
+near_ood,muura,real,Muura_1_cleaned.ply,0,flower pot,-31.226703643798828,4,-30.033885955810547,-1.1928176879882812
+near_ood,muura,real,Muura_1_cleaned.ply,0,glass jar,-25.173063278198242,4,-24.017366409301758,-1.1556968688964844
+near_ood,muura,real,Muura_1_cleaned.ply,0,grinding stone,-29.72091293334961,5,-36.60917854309082,6.888265609741211
+near_ood,muura,real,Muura_1_cleaned.ply,0,hand pump,-32.88335418701172,5,-37.17997169494629,4.29661750793457
+near_ood,muura,real,Muura_1_cleaned.ply,0,keyboard,-24.48853302001953,3,-29.135533332824707,4.647000312805176
+near_ood,muura,real,Muura_1_cleaned.ply,0,lantern,-26.97549819946289,4,-26.242703437805176,-0.7327947616577148
+near_ood,muura,real,Muura_1_cleaned.ply,0,laptop,-24.1823787689209,3,-27.948243141174316,3.765864372253418
+near_ood,muura,real,Muura_1_cleaned.ply,0,low stool,-28.26513671875,5,-45.47221755981445,17.207080841064453
+near_ood,muura,real,Muura_1_cleaned.ply,0,push cart,-32.65735626220703,4,-33.10416603088379,0.4468097686767578
+near_ood,muura,real,Muura_1_cleaned.ply,0,rickshaw,-37.63011169433594,6,-44.995426177978516,7.365314483642578
+near_ood,muura,real,Muura_1_cleaned.ply,0,rolling pin,-30.880769729614258,4,-29.571860313415527,-1.3089094161987305
+near_ood,muura,real,Muura_1_cleaned.ply,0,shelf,-31.024703979492188,4,-31.957433700561523,0.9327297210693359
+near_ood,muura,real,Muura_1_cleaned.ply,0,stool,-17.039518356323242,4,-32.35316276550293,15.313644409179688
+near_ood,muura,real,Muura_1_cleaned.ply,0,table,-23.506561279296875,3,-28.690317153930664,5.183755874633789
+near_ood,muura,real,Muura_1_cleaned.ply,0,teapot,-28.057025909423828,5,-33.266414642333984,5.209388732910156
+near_ood,muura,real,Muura_1_cleaned.ply,0,tray,-29.950382232666016,4,-32.92070484161377,2.970322608947754
+near_ood,muura,real,Muura_1_cleaned.ply,0,tricycle,-28.21330451965332,5,-27.19069480895996,-1.0226097106933594
+near_ood,muura,real,Muura_1_cleaned.ply,0,vase,-20.44443130493164,4,-28.582079887390137,8.137648582458496
+near_ood,muura,real,Muura_1_cleaned.ply,0,wagon,-31.970338821411133,4,-31.235685348510742,-0.7346534729003906
+near_ood,muura,real,Muura_1_cleaned.ply,0,water jug,-30.63208770751953,4,-34.04897117614746,3.4168834686279297
+near_ood,patil,real,Patil_1_cleaned.ply,0,bamboo tray,-32.65413284301758,8,-41.7613582611084,9.10722541809082
+near_ood,patil,real,Patil_1_cleaned.ply,0,basket,-26.974668502807617,3,-27.26796245574951,0.29329395294189453
+near_ood,patil,real,Patil_1_cleaned.ply,0,bench,-30.10346221923828,4,-37.14804267883301,7.044580459594727
+near_ood,patil,real,Patil_1_cleaned.ply,0,book stand,-35.27445983886719,4,-37.61955642700195,2.3450965881347656
+near_ood,patil,real,Patil_1_cleaned.ply,0,bookshelf,-27.828641891479492,5,-29.061694145202637,1.2330522537231445
+near_ood,patil,real,Patil_1_cleaned.ply,0,bowl,-17.598726272583008,4,-24.654773712158203,7.056047439575195
+near_ood,patil,real,Patil_1_cleaned.ply,0,box,-28.01222038269043,3,-29.49934482574463,1.4871244430541992
+near_ood,patil,real,Patil_1_cleaned.ply,0,bucket,-28.285627365112305,3,-29.70991611480713,1.4242887496948242
+near_ood,patil,real,Patil_1_cleaned.ply,0,candle,-24.262353897094727,4,-29.054649353027344,4.792295455932617
+near_ood,patil,real,Patil_1_cleaned.ply,0,cane stool,-42.01997375488281,6,-41.2480525970459,-0.7719211578369141
+near_ood,patil,real,Patil_1_cleaned.ply,0,carriage,-25.548049926757812,3,-28.10142421722412,2.5533742904663086
+near_ood,patil,real,Patil_1_cleaned.ply,0,chair,-25.2447452545166,3,-29.07843017578125,3.8336849212646484
+near_ood,patil,real,Patil_1_cleaned.ply,0,clay cup,-28.945087432861328,5,-39.37798881530762,10.432901382446289
+near_ood,patil,real,Patil_1_cleaned.ply,0,cooking pot,-25.080394744873047,5,-31.720961570739746,6.640566825866699
+near_ood,patil,real,Patil_1_cleaned.ply,0,cup,-19.88145637512207,3,-25.894363403320312,6.012907028198242
+near_ood,patil,real,Patil_1_cleaned.ply,0,cutting board,-32.97529983520508,4,-35.699960708618164,2.724660873413086
+near_ood,patil,real,Patil_1_cleaned.ply,0,drum,-28.54193878173828,3,-29.20089626312256,0.6589574813842773
+near_ood,patil,real,Patil_1_cleaned.ply,0,faucet,-32.65305709838867,5,-41.28995132446289,8.636894226074219
+near_ood,patil,real,Patil_1_cleaned.ply,0,fire hydrant,-30.760770797729492,5,-33.81854438781738,3.0577735900878906
+near_ood,patil,real,Patil_1_cleaned.ply,0,flower pot,-29.58393096923828,4,-30.033885955810547,0.4499549865722656
+near_ood,patil,real,Patil_1_cleaned.ply,0,glass jar,-29.931385040283203,4,-24.017366409301758,-5.914018630981445
+near_ood,patil,real,Patil_1_cleaned.ply,0,grinding stone,-28.02678680419922,5,-36.60917854309082,8.582391738891602
+near_ood,patil,real,Patil_1_cleaned.ply,0,hand pump,-36.998531341552734,5,-37.17997169494629,0.1814403533935547
+near_ood,patil,real,Patil_1_cleaned.ply,0,keyboard,-28.15166473388672,3,-29.135533332824707,0.9838685989379883
+near_ood,patil,real,Patil_1_cleaned.ply,0,lantern,-25.441328048706055,4,-26.242703437805176,0.8013753890991211
+near_ood,patil,real,Patil_1_cleaned.ply,0,laptop,-23.502573013305664,3,-27.948243141174316,4.445670127868652
+near_ood,patil,real,Patil_1_cleaned.ply,0,low stool,-37.726295471191406,5,-45.47221755981445,7.745922088623047
+near_ood,patil,real,Patil_1_cleaned.ply,0,push cart,-31.463905334472656,4,-33.10416603088379,1.6402606964111328
+near_ood,patil,real,Patil_1_cleaned.ply,0,rickshaw,-38.096797943115234,6,-44.995426177978516,6.898628234863281
+near_ood,patil,real,Patil_1_cleaned.ply,0,rolling pin,-31.017139434814453,4,-29.571860313415527,-1.4452791213989258
+near_ood,patil,real,Patil_1_cleaned.ply,0,shelf,-31.769290924072266,4,-31.957433700561523,0.1881427764892578
+near_ood,patil,real,Patil_1_cleaned.ply,0,stool,-25.62548828125,4,-32.35316276550293,6.72767448425293
+near_ood,patil,real,Patil_1_cleaned.ply,0,table,-29.181011199951172,3,-28.690317153930664,-0.4906940460205078
+near_ood,patil,real,Patil_1_cleaned.ply,0,teapot,-24.042709350585938,5,-33.266414642333984,9.223705291748047
+near_ood,patil,real,Patil_1_cleaned.ply,0,tray,-30.030683517456055,4,-32.92070484161377,2.890021324157715
+near_ood,patil,real,Patil_1_cleaned.ply,0,tricycle,-24.539203643798828,5,-27.19069480895996,2.651491165161133
+near_ood,patil,real,Patil_1_cleaned.ply,0,vase,-23.801239013671875,4,-28.582079887390137,4.780840873718262
+near_ood,patil,real,Patil_1_cleaned.ply,0,wagon,-31.770545959472656,4,-31.235685348510742,-0.5348606109619141
+near_ood,patil,real,Patil_1_cleaned.ply,0,water jug,-31.545509338378906,4,-34.04897117614746,2.5034618377685547
+near_ood,patil,real,Patil_2_cleaned.ply,0,bamboo tray,-31.98592758178711,8,-41.7613582611084,9.775430679321289
+near_ood,patil,real,Patil_2_cleaned.ply,0,basket,-26.118589401245117,3,-27.26796245574951,1.1493730545043945
+near_ood,patil,real,Patil_2_cleaned.ply,0,bench,-26.72833824157715,4,-37.14804267883301,10.41970443725586
+near_ood,patil,real,Patil_2_cleaned.ply,0,book stand,-34.827884674072266,4,-37.61955642700195,2.7916717529296875
+near_ood,patil,real,Patil_2_cleaned.ply,0,bookshelf,-26.065296173095703,5,-29.061694145202637,2.9963979721069336
+near_ood,patil,real,Patil_2_cleaned.ply,0,bowl,-16.767086029052734,4,-24.654773712158203,7.887687683105469
+near_ood,patil,real,Patil_2_cleaned.ply,0,box,-26.027408599853516,3,-29.49934482574463,3.4719362258911133
+near_ood,patil,real,Patil_2_cleaned.ply,0,bucket,-27.388853073120117,3,-29.70991611480713,2.3210630416870117
+near_ood,patil,real,Patil_2_cleaned.ply,0,candle,-25.514305114746094,4,-29.054649353027344,3.54034423828125
+near_ood,patil,real,Patil_2_cleaned.ply,0,cane stool,-40.87614059448242,6,-41.2480525970459,0.37191200256347656
+near_ood,patil,real,Patil_2_cleaned.ply,0,carriage,-25.451133728027344,3,-28.10142421722412,2.6502904891967773
+near_ood,patil,real,Patil_2_cleaned.ply,0,chair,-24.984909057617188,3,-29.07843017578125,4.0935211181640625
+near_ood,patil,real,Patil_2_cleaned.ply,0,clay cup,-29.24932098388672,5,-39.37798881530762,10.128667831420898
+near_ood,patil,real,Patil_2_cleaned.ply,0,cooking pot,-22.8646240234375,5,-31.720961570739746,8.856337547302246
+near_ood,patil,real,Patil_2_cleaned.ply,0,cup,-20.397907257080078,3,-25.894363403320312,5.496456146240234
+near_ood,patil,real,Patil_2_cleaned.ply,0,cutting board,-29.971561431884766,4,-35.699960708618164,5.728399276733398
+near_ood,patil,real,Patil_2_cleaned.ply,0,drum,-26.30329132080078,3,-29.20089626312256,2.8976049423217773
+near_ood,patil,real,Patil_2_cleaned.ply,0,faucet,-31.76123046875,5,-41.28995132446289,9.52872085571289
+near_ood,patil,real,Patil_2_cleaned.ply,0,fire hydrant,-28.436477661132812,5,-33.81854438781738,5.38206672668457
+near_ood,patil,real,Patil_2_cleaned.ply,0,flower pot,-27.755455017089844,4,-30.033885955810547,2.278430938720703
+near_ood,patil,real,Patil_2_cleaned.ply,0,glass jar,-26.003324508666992,4,-24.017366409301758,-1.9859580993652344
+near_ood,patil,real,Patil_2_cleaned.ply,0,grinding stone,-28.003299713134766,5,-36.60917854309082,8.605878829956055
+near_ood,patil,real,Patil_2_cleaned.ply,0,hand pump,-34.71166229248047,5,-37.17997169494629,2.4683094024658203
+near_ood,patil,real,Patil_2_cleaned.ply,0,keyboard,-28.486902236938477,3,-29.135533332824707,0.6486310958862305
+near_ood,patil,real,Patil_2_cleaned.ply,0,lantern,-24.250837326049805,4,-26.242703437805176,1.991866111755371
+near_ood,patil,real,Patil_2_cleaned.ply,0,laptop,-23.37010383605957,3,-27.948243141174316,4.578139305114746
+near_ood,patil,real,Patil_2_cleaned.ply,0,low stool,-35.01642608642578,5,-45.47221755981445,10.455791473388672
+near_ood,patil,real,Patil_2_cleaned.ply,0,push cart,-31.0776424407959,4,-33.10416603088379,2.0265235900878906
+near_ood,patil,real,Patil_2_cleaned.ply,0,rickshaw,-40.314048767089844,6,-44.995426177978516,4.681377410888672
+near_ood,patil,real,Patil_2_cleaned.ply,0,rolling pin,-26.682361602783203,4,-29.571860313415527,2.889498710632324
+near_ood,patil,real,Patil_2_cleaned.ply,0,shelf,-33.29308319091797,4,-31.957433700561523,-1.3356494903564453
+near_ood,patil,real,Patil_2_cleaned.ply,0,stool,-24.793827056884766,4,-32.35316276550293,7.559335708618164
+near_ood,patil,real,Patil_2_cleaned.ply,0,table,-28.2987060546875,3,-28.690317153930664,0.39161109924316406
+near_ood,patil,real,Patil_2_cleaned.ply,0,teapot,-23.336538314819336,5,-33.266414642333984,9.929876327514648
+near_ood,patil,real,Patil_2_cleaned.ply,0,tray,-29.412796020507812,4,-32.92070484161377,3.507908821105957
+near_ood,patil,real,Patil_2_cleaned.ply,0,tricycle,-23.390336990356445,5,-27.19069480895996,3.8003578186035156
+near_ood,patil,real,Patil_2_cleaned.ply,0,vase,-23.893922805786133,4,-28.582079887390137,4.688157081604004
+near_ood,patil,real,Patil_2_cleaned.ply,0,wagon,-33.80146026611328,4,-31.235685348510742,-2.565774917602539
+near_ood,patil,real,Patil_2_cleaned.ply,0,water jug,-30.329975128173828,4,-34.04897117614746,3.718996047973633
+near_ood,piri,real,Piri_1_cleaned.ply,0,bamboo tray,-36.18262481689453,8,-41.7613582611084,5.578733444213867
+near_ood,piri,real,Piri_1_cleaned.ply,0,basket,-30.577123641967773,3,-27.26796245574951,-3.3091611862182617
+near_ood,piri,real,Piri_1_cleaned.ply,0,bench,-18.312198638916016,4,-37.14804267883301,18.835844039916992
+near_ood,piri,real,Piri_1_cleaned.ply,0,book stand,-32.46839141845703,4,-37.61955642700195,5.151165008544922
+near_ood,piri,real,Piri_1_cleaned.ply,0,bookshelf,-26.289451599121094,5,-29.061694145202637,2.772242546081543
+near_ood,piri,real,Piri_1_cleaned.ply,0,bowl,-25.112945556640625,4,-24.654773712158203,-0.4581718444824219
+near_ood,piri,real,Piri_1_cleaned.ply,0,box,-23.72127914428711,3,-29.49934482574463,5.7780656814575195
+near_ood,piri,real,Piri_1_cleaned.ply,0,bucket,-30.17169952392578,3,-29.70991611480713,-0.46178340911865234
+near_ood,piri,real,Piri_1_cleaned.ply,0,candle,-29.430681228637695,4,-29.054649353027344,-0.37603187561035156
+near_ood,piri,real,Piri_1_cleaned.ply,0,cane stool,-40.23809814453125,6,-41.2480525970459,1.0099544525146484
+near_ood,piri,real,Piri_1_cleaned.ply,0,carriage,-26.115604400634766,3,-28.10142421722412,1.9858198165893555
+near_ood,piri,real,Piri_1_cleaned.ply,0,chair,-19.56385040283203,3,-29.07843017578125,9.514579772949219
+near_ood,piri,real,Piri_1_cleaned.ply,0,clay cup,-39.18661117553711,5,-39.37798881530762,0.1913776397705078
+near_ood,piri,real,Piri_1_cleaned.ply,0,cooking pot,-37.966495513916016,5,-31.720961570739746,-6.2455339431762695
+near_ood,piri,real,Piri_1_cleaned.ply,0,cup,-30.82877540588379,3,-25.894363403320312,-4.934412002563477
+near_ood,piri,real,Piri_1_cleaned.ply,0,cutting board,-27.405397415161133,4,-35.699960708618164,8.294563293457031
+near_ood,piri,real,Piri_1_cleaned.ply,0,drum,-30.936237335205078,3,-29.20089626312256,-1.7353410720825195
+near_ood,piri,real,Piri_1_cleaned.ply,0,faucet,-36.0228385925293,5,-41.28995132446289,5.267112731933594
+near_ood,piri,real,Piri_1_cleaned.ply,0,fire hydrant,-32.52324295043945,5,-33.81854438781738,1.2953014373779297
+near_ood,piri,real,Piri_1_cleaned.ply,0,flower pot,-31.559146881103516,4,-30.033885955810547,-1.5252609252929688
+near_ood,piri,real,Piri_1_cleaned.ply,0,glass jar,-32.93020248413086,4,-24.017366409301758,-8.912836074829102
+near_ood,piri,real,Piri_1_cleaned.ply,0,grinding stone,-24.208553314208984,5,-36.60917854309082,12.400625228881836
+near_ood,piri,real,Piri_1_cleaned.ply,0,hand pump,-34.238712310791016,5,-37.17997169494629,2.9412593841552734
+near_ood,piri,real,Piri_1_cleaned.ply,0,keyboard,-25.170135498046875,3,-29.135533332824707,3.965397834777832
+near_ood,piri,real,Piri_1_cleaned.ply,0,lantern,-29.168962478637695,4,-26.242703437805176,-2.9262590408325195
+near_ood,piri,real,Piri_1_cleaned.ply,0,laptop,-23.341909408569336,3,-27.948243141174316,4.6063337326049805
+near_ood,piri,real,Piri_1_cleaned.ply,0,low stool,-29.004127502441406,5,-45.47221755981445,16.468090057373047
+near_ood,piri,real,Piri_1_cleaned.ply,0,push cart,-28.904033660888672,4,-33.10416603088379,4.200132369995117
+near_ood,piri,real,Piri_1_cleaned.ply,0,rickshaw,-40.274505615234375,6,-44.995426177978516,4.720920562744141
+near_ood,piri,real,Piri_1_cleaned.ply,0,rolling pin,-32.437870025634766,4,-29.571860313415527,-2.8660097122192383
+near_ood,piri,real,Piri_1_cleaned.ply,0,shelf,-22.625890731811523,4,-31.957433700561523,9.33154296875
+near_ood,piri,real,Piri_1_cleaned.ply,0,stool,-17.410198211669922,4,-32.35316276550293,14.942964553833008
+near_ood,piri,real,Piri_1_cleaned.ply,0,table,-19.25745964050293,3,-28.690317153930664,9.432857513427734
+near_ood,piri,real,Piri_1_cleaned.ply,0,teapot,-34.16864776611328,5,-33.266414642333984,-0.9022331237792969
+near_ood,piri,real,Piri_1_cleaned.ply,0,tray,-25.731975555419922,4,-32.92070484161377,7.188729286193848
+near_ood,piri,real,Piri_1_cleaned.ply,0,tricycle,-25.741424560546875,5,-27.19069480895996,1.449270248413086
+near_ood,piri,real,Piri_1_cleaned.ply,0,vase,-30.66489028930664,4,-28.582079887390137,-2.082810401916504
+near_ood,piri,real,Piri_1_cleaned.ply,0,wagon,-30.5487060546875,4,-31.235685348510742,0.6869792938232422
+near_ood,piri,real,Piri_1_cleaned.ply,0,water jug,-39.10890197753906,4,-34.04897117614746,-5.059930801391602
+near_ood,piri,real,Piri_2_cleaned.ply,0,bamboo tray,-32.2024040222168,8,-41.7613582611084,9.558954238891602
+near_ood,piri,real,Piri_2_cleaned.ply,0,basket,-26.606388092041016,3,-27.26796245574951,0.6615743637084961
+near_ood,piri,real,Piri_2_cleaned.ply,0,bench,-23.106538772583008,4,-37.14804267883301,14.04150390625
+near_ood,piri,real,Piri_2_cleaned.ply,0,book stand,-31.539302825927734,4,-37.61955642700195,6.080253601074219
+near_ood,piri,real,Piri_2_cleaned.ply,0,bookshelf,-26.036672592163086,5,-29.061694145202637,3.025021553039551
+near_ood,piri,real,Piri_2_cleaned.ply,0,bowl,-24.31652069091797,4,-24.654773712158203,0.3382530212402344
+near_ood,piri,real,Piri_2_cleaned.ply,0,box,-24.537832260131836,3,-29.49934482574463,4.961512565612793
+near_ood,piri,real,Piri_2_cleaned.ply,0,bucket,-25.151039123535156,3,-29.70991611480713,4.558876991271973
+near_ood,piri,real,Piri_2_cleaned.ply,0,candle,-28.588077545166016,4,-29.054649353027344,0.4665718078613281
+near_ood,piri,real,Piri_2_cleaned.ply,0,cane stool,-40.26703643798828,6,-41.2480525970459,0.9810161590576172
+near_ood,piri,real,Piri_2_cleaned.ply,0,carriage,-25.77300453186035,3,-28.10142421722412,2.3284196853637695
+near_ood,piri,real,Piri_2_cleaned.ply,0,chair,-17.34465789794922,3,-29.07843017578125,11.733772277832031
+near_ood,piri,real,Piri_2_cleaned.ply,0,clay cup,-40.444091796875,5,-39.37798881530762,-1.0661029815673828
+near_ood,piri,real,Piri_2_cleaned.ply,0,cooking pot,-32.46750259399414,5,-31.720961570739746,-0.7465410232543945
+near_ood,piri,real,Piri_2_cleaned.ply,0,cup,-27.074081420898438,3,-25.894363403320312,-1.179718017578125
+near_ood,piri,real,Piri_2_cleaned.ply,0,cutting board,-24.5360050201416,4,-35.699960708618164,11.163955688476562
+near_ood,piri,real,Piri_2_cleaned.ply,0,drum,-29.766357421875,3,-29.20089626312256,-0.5654611587524414
+near_ood,piri,real,Piri_2_cleaned.ply,0,faucet,-33.800453186035156,5,-41.28995132446289,7.489498138427734
+near_ood,piri,real,Piri_2_cleaned.ply,0,fire hydrant,-32.842437744140625,5,-33.81854438781738,0.9761066436767578
+near_ood,piri,real,Piri_2_cleaned.ply,0,flower pot,-30.4166259765625,4,-30.033885955810547,-0.3827400207519531
+near_ood,piri,real,Piri_2_cleaned.ply,0,glass jar,-29.37366485595703,4,-24.017366409301758,-5.356298446655273
+near_ood,piri,real,Piri_2_cleaned.ply,0,grinding stone,-25.262622833251953,5,-36.60917854309082,11.346555709838867
+near_ood,piri,real,Piri_2_cleaned.ply,0,hand pump,-34.89912414550781,5,-37.17997169494629,2.2808475494384766
+near_ood,piri,real,Piri_2_cleaned.ply,0,keyboard,-26.381263732910156,3,-29.135533332824707,2.754269599914551
+near_ood,piri,real,Piri_2_cleaned.ply,0,lantern,-25.82004737854004,4,-26.242703437805176,0.4226560592651367
+near_ood,piri,real,Piri_2_cleaned.ply,0,laptop,-23.416183471679688,3,-27.948243141174316,4.532059669494629
+near_ood,piri,real,Piri_2_cleaned.ply,0,low stool,-31.169811248779297,5,-45.47221755981445,14.302406311035156
+near_ood,piri,real,Piri_2_cleaned.ply,0,push cart,-26.47897720336914,4,-33.10416603088379,6.625188827514648
+near_ood,piri,real,Piri_2_cleaned.ply,0,rickshaw,-40.59767150878906,6,-44.995426177978516,4.397754669189453
+near_ood,piri,real,Piri_2_cleaned.ply,0,rolling pin,-29.70206069946289,4,-29.571860313415527,-0.13020038604736328
+near_ood,piri,real,Piri_2_cleaned.ply,0,shelf,-23.347640991210938,4,-31.957433700561523,8.609792709350586
+near_ood,piri,real,Piri_2_cleaned.ply,0,stool,-16.823650360107422,4,-32.35316276550293,15.529512405395508
+near_ood,piri,real,Piri_2_cleaned.ply,0,table,-22.862545013427734,3,-28.690317153930664,5.82777214050293
+near_ood,piri,real,Piri_2_cleaned.ply,0,teapot,-32.852684020996094,5,-33.266414642333984,0.4137306213378906
+near_ood,piri,real,Piri_2_cleaned.ply,0,tray,-26.707660675048828,4,-32.92070484161377,6.213044166564941
+near_ood,piri,real,Piri_2_cleaned.ply,0,tricycle,-26.44928741455078,5,-27.19069480895996,0.7414073944091797
+near_ood,piri,real,Piri_2_cleaned.ply,0,vase,-24.319442749023438,4,-28.582079887390137,4.262637138366699
+near_ood,piri,real,Piri_2_cleaned.ply,0,wagon,-36.859901428222656,4,-31.235685348510742,-5.624216079711914
+near_ood,piri,real,Piri_2_cleaned.ply,0,water jug,-34.31715393066406,4,-34.04897117614746,-0.26818275451660156
+near_ood,piri,real,Piri_3_cleaned.ply,0,bamboo tray,-33.17243194580078,8,-41.7613582611084,8.588926315307617
+near_ood,piri,real,Piri_3_cleaned.ply,0,basket,-28.16895294189453,3,-27.26796245574951,-0.9009904861450195
+near_ood,piri,real,Piri_3_cleaned.ply,0,bench,-24.55556869506836,4,-37.14804267883301,12.592473983764648
+near_ood,piri,real,Piri_3_cleaned.ply,0,book stand,-32.06501770019531,4,-37.61955642700195,5.554538726806641
+near_ood,piri,real,Piri_3_cleaned.ply,0,bookshelf,-21.416492462158203,5,-29.061694145202637,7.645201683044434
+near_ood,piri,real,Piri_3_cleaned.ply,0,bowl,-23.539043426513672,4,-24.654773712158203,1.1157302856445312
+near_ood,piri,real,Piri_3_cleaned.ply,0,box,-20.375282287597656,3,-29.49934482574463,9.124062538146973
+near_ood,piri,real,Piri_3_cleaned.ply,0,bucket,-28.087162017822266,3,-29.70991611480713,1.6227540969848633
+near_ood,piri,real,Piri_3_cleaned.ply,0,candle,-25.29931640625,4,-29.054649353027344,3.7553329467773438
+near_ood,piri,real,Piri_3_cleaned.ply,0,cane stool,-40.543766021728516,6,-41.2480525970459,0.7042865753173828
+near_ood,piri,real,Piri_3_cleaned.ply,0,carriage,-23.53518295288086,3,-28.10142421722412,4.566241264343262
+near_ood,piri,real,Piri_3_cleaned.ply,0,chair,-21.65209197998047,3,-29.07843017578125,7.426338195800781
+near_ood,piri,real,Piri_3_cleaned.ply,0,clay cup,-33.92256164550781,5,-39.37798881530762,5.455427169799805
+near_ood,piri,real,Piri_3_cleaned.ply,0,cooking pot,-31.0655517578125,5,-31.720961570739746,0.6554098129272461
+near_ood,piri,real,Piri_3_cleaned.ply,0,cup,-25.86066436767578,3,-25.894363403320312,0.03369903564453125
+near_ood,piri,real,Piri_3_cleaned.ply,0,cutting board,-26.951404571533203,4,-35.699960708618164,8.748556137084961
+near_ood,piri,real,Piri_3_cleaned.ply,0,drum,-28.032695770263672,3,-29.20089626312256,1.1682004928588867
+near_ood,piri,real,Piri_3_cleaned.ply,0,faucet,-33.54669189453125,5,-41.28995132446289,7.743259429931641
+near_ood,piri,real,Piri_3_cleaned.ply,0,fire hydrant,-31.135391235351562,5,-33.81854438781738,2.6831531524658203
+near_ood,piri,real,Piri_3_cleaned.ply,0,flower pot,-29.26595687866211,4,-30.033885955810547,0.7679290771484375
+near_ood,piri,real,Piri_3_cleaned.ply,0,glass jar,-30.95038604736328,4,-24.017366409301758,-6.933019638061523
+near_ood,piri,real,Piri_3_cleaned.ply,0,grinding stone,-26.661911010742188,5,-36.60917854309082,9.947267532348633
+near_ood,piri,real,Piri_3_cleaned.ply,0,hand pump,-33.661136627197266,5,-37.17997169494629,3.5188350677490234
+near_ood,piri,real,Piri_3_cleaned.ply,0,keyboard,-25.655132293701172,3,-29.135533332824707,3.480401039123535
+near_ood,piri,real,Piri_3_cleaned.ply,0,lantern,-26.013700485229492,4,-26.242703437805176,0.2290029525756836
+near_ood,piri,real,Piri_3_cleaned.ply,0,laptop,-21.677936553955078,3,-27.948243141174316,6.270306587219238
+near_ood,piri,real,Piri_3_cleaned.ply,0,low stool,-33.95387268066406,5,-45.47221755981445,11.51834487915039
+near_ood,piri,real,Piri_3_cleaned.ply,0,push cart,-27.126483917236328,4,-33.10416603088379,5.977682113647461
+near_ood,piri,real,Piri_3_cleaned.ply,0,rickshaw,-41.48884201049805,6,-44.995426177978516,3.5065841674804688
+near_ood,piri,real,Piri_3_cleaned.ply,0,rolling pin,-28.005321502685547,4,-29.571860313415527,1.5665388107299805
+near_ood,piri,real,Piri_3_cleaned.ply,0,shelf,-24.81928253173828,4,-31.957433700561523,7.138151168823242
+near_ood,piri,real,Piri_3_cleaned.ply,0,stool,-25.11459732055664,4,-32.35316276550293,7.238565444946289
+near_ood,piri,real,Piri_3_cleaned.ply,0,table,-22.84888458251953,3,-28.690317153930664,5.841432571411133
+near_ood,piri,real,Piri_3_cleaned.ply,0,teapot,-32.3845329284668,5,-33.266414642333984,0.8818817138671875
+near_ood,piri,real,Piri_3_cleaned.ply,0,tray,-22.557392120361328,4,-32.92070484161377,10.363312721252441
+near_ood,piri,real,Piri_3_cleaned.ply,0,tricycle,-28.185340881347656,5,-27.19069480895996,-0.9946460723876953
+near_ood,piri,real,Piri_3_cleaned.ply,0,vase,-27.57342529296875,4,-28.582079887390137,1.0086545944213867
+near_ood,piri,real,Piri_3_cleaned.ply,0,wagon,-30.868446350097656,4,-31.235685348510742,0.36723899841308594
+near_ood,piri,real,Piri_3_cleaned.ply,0,water jug,-35.32359313964844,4,-34.04897117614746,-1.2746219635009766
+near_ood,piri,real,Piri_4_cleaned.ply,0,bamboo tray,-32.546470642089844,8,-41.7613582611084,9.214887619018555
+near_ood,piri,real,Piri_4_cleaned.ply,0,basket,-27.099502563476562,3,-27.26796245574951,0.16845989227294922
+near_ood,piri,real,Piri_4_cleaned.ply,0,bench,-23.12932777404785,4,-37.14804267883301,14.018714904785156
+near_ood,piri,real,Piri_4_cleaned.ply,0,book stand,-32.67699432373047,4,-37.61955642700195,4.942562103271484
+near_ood,piri,real,Piri_4_cleaned.ply,0,bookshelf,-25.084087371826172,5,-29.061694145202637,3.977606773376465
+near_ood,piri,real,Piri_4_cleaned.ply,0,bowl,-26.324378967285156,4,-24.654773712158203,-1.6696052551269531
+near_ood,piri,real,Piri_4_cleaned.ply,0,box,-18.51348304748535,3,-29.49934482574463,10.985861778259277
+near_ood,piri,real,Piri_4_cleaned.ply,0,bucket,-27.75396156311035,3,-29.70991611480713,1.9559545516967773
+near_ood,piri,real,Piri_4_cleaned.ply,0,candle,-28.668243408203125,4,-29.054649353027344,0.38640594482421875
+near_ood,piri,real,Piri_4_cleaned.ply,0,cane stool,-38.85239028930664,6,-41.2480525970459,2.395662307739258
+near_ood,piri,real,Piri_4_cleaned.ply,0,carriage,-24.662025451660156,3,-28.10142421722412,3.439398765563965
+near_ood,piri,real,Piri_4_cleaned.ply,0,chair,-19.127212524414062,3,-29.07843017578125,9.951217651367188
+near_ood,piri,real,Piri_4_cleaned.ply,0,clay cup,-35.50581359863281,5,-39.37798881530762,3.8721752166748047
+near_ood,piri,real,Piri_4_cleaned.ply,0,cooking pot,-34.34958267211914,5,-31.720961570739746,-2.6286211013793945
+near_ood,piri,real,Piri_4_cleaned.ply,0,cup,-28.906675338745117,3,-25.894363403320312,-3.0123119354248047
+near_ood,piri,real,Piri_4_cleaned.ply,0,cutting board,-27.699058532714844,4,-35.699960708618164,8.00090217590332
+near_ood,piri,real,Piri_4_cleaned.ply,0,drum,-30.453529357910156,3,-29.20089626312256,-1.2526330947875977
+near_ood,piri,real,Piri_4_cleaned.ply,0,faucet,-35.42485046386719,5,-41.28995132446289,5.865100860595703
+near_ood,piri,real,Piri_4_cleaned.ply,0,fire hydrant,-33.52402877807617,5,-33.81854438781738,0.29451560974121094
+near_ood,piri,real,Piri_4_cleaned.ply,0,flower pot,-30.1461238861084,4,-30.033885955810547,-0.11223793029785156
+near_ood,piri,real,Piri_4_cleaned.ply,0,glass jar,-29.43345069885254,4,-24.017366409301758,-5.416084289550781
+near_ood,piri,real,Piri_4_cleaned.ply,0,grinding stone,-26.818082809448242,5,-36.60917854309082,9.791095733642578
+near_ood,piri,real,Piri_4_cleaned.ply,0,hand pump,-32.07012939453125,5,-37.17997169494629,5.109842300415039
+near_ood,piri,real,Piri_4_cleaned.ply,0,keyboard,-25.512990951538086,3,-29.135533332824707,3.622542381286621
+near_ood,piri,real,Piri_4_cleaned.ply,0,lantern,-28.725618362426758,4,-26.242703437805176,-2.482914924621582
+near_ood,piri,real,Piri_4_cleaned.ply,0,laptop,-22.5953369140625,3,-27.948243141174316,5.352906227111816
+near_ood,piri,real,Piri_4_cleaned.ply,0,low stool,-32.797828674316406,5,-45.47221755981445,12.674388885498047
+near_ood,piri,real,Piri_4_cleaned.ply,0,push cart,-26.84804916381836,4,-33.10416603088379,6.25611686706543
+near_ood,piri,real,Piri_4_cleaned.ply,0,rickshaw,-42.08547592163086,6,-44.995426177978516,2.9099502563476562
+near_ood,piri,real,Piri_4_cleaned.ply,0,rolling pin,-31.820709228515625,4,-29.571860313415527,-2.2488489151000977
+near_ood,piri,real,Piri_4_cleaned.ply,0,shelf,-24.975704193115234,4,-31.957433700561523,6.981729507446289
+near_ood,piri,real,Piri_4_cleaned.ply,0,stool,-17.97553253173828,4,-32.35316276550293,14.377630233764648
+near_ood,piri,real,Piri_4_cleaned.ply,0,table,-19.9127140045166,3,-28.690317153930664,8.777603149414062
+near_ood,piri,real,Piri_4_cleaned.ply,0,teapot,-34.421142578125,5,-33.266414642333984,-1.1547279357910156
+near_ood,piri,real,Piri_4_cleaned.ply,0,tray,-24.932432174682617,4,-32.92070484161377,7.988272666931152
+near_ood,piri,real,Piri_4_cleaned.ply,0,tricycle,-25.569272994995117,5,-27.19069480895996,1.6214218139648438
+near_ood,piri,real,Piri_4_cleaned.ply,0,vase,-28.13833236694336,4,-28.582079887390137,0.44374752044677734
+near_ood,piri,real,Piri_4_cleaned.ply,0,wagon,-33.47829055786133,4,-31.235685348510742,-2.242605209350586
+near_ood,piri,real,Piri_4_cleaned.ply,0,water jug,-36.68806457519531,4,-34.04897117614746,-2.6390933990478516
+near_ood,rehal,real,Rehal_1_cleaned.ply,0,bamboo tray,-41.15311813354492,8,-41.7613582611084,0.6082401275634766
+near_ood,rehal,real,Rehal_1_cleaned.ply,0,basket,-30.113086700439453,3,-27.26796245574951,-2.8451242446899414
+near_ood,rehal,real,Rehal_1_cleaned.ply,0,bench,-17.93714141845703,4,-37.14804267883301,19.210901260375977
+near_ood,rehal,real,Rehal_1_cleaned.ply,0,book stand,-26.439620971679688,4,-37.61955642700195,11.179935455322266
+near_ood,rehal,real,Rehal_1_cleaned.ply,0,bookshelf,-23.34571647644043,5,-29.061694145202637,5.715977668762207
+near_ood,rehal,real,Rehal_1_cleaned.ply,0,bowl,-26.9355525970459,4,-24.654773712158203,-2.2807788848876953
+near_ood,rehal,real,Rehal_1_cleaned.ply,0,box,-28.779254913330078,3,-29.49934482574463,0.7200899124145508
+near_ood,rehal,real,Rehal_1_cleaned.ply,0,bucket,-29.726139068603516,3,-29.70991611480713,-0.01622295379638672
+near_ood,rehal,real,Rehal_1_cleaned.ply,0,candle,-38.1270637512207,4,-29.054649353027344,-9.07241439819336
+near_ood,rehal,real,Rehal_1_cleaned.ply,0,cane stool,-35.18165588378906,6,-41.2480525970459,6.066396713256836
+near_ood,rehal,real,Rehal_1_cleaned.ply,0,carriage,-25.85073471069336,3,-28.10142421722412,2.2506895065307617
+near_ood,rehal,real,Rehal_1_cleaned.ply,0,chair,-18.952468872070312,3,-29.07843017578125,10.125961303710938
+near_ood,rehal,real,Rehal_1_cleaned.ply,0,clay cup,-40.56161880493164,5,-39.37798881530762,-1.1836299896240234
+near_ood,rehal,real,Rehal_1_cleaned.ply,0,cooking pot,-41.96711730957031,5,-31.720961570739746,-10.246155738830566
+near_ood,rehal,real,Rehal_1_cleaned.ply,0,cup,-35.06073760986328,3,-25.894363403320312,-9.166374206542969
+near_ood,rehal,real,Rehal_1_cleaned.ply,0,cutting board,-30.543655395507812,4,-35.699960708618164,5.156305313110352
+near_ood,rehal,real,Rehal_1_cleaned.ply,0,drum,-30.21996307373047,3,-29.20089626312256,-1.0190668106079102
+near_ood,rehal,real,Rehal_1_cleaned.ply,0,faucet,-36.457481384277344,5,-41.28995132446289,4.832469940185547
+near_ood,rehal,real,Rehal_1_cleaned.ply,0,fire hydrant,-38.221473693847656,5,-33.81854438781738,-4.402929306030273
+near_ood,rehal,real,Rehal_1_cleaned.ply,0,flower pot,-36.14945983886719,4,-30.033885955810547,-6.115573883056641
+near_ood,rehal,real,Rehal_1_cleaned.ply,0,glass jar,-37.007789611816406,4,-24.017366409301758,-12.990423202514648
+near_ood,rehal,real,Rehal_1_cleaned.ply,0,grinding stone,-29.198488235473633,5,-36.60917854309082,7.4106903076171875
+near_ood,rehal,real,Rehal_1_cleaned.ply,0,hand pump,-35.68412780761719,5,-37.17997169494629,1.4958438873291016
+near_ood,rehal,real,Rehal_1_cleaned.ply,0,keyboard,-23.52836036682129,3,-29.135533332824707,5.607172966003418
+near_ood,rehal,real,Rehal_1_cleaned.ply,0,lantern,-28.2821102142334,4,-26.242703437805176,-2.0394067764282227
+near_ood,rehal,real,Rehal_1_cleaned.ply,0,laptop,-24.49652099609375,3,-27.948243141174316,3.4517221450805664
+near_ood,rehal,real,Rehal_1_cleaned.ply,0,low stool,-28.814102172851562,5,-45.47221755981445,16.65811538696289
+near_ood,rehal,real,Rehal_1_cleaned.ply,0,push cart,-26.91582489013672,4,-33.10416603088379,6.18834114074707
+near_ood,rehal,real,Rehal_1_cleaned.ply,0,rickshaw,-42.63858413696289,6,-44.995426177978516,2.356842041015625
+near_ood,rehal,real,Rehal_1_cleaned.ply,0,rolling pin,-34.53278350830078,4,-29.571860313415527,-4.960923194885254
+near_ood,rehal,real,Rehal_1_cleaned.ply,0,shelf,-22.145057678222656,4,-31.957433700561523,9.812376022338867
+near_ood,rehal,real,Rehal_1_cleaned.ply,0,stool,-20.608943939208984,4,-32.35316276550293,11.744218826293945
+near_ood,rehal,real,Rehal_1_cleaned.ply,0,table,-18.81348419189453,3,-28.690317153930664,9.876832962036133
+near_ood,rehal,real,Rehal_1_cleaned.ply,0,teapot,-34.42970657348633,5,-33.266414642333984,-1.1632919311523438
+near_ood,rehal,real,Rehal_1_cleaned.ply,0,tray,-26.888267517089844,4,-32.92070484161377,6.032437324523926
+near_ood,rehal,real,Rehal_1_cleaned.ply,0,tricycle,-25.21337890625,5,-27.19069480895996,1.977315902709961
+near_ood,rehal,real,Rehal_1_cleaned.ply,0,vase,-32.06471252441406,4,-28.582079887390137,-3.482632637023926
+near_ood,rehal,real,Rehal_1_cleaned.ply,0,wagon,-29.73743438720703,4,-31.235685348510742,1.498250961303711
+near_ood,rehal,real,Rehal_1_cleaned.ply,0,water jug,-40.41425323486328,4,-34.04897117614746,-6.36528205871582
+far_ood,rickshaw,real,Rickshaw_1.ply,0,bamboo tray,-40.394168853759766,8,-41.7613582611084,1.3671894073486328
+far_ood,rickshaw,real,Rickshaw_1.ply,0,basket,-28.56611442565918,3,-27.26796245574951,-1.298151969909668
+far_ood,rickshaw,real,Rickshaw_1.ply,0,bench,-26.63581085205078,4,-37.14804267883301,10.512231826782227
+far_ood,rickshaw,real,Rickshaw_1.ply,0,book stand,-33.35027313232422,4,-37.61955642700195,4.269283294677734
+far_ood,rickshaw,real,Rickshaw_1.ply,0,bookshelf,-27.40235137939453,5,-29.061694145202637,1.6593427658081055
+far_ood,rickshaw,real,Rickshaw_1.ply,0,bowl,-28.856094360351562,4,-24.654773712158203,-4.201320648193359
+far_ood,rickshaw,real,Rickshaw_1.ply,0,box,-28.59442901611328,3,-29.49934482574463,0.9049158096313477
+far_ood,rickshaw,real,Rickshaw_1.ply,0,bucket,-29.795387268066406,3,-29.70991611480713,-0.08547115325927734
+far_ood,rickshaw,real,Rickshaw_1.ply,0,candle,-35.152774810791016,4,-29.054649353027344,-6.098125457763672
+far_ood,rickshaw,real,Rickshaw_1.ply,0,cane stool,-38.968719482421875,6,-41.2480525970459,2.2793331146240234
+far_ood,rickshaw,real,Rickshaw_1.ply,0,carriage,-26.802509307861328,3,-28.10142421722412,1.298914909362793
+far_ood,rickshaw,real,Rickshaw_1.ply,0,chair,-23.82223892211914,3,-29.07843017578125,5.256191253662109
+far_ood,rickshaw,real,Rickshaw_1.ply,0,clay cup,-39.49837112426758,5,-39.37798881530762,-0.12038230895996094
+far_ood,rickshaw,real,Rickshaw_1.ply,0,cooking pot,-30.773454666137695,5,-31.720961570739746,0.9475069046020508
+far_ood,rickshaw,real,Rickshaw_1.ply,0,cup,-29.36408233642578,3,-25.894363403320312,-3.4697189331054688
+far_ood,rickshaw,real,Rickshaw_1.ply,0,cutting board,-31.676082611083984,4,-35.699960708618164,4.02387809753418
+far_ood,rickshaw,real,Rickshaw_1.ply,0,drum,-29.515331268310547,3,-29.20089626312256,-0.3144350051879883
+far_ood,rickshaw,real,Rickshaw_1.ply,0,faucet,-35.52019500732422,5,-41.28995132446289,5.769756317138672
+far_ood,rickshaw,real,Rickshaw_1.ply,0,fire hydrant,-33.398372650146484,5,-33.81854438781738,0.42017173767089844
+far_ood,rickshaw,real,Rickshaw_1.ply,0,flower pot,-29.951465606689453,4,-30.033885955810547,0.08242034912109375
+far_ood,rickshaw,real,Rickshaw_1.ply,0,glass jar,-34.860618591308594,4,-24.017366409301758,-10.843252182006836
+far_ood,rickshaw,real,Rickshaw_1.ply,0,grinding stone,-30.557941436767578,5,-36.60917854309082,6.051237106323242
+far_ood,rickshaw,real,Rickshaw_1.ply,0,hand pump,-32.712501525878906,5,-37.17997169494629,4.467470169067383
+far_ood,rickshaw,real,Rickshaw_1.ply,0,keyboard,-27.691394805908203,3,-29.135533332824707,1.444138526916504
+far_ood,rickshaw,real,Rickshaw_1.ply,0,lantern,-25.638301849365234,4,-26.242703437805176,0.6044015884399414
+far_ood,rickshaw,real,Rickshaw_1.ply,0,laptop,-27.869403839111328,3,-27.948243141174316,0.07883930206298828
+far_ood,rickshaw,real,Rickshaw_1.ply,0,low stool,-42.72862243652344,5,-45.47221755981445,2.7435951232910156
+far_ood,rickshaw,real,Rickshaw_1.ply,0,push cart,-28.587413787841797,4,-33.10416603088379,4.516752243041992
+far_ood,rickshaw,real,Rickshaw_1.ply,0,rickshaw,-39.59400939941406,6,-44.995426177978516,5.401416778564453
+far_ood,rickshaw,real,Rickshaw_1.ply,0,rolling pin,-28.4055118560791,4,-29.571860313415527,1.1663484573364258
+far_ood,rickshaw,real,Rickshaw_1.ply,0,shelf,-28.951650619506836,4,-31.957433700561523,3.0057830810546875
+far_ood,rickshaw,real,Rickshaw_1.ply,0,stool,-27.483665466308594,4,-32.35316276550293,4.869497299194336
+far_ood,rickshaw,real,Rickshaw_1.ply,0,table,-24.91436004638672,3,-28.690317153930664,3.7759571075439453
+far_ood,rickshaw,real,Rickshaw_1.ply,0,teapot,-30.679489135742188,5,-33.266414642333984,2.586925506591797
+far_ood,rickshaw,real,Rickshaw_1.ply,0,tray,-32.10112762451172,4,-32.92070484161377,0.8195772171020508
+far_ood,rickshaw,real,Rickshaw_1.ply,0,tricycle,-24.604442596435547,5,-27.19069480895996,2.586252212524414
+far_ood,rickshaw,real,Rickshaw_1.ply,0,vase,-28.018407821655273,4,-28.582079887390137,0.5636720657348633
+far_ood,rickshaw,real,Rickshaw_1.ply,0,wagon,-31.103904724121094,4,-31.235685348510742,0.13178062438964844
+far_ood,rickshaw,real,Rickshaw_1.ply,0,water jug,-36.46244812011719,4,-34.04897117614746,-2.4134769439697266
+far_ood,sheel_pata,real,Sheel_Pata_1_cleaned.ply,0,bamboo tray,-33.89796447753906,8,-41.7613582611084,7.863393783569336
+far_ood,sheel_pata,real,Sheel_Pata_1_cleaned.ply,0,basket,-30.015968322753906,3,-27.26796245574951,-2.7480058670043945
+far_ood,sheel_pata,real,Sheel_Pata_1_cleaned.ply,0,bench,-22.23055076599121,4,-37.14804267883301,14.917491912841797
+far_ood,sheel_pata,real,Sheel_Pata_1_cleaned.ply,0,book stand,-31.13650131225586,4,-37.61955642700195,6.483055114746094
+far_ood,sheel_pata,real,Sheel_Pata_1_cleaned.ply,0,bookshelf,-23.663223266601562,5,-29.061694145202637,5.398470878601074
+far_ood,sheel_pata,real,Sheel_Pata_1_cleaned.ply,0,bowl,-21.76271629333496,4,-24.654773712158203,2.892057418823242
+far_ood,sheel_pata,real,Sheel_Pata_1_cleaned.ply,0,box,-22.807340621948242,3,-29.49934482574463,6.692004203796387
+far_ood,sheel_pata,real,Sheel_Pata_1_cleaned.ply,0,bucket,-32.48426055908203,3,-29.70991611480713,-2.7743444442749023
+far_ood,sheel_pata,real,Sheel_Pata_1_cleaned.ply,0,candle,-30.173221588134766,4,-29.054649353027344,-1.1185722351074219
+far_ood,sheel_pata,real,Sheel_Pata_1_cleaned.ply,0,cane stool,-40.45951843261719,6,-41.2480525970459,0.7885341644287109
+far_ood,sheel_pata,real,Sheel_Pata_1_cleaned.ply,0,carriage,-25.05727195739746,3,-28.10142421722412,3.04415225982666
+far_ood,sheel_pata,real,Sheel_Pata_1_cleaned.ply,0,chair,-20.740169525146484,3,-29.07843017578125,8.338260650634766
+far_ood,sheel_pata,real,Sheel_Pata_1_cleaned.ply,0,clay cup,-36.98769760131836,5,-39.37798881530762,2.390291213989258
+far_ood,sheel_pata,real,Sheel_Pata_1_cleaned.ply,0,cooking pot,-30.368465423583984,5,-31.720961570739746,1.3524961471557617
+far_ood,sheel_pata,real,Sheel_Pata_1_cleaned.ply,0,cup,-29.68199920654297,3,-25.894363403320312,-3.7876358032226562
+far_ood,sheel_pata,real,Sheel_Pata_1_cleaned.ply,0,cutting board,-26.795806884765625,4,-35.699960708618164,8.904153823852539
+far_ood,sheel_pata,real,Sheel_Pata_1_cleaned.ply,0,drum,-28.95667266845703,3,-29.20089626312256,0.24422359466552734
+far_ood,sheel_pata,real,Sheel_Pata_1_cleaned.ply,0,faucet,-24.96719741821289,5,-41.28995132446289,16.32275390625
+far_ood,sheel_pata,real,Sheel_Pata_1_cleaned.ply,0,fire hydrant,-28.664241790771484,5,-33.81854438781738,5.154302597045898
+far_ood,sheel_pata,real,Sheel_Pata_1_cleaned.ply,0,flower pot,-26.622642517089844,4,-30.033885955810547,3.411243438720703
+far_ood,sheel_pata,real,Sheel_Pata_1_cleaned.ply,0,glass jar,-36.645912170410156,4,-24.017366409301758,-12.628545761108398
+far_ood,sheel_pata,real,Sheel_Pata_1_cleaned.ply,0,grinding stone,-23.62334442138672,5,-36.60917854309082,12.985834121704102
+far_ood,sheel_pata,real,Sheel_Pata_1_cleaned.ply,0,hand pump,-31.874797821044922,5,-37.17997169494629,5.305173873901367
+far_ood,sheel_pata,real,Sheel_Pata_1_cleaned.ply,0,keyboard,-23.235671997070312,3,-29.135533332824707,5.8998613357543945
+far_ood,sheel_pata,real,Sheel_Pata_1_cleaned.ply,0,lantern,-26.625812530517578,4,-26.242703437805176,-0.38310909271240234
+far_ood,sheel_pata,real,Sheel_Pata_1_cleaned.ply,0,laptop,-21.947494506835938,3,-27.948243141174316,6.000748634338379
+far_ood,sheel_pata,real,Sheel_Pata_1_cleaned.ply,0,low stool,-31.732769012451172,5,-45.47221755981445,13.739448547363281
+far_ood,sheel_pata,real,Sheel_Pata_1_cleaned.ply,0,push cart,-29.75653839111328,4,-33.10416603088379,3.347627639770508
+far_ood,sheel_pata,real,Sheel_Pata_1_cleaned.ply,0,rickshaw,-46.60793685913086,6,-44.995426177978516,-1.6125106811523438
+far_ood,sheel_pata,real,Sheel_Pata_1_cleaned.ply,0,rolling pin,-33.486854553222656,4,-29.571860313415527,-3.914994239807129
+far_ood,sheel_pata,real,Sheel_Pata_1_cleaned.ply,0,shelf,-24.5966854095459,4,-31.957433700561523,7.360748291015625
+far_ood,sheel_pata,real,Sheel_Pata_1_cleaned.ply,0,stool,-21.03131103515625,4,-32.35316276550293,11.32185173034668
+far_ood,sheel_pata,real,Sheel_Pata_1_cleaned.ply,0,table,-25.82292938232422,3,-28.690317153930664,2.8673877716064453
+far_ood,sheel_pata,real,Sheel_Pata_1_cleaned.ply,0,teapot,-31.417373657226562,5,-33.266414642333984,1.8490409851074219
+far_ood,sheel_pata,real,Sheel_Pata_1_cleaned.ply,0,tray,-22.0690860748291,4,-32.92070484161377,10.851618766784668
+far_ood,sheel_pata,real,Sheel_Pata_1_cleaned.ply,0,tricycle,-25.344234466552734,5,-27.19069480895996,1.8464603424072266
+far_ood,sheel_pata,real,Sheel_Pata_1_cleaned.ply,0,vase,-27.553773880004883,4,-28.582079887390137,1.028306007385254
+far_ood,sheel_pata,real,Sheel_Pata_1_cleaned.ply,0,wagon,-29.4702091217041,4,-31.235685348510742,1.7654762268066406
+far_ood,sheel_pata,real,Sheel_Pata_1_cleaned.ply,0,water jug,-31.20758056640625,4,-34.04897117614746,2.841390609741211
+far_ood,thela_gari,real,Thela_Gari_1_cleaned.ply,0,bamboo tray,-35.85791778564453,8,-41.7613582611084,5.903440475463867
+far_ood,thela_gari,real,Thela_Gari_1_cleaned.ply,0,basket,-29.813474655151367,3,-27.26796245574951,-2.5455121994018555
+far_ood,thela_gari,real,Thela_Gari_1_cleaned.ply,0,bench,-24.094112396240234,4,-37.14804267883301,13.053930282592773
+far_ood,thela_gari,real,Thela_Gari_1_cleaned.ply,0,book stand,-29.645118713378906,4,-37.61955642700195,7.974437713623047
+far_ood,thela_gari,real,Thela_Gari_1_cleaned.ply,0,bookshelf,-22.327592849731445,5,-29.061694145202637,6.734101295471191
+far_ood,thela_gari,real,Thela_Gari_1_cleaned.ply,0,bowl,-29.706750869750977,4,-24.654773712158203,-5.051977157592773
+far_ood,thela_gari,real,Thela_Gari_1_cleaned.ply,0,box,-26.301897048950195,3,-29.49934482574463,3.1974477767944336
+far_ood,thela_gari,real,Thela_Gari_1_cleaned.ply,0,bucket,-30.225391387939453,3,-29.70991611480713,-0.5154752731323242
+far_ood,thela_gari,real,Thela_Gari_1_cleaned.ply,0,candle,-31.588172912597656,4,-29.054649353027344,-2.5335235595703125
+far_ood,thela_gari,real,Thela_Gari_1_cleaned.ply,0,cane stool,-38.366539001464844,6,-41.2480525970459,2.8815135955810547
+far_ood,thela_gari,real,Thela_Gari_1_cleaned.ply,0,carriage,-21.289461135864258,3,-28.10142421722412,6.811963081359863
+far_ood,thela_gari,real,Thela_Gari_1_cleaned.ply,0,chair,-23.011486053466797,3,-29.07843017578125,6.066944122314453
+far_ood,thela_gari,real,Thela_Gari_1_cleaned.ply,0,clay cup,-38.06935501098633,5,-39.37798881530762,1.308633804321289
+far_ood,thela_gari,real,Thela_Gari_1_cleaned.ply,0,cooking pot,-31.82268714904785,5,-31.720961570739746,-0.10172557830810547
+far_ood,thela_gari,real,Thela_Gari_1_cleaned.ply,0,cup,-25.967849731445312,3,-25.894363403320312,-0.073486328125
+far_ood,thela_gari,real,Thela_Gari_1_cleaned.ply,0,cutting board,-28.89767837524414,4,-35.699960708618164,6.802282333374023
+far_ood,thela_gari,real,Thela_Gari_1_cleaned.ply,0,drum,-25.510028839111328,3,-29.20089626312256,3.6908674240112305
+far_ood,thela_gari,real,Thela_Gari_1_cleaned.ply,0,faucet,-34.88526916503906,5,-41.28995132446289,6.404682159423828
+far_ood,thela_gari,real,Thela_Gari_1_cleaned.ply,0,fire hydrant,-33.40447998046875,5,-33.81854438781738,0.4140644073486328
+far_ood,thela_gari,real,Thela_Gari_1_cleaned.ply,0,flower pot,-32.055877685546875,4,-30.033885955810547,-2.021991729736328
+far_ood,thela_gari,real,Thela_Gari_1_cleaned.ply,0,glass jar,-36.61668014526367,4,-24.017366409301758,-12.599313735961914
+far_ood,thela_gari,real,Thela_Gari_1_cleaned.ply,0,grinding stone,-27.77940559387207,5,-36.60917854309082,8.82977294921875
+far_ood,thela_gari,real,Thela_Gari_1_cleaned.ply,0,hand pump,-30.674793243408203,5,-37.17997169494629,6.505178451538086
+far_ood,thela_gari,real,Thela_Gari_1_cleaned.ply,0,keyboard,-23.279586791992188,3,-29.135533332824707,5.8559465408325195
+far_ood,thela_gari,real,Thela_Gari_1_cleaned.ply,0,lantern,-22.9785213470459,4,-26.242703437805176,3.2641820907592773
+far_ood,thela_gari,real,Thela_Gari_1_cleaned.ply,0,laptop,-23.904563903808594,3,-27.948243141174316,4.043679237365723
+far_ood,thela_gari,real,Thela_Gari_1_cleaned.ply,0,low stool,-34.00374984741211,5,-45.47221755981445,11.468467712402344
+far_ood,thela_gari,real,Thela_Gari_1_cleaned.ply,0,push cart,-24.716615676879883,4,-33.10416603088379,8.387550354003906
+far_ood,thela_gari,real,Thela_Gari_1_cleaned.ply,0,rickshaw,-32.03099060058594,6,-44.995426177978516,12.964435577392578
+far_ood,thela_gari,real,Thela_Gari_1_cleaned.ply,0,rolling pin,-31.567153930664062,4,-29.571860313415527,-1.9952936172485352
+far_ood,thela_gari,real,Thela_Gari_1_cleaned.ply,0,shelf,-25.116336822509766,4,-31.957433700561523,6.841096878051758
+far_ood,thela_gari,real,Thela_Gari_1_cleaned.ply,0,stool,-25.552335739135742,4,-32.35316276550293,6.8008270263671875
+far_ood,thela_gari,real,Thela_Gari_1_cleaned.ply,0,table,-23.114103317260742,3,-28.690317153930664,5.576213836669922
+far_ood,thela_gari,real,Thela_Gari_1_cleaned.ply,0,teapot,-31.045814514160156,5,-33.266414642333984,2.220600128173828
+far_ood,thela_gari,real,Thela_Gari_1_cleaned.ply,0,tray,-27.34646224975586,4,-32.92070484161377,5.57424259185791
+far_ood,thela_gari,real,Thela_Gari_1_cleaned.ply,0,tricycle,-25.526071548461914,5,-27.19069480895996,1.6646232604980469
+far_ood,thela_gari,real,Thela_Gari_1_cleaned.ply,0,vase,-29.01612091064453,4,-28.582079887390137,-0.43404102325439453
+far_ood,thela_gari,real,Thela_Gari_1_cleaned.ply,0,wagon,-22.353731155395508,4,-31.235685348510742,8.881954193115234
+far_ood,thela_gari,real,Thela_Gari_1_cleaned.ply,0,water jug,-36.93125534057617,4,-34.04897117614746,-2.882284164428711
+far_ood,thela_gari,real,Thela_Gari_2_cleaned.ply,0,bamboo tray,-35.55783462524414,8,-41.7613582611084,6.203523635864258
+far_ood,thela_gari,real,Thela_Gari_2_cleaned.ply,0,basket,-30.331069946289062,3,-27.26796245574951,-3.063107490539551
+far_ood,thela_gari,real,Thela_Gari_2_cleaned.ply,0,bench,-24.695104598999023,4,-37.14804267883301,12.452938079833984
+far_ood,thela_gari,real,Thela_Gari_2_cleaned.ply,0,book stand,-30.99428939819336,4,-37.61955642700195,6.625267028808594
+far_ood,thela_gari,real,Thela_Gari_2_cleaned.ply,0,bookshelf,-23.68818473815918,5,-29.061694145202637,5.373509407043457
+far_ood,thela_gari,real,Thela_Gari_2_cleaned.ply,0,bowl,-26.90144920349121,4,-24.654773712158203,-2.246675491333008
+far_ood,thela_gari,real,Thela_Gari_2_cleaned.ply,0,box,-25.633512496948242,3,-29.49934482574463,3.8658323287963867
+far_ood,thela_gari,real,Thela_Gari_2_cleaned.ply,0,bucket,-29.032928466796875,3,-29.70991611480713,0.6769876480102539
+far_ood,thela_gari,real,Thela_Gari_2_cleaned.ply,0,candle,-32.26213073730469,4,-29.054649353027344,-3.2074813842773438
+far_ood,thela_gari,real,Thela_Gari_2_cleaned.ply,0,cane stool,-38.072059631347656,6,-41.2480525970459,3.175992965698242
+far_ood,thela_gari,real,Thela_Gari_2_cleaned.ply,0,carriage,-22.406578063964844,3,-28.10142421722412,5.694846153259277
+far_ood,thela_gari,real,Thela_Gari_2_cleaned.ply,0,chair,-20.40306854248047,3,-29.07843017578125,8.675361633300781
+far_ood,thela_gari,real,Thela_Gari_2_cleaned.ply,0,clay cup,-38.835384368896484,5,-39.37798881530762,0.5426044464111328
+far_ood,thela_gari,real,Thela_Gari_2_cleaned.ply,0,cooking pot,-31.70400619506836,5,-31.720961570739746,0.01695537567138672
+far_ood,thela_gari,real,Thela_Gari_2_cleaned.ply,0,cup,-25.981088638305664,3,-25.894363403320312,-0.08672523498535156
+far_ood,thela_gari,real,Thela_Gari_2_cleaned.ply,0,cutting board,-26.361572265625,4,-35.699960708618164,9.338388442993164
+far_ood,thela_gari,real,Thela_Gari_2_cleaned.ply,0,drum,-27.491113662719727,3,-29.20089626312256,1.709782600402832
+far_ood,thela_gari,real,Thela_Gari_2_cleaned.ply,0,faucet,-35.92339324951172,5,-41.28995132446289,5.366558074951172
+far_ood,thela_gari,real,Thela_Gari_2_cleaned.ply,0,fire hydrant,-31.063034057617188,5,-33.81854438781738,2.7555103302001953
+far_ood,thela_gari,real,Thela_Gari_2_cleaned.ply,0,flower pot,-31.644371032714844,4,-30.033885955810547,-1.6104850769042969
+far_ood,thela_gari,real,Thela_Gari_2_cleaned.ply,0,glass jar,-34.34891128540039,4,-24.017366409301758,-10.331544876098633
+far_ood,thela_gari,real,Thela_Gari_2_cleaned.ply,0,grinding stone,-26.492036819458008,5,-36.60917854309082,10.117141723632812
+far_ood,thela_gari,real,Thela_Gari_2_cleaned.ply,0,hand pump,-30.795169830322266,5,-37.17997169494629,6.384801864624023
+far_ood,thela_gari,real,Thela_Gari_2_cleaned.ply,0,keyboard,-22.748666763305664,3,-29.135533332824707,6.386866569519043
+far_ood,thela_gari,real,Thela_Gari_2_cleaned.ply,0,lantern,-24.547657012939453,4,-26.242703437805176,1.6950464248657227
+far_ood,thela_gari,real,Thela_Gari_2_cleaned.ply,0,laptop,-22.6701602935791,3,-27.948243141174316,5.278082847595215
+far_ood,thela_gari,real,Thela_Gari_2_cleaned.ply,0,low stool,-30.96285629272461,5,-45.47221755981445,14.509361267089844
+far_ood,thela_gari,real,Thela_Gari_2_cleaned.ply,0,push cart,-24.094711303710938,4,-33.10416603088379,9.009454727172852
+far_ood,thela_gari,real,Thela_Gari_2_cleaned.ply,0,rickshaw,-32.59174728393555,6,-44.995426177978516,12.403678894042969
+far_ood,thela_gari,real,Thela_Gari_2_cleaned.ply,0,rolling pin,-35.65569305419922,4,-29.571860313415527,-6.083832740783691
+far_ood,thela_gari,real,Thela_Gari_2_cleaned.ply,0,shelf,-30.474563598632812,4,-31.957433700561523,1.482870101928711
+far_ood,thela_gari,real,Thela_Gari_2_cleaned.ply,0,stool,-26.571483612060547,4,-32.35316276550293,5.781679153442383
+far_ood,thela_gari,real,Thela_Gari_2_cleaned.ply,0,table,-23.08839988708496,3,-28.690317153930664,5.601917266845703
+far_ood,thela_gari,real,Thela_Gari_2_cleaned.ply,0,teapot,-29.86530303955078,5,-33.266414642333984,3.401111602783203
+far_ood,thela_gari,real,Thela_Gari_2_cleaned.ply,0,tray,-26.44675064086914,4,-32.92070484161377,6.473954200744629
+far_ood,thela_gari,real,Thela_Gari_2_cleaned.ply,0,tricycle,-26.522903442382812,5,-27.19069480895996,0.6677913665771484
+far_ood,thela_gari,real,Thela_Gari_2_cleaned.ply,0,vase,-27.850027084350586,4,-28.582079887390137,0.7320528030395508
+far_ood,thela_gari,real,Thela_Gari_2_cleaned.ply,0,wagon,-25.235477447509766,4,-31.235685348510742,6.000207901000977
+far_ood,thela_gari,real,Thela_Gari_2_cleaned.ply,0,water jug,-38.21026611328125,4,-34.04897117614746,-4.161294937133789
+far_ood,thela_gari,real,Thela_Gari_3_cleaned.ply,0,bamboo tray,-38.34669494628906,8,-41.7613582611084,3.414663314819336
+far_ood,thela_gari,real,Thela_Gari_3_cleaned.ply,0,basket,-30.753440856933594,3,-27.26796245574951,-3.485478401184082
+far_ood,thela_gari,real,Thela_Gari_3_cleaned.ply,0,bench,-24.643428802490234,4,-37.14804267883301,12.504613876342773
+far_ood,thela_gari,real,Thela_Gari_3_cleaned.ply,0,book stand,-31.47146224975586,4,-37.61955642700195,6.148094177246094
+far_ood,thela_gari,real,Thela_Gari_3_cleaned.ply,0,bookshelf,-24.130603790283203,5,-29.061694145202637,4.931090354919434
+far_ood,thela_gari,real,Thela_Gari_3_cleaned.ply,0,bowl,-30.369665145874023,4,-24.654773712158203,-5.71489143371582
+far_ood,thela_gari,real,Thela_Gari_3_cleaned.ply,0,box,-27.551767349243164,3,-29.49934482574463,1.9475774765014648
+far_ood,thela_gari,real,Thela_Gari_3_cleaned.ply,0,bucket,-31.74957275390625,3,-29.70991611480713,-2.039656639099121
+far_ood,thela_gari,real,Thela_Gari_3_cleaned.ply,0,candle,-29.898929595947266,4,-29.054649353027344,-0.8442802429199219
+far_ood,thela_gari,real,Thela_Gari_3_cleaned.ply,0,cane stool,-39.55226516723633,6,-41.2480525970459,1.6957874298095703
+far_ood,thela_gari,real,Thela_Gari_3_cleaned.ply,0,carriage,-22.661752700805664,3,-28.10142421722412,5.439671516418457
+far_ood,thela_gari,real,Thela_Gari_3_cleaned.ply,0,chair,-24.074182510375977,3,-29.07843017578125,5.004247665405273
+far_ood,thela_gari,real,Thela_Gari_3_cleaned.ply,0,clay cup,-39.46204376220703,5,-39.37798881530762,-0.08405494689941406
+far_ood,thela_gari,real,Thela_Gari_3_cleaned.ply,0,cooking pot,-31.51523208618164,5,-31.720961570739746,0.20572948455810547
+far_ood,thela_gari,real,Thela_Gari_3_cleaned.ply,0,cup,-26.818607330322266,3,-25.894363403320312,-0.9242439270019531
+far_ood,thela_gari,real,Thela_Gari_3_cleaned.ply,0,cutting board,-27.552894592285156,4,-35.699960708618164,8.147066116333008
+far_ood,thela_gari,real,Thela_Gari_3_cleaned.ply,0,drum,-26.188575744628906,3,-29.20089626312256,3.0123205184936523
+far_ood,thela_gari,real,Thela_Gari_3_cleaned.ply,0,faucet,-37.10017395019531,5,-41.28995132446289,4.189777374267578
+far_ood,thela_gari,real,Thela_Gari_3_cleaned.ply,0,fire hydrant,-35.363677978515625,5,-33.81854438781738,-1.5451335906982422
+far_ood,thela_gari,real,Thela_Gari_3_cleaned.ply,0,flower pot,-32.69691467285156,4,-30.033885955810547,-2.6630287170410156
+far_ood,thela_gari,real,Thela_Gari_3_cleaned.ply,0,glass jar,-34.475868225097656,4,-24.017366409301758,-10.458501815795898
+far_ood,thela_gari,real,Thela_Gari_3_cleaned.ply,0,grinding stone,-27.605167388916016,5,-36.60917854309082,9.004011154174805
+far_ood,thela_gari,real,Thela_Gari_3_cleaned.ply,0,hand pump,-32.20376205444336,5,-37.17997169494629,4.97620964050293
+far_ood,thela_gari,real,Thela_Gari_3_cleaned.ply,0,keyboard,-23.758901596069336,3,-29.135533332824707,5.376631736755371
+far_ood,thela_gari,real,Thela_Gari_3_cleaned.ply,0,lantern,-24.91663360595703,4,-26.242703437805176,1.3260698318481445
+far_ood,thela_gari,real,Thela_Gari_3_cleaned.ply,0,laptop,-24.310012817382812,3,-27.948243141174316,3.638230323791504
+far_ood,thela_gari,real,Thela_Gari_3_cleaned.ply,0,low stool,-36.17982482910156,5,-45.47221755981445,9.29239273071289
+far_ood,thela_gari,real,Thela_Gari_3_cleaned.ply,0,push cart,-26.832584381103516,4,-33.10416603088379,6.271581649780273
+far_ood,thela_gari,real,Thela_Gari_3_cleaned.ply,0,rickshaw,-33.342674255371094,6,-44.995426177978516,11.652751922607422
+far_ood,thela_gari,real,Thela_Gari_3_cleaned.ply,0,rolling pin,-31.71327781677246,4,-29.571860313415527,-2.1414175033569336
+far_ood,thela_gari,real,Thela_Gari_3_cleaned.ply,0,shelf,-25.723102569580078,4,-31.957433700561523,6.234331130981445
+far_ood,thela_gari,real,Thela_Gari_3_cleaned.ply,0,stool,-28.420333862304688,4,-32.35316276550293,3.932828903198242
+far_ood,thela_gari,real,Thela_Gari_3_cleaned.ply,0,table,-25.667251586914062,3,-28.690317153930664,3.0230655670166016
+far_ood,thela_gari,real,Thela_Gari_3_cleaned.ply,0,teapot,-32.0096435546875,5,-33.266414642333984,1.2567710876464844
+far_ood,thela_gari,real,Thela_Gari_3_cleaned.ply,0,tray,-30.893585205078125,4,-32.92070484161377,2.0271196365356445
+far_ood,thela_gari,real,Thela_Gari_3_cleaned.ply,0,tricycle,-25.186403274536133,5,-27.19069480895996,2.004291534423828
+far_ood,thela_gari,real,Thela_Gari_3_cleaned.ply,0,vase,-28.700538635253906,4,-28.582079887390137,-0.11845874786376953
+far_ood,thela_gari,real,Thela_Gari_3_cleaned.ply,0,wagon,-23.47928237915039,4,-31.235685348510742,7.756402969360352
+far_ood,thela_gari,real,Thela_Gari_3_cleaned.ply,0,water jug,-36.729454040527344,4,-34.04897117614746,-2.680482864379883
+far_ood,thela_gari,real,Thela_Gari_4_cleaned.ply,0,bamboo tray,-35.13072967529297,8,-41.7613582611084,6.63062858581543
+far_ood,thela_gari,real,Thela_Gari_4_cleaned.ply,0,basket,-29.84405517578125,3,-27.26796245574951,-2.5760927200317383
+far_ood,thela_gari,real,Thela_Gari_4_cleaned.ply,0,bench,-23.956396102905273,4,-37.14804267883301,13.191646575927734
+far_ood,thela_gari,real,Thela_Gari_4_cleaned.ply,0,book stand,-30.34905242919922,4,-37.61955642700195,7.270503997802734
+far_ood,thela_gari,real,Thela_Gari_4_cleaned.ply,0,bookshelf,-23.091075897216797,5,-29.061694145202637,5.97061824798584
+far_ood,thela_gari,real,Thela_Gari_4_cleaned.ply,0,bowl,-26.859718322753906,4,-24.654773712158203,-2.204944610595703
+far_ood,thela_gari,real,Thela_Gari_4_cleaned.ply,0,box,-25.523832321166992,3,-29.49934482574463,3.9755125045776367
+far_ood,thela_gari,real,Thela_Gari_4_cleaned.ply,0,bucket,-28.730833053588867,3,-29.70991611480713,0.9790830612182617
+far_ood,thela_gari,real,Thela_Gari_4_cleaned.ply,0,candle,-32.479312896728516,4,-29.054649353027344,-3.424663543701172
+far_ood,thela_gari,real,Thela_Gari_4_cleaned.ply,0,cane stool,-37.22786331176758,6,-41.2480525970459,4.02018928527832
+far_ood,thela_gari,real,Thela_Gari_4_cleaned.ply,0,carriage,-22.094051361083984,3,-28.10142421722412,6.007372856140137
+far_ood,thela_gari,real,Thela_Gari_4_cleaned.ply,0,chair,-19.868038177490234,3,-29.07843017578125,9.210391998291016
+far_ood,thela_gari,real,Thela_Gari_4_cleaned.ply,0,clay cup,-39.54004669189453,5,-39.37798881530762,-0.16205787658691406
+far_ood,thela_gari,real,Thela_Gari_4_cleaned.ply,0,cooking pot,-31.21657943725586,5,-31.720961570739746,0.5043821334838867
+far_ood,thela_gari,real,Thela_Gari_4_cleaned.ply,0,cup,-26.099716186523438,3,-25.894363403320312,-0.205352783203125
+far_ood,thela_gari,real,Thela_Gari_4_cleaned.ply,0,cutting board,-25.653358459472656,4,-35.699960708618164,10.046602249145508
+far_ood,thela_gari,real,Thela_Gari_4_cleaned.ply,0,drum,-27.291948318481445,3,-29.20089626312256,1.9089479446411133
+far_ood,thela_gari,real,Thela_Gari_4_cleaned.ply,0,faucet,-35.02317810058594,5,-41.28995132446289,6.266773223876953
+far_ood,thela_gari,real,Thela_Gari_4_cleaned.ply,0,fire hydrant,-31.850921630859375,5,-33.81854438781738,1.9676227569580078
+far_ood,thela_gari,real,Thela_Gari_4_cleaned.ply,0,flower pot,-31.0859432220459,4,-30.033885955810547,-1.0520572662353516
+far_ood,thela_gari,real,Thela_Gari_4_cleaned.ply,0,glass jar,-34.71704864501953,4,-24.017366409301758,-10.699682235717773
+far_ood,thela_gari,real,Thela_Gari_4_cleaned.ply,0,grinding stone,-27.297618865966797,5,-36.60917854309082,9.311559677124023
+far_ood,thela_gari,real,Thela_Gari_4_cleaned.ply,0,hand pump,-30.55599594116211,5,-37.17997169494629,6.62397575378418
+far_ood,thela_gari,real,Thela_Gari_4_cleaned.ply,0,keyboard,-22.18865394592285,3,-29.135533332824707,6.9468793869018555
+far_ood,thela_gari,real,Thela_Gari_4_cleaned.ply,0,lantern,-24.743989944458008,4,-26.242703437805176,1.498713493347168
+far_ood,thela_gari,real,Thela_Gari_4_cleaned.ply,0,laptop,-22.235963821411133,3,-27.948243141174316,5.712279319763184
+far_ood,thela_gari,real,Thela_Gari_4_cleaned.ply,0,low stool,-31.034015655517578,5,-45.47221755981445,14.438201904296875
+far_ood,thela_gari,real,Thela_Gari_4_cleaned.ply,0,push cart,-24.50822639465332,4,-33.10416603088379,8.595939636230469
+far_ood,thela_gari,real,Thela_Gari_4_cleaned.ply,0,rickshaw,-32.79206848144531,6,-44.995426177978516,12.203357696533203
+far_ood,thela_gari,real,Thela_Gari_4_cleaned.ply,0,rolling pin,-34.266319274902344,4,-29.571860313415527,-4.694458961486816
+far_ood,thela_gari,real,Thela_Gari_4_cleaned.ply,0,shelf,-30.179140090942383,4,-31.957433700561523,1.7782936096191406
+far_ood,thela_gari,real,Thela_Gari_4_cleaned.ply,0,stool,-25.253894805908203,4,-32.35316276550293,7.099267959594727
+far_ood,thela_gari,real,Thela_Gari_4_cleaned.ply,0,table,-22.62344741821289,3,-28.690317153930664,6.066869735717773
+far_ood,thela_gari,real,Thela_Gari_4_cleaned.ply,0,teapot,-29.37811279296875,5,-33.266414642333984,3.8883018493652344
+far_ood,thela_gari,real,Thela_Gari_4_cleaned.ply,0,tray,-25.837310791015625,4,-32.92070484161377,7.0833940505981445
+far_ood,thela_gari,real,Thela_Gari_4_cleaned.ply,0,tricycle,-25.330631256103516,5,-27.19069480895996,1.8600635528564453
+far_ood,thela_gari,real,Thela_Gari_4_cleaned.ply,0,vase,-27.727718353271484,4,-28.582079887390137,0.8543615341186523
+far_ood,thela_gari,real,Thela_Gari_4_cleaned.ply,0,wagon,-24.95758819580078,4,-31.235685348510742,6.278097152709961
+far_ood,thela_gari,real,Thela_Gari_4_cleaned.ply,0,water jug,-36.81916427612305,4,-34.04897117614746,-2.770193099975586
+far_ood,thela_gari,real,Thela_Gari_5_cleaned.ply,0,bamboo tray,-32.74031448364258,8,-41.7613582611084,9.02104377746582
+far_ood,thela_gari,real,Thela_Gari_5_cleaned.ply,0,basket,-29.424495697021484,3,-27.26796245574951,-2.1565332412719727
+far_ood,thela_gari,real,Thela_Gari_5_cleaned.ply,0,bench,-23.334938049316406,4,-37.14804267883301,13.813104629516602
+far_ood,thela_gari,real,Thela_Gari_5_cleaned.ply,0,book stand,-30.885286331176758,4,-37.61955642700195,6.734270095825195
+far_ood,thela_gari,real,Thela_Gari_5_cleaned.ply,0,bookshelf,-21.58567237854004,5,-29.061694145202637,7.476021766662598
+far_ood,thela_gari,real,Thela_Gari_5_cleaned.ply,0,bowl,-28.091135025024414,4,-24.654773712158203,-3.436361312866211
+far_ood,thela_gari,real,Thela_Gari_5_cleaned.ply,0,box,-26.81023406982422,3,-29.49934482574463,2.68911075592041
+far_ood,thela_gari,real,Thela_Gari_5_cleaned.ply,0,bucket,-28.464941024780273,3,-29.70991611480713,1.2449750900268555
+far_ood,thela_gari,real,Thela_Gari_5_cleaned.ply,0,candle,-32.11503982543945,4,-29.054649353027344,-3.0603904724121094
+far_ood,thela_gari,real,Thela_Gari_5_cleaned.ply,0,cane stool,-39.14115905761719,6,-41.2480525970459,2.106893539428711
+far_ood,thela_gari,real,Thela_Gari_5_cleaned.ply,0,carriage,-21.703380584716797,3,-28.10142421722412,6.398043632507324
+far_ood,thela_gari,real,Thela_Gari_5_cleaned.ply,0,chair,-23.240489959716797,3,-29.07843017578125,5.837940216064453
+far_ood,thela_gari,real,Thela_Gari_5_cleaned.ply,0,clay cup,-36.941986083984375,5,-39.37798881530762,2.436002731323242
+far_ood,thela_gari,real,Thela_Gari_5_cleaned.ply,0,cooking pot,-30.364791870117188,5,-31.720961570739746,1.3561697006225586
+far_ood,thela_gari,real,Thela_Gari_5_cleaned.ply,0,cup,-24.890148162841797,3,-25.894363403320312,1.0042152404785156
+far_ood,thela_gari,real,Thela_Gari_5_cleaned.ply,0,cutting board,-28.155960083007812,4,-35.699960708618164,7.544000625610352
+far_ood,thela_gari,real,Thela_Gari_5_cleaned.ply,0,drum,-26.828405380249023,3,-29.20089626312256,2.372490882873535
+far_ood,thela_gari,real,Thela_Gari_5_cleaned.ply,0,faucet,-32.82999801635742,5,-41.28995132446289,8.459953308105469
+far_ood,thela_gari,real,Thela_Gari_5_cleaned.ply,0,fire hydrant,-31.188636779785156,5,-33.81854438781738,2.6299076080322266
+far_ood,thela_gari,real,Thela_Gari_5_cleaned.ply,0,flower pot,-29.489795684814453,4,-30.033885955810547,0.5440902709960938
+far_ood,thela_gari,real,Thela_Gari_5_cleaned.ply,0,glass jar,-34.34894561767578,4,-24.017366409301758,-10.331579208374023
+far_ood,thela_gari,real,Thela_Gari_5_cleaned.ply,0,grinding stone,-25.318696975708008,5,-36.60917854309082,11.290481567382812
+far_ood,thela_gari,real,Thela_Gari_5_cleaned.ply,0,hand pump,-31.123863220214844,5,-37.17997169494629,6.056108474731445
+far_ood,thela_gari,real,Thela_Gari_5_cleaned.ply,0,keyboard,-24.45840835571289,3,-29.135533332824707,4.677124977111816
+far_ood,thela_gari,real,Thela_Gari_5_cleaned.ply,0,lantern,-24.309783935546875,4,-26.242703437805176,1.9329195022583008
+far_ood,thela_gari,real,Thela_Gari_5_cleaned.ply,0,laptop,-23.01202392578125,3,-27.948243141174316,4.936219215393066
+far_ood,thela_gari,real,Thela_Gari_5_cleaned.ply,0,low stool,-33.3980712890625,5,-45.47221755981445,12.074146270751953
+far_ood,thela_gari,real,Thela_Gari_5_cleaned.ply,0,push cart,-25.490840911865234,4,-33.10416603088379,7.613325119018555
+far_ood,thela_gari,real,Thela_Gari_5_cleaned.ply,0,rickshaw,-37.47868728637695,6,-44.995426177978516,7.5167388916015625
+far_ood,thela_gari,real,Thela_Gari_5_cleaned.ply,0,rolling pin,-34.541778564453125,4,-29.571860313415527,-4.969918251037598
+far_ood,thela_gari,real,Thela_Gari_5_cleaned.ply,0,shelf,-27.44589614868164,4,-31.957433700561523,4.511537551879883
+far_ood,thela_gari,real,Thela_Gari_5_cleaned.ply,0,stool,-27.10871124267578,4,-32.35316276550293,5.244451522827148
+far_ood,thela_gari,real,Thela_Gari_5_cleaned.ply,0,table,-23.821033477783203,3,-28.690317153930664,4.869283676147461
+far_ood,thela_gari,real,Thela_Gari_5_cleaned.ply,0,teapot,-29.116870880126953,5,-33.266414642333984,4.149543762207031
+far_ood,thela_gari,real,Thela_Gari_5_cleaned.ply,0,tray,-28.36370277404785,4,-32.92070484161377,4.557002067565918
+far_ood,thela_gari,real,Thela_Gari_5_cleaned.ply,0,tricycle,-25.32762908935547,5,-27.19069480895996,1.8630657196044922
+far_ood,thela_gari,real,Thela_Gari_5_cleaned.ply,0,vase,-27.482765197753906,4,-28.582079887390137,1.0993146896362305
+far_ood,thela_gari,real,Thela_Gari_5_cleaned.ply,0,wagon,-26.38568115234375,4,-31.235685348510742,4.850004196166992
+far_ood,thela_gari,real,Thela_Gari_5_cleaned.ply,0,water jug,-35.586429595947266,4,-34.04897117614746,-1.5374584197998047
+far_ood,tubewell,real,Tubewell_1_cleaned.ply,0,bamboo tray,-43.345603942871094,8,-41.7613582611084,-1.5842456817626953
+far_ood,tubewell,real,Tubewell_1_cleaned.ply,0,basket,-28.0386905670166,3,-27.26796245574951,-0.7707281112670898
+far_ood,tubewell,real,Tubewell_1_cleaned.ply,0,bench,-23.666683197021484,4,-37.14804267883301,13.481359481811523
+far_ood,tubewell,real,Tubewell_1_cleaned.ply,0,book stand,-30.88799285888672,4,-37.61955642700195,6.731563568115234
+far_ood,tubewell,real,Tubewell_1_cleaned.ply,0,bookshelf,-25.735904693603516,5,-29.061694145202637,3.325789451599121
+far_ood,tubewell,real,Tubewell_1_cleaned.ply,0,bowl,-27.01009750366211,4,-24.654773712158203,-2.3553237915039062
+far_ood,tubewell,real,Tubewell_1_cleaned.ply,0,box,-27.1256103515625,3,-29.49934482574463,2.373734474182129
+far_ood,tubewell,real,Tubewell_1_cleaned.ply,0,bucket,-27.228796005249023,3,-29.70991611480713,2.4811201095581055
+far_ood,tubewell,real,Tubewell_1_cleaned.ply,0,candle,-30.23550033569336,4,-29.054649353027344,-1.1808509826660156
+far_ood,tubewell,real,Tubewell_1_cleaned.ply,0,cane stool,-33.00341796875,6,-41.2480525970459,8.244634628295898
+far_ood,tubewell,real,Tubewell_1_cleaned.ply,0,carriage,-25.999221801757812,3,-28.10142421722412,2.1022024154663086
+far_ood,tubewell,real,Tubewell_1_cleaned.ply,0,chair,-23.30738067626953,3,-29.07843017578125,5.771049499511719
+far_ood,tubewell,real,Tubewell_1_cleaned.ply,0,clay cup,-35.91272735595703,5,-39.37798881530762,3.465261459350586
+far_ood,tubewell,real,Tubewell_1_cleaned.ply,0,cooking pot,-29.865718841552734,5,-31.720961570739746,1.8552427291870117
+far_ood,tubewell,real,Tubewell_1_cleaned.ply,0,cup,-25.363670349121094,3,-25.894363403320312,0.5306930541992188
+far_ood,tubewell,real,Tubewell_1_cleaned.ply,0,cutting board,-29.829105377197266,4,-35.699960708618164,5.870855331420898
+far_ood,tubewell,real,Tubewell_1_cleaned.ply,0,drum,-26.75356674194336,3,-29.20089626312256,2.447329521179199
+far_ood,tubewell,real,Tubewell_1_cleaned.ply,0,faucet,-28.97124671936035,5,-41.28995132446289,12.318704605102539
+far_ood,tubewell,real,Tubewell_1_cleaned.ply,0,fire hydrant,-40.37044143676758,5,-33.81854438781738,-6.551897048950195
+far_ood,tubewell,real,Tubewell_1_cleaned.ply,0,flower pot,-30.68162727355957,4,-30.033885955810547,-0.6477413177490234
+far_ood,tubewell,real,Tubewell_1_cleaned.ply,0,glass jar,-31.77720069885254,4,-24.017366409301758,-7.759834289550781
+far_ood,tubewell,real,Tubewell_1_cleaned.ply,0,grinding stone,-29.39215087890625,5,-36.60917854309082,7.21702766418457
+far_ood,tubewell,real,Tubewell_1_cleaned.ply,0,hand pump,-27.731016159057617,5,-37.17997169494629,9.448955535888672
+far_ood,tubewell,real,Tubewell_1_cleaned.ply,0,keyboard,-26.219646453857422,3,-29.135533332824707,2.915886878967285
+far_ood,tubewell,real,Tubewell_1_cleaned.ply,0,lantern,-23.638671875,4,-26.242703437805176,2.604031562805176
+far_ood,tubewell,real,Tubewell_1_cleaned.ply,0,laptop,-23.56960105895996,3,-27.948243141174316,4.3786420822143555
+far_ood,tubewell,real,Tubewell_1_cleaned.ply,0,low stool,-37.62140655517578,5,-45.47221755981445,7.850811004638672
+far_ood,tubewell,real,Tubewell_1_cleaned.ply,0,push cart,-30.36844825744629,4,-33.10416603088379,2.7357177734375
+far_ood,tubewell,real,Tubewell_1_cleaned.ply,0,rickshaw,-33.96452331542969,6,-44.995426177978516,11.030902862548828
+far_ood,tubewell,real,Tubewell_1_cleaned.ply,0,rolling pin,-30.563276290893555,4,-29.571860313415527,-0.9914159774780273
+far_ood,tubewell,real,Tubewell_1_cleaned.ply,0,shelf,-32.75386047363281,4,-31.957433700561523,-0.7964267730712891
+far_ood,tubewell,real,Tubewell_1_cleaned.ply,0,stool,-27.62870979309082,4,-32.35316276550293,4.724452972412109
+far_ood,tubewell,real,Tubewell_1_cleaned.ply,0,table,-25.194652557373047,3,-28.690317153930664,3.495664596557617
+far_ood,tubewell,real,Tubewell_1_cleaned.ply,0,teapot,-27.815231323242188,5,-33.266414642333984,5.451183319091797
+far_ood,tubewell,real,Tubewell_1_cleaned.ply,0,tray,-29.204744338989258,4,-32.92070484161377,3.7159605026245117
+far_ood,tubewell,real,Tubewell_1_cleaned.ply,0,tricycle,-23.618160247802734,5,-27.19069480895996,3.5725345611572266
+far_ood,tubewell,real,Tubewell_1_cleaned.ply,0,vase,-27.02675437927246,4,-28.582079887390137,1.5553255081176758
+far_ood,tubewell,real,Tubewell_1_cleaned.ply,0,wagon,-30.118202209472656,4,-31.235685348510742,1.117483139038086
+far_ood,tubewell,real,Tubewell_1_cleaned.ply,0,water jug,-31.052303314208984,4,-34.04897117614746,2.9966678619384766
+blind,-,sphere,fake:sphere,0,bamboo tray,-44.513824462890625,8,-41.7613582611084,-2.7524662017822266
+blind,-,sphere,fake:sphere,0,basket,-27.733806610107422,3,-27.26796245574951,-0.46584415435791016
+blind,-,sphere,fake:sphere,0,bench,-38.05863952636719,4,-37.14804267883301,-0.9105968475341797
+blind,-,sphere,fake:sphere,0,book stand,-38.793907165527344,4,-37.61955642700195,-1.1743507385253906
+blind,-,sphere,fake:sphere,0,bookshelf,-30.35164451599121,5,-29.061694145202637,-1.2899503707885742
+blind,-,sphere,fake:sphere,0,bowl,-24.165376663208008,4,-24.654773712158203,0.4893970489501953
+blind,-,sphere,fake:sphere,0,box,-30.67645835876465,3,-29.49934482574463,-1.1771135330200195
+blind,-,sphere,fake:sphere,0,bucket,-28.4934139251709,3,-29.70991611480713,1.2165021896362305
+blind,-,sphere,fake:sphere,0,candle,-32.02983474731445,4,-29.054649353027344,-2.9751853942871094
+blind,-,sphere,fake:sphere,0,cane stool,-39.11663818359375,6,-41.2480525970459,2.1314144134521484
+blind,-,sphere,fake:sphere,0,carriage,-27.176349639892578,3,-28.10142421722412,0.925074577331543
+blind,-,sphere,fake:sphere,0,chair,-28.00632095336914,3,-29.07843017578125,1.0721092224121094
+blind,-,sphere,fake:sphere,0,clay cup,-37.66765213012695,5,-39.37798881530762,1.710336685180664
+blind,-,sphere,fake:sphere,0,cooking pot,-31.913616180419922,5,-31.720961570739746,-0.19265460968017578
+blind,-,sphere,fake:sphere,0,cup,-24.42953872680664,3,-25.894363403320312,1.4648246765136719
+blind,-,sphere,fake:sphere,0,cutting board,-35.49891662597656,4,-35.699960708618164,0.20104408264160156
+blind,-,sphere,fake:sphere,0,drum,-28.61867904663086,3,-29.20089626312256,0.5822172164916992
+blind,-,sphere,fake:sphere,0,faucet,-44.18821716308594,5,-41.28995132446289,-2.898265838623047
+blind,-,sphere,fake:sphere,0,fire hydrant,-34.087886810302734,5,-33.81854438781738,-0.26934242248535156
+blind,-,sphere,fake:sphere,0,flower pot,-31.26331329345703,4,-30.033885955810547,-1.2294273376464844
+blind,-,sphere,fake:sphere,0,glass jar,-21.559894561767578,4,-24.017366409301758,2.4574718475341797
+blind,-,sphere,fake:sphere,0,grinding stone,-37.03671646118164,5,-36.60917854309082,-0.4275379180908203
+blind,-,sphere,fake:sphere,0,hand pump,-35.791893005371094,5,-37.17997169494629,1.3880786895751953
+blind,-,sphere,fake:sphere,0,keyboard,-29.301206588745117,3,-29.135533332824707,-0.16567325592041016
+blind,-,sphere,fake:sphere,0,lantern,-25.49713134765625,4,-26.242703437805176,0.7455720901489258
+blind,-,sphere,fake:sphere,0,laptop,-28.310550689697266,3,-27.948243141174316,-0.3623075485229492
+blind,-,sphere,fake:sphere,0,low stool,-46.54658508300781,5,-45.47221755981445,-1.0743675231933594
+blind,-,sphere,fake:sphere,0,push cart,-31.605682373046875,4,-33.10416603088379,1.498483657836914
+blind,-,sphere,fake:sphere,0,rickshaw,-43.81327438354492,6,-44.995426177978516,1.1821517944335938
+blind,-,sphere,fake:sphere,0,rolling pin,-31.25625991821289,4,-29.571860313415527,-1.6843996047973633
+blind,-,sphere,fake:sphere,0,shelf,-35.72935485839844,4,-31.957433700561523,-3.771921157836914
+blind,-,sphere,fake:sphere,0,stool,-32.84075164794922,4,-32.35316276550293,-0.48758888244628906
+blind,-,sphere,fake:sphere,0,table,-28.20962142944336,3,-28.690317153930664,0.4806957244873047
+blind,-,sphere,fake:sphere,0,teapot,-33.09761047363281,5,-33.266414642333984,0.16880416870117188
+blind,-,sphere,fake:sphere,0,tray,-35.89060974121094,4,-32.92070484161377,-2.969904899597168
+blind,-,sphere,fake:sphere,0,tricycle,-26.357192993164062,5,-27.19069480895996,0.8335018157958984
+blind,-,sphere,fake:sphere,0,vase,-28.15531349182129,4,-28.582079887390137,0.42676639556884766
+blind,-,sphere,fake:sphere,0,wagon,-29.926616668701172,4,-31.235685348510742,1.3090686798095703
+blind,-,sphere,fake:sphere,0,water jug,-32.79841613769531,4,-34.04897117614746,1.2505550384521484
+blind,-,noise,fake:noise,0,bamboo tray,-39.00889205932617,8,-41.7613582611084,2.7524662017822266
+blind,-,noise,fake:noise,0,basket,-26.8021183013916,3,-27.26796245574951,0.46584415435791016
+blind,-,noise,fake:noise,0,bench,-36.23744583129883,4,-37.14804267883301,0.9105968475341797
+blind,-,noise,fake:noise,0,book stand,-36.44520568847656,4,-37.61955642700195,1.1743507385253906
+blind,-,noise,fake:noise,0,bookshelf,-27.771743774414062,5,-29.061694145202637,1.2899503707885742
+blind,-,noise,fake:noise,0,bowl,-25.1441707611084,4,-24.654773712158203,-0.4893970489501953
+blind,-,noise,fake:noise,0,box,-28.32223129272461,3,-29.49934482574463,1.1771135330200195
+blind,-,noise,fake:noise,0,bucket,-30.92641830444336,3,-29.70991611480713,-1.2165021896362305
+blind,-,noise,fake:noise,0,candle,-26.079463958740234,4,-29.054649353027344,2.9751853942871094
+blind,-,noise,fake:noise,0,cane stool,-43.37946701049805,6,-41.2480525970459,-2.1314144134521484
+blind,-,noise,fake:noise,0,carriage,-29.026498794555664,3,-28.10142421722412,-0.925074577331543
+blind,-,noise,fake:noise,0,chair,-30.15053939819336,3,-29.07843017578125,-1.0721092224121094
+blind,-,noise,fake:noise,0,clay cup,-41.08832550048828,5,-39.37798881530762,-1.710336685180664
+blind,-,noise,fake:noise,0,cooking pot,-31.52830696105957,5,-31.720961570739746,0.19265460968017578
+blind,-,noise,fake:noise,0,cup,-27.359188079833984,3,-25.894363403320312,-1.4648246765136719
+blind,-,noise,fake:noise,0,cutting board,-35.901004791259766,4,-35.699960708618164,-0.20104408264160156
+blind,-,noise,fake:noise,0,drum,-29.783113479614258,3,-29.20089626312256,-0.5822172164916992
+blind,-,noise,fake:noise,0,faucet,-38.391685485839844,5,-41.28995132446289,2.898265838623047
+blind,-,noise,fake:noise,0,fire hydrant,-33.54920196533203,5,-33.81854438781738,0.26934242248535156
+blind,-,noise,fake:noise,0,flower pot,-28.804458618164062,4,-30.033885955810547,1.2294273376464844
+blind,-,noise,fake:noise,0,glass jar,-26.474838256835938,4,-24.017366409301758,-2.4574718475341797
+blind,-,noise,fake:noise,0,grinding stone,-36.181640625,5,-36.60917854309082,0.4275379180908203
+blind,-,noise,fake:noise,0,hand pump,-38.568050384521484,5,-37.17997169494629,-1.3880786895751953
+blind,-,noise,fake:noise,0,keyboard,-28.969860076904297,3,-29.135533332824707,0.16567325592041016
+blind,-,noise,fake:noise,0,lantern,-26.9882755279541,4,-26.242703437805176,-0.7455720901489258
+blind,-,noise,fake:noise,0,laptop,-27.585935592651367,3,-27.948243141174316,0.3623075485229492
+blind,-,noise,fake:noise,0,low stool,-44.397850036621094,5,-45.47221755981445,1.0743675231933594
+blind,-,noise,fake:noise,0,push cart,-34.6026496887207,4,-33.10416603088379,-1.498483657836914
+blind,-,noise,fake:noise,0,rickshaw,-46.17757797241211,6,-44.995426177978516,-1.1821517944335938
+blind,-,noise,fake:noise,0,rolling pin,-27.887460708618164,4,-29.571860313415527,1.6843996047973633
+blind,-,noise,fake:noise,0,shelf,-28.18551254272461,4,-31.957433700561523,3.771921157836914
+blind,-,noise,fake:noise,0,stool,-31.86557388305664,4,-32.35316276550293,0.48758888244628906
+blind,-,noise,fake:noise,0,table,-29.17101287841797,3,-28.690317153930664,-0.4806957244873047
+blind,-,noise,fake:noise,0,teapot,-33.435218811035156,5,-33.266414642333984,-0.16880416870117188
+blind,-,noise,fake:noise,0,tray,-29.9507999420166,4,-32.92070484161377,2.969904899597168
+blind,-,noise,fake:noise,0,tricycle,-28.02419662475586,5,-27.19069480895996,-0.8335018157958984
+blind,-,noise,fake:noise,0,vase,-29.008846282958984,4,-28.582079887390137,-0.42676639556884766
+blind,-,noise,fake:noise,0,wagon,-32.54475402832031,4,-31.235685348510742,-1.3090686798095703
+blind,-,noise,fake:noise,0,water jug,-35.29952621459961,4,-34.04897117614746,-1.2505550384521484

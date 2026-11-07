@@ -1,0 +1,913 @@
+set,object,input,file,colour,seed,role,option,answer,log_prob,n_tokens
+everyday,wooden_benched,real,Wooden_Benched_1_cleaned.ply,grey,0,correct,bench,A bench.,-19.146160125732422,4
+everyday,wooden_benched,real,Wooden_Benched_1_cleaned.ply,grey,0,look_alike,table,A table.,-21.947473526000977,3
+everyday,wooden_benched,real,Wooden_Benched_1_cleaned.ply,grey,0,same_family,chair,A chair.,-20.764570236206055,3
+everyday,wooden_benched,real,Wooden_Benched_1_cleaned.ply,grey,0,unrelated,teapot,A teapot.,-32.12930679321289,5
+everyday,wooden_benched,real,Wooden_Benched_1_cleaned.ply,grey,1,correct,bench,A bench.,-18.67819595336914,4
+everyday,wooden_benched,real,Wooden_Benched_1_cleaned.ply,grey,1,look_alike,table,A table.,-21.09154510498047,3
+everyday,wooden_benched,real,Wooden_Benched_1_cleaned.ply,grey,1,same_family,chair,A chair.,-20.229236602783203,3
+everyday,wooden_benched,real,Wooden_Benched_1_cleaned.ply,grey,1,unrelated,teapot,A teapot.,-33.181129455566406,5
+everyday,wooden_benched,real,Wooden_Benched_1_cleaned.ply,grey,2,correct,bench,A bench.,-19.26063346862793,4
+everyday,wooden_benched,real,Wooden_Benched_1_cleaned.ply,grey,2,look_alike,table,A table.,-22.19607925415039,3
+everyday,wooden_benched,real,Wooden_Benched_1_cleaned.ply,grey,2,same_family,chair,A chair.,-21.631406784057617,3
+everyday,wooden_benched,real,Wooden_Benched_1_cleaned.ply,grey,2,unrelated,teapot,A teapot.,-32.1925048828125,5
+everyday,wooden_benched,real,Wooden_Benched_2_cleaned.ply,grey,0,correct,bench,A bench.,-17.942922592163086,4
+everyday,wooden_benched,real,Wooden_Benched_2_cleaned.ply,grey,0,look_alike,table,A table.,-18.598474502563477,3
+everyday,wooden_benched,real,Wooden_Benched_2_cleaned.ply,grey,0,same_family,chair,A chair.,-18.848251342773438,3
+everyday,wooden_benched,real,Wooden_Benched_2_cleaned.ply,grey,0,unrelated,teapot,A teapot.,-32.438697814941406,5
+everyday,wooden_benched,real,Wooden_Benched_2_cleaned.ply,grey,1,correct,bench,A bench.,-18.10120391845703,4
+everyday,wooden_benched,real,Wooden_Benched_2_cleaned.ply,grey,1,look_alike,table,A table.,-18.531497955322266,3
+everyday,wooden_benched,real,Wooden_Benched_2_cleaned.ply,grey,1,same_family,chair,A chair.,-19.358009338378906,3
+everyday,wooden_benched,real,Wooden_Benched_2_cleaned.ply,grey,1,unrelated,teapot,A teapot.,-32.09540557861328,5
+everyday,wooden_benched,real,Wooden_Benched_2_cleaned.ply,grey,2,correct,bench,A bench.,-17.889795303344727,4
+everyday,wooden_benched,real,Wooden_Benched_2_cleaned.ply,grey,2,look_alike,table,A table.,-18.65740966796875,3
+everyday,wooden_benched,real,Wooden_Benched_2_cleaned.ply,grey,2,same_family,chair,A chair.,-19.421409606933594,3
+everyday,wooden_benched,real,Wooden_Benched_2_cleaned.ply,grey,2,unrelated,teapot,A teapot.,-31.994760513305664,5
+everyday,wooden_benched,real,Wooden_Benched_3_cleaned.ply,grey,0,correct,bench,A bench.,-18.2575740814209,4
+everyday,wooden_benched,real,Wooden_Benched_3_cleaned.ply,grey,0,look_alike,table,A table.,-19.195228576660156,3
+everyday,wooden_benched,real,Wooden_Benched_3_cleaned.ply,grey,0,same_family,chair,A chair.,-19.10684585571289,3
+everyday,wooden_benched,real,Wooden_Benched_3_cleaned.ply,grey,0,unrelated,teapot,A teapot.,-32.14854431152344,5
+everyday,wooden_benched,real,Wooden_Benched_3_cleaned.ply,grey,1,correct,bench,A bench.,-17.609987258911133,4
+everyday,wooden_benched,real,Wooden_Benched_3_cleaned.ply,grey,1,look_alike,table,A table.,-18.754756927490234,3
+everyday,wooden_benched,real,Wooden_Benched_3_cleaned.ply,grey,1,same_family,chair,A chair.,-18.80367660522461,3
+everyday,wooden_benched,real,Wooden_Benched_3_cleaned.ply,grey,1,unrelated,teapot,A teapot.,-32.36376190185547,5
+everyday,wooden_benched,real,Wooden_Benched_3_cleaned.ply,grey,2,correct,bench,A bench.,-18.261249542236328,4
+everyday,wooden_benched,real,Wooden_Benched_3_cleaned.ply,grey,2,look_alike,table,A table.,-18.4683837890625,3
+everyday,wooden_benched,real,Wooden_Benched_3_cleaned.ply,grey,2,same_family,chair,A chair.,-18.7418155670166,3
+everyday,wooden_benched,real,Wooden_Benched_3_cleaned.ply,grey,2,unrelated,teapot,A teapot.,-32.27998352050781,5
+everyday,chair,real,Chair_01_cleaned.ply,grey,0,correct,chair,A chair.,-17.42608642578125,3
+everyday,chair,real,Chair_01_cleaned.ply,grey,0,look_alike,stool,A stool.,-25.203784942626953,4
+everyday,chair,real,Chair_01_cleaned.ply,grey,0,same_family,table,A table.,-23.343570709228516,3
+everyday,chair,real,Chair_01_cleaned.ply,grey,0,unrelated,teapot,A teapot.,-30.652748107910156,5
+everyday,chair,real,Chair_01_cleaned.ply,grey,1,correct,chair,A chair.,-16.78339958190918,3
+everyday,chair,real,Chair_01_cleaned.ply,grey,1,look_alike,stool,A stool.,-23.730003356933594,4
+everyday,chair,real,Chair_01_cleaned.ply,grey,1,same_family,table,A table.,-23.071746826171875,3
+everyday,chair,real,Chair_01_cleaned.ply,grey,1,unrelated,teapot,A teapot.,-31.748008728027344,5
+everyday,chair,real,Chair_01_cleaned.ply,grey,2,correct,chair,A chair.,-17.849153518676758,3
+everyday,chair,real,Chair_01_cleaned.ply,grey,2,look_alike,stool,A stool.,-24.667098999023438,4
+everyday,chair,real,Chair_01_cleaned.ply,grey,2,same_family,table,A table.,-22.63152503967285,3
+everyday,chair,real,Chair_01_cleaned.ply,grey,2,unrelated,teapot,A teapot.,-31.235502243041992,5
+everyday,chair,real,Chair_02_cleaned.ply,grey,0,correct,chair,A chair.,-15.336501121520996,3
+everyday,chair,real,Chair_02_cleaned.ply,grey,0,look_alike,stool,A stool.,-16.35022735595703,4
+everyday,chair,real,Chair_02_cleaned.ply,grey,0,same_family,table,A table.,-25.797155380249023,3
+everyday,chair,real,Chair_02_cleaned.ply,grey,0,unrelated,teapot,A teapot.,-32.04045486450195,5
+everyday,chair,real,Chair_02_cleaned.ply,grey,1,correct,chair,A chair.,-15.276291847229004,3
+everyday,chair,real,Chair_02_cleaned.ply,grey,1,look_alike,stool,A stool.,-16.206663131713867,4
+everyday,chair,real,Chair_02_cleaned.ply,grey,1,same_family,table,A table.,-25.690906524658203,3
+everyday,chair,real,Chair_02_cleaned.ply,grey,1,unrelated,teapot,A teapot.,-31.039220809936523,5
+everyday,chair,real,Chair_02_cleaned.ply,grey,2,correct,chair,A chair.,-15.268834114074707,3
+everyday,chair,real,Chair_02_cleaned.ply,grey,2,look_alike,stool,A stool.,-15.78369426727295,4
+everyday,chair,real,Chair_02_cleaned.ply,grey,2,same_family,table,A table.,-24.712677001953125,3
+everyday,chair,real,Chair_02_cleaned.ply,grey,2,unrelated,teapot,A teapot.,-30.81888198852539,5
+everyday,chair,real,Chair_03_cleaned.ply,grey,0,correct,chair,A chair.,-14.201740264892578,3
+everyday,chair,real,Chair_03_cleaned.ply,grey,0,look_alike,stool,A stool.,-21.013368606567383,4
+everyday,chair,real,Chair_03_cleaned.ply,grey,0,same_family,table,A table.,-23.541902542114258,3
+everyday,chair,real,Chair_03_cleaned.ply,grey,0,unrelated,teapot,A teapot.,-30.32596778869629,5
+everyday,chair,real,Chair_03_cleaned.ply,grey,1,correct,chair,A chair.,-15.936457633972168,3
+everyday,chair,real,Chair_03_cleaned.ply,grey,1,look_alike,stool,A stool.,-24.072595596313477,4
+everyday,chair,real,Chair_03_cleaned.ply,grey,1,same_family,table,A table.,-22.2974853515625,3
+everyday,chair,real,Chair_03_cleaned.ply,grey,1,unrelated,teapot,A teapot.,-28.114669799804688,5
+everyday,chair,real,Chair_03_cleaned.ply,grey,2,correct,chair,A chair.,-14.056886672973633,3
+everyday,chair,real,Chair_03_cleaned.ply,grey,2,look_alike,stool,A stool.,-20.403461456298828,4
+everyday,chair,real,Chair_03_cleaned.ply,grey,2,same_family,table,A table.,-22.94134521484375,3
+everyday,chair,real,Chair_03_cleaned.ply,grey,2,unrelated,teapot,A teapot.,-29.79598617553711,5
+everyday,chair,real,Chair_04_cleaned.ply,grey,0,correct,chair,A chair.,-15.584951400756836,3
+everyday,chair,real,Chair_04_cleaned.ply,grey,0,look_alike,stool,A stool.,-21.759931564331055,4
+everyday,chair,real,Chair_04_cleaned.ply,grey,0,same_family,table,A table.,-24.629695892333984,3
+everyday,chair,real,Chair_04_cleaned.ply,grey,0,unrelated,teapot,A teapot.,-34.07086944580078,5
+everyday,chair,real,Chair_04_cleaned.ply,grey,1,correct,chair,A chair.,-16.23590660095215,3
+everyday,chair,real,Chair_04_cleaned.ply,grey,1,look_alike,stool,A stool.,-21.660633087158203,4
+everyday,chair,real,Chair_04_cleaned.ply,grey,1,same_family,table,A table.,-24.156389236450195,3
+everyday,chair,real,Chair_04_cleaned.ply,grey,1,unrelated,teapot,A teapot.,-34.6282844543457,5
+everyday,chair,real,Chair_04_cleaned.ply,grey,2,correct,chair,A chair.,-15.212138175964355,3
+everyday,chair,real,Chair_04_cleaned.ply,grey,2,look_alike,stool,A stool.,-22.037269592285156,4
+everyday,chair,real,Chair_04_cleaned.ply,grey,2,same_family,table,A table.,-24.163890838623047,3
+everyday,chair,real,Chair_04_cleaned.ply,grey,2,unrelated,teapot,A teapot.,-33.87101745605469,5
+everyday,chair,real,Chair_05_cleaned.ply,grey,0,correct,chair,A chair.,-14.392078399658203,3
+everyday,chair,real,Chair_05_cleaned.ply,grey,0,look_alike,stool,A stool.,-18.743064880371094,4
+everyday,chair,real,Chair_05_cleaned.ply,grey,0,same_family,table,A table.,-25.476892471313477,3
+everyday,chair,real,Chair_05_cleaned.ply,grey,0,unrelated,teapot,A teapot.,-35.04435729980469,5
+everyday,chair,real,Chair_05_cleaned.ply,grey,1,correct,chair,A chair.,-13.961200714111328,3
+everyday,chair,real,Chair_05_cleaned.ply,grey,1,look_alike,stool,A stool.,-17.81458854675293,4
+everyday,chair,real,Chair_05_cleaned.ply,grey,1,same_family,table,A table.,-25.154193878173828,3
+everyday,chair,real,Chair_05_cleaned.ply,grey,1,unrelated,teapot,A teapot.,-35.033424377441406,5
+everyday,chair,real,Chair_05_cleaned.ply,grey,2,correct,chair,A chair.,-14.051924705505371,3
+everyday,chair,real,Chair_05_cleaned.ply,grey,2,look_alike,stool,A stool.,-17.046316146850586,4
+everyday,chair,real,Chair_05_cleaned.ply,grey,2,same_family,table,A table.,-25.243106842041016,3
+everyday,chair,real,Chair_05_cleaned.ply,grey,2,unrelated,teapot,A teapot.,-34.62090301513672,5
+everyday,chair,real,Chair_06_cleaned.ply,grey,0,correct,chair,A chair.,-20.169771194458008,3
+everyday,chair,real,Chair_06_cleaned.ply,grey,0,look_alike,stool,A stool.,-22.51559066772461,4
+everyday,chair,real,Chair_06_cleaned.ply,grey,0,same_family,table,A table.,-26.108665466308594,3
+everyday,chair,real,Chair_06_cleaned.ply,grey,0,unrelated,teapot,A teapot.,-34.190555572509766,5
+everyday,chair,real,Chair_06_cleaned.ply,grey,1,correct,chair,A chair.,-15.900257110595703,3
+everyday,chair,real,Chair_06_cleaned.ply,grey,1,look_alike,stool,A stool.,-20.916767120361328,4
+everyday,chair,real,Chair_06_cleaned.ply,grey,1,same_family,table,A table.,-26.270063400268555,3
+everyday,chair,real,Chair_06_cleaned.ply,grey,1,unrelated,teapot,A teapot.,-33.81494140625,5
+everyday,chair,real,Chair_06_cleaned.ply,grey,2,correct,chair,A chair.,-16.730419158935547,3
+everyday,chair,real,Chair_06_cleaned.ply,grey,2,look_alike,stool,A stool.,-20.754634857177734,4
+everyday,chair,real,Chair_06_cleaned.ply,grey,2,same_family,table,A table.,-24.67144012451172,3
+everyday,chair,real,Chair_06_cleaned.ply,grey,2,unrelated,teapot,A teapot.,-34.5073127746582,5
+everyday,chair,real,Chair_07_cleaned.ply,grey,0,correct,chair,A chair.,-16.39006996154785,3
+everyday,chair,real,Chair_07_cleaned.ply,grey,0,look_alike,stool,A stool.,-23.775917053222656,4
+everyday,chair,real,Chair_07_cleaned.ply,grey,0,same_family,table,A table.,-23.338586807250977,3
+everyday,chair,real,Chair_07_cleaned.ply,grey,0,unrelated,teapot,A teapot.,-32.50750732421875,5
+everyday,chair,real,Chair_07_cleaned.ply,grey,1,correct,chair,A chair.,-16.576309204101562,3
+everyday,chair,real,Chair_07_cleaned.ply,grey,1,look_alike,stool,A stool.,-20.59393310546875,4
+everyday,chair,real,Chair_07_cleaned.ply,grey,1,same_family,table,A table.,-24.100971221923828,3
+everyday,chair,real,Chair_07_cleaned.ply,grey,1,unrelated,teapot,A teapot.,-32.450218200683594,5
+everyday,chair,real,Chair_07_cleaned.ply,grey,2,correct,chair,A chair.,-14.542091369628906,3
+everyday,chair,real,Chair_07_cleaned.ply,grey,2,look_alike,stool,A stool.,-22.00177001953125,4
+everyday,chair,real,Chair_07_cleaned.ply,grey,2,same_family,table,A table.,-24.636112213134766,3
+everyday,chair,real,Chair_07_cleaned.ply,grey,2,unrelated,teapot,A teapot.,-34.0607795715332,5
+everyday,chair,real,Chair_08_cleaned.ply,grey,0,correct,chair,A chair.,-15.927209854125977,3
+everyday,chair,real,Chair_08_cleaned.ply,grey,0,look_alike,stool,A stool.,-24.74386215209961,4
+everyday,chair,real,Chair_08_cleaned.ply,grey,0,same_family,table,A table.,-21.35314178466797,3
+everyday,chair,real,Chair_08_cleaned.ply,grey,0,unrelated,teapot,A teapot.,-31.59451675415039,5
+everyday,chair,real,Chair_08_cleaned.ply,grey,1,correct,chair,A chair.,-15.808061599731445,3
+everyday,chair,real,Chair_08_cleaned.ply,grey,1,look_alike,stool,A stool.,-25.32137107849121,4
+everyday,chair,real,Chair_08_cleaned.ply,grey,1,same_family,table,A table.,-21.25356674194336,3
+everyday,chair,real,Chair_08_cleaned.ply,grey,1,unrelated,teapot,A teapot.,-31.61842918395996,5
+everyday,chair,real,Chair_08_cleaned.ply,grey,2,correct,chair,A chair.,-15.347939491271973,3
+everyday,chair,real,Chair_08_cleaned.ply,grey,2,look_alike,stool,A stool.,-23.579776763916016,4
+everyday,chair,real,Chair_08_cleaned.ply,grey,2,same_family,table,A table.,-21.47698974609375,3
+everyday,chair,real,Chair_08_cleaned.ply,grey,2,unrelated,teapot,A teapot.,-31.251171112060547,5
+everyday,cup,real,Cup_1_cleaned.ply,grey,0,correct,cup,A cup.,-17.177505493164062,3
+everyday,cup,real,Cup_1_cleaned.ply,grey,0,look_alike,vase,A vase.,-23.674728393554688,4
+everyday,cup,real,Cup_1_cleaned.ply,grey,0,same_family,bowl,A bowl.,-21.841035842895508,4
+everyday,cup,real,Cup_1_cleaned.ply,grey,0,unrelated,chair,A chair.,-24.721599578857422,3
+everyday,cup,real,Cup_1_cleaned.ply,grey,1,correct,cup,A cup.,-18.1341552734375,3
+everyday,cup,real,Cup_1_cleaned.ply,grey,1,look_alike,vase,A vase.,-24.756010055541992,4
+everyday,cup,real,Cup_1_cleaned.ply,grey,1,same_family,bowl,A bowl.,-21.74518585205078,4
+everyday,cup,real,Cup_1_cleaned.ply,grey,1,unrelated,chair,A chair.,-25.293445587158203,3
+everyday,cup,real,Cup_1_cleaned.ply,grey,2,correct,cup,A cup.,-16.980892181396484,3
+everyday,cup,real,Cup_1_cleaned.ply,grey,2,look_alike,vase,A vase.,-22.5256290435791,4
+everyday,cup,real,Cup_1_cleaned.ply,grey,2,same_family,bowl,A bowl.,-21.766681671142578,4
+everyday,cup,real,Cup_1_cleaned.ply,grey,2,unrelated,chair,A chair.,-24.167509078979492,3
+everyday,cup,real,Cup_2_cleaned.ply,grey,0,correct,cup,A cup.,-17.393932342529297,3
+everyday,cup,real,Cup_2_cleaned.ply,grey,0,look_alike,vase,A vase.,-26.462343215942383,4
+everyday,cup,real,Cup_2_cleaned.ply,grey,0,same_family,bowl,A bowl.,-22.766233444213867,4
+everyday,cup,real,Cup_2_cleaned.ply,grey,0,unrelated,chair,A chair.,-25.609237670898438,3
+everyday,cup,real,Cup_2_cleaned.ply,grey,1,correct,cup,A cup.,-17.755165100097656,3
+everyday,cup,real,Cup_2_cleaned.ply,grey,1,look_alike,vase,A vase.,-25.696157455444336,4
+everyday,cup,real,Cup_2_cleaned.ply,grey,1,same_family,bowl,A bowl.,-23.02312660217285,4
+everyday,cup,real,Cup_2_cleaned.ply,grey,1,unrelated,chair,A chair.,-25.622928619384766,3
+everyday,cup,real,Cup_2_cleaned.ply,grey,2,correct,cup,A cup.,-17.771333694458008,3
+everyday,cup,real,Cup_2_cleaned.ply,grey,2,look_alike,vase,A vase.,-26.000024795532227,4
+everyday,cup,real,Cup_2_cleaned.ply,grey,2,same_family,bowl,A bowl.,-23.026832580566406,4
+everyday,cup,real,Cup_2_cleaned.ply,grey,2,unrelated,chair,A chair.,-25.50729751586914,3
+everyday,cup,real,Cup_3_cleaned.ply,grey,0,correct,cup,A cup.,-23.278656005859375,3
+everyday,cup,real,Cup_3_cleaned.ply,grey,0,look_alike,vase,A vase.,-28.56293487548828,4
+everyday,cup,real,Cup_3_cleaned.ply,grey,0,same_family,bowl,A bowl.,-22.86626434326172,4
+everyday,cup,real,Cup_3_cleaned.ply,grey,0,unrelated,chair,A chair.,-25.689380645751953,3
+everyday,cup,real,Cup_3_cleaned.ply,grey,1,correct,cup,A cup.,-18.866302490234375,3
+everyday,cup,real,Cup_3_cleaned.ply,grey,1,look_alike,vase,A vase.,-26.286270141601562,4
+everyday,cup,real,Cup_3_cleaned.ply,grey,1,same_family,bowl,A bowl.,-22.170639038085938,4
+everyday,cup,real,Cup_3_cleaned.ply,grey,1,unrelated,chair,A chair.,-26.275745391845703,3
+everyday,cup,real,Cup_3_cleaned.ply,grey,2,correct,cup,A cup.,-21.739883422851562,3
+everyday,cup,real,Cup_3_cleaned.ply,grey,2,look_alike,vase,A vase.,-28.600589752197266,4
+everyday,cup,real,Cup_3_cleaned.ply,grey,2,same_family,bowl,A bowl.,-22.362510681152344,4
+everyday,cup,real,Cup_3_cleaned.ply,grey,2,unrelated,chair,A chair.,-25.498706817626953,3
+everyday,cup,real,Cup_4_cleaned.ply,grey,0,correct,cup,A cup.,-25.85649871826172,3
+everyday,cup,real,Cup_4_cleaned.ply,grey,0,look_alike,vase,A vase.,-24.194740295410156,4
+everyday,cup,real,Cup_4_cleaned.ply,grey,0,same_family,bowl,A bowl.,-23.660799026489258,4
+everyday,cup,real,Cup_4_cleaned.ply,grey,0,unrelated,chair,A chair.,-23.616867065429688,3
+everyday,cup,real,Cup_4_cleaned.ply,grey,1,correct,cup,A cup.,-25.451778411865234,3
+everyday,cup,real,Cup_4_cleaned.ply,grey,1,look_alike,vase,A vase.,-24.037986755371094,4
+everyday,cup,real,Cup_4_cleaned.ply,grey,1,same_family,bowl,A bowl.,-23.466800689697266,4
+everyday,cup,real,Cup_4_cleaned.ply,grey,1,unrelated,chair,A chair.,-23.630264282226562,3
+everyday,cup,real,Cup_4_cleaned.ply,grey,2,correct,cup,A cup.,-26.25449562072754,3
+everyday,cup,real,Cup_4_cleaned.ply,grey,2,look_alike,vase,A vase.,-23.434528350830078,4
+everyday,cup,real,Cup_4_cleaned.ply,grey,2,same_family,bowl,A bowl.,-23.77683448791504,4
+everyday,cup,real,Cup_4_cleaned.ply,grey,2,unrelated,chair,A chair.,-23.985183715820312,3
+everyday,keyboard,real,Keyboard_1_cleaned.ply,grey,0,correct,keyboard,A keyboard.,-24.76043701171875,3
+everyday,keyboard,real,Keyboard_1_cleaned.ply,grey,0,look_alike,tray,A tray.,-23.960796356201172,4
+everyday,keyboard,real,Keyboard_1_cleaned.ply,grey,0,same_family,laptop,A laptop.,-23.334293365478516,3
+everyday,keyboard,real,Keyboard_1_cleaned.ply,grey,0,unrelated,chair,A chair.,-23.70854949951172,3
+everyday,keyboard,real,Keyboard_1_cleaned.ply,grey,1,correct,keyboard,A keyboard.,-24.89014434814453,3
+everyday,keyboard,real,Keyboard_1_cleaned.ply,grey,1,look_alike,tray,A tray.,-23.468708038330078,4
+everyday,keyboard,real,Keyboard_1_cleaned.ply,grey,1,same_family,laptop,A laptop.,-23.093364715576172,3
+everyday,keyboard,real,Keyboard_1_cleaned.ply,grey,1,unrelated,chair,A chair.,-23.638628005981445,3
+everyday,keyboard,real,Keyboard_1_cleaned.ply,grey,2,correct,keyboard,A keyboard.,-21.839134216308594,3
+everyday,keyboard,real,Keyboard_1_cleaned.ply,grey,2,look_alike,tray,A tray.,-23.38113784790039,4
+everyday,keyboard,real,Keyboard_1_cleaned.ply,grey,2,same_family,laptop,A laptop.,-21.161563873291016,3
+everyday,keyboard,real,Keyboard_1_cleaned.ply,grey,2,unrelated,chair,A chair.,-23.45196533203125,3
+everyday,keyboard,real,Keyboard_2_cleaned.ply,grey,0,correct,keyboard,A keyboard.,-18.60055160522461,3
+everyday,keyboard,real,Keyboard_2_cleaned.ply,grey,0,look_alike,tray,A tray.,-24.191017150878906,4
+everyday,keyboard,real,Keyboard_2_cleaned.ply,grey,0,same_family,laptop,A laptop.,-20.5052433013916,3
+everyday,keyboard,real,Keyboard_2_cleaned.ply,grey,0,unrelated,chair,A chair.,-23.641368865966797,3
+everyday,keyboard,real,Keyboard_2_cleaned.ply,grey,1,correct,keyboard,A keyboard.,-19.142337799072266,3
+everyday,keyboard,real,Keyboard_2_cleaned.ply,grey,1,look_alike,tray,A tray.,-24.65119171142578,4
+everyday,keyboard,real,Keyboard_2_cleaned.ply,grey,1,same_family,laptop,A laptop.,-20.800989151000977,3
+everyday,keyboard,real,Keyboard_2_cleaned.ply,grey,1,unrelated,chair,A chair.,-23.26262855529785,3
+everyday,keyboard,real,Keyboard_2_cleaned.ply,grey,2,correct,keyboard,A keyboard.,-18.050493240356445,3
+everyday,keyboard,real,Keyboard_2_cleaned.ply,grey,2,look_alike,tray,A tray.,-23.576271057128906,4
+everyday,keyboard,real,Keyboard_2_cleaned.ply,grey,2,same_family,laptop,A laptop.,-20.350013732910156,3
+everyday,keyboard,real,Keyboard_2_cleaned.ply,grey,2,unrelated,chair,A chair.,-23.495861053466797,3
+everyday,keyboard,real,Keyboard_3_cleaned.ply,grey,0,correct,keyboard,A keyboard.,-22.887798309326172,3
+everyday,keyboard,real,Keyboard_3_cleaned.ply,grey,0,look_alike,tray,A tray.,-25.01360321044922,4
+everyday,keyboard,real,Keyboard_3_cleaned.ply,grey,0,same_family,laptop,A laptop.,-22.53192901611328,3
+everyday,keyboard,real,Keyboard_3_cleaned.ply,grey,0,unrelated,chair,A chair.,-23.860923767089844,3
+everyday,keyboard,real,Keyboard_3_cleaned.ply,grey,1,correct,keyboard,A keyboard.,-21.920557022094727,3
+everyday,keyboard,real,Keyboard_3_cleaned.ply,grey,1,look_alike,tray,A tray.,-24.76902198791504,4
+everyday,keyboard,real,Keyboard_3_cleaned.ply,grey,1,same_family,laptop,A laptop.,-22.18365478515625,3
+everyday,keyboard,real,Keyboard_3_cleaned.ply,grey,1,unrelated,chair,A chair.,-24.654272079467773,3
+everyday,keyboard,real,Keyboard_3_cleaned.ply,grey,2,correct,keyboard,A keyboard.,-22.177162170410156,3
+everyday,keyboard,real,Keyboard_3_cleaned.ply,grey,2,look_alike,tray,A tray.,-24.893150329589844,4
+everyday,keyboard,real,Keyboard_3_cleaned.ply,grey,2,same_family,laptop,A laptop.,-22.33479881286621,3
+everyday,keyboard,real,Keyboard_3_cleaned.ply,grey,2,unrelated,chair,A chair.,-23.951683044433594,3
+everyday,table,real,Table_1_cleaned.ply,grey,0,correct,table,A table.,-17.046653747558594,3
+everyday,table,real,Table_1_cleaned.ply,grey,0,look_alike,bench,A bench.,-25.036956787109375,4
+everyday,table,real,Table_1_cleaned.ply,grey,0,same_family,shelf,A shelf.,-27.172481536865234,4
+everyday,table,real,Table_1_cleaned.ply,grey,0,unrelated,cup,A cup.,-29.135210037231445,3
+everyday,table,real,Table_1_cleaned.ply,grey,1,correct,table,A table.,-17.205537796020508,3
+everyday,table,real,Table_1_cleaned.ply,grey,1,look_alike,bench,A bench.,-25.53550910949707,4
+everyday,table,real,Table_1_cleaned.ply,grey,1,same_family,shelf,A shelf.,-27.371179580688477,4
+everyday,table,real,Table_1_cleaned.ply,grey,1,unrelated,cup,A cup.,-29.039775848388672,3
+everyday,table,real,Table_1_cleaned.ply,grey,2,correct,table,A table.,-17.06119155883789,3
+everyday,table,real,Table_1_cleaned.ply,grey,2,look_alike,bench,A bench.,-25.38837432861328,4
+everyday,table,real,Table_1_cleaned.ply,grey,2,same_family,shelf,A shelf.,-27.715389251708984,4
+everyday,table,real,Table_1_cleaned.ply,grey,2,unrelated,cup,A cup.,-28.6624755859375,3
+everyday,table,real,Table_2_cleaned.ply,grey,0,correct,table,A table.,-21.06358528137207,3
+everyday,table,real,Table_2_cleaned.ply,grey,0,look_alike,bench,A bench.,-24.60407257080078,4
+everyday,table,real,Table_2_cleaned.ply,grey,0,same_family,shelf,A shelf.,-33.64833068847656,4
+everyday,table,real,Table_2_cleaned.ply,grey,0,unrelated,cup,A cup.,-25.17147445678711,3
+everyday,table,real,Table_2_cleaned.ply,grey,1,correct,table,A table.,-20.2753849029541,3
+everyday,table,real,Table_2_cleaned.ply,grey,1,look_alike,bench,A bench.,-24.386289596557617,4
+everyday,table,real,Table_2_cleaned.ply,grey,1,same_family,shelf,A shelf.,-33.91645812988281,4
+everyday,table,real,Table_2_cleaned.ply,grey,1,unrelated,cup,A cup.,-25.41333770751953,3
+everyday,table,real,Table_2_cleaned.ply,grey,2,correct,table,A table.,-20.363140106201172,3
+everyday,table,real,Table_2_cleaned.ply,grey,2,look_alike,bench,A bench.,-24.581233978271484,4
+everyday,table,real,Table_2_cleaned.ply,grey,2,same_family,shelf,A shelf.,-34.77389144897461,4
+everyday,table,real,Table_2_cleaned.ply,grey,2,unrelated,cup,A cup.,-25.437244415283203,3
+everyday,chair,sphere,fake:sphere,grey,0,correct,chair,A chair.,-28.00632095336914,3
+everyday,chair,sphere,fake:sphere,grey,0,look_alike,stool,A stool.,-32.84075164794922,4
+everyday,chair,sphere,fake:sphere,grey,0,same_family,table,A table.,-28.20962142944336,3
+everyday,chair,sphere,fake:sphere,grey,0,unrelated,teapot,A teapot.,-33.09761047363281,5
+everyday,chair,sphere,fake:sphere,grey,1,correct,chair,A chair.,-27.98329734802246,3
+everyday,chair,sphere,fake:sphere,grey,1,look_alike,stool,A stool.,-32.80432891845703,4
+everyday,chair,sphere,fake:sphere,grey,1,same_family,table,A table.,-28.23974609375,3
+everyday,chair,sphere,fake:sphere,grey,1,unrelated,teapot,A teapot.,-33.12849426269531,5
+everyday,chair,sphere,fake:sphere,grey,2,correct,chair,A chair.,-27.9654541015625,3
+everyday,chair,sphere,fake:sphere,grey,2,look_alike,stool,A stool.,-32.76350402832031,4
+everyday,chair,sphere,fake:sphere,grey,2,same_family,table,A table.,-28.178237915039062,3
+everyday,chair,sphere,fake:sphere,grey,2,unrelated,teapot,A teapot.,-33.09290313720703,5
+everyday,chair,noise,fake:noise,grey,0,correct,chair,A chair.,-30.15053939819336,3
+everyday,chair,noise,fake:noise,grey,0,look_alike,stool,A stool.,-31.86557388305664,4
+everyday,chair,noise,fake:noise,grey,0,same_family,table,A table.,-29.17101287841797,3
+everyday,chair,noise,fake:noise,grey,0,unrelated,teapot,A teapot.,-33.435218811035156,5
+everyday,chair,noise,fake:noise,grey,1,correct,chair,A chair.,-29.884368896484375,3
+everyday,chair,noise,fake:noise,grey,1,look_alike,stool,A stool.,-31.8866024017334,4
+everyday,chair,noise,fake:noise,grey,1,same_family,table,A table.,-29.12466049194336,3
+everyday,chair,noise,fake:noise,grey,1,unrelated,teapot,A teapot.,-33.71067810058594,5
+everyday,chair,noise,fake:noise,grey,2,correct,chair,A chair.,-29.974193572998047,3
+everyday,chair,noise,fake:noise,grey,2,look_alike,stool,A stool.,-31.774927139282227,4
+everyday,chair,noise,fake:noise,grey,2,same_family,table,A table.,-29.07250213623047,3
+everyday,chair,noise,fake:noise,grey,2,unrelated,teapot,A teapot.,-33.436641693115234,5
+everyday,cup,sphere,fake:sphere,grey,0,correct,cup,A cup.,-24.42953872680664,3
+everyday,cup,sphere,fake:sphere,grey,0,look_alike,vase,A vase.,-28.15531349182129,4
+everyday,cup,sphere,fake:sphere,grey,0,same_family,bowl,A bowl.,-24.165376663208008,4
+everyday,cup,sphere,fake:sphere,grey,0,unrelated,chair,A chair.,-28.00632095336914,3
+everyday,cup,sphere,fake:sphere,grey,1,correct,cup,A cup.,-24.449153900146484,3
+everyday,cup,sphere,fake:sphere,grey,1,look_alike,vase,A vase.,-28.10743522644043,4
+everyday,cup,sphere,fake:sphere,grey,1,same_family,bowl,A bowl.,-24.17881965637207,4
+everyday,cup,sphere,fake:sphere,grey,1,unrelated,chair,A chair.,-27.98329734802246,3
+everyday,cup,sphere,fake:sphere,grey,2,correct,cup,A cup.,-24.455608367919922,3
+everyday,cup,sphere,fake:sphere,grey,2,look_alike,vase,A vase.,-28.120567321777344,4
+everyday,cup,sphere,fake:sphere,grey,2,same_family,bowl,A bowl.,-24.193275451660156,4
+everyday,cup,sphere,fake:sphere,grey,2,unrelated,chair,A chair.,-27.9654541015625,3
+everyday,cup,noise,fake:noise,grey,0,correct,cup,A cup.,-27.359188079833984,3
+everyday,cup,noise,fake:noise,grey,0,look_alike,vase,A vase.,-29.008846282958984,4
+everyday,cup,noise,fake:noise,grey,0,same_family,bowl,A bowl.,-25.1441707611084,4
+everyday,cup,noise,fake:noise,grey,0,unrelated,chair,A chair.,-30.15053939819336,3
+everyday,cup,noise,fake:noise,grey,1,correct,cup,A cup.,-27.395790100097656,3
+everyday,cup,noise,fake:noise,grey,1,look_alike,vase,A vase.,-29.235828399658203,4
+everyday,cup,noise,fake:noise,grey,1,same_family,bowl,A bowl.,-25.34488296508789,4
+everyday,cup,noise,fake:noise,grey,1,unrelated,chair,A chair.,-29.884368896484375,3
+everyday,cup,noise,fake:noise,grey,2,correct,cup,A cup.,-27.32954216003418,3
+everyday,cup,noise,fake:noise,grey,2,look_alike,vase,A vase.,-29.031147003173828,4
+everyday,cup,noise,fake:noise,grey,2,same_family,bowl,A bowl.,-25.19998550415039,4
+everyday,cup,noise,fake:noise,grey,2,unrelated,chair,A chair.,-29.974193572998047,3
+everyday,keyboard,sphere,fake:sphere,grey,0,correct,keyboard,A keyboard.,-29.301206588745117,3
+everyday,keyboard,sphere,fake:sphere,grey,0,look_alike,tray,A tray.,-35.89060974121094,4
+everyday,keyboard,sphere,fake:sphere,grey,0,same_family,laptop,A laptop.,-28.310550689697266,3
+everyday,keyboard,sphere,fake:sphere,grey,0,unrelated,chair,A chair.,-28.00632095336914,3
+everyday,keyboard,sphere,fake:sphere,grey,1,correct,keyboard,A keyboard.,-29.328258514404297,3
+everyday,keyboard,sphere,fake:sphere,grey,1,look_alike,tray,A tray.,-35.90336227416992,4
+everyday,keyboard,sphere,fake:sphere,grey,1,same_family,laptop,A laptop.,-28.29862403869629,3
+everyday,keyboard,sphere,fake:sphere,grey,1,unrelated,chair,A chair.,-27.98329734802246,3
+everyday,keyboard,sphere,fake:sphere,grey,2,correct,keyboard,A keyboard.,-29.305463790893555,3
+everyday,keyboard,sphere,fake:sphere,grey,2,look_alike,tray,A tray.,-35.88600158691406,4
+everyday,keyboard,sphere,fake:sphere,grey,2,same_family,laptop,A laptop.,-28.278200149536133,3
+everyday,keyboard,sphere,fake:sphere,grey,2,unrelated,chair,A chair.,-27.9654541015625,3
+everyday,keyboard,noise,fake:noise,grey,0,correct,keyboard,A keyboard.,-28.969860076904297,3
+everyday,keyboard,noise,fake:noise,grey,0,look_alike,tray,A tray.,-29.9507999420166,4
+everyday,keyboard,noise,fake:noise,grey,0,same_family,laptop,A laptop.,-27.585935592651367,3
+everyday,keyboard,noise,fake:noise,grey,0,unrelated,chair,A chair.,-30.15053939819336,3
+everyday,keyboard,noise,fake:noise,grey,1,correct,keyboard,A keyboard.,-28.972816467285156,3
+everyday,keyboard,noise,fake:noise,grey,1,look_alike,tray,A tray.,-30.06024169921875,4
+everyday,keyboard,noise,fake:noise,grey,1,same_family,laptop,A laptop.,-27.61191749572754,3
+everyday,keyboard,noise,fake:noise,grey,1,unrelated,chair,A chair.,-29.884368896484375,3
+everyday,keyboard,noise,fake:noise,grey,2,correct,keyboard,A keyboard.,-28.906038284301758,3
+everyday,keyboard,noise,fake:noise,grey,2,look_alike,tray,A tray.,-30.00757598876953,4
+everyday,keyboard,noise,fake:noise,grey,2,same_family,laptop,A laptop.,-27.591068267822266,3
+everyday,keyboard,noise,fake:noise,grey,2,unrelated,chair,A chair.,-29.974193572998047,3
+everyday,table,sphere,fake:sphere,grey,0,correct,table,A table.,-28.20962142944336,3
+everyday,table,sphere,fake:sphere,grey,0,look_alike,bench,A bench.,-38.05863952636719,4
+everyday,table,sphere,fake:sphere,grey,0,same_family,shelf,A shelf.,-35.72935485839844,4
+everyday,table,sphere,fake:sphere,grey,0,unrelated,cup,A cup.,-24.42953872680664,3
+everyday,table,sphere,fake:sphere,grey,1,correct,table,A table.,-28.23974609375,3
+everyday,table,sphere,fake:sphere,grey,1,look_alike,bench,A bench.,-38.087974548339844,4
+everyday,table,sphere,fake:sphere,grey,1,same_family,shelf,A shelf.,-35.71949005126953,4
+everyday,table,sphere,fake:sphere,grey,1,unrelated,cup,A cup.,-24.449153900146484,3
+everyday,table,sphere,fake:sphere,grey,2,correct,table,A table.,-28.178237915039062,3
+everyday,table,sphere,fake:sphere,grey,2,look_alike,bench,A bench.,-38.000640869140625,4
+everyday,table,sphere,fake:sphere,grey,2,same_family,shelf,A shelf.,-35.72520065307617,4
+everyday,table,sphere,fake:sphere,grey,2,unrelated,cup,A cup.,-24.455608367919922,3
+everyday,table,noise,fake:noise,grey,0,correct,table,A table.,-29.17101287841797,3
+everyday,table,noise,fake:noise,grey,0,look_alike,bench,A bench.,-36.23744583129883,4
+everyday,table,noise,fake:noise,grey,0,same_family,shelf,A shelf.,-28.18551254272461,4
+everyday,table,noise,fake:noise,grey,0,unrelated,cup,A cup.,-27.359188079833984,3
+everyday,table,noise,fake:noise,grey,1,correct,table,A table.,-29.12466049194336,3
+everyday,table,noise,fake:noise,grey,1,look_alike,bench,A bench.,-35.54486083984375,4
+everyday,table,noise,fake:noise,grey,1,same_family,shelf,A shelf.,-28.053627014160156,4
+everyday,table,noise,fake:noise,grey,1,unrelated,cup,A cup.,-27.395790100097656,3
+everyday,table,noise,fake:noise,grey,2,correct,table,A table.,-29.07250213623047,3
+everyday,table,noise,fake:noise,grey,2,look_alike,bench,A bench.,-35.78497314453125,4
+everyday,table,noise,fake:noise,grey,2,same_family,shelf,A shelf.,-28.116596221923828,4
+everyday,table,noise,fake:noise,grey,2,unrelated,cup,A cup.,-27.32954216003418,3
+everyday,wooden_benched,sphere,fake:sphere,grey,0,correct,bench,A bench.,-38.05863952636719,4
+everyday,wooden_benched,sphere,fake:sphere,grey,0,look_alike,table,A table.,-28.20962142944336,3
+everyday,wooden_benched,sphere,fake:sphere,grey,0,same_family,chair,A chair.,-28.00632095336914,3
+everyday,wooden_benched,sphere,fake:sphere,grey,0,unrelated,teapot,A teapot.,-33.09761047363281,5
+everyday,wooden_benched,sphere,fake:sphere,grey,1,correct,bench,A bench.,-38.087974548339844,4
+everyday,wooden_benched,sphere,fake:sphere,grey,1,look_alike,table,A table.,-28.23974609375,3
+everyday,wooden_benched,sphere,fake:sphere,grey,1,same_family,chair,A chair.,-27.98329734802246,3
+everyday,wooden_benched,sphere,fake:sphere,grey,1,unrelated,teapot,A teapot.,-33.12849426269531,5
+everyday,wooden_benched,sphere,fake:sphere,grey,2,correct,bench,A bench.,-38.000640869140625,4
+everyday,wooden_benched,sphere,fake:sphere,grey,2,look_alike,table,A table.,-28.178237915039062,3
+everyday,wooden_benched,sphere,fake:sphere,grey,2,same_family,chair,A chair.,-27.9654541015625,3
+everyday,wooden_benched,sphere,fake:sphere,grey,2,unrelated,teapot,A teapot.,-33.09290313720703,5
+everyday,wooden_benched,noise,fake:noise,grey,0,correct,bench,A bench.,-36.23744583129883,4
+everyday,wooden_benched,noise,fake:noise,grey,0,look_alike,table,A table.,-29.17101287841797,3
+everyday,wooden_benched,noise,fake:noise,grey,0,same_family,chair,A chair.,-30.15053939819336,3
+everyday,wooden_benched,noise,fake:noise,grey,0,unrelated,teapot,A teapot.,-33.435218811035156,5
+everyday,wooden_benched,noise,fake:noise,grey,1,correct,bench,A bench.,-35.54486083984375,4
+everyday,wooden_benched,noise,fake:noise,grey,1,look_alike,table,A table.,-29.12466049194336,3
+everyday,wooden_benched,noise,fake:noise,grey,1,same_family,chair,A chair.,-29.884368896484375,3
+everyday,wooden_benched,noise,fake:noise,grey,1,unrelated,teapot,A teapot.,-33.71067810058594,5
+everyday,wooden_benched,noise,fake:noise,grey,2,correct,bench,A bench.,-35.78497314453125,4
+everyday,wooden_benched,noise,fake:noise,grey,2,look_alike,table,A table.,-29.07250213623047,3
+everyday,wooden_benched,noise,fake:noise,grey,2,same_family,chair,A chair.,-29.974193572998047,3
+everyday,wooden_benched,noise,fake:noise,grey,2,unrelated,teapot,A teapot.,-33.436641693115234,5
+near_ood,bodna,real,Bodna_1_cleaned.ply,grey,0,correct,water jug,A water jug.,-28.148632049560547,4
+near_ood,bodna,real,Bodna_1_cleaned.ply,grey,0,look_alike,teapot,A teapot.,-20.504840850830078,5
+near_ood,bodna,real,Bodna_1_cleaned.ply,grey,0,same_family,vase,A vase.,-19.66913414001465,4
+near_ood,bodna,real,Bodna_1_cleaned.ply,grey,0,unrelated,chair,A chair.,-23.242950439453125,3
+near_ood,bodna,real,Bodna_1_cleaned.ply,grey,1,correct,water jug,A water jug.,-27.72882652282715,4
+near_ood,bodna,real,Bodna_1_cleaned.ply,grey,1,look_alike,teapot,A teapot.,-19.492420196533203,5
+near_ood,bodna,real,Bodna_1_cleaned.ply,grey,1,same_family,vase,A vase.,-18.824481964111328,4
+near_ood,bodna,real,Bodna_1_cleaned.ply,grey,1,unrelated,chair,A chair.,-23.07048797607422,3
+near_ood,bodna,real,Bodna_1_cleaned.ply,grey,2,correct,water jug,A water jug.,-28.369014739990234,4
+near_ood,bodna,real,Bodna_1_cleaned.ply,grey,2,look_alike,teapot,A teapot.,-20.624881744384766,5
+near_ood,bodna,real,Bodna_1_cleaned.ply,grey,2,same_family,vase,A vase.,-19.790985107421875,4
+near_ood,bodna,real,Bodna_1_cleaned.ply,grey,2,unrelated,chair,A chair.,-23.100839614868164,3
+near_ood,bodna,real,Bodna_2_cleaned.ply,grey,0,correct,water jug,A water jug.,-28.21108627319336,4
+near_ood,bodna,real,Bodna_2_cleaned.ply,grey,0,look_alike,teapot,A teapot.,-18.053730010986328,5
+near_ood,bodna,real,Bodna_2_cleaned.ply,grey,0,same_family,vase,A vase.,-17.79694366455078,4
+near_ood,bodna,real,Bodna_2_cleaned.ply,grey,0,unrelated,chair,A chair.,-25.408721923828125,3
+near_ood,bodna,real,Bodna_2_cleaned.ply,grey,1,correct,water jug,A water jug.,-28.50187110900879,4
+near_ood,bodna,real,Bodna_2_cleaned.ply,grey,1,look_alike,teapot,A teapot.,-17.87255859375,5
+near_ood,bodna,real,Bodna_2_cleaned.ply,grey,1,same_family,vase,A vase.,-17.872173309326172,4
+near_ood,bodna,real,Bodna_2_cleaned.ply,grey,1,unrelated,chair,A chair.,-25.30948257446289,3
+near_ood,bodna,real,Bodna_2_cleaned.ply,grey,2,correct,water jug,A water jug.,-28.045114517211914,4
+near_ood,bodna,real,Bodna_2_cleaned.ply,grey,2,look_alike,teapot,A teapot.,-17.915489196777344,5
+near_ood,bodna,real,Bodna_2_cleaned.ply,grey,2,same_family,vase,A vase.,-17.803916931152344,4
+near_ood,bodna,real,Bodna_2_cleaned.ply,grey,2,unrelated,chair,A chair.,-25.15670394897461,3
+near_ood,hurricane_lamp,real,Hurricane_Lamp_1_cleaned.ply,grey,0,correct,lantern,A lantern.,-25.97828483581543,4
+near_ood,hurricane_lamp,real,Hurricane_Lamp_1_cleaned.ply,grey,0,look_alike,glass jar,A glass jar.,-30.04006576538086,4
+near_ood,hurricane_lamp,real,Hurricane_Lamp_1_cleaned.ply,grey,0,same_family,candle,A candle.,-29.877334594726562,4
+near_ood,hurricane_lamp,real,Hurricane_Lamp_1_cleaned.ply,grey,0,unrelated,chair,A chair.,-24.389734268188477,3
+near_ood,hurricane_lamp,real,Hurricane_Lamp_1_cleaned.ply,grey,1,correct,lantern,A lantern.,-25.91843032836914,4
+near_ood,hurricane_lamp,real,Hurricane_Lamp_1_cleaned.ply,grey,1,look_alike,glass jar,A glass jar.,-29.846168518066406,4
+near_ood,hurricane_lamp,real,Hurricane_Lamp_1_cleaned.ply,grey,1,same_family,candle,A candle.,-30.433134078979492,4
+near_ood,hurricane_lamp,real,Hurricane_Lamp_1_cleaned.ply,grey,1,unrelated,chair,A chair.,-24.169227600097656,3
+near_ood,hurricane_lamp,real,Hurricane_Lamp_1_cleaned.ply,grey,2,correct,lantern,A lantern.,-25.609737396240234,4
+near_ood,hurricane_lamp,real,Hurricane_Lamp_1_cleaned.ply,grey,2,look_alike,glass jar,A glass jar.,-29.85128402709961,4
+near_ood,hurricane_lamp,real,Hurricane_Lamp_1_cleaned.ply,grey,2,same_family,candle,A candle.,-30.063812255859375,4
+near_ood,hurricane_lamp,real,Hurricane_Lamp_1_cleaned.ply,grey,2,unrelated,chair,A chair.,-24.384750366210938,3
+near_ood,kula,real,Kula_1_cleaned.ply,grey,0,correct,bamboo tray,A bamboo tray.,-30.670366287231445,8
+near_ood,kula,real,Kula_1_cleaned.ply,grey,0,look_alike,cutting board,A cutting board.,-22.72463607788086,4
+near_ood,kula,real,Kula_1_cleaned.ply,grey,0,same_family,basket,A basket.,-25.480037689208984,3
+near_ood,kula,real,Kula_1_cleaned.ply,grey,0,unrelated,chair,A chair.,-22.419727325439453,3
+near_ood,kula,real,Kula_1_cleaned.ply,grey,1,correct,bamboo tray,A bamboo tray.,-30.789369583129883,8
+near_ood,kula,real,Kula_1_cleaned.ply,grey,1,look_alike,cutting board,A cutting board.,-22.683204650878906,4
+near_ood,kula,real,Kula_1_cleaned.ply,grey,1,same_family,basket,A basket.,-25.247825622558594,3
+near_ood,kula,real,Kula_1_cleaned.ply,grey,1,unrelated,chair,A chair.,-22.967281341552734,3
+near_ood,kula,real,Kula_1_cleaned.ply,grey,2,correct,bamboo tray,A bamboo tray.,-30.45693588256836,8
+near_ood,kula,real,Kula_1_cleaned.ply,grey,2,look_alike,cutting board,A cutting board.,-22.610057830810547,4
+near_ood,kula,real,Kula_1_cleaned.ply,grey,2,same_family,basket,A basket.,-25.11319351196289,3
+near_ood,kula,real,Kula_1_cleaned.ply,grey,2,unrelated,chair,A chair.,-22.06012535095215,3
+near_ood,kula,real,Kula_2_cleaned.ply,grey,0,correct,bamboo tray,A bamboo tray.,-31.78851890563965,8
+near_ood,kula,real,Kula_2_cleaned.ply,grey,0,look_alike,cutting board,A cutting board.,-24.02842903137207,4
+near_ood,kula,real,Kula_2_cleaned.ply,grey,0,same_family,basket,A basket.,-27.125106811523438,3
+near_ood,kula,real,Kula_2_cleaned.ply,grey,0,unrelated,chair,A chair.,-22.961872100830078,3
+near_ood,kula,real,Kula_2_cleaned.ply,grey,1,correct,bamboo tray,A bamboo tray.,-31.383270263671875,8
+near_ood,kula,real,Kula_2_cleaned.ply,grey,1,look_alike,cutting board,A cutting board.,-23.75990867614746,4
+near_ood,kula,real,Kula_2_cleaned.ply,grey,1,same_family,basket,A basket.,-26.38738441467285,3
+near_ood,kula,real,Kula_2_cleaned.ply,grey,1,unrelated,chair,A chair.,-22.964126586914062,3
+near_ood,kula,real,Kula_2_cleaned.ply,grey,2,correct,bamboo tray,A bamboo tray.,-30.994415283203125,8
+near_ood,kula,real,Kula_2_cleaned.ply,grey,2,look_alike,cutting board,A cutting board.,-23.969894409179688,4
+near_ood,kula,real,Kula_2_cleaned.ply,grey,2,same_family,basket,A basket.,-27.011215209960938,3
+near_ood,kula,real,Kula_2_cleaned.ply,grey,2,unrelated,chair,A chair.,-21.83022117614746,3
+near_ood,matir_cup,real,Matir_Cup_1_cleaned.ply,grey,0,correct,clay cup,A clay cup.,-21.779420852661133,5
+near_ood,matir_cup,real,Matir_Cup_1_cleaned.ply,grey,0,look_alike,flower pot,A flower pot.,-31.13007354736328,4
+near_ood,matir_cup,real,Matir_Cup_1_cleaned.ply,grey,0,same_family,bowl,A bowl.,-21.85240364074707,4
+near_ood,matir_cup,real,Matir_Cup_1_cleaned.ply,grey,0,unrelated,chair,A chair.,-25.725330352783203,3
+near_ood,matir_cup,real,Matir_Cup_1_cleaned.ply,grey,1,correct,clay cup,A clay cup.,-22.072078704833984,5
+near_ood,matir_cup,real,Matir_Cup_1_cleaned.ply,grey,1,look_alike,flower pot,A flower pot.,-31.54603385925293,4
+near_ood,matir_cup,real,Matir_Cup_1_cleaned.ply,grey,1,same_family,bowl,A bowl.,-21.558074951171875,4
+near_ood,matir_cup,real,Matir_Cup_1_cleaned.ply,grey,1,unrelated,chair,A chair.,-25.55004119873047,3
+near_ood,matir_cup,real,Matir_Cup_1_cleaned.ply,grey,2,correct,clay cup,A clay cup.,-22.3037109375,5
+near_ood,matir_cup,real,Matir_Cup_1_cleaned.ply,grey,2,look_alike,flower pot,A flower pot.,-30.854835510253906,4
+near_ood,matir_cup,real,Matir_Cup_1_cleaned.ply,grey,2,same_family,bowl,A bowl.,-21.37242317199707,4
+near_ood,matir_cup,real,Matir_Cup_1_cleaned.ply,grey,2,unrelated,chair,A chair.,-25.74326515197754,3
+near_ood,muura,real,Muura_1_cleaned.ply,grey,0,correct,cane stool,A cane stool.,-35.12522888183594,6
+near_ood,muura,real,Muura_1_cleaned.ply,grey,0,look_alike,drum,A drum.,-23.77408218383789,3
+near_ood,muura,real,Muura_1_cleaned.ply,grey,0,same_family,chair,A chair.,-17.906606674194336,3
+near_ood,muura,real,Muura_1_cleaned.ply,grey,0,unrelated,teapot,A teapot.,-28.057025909423828,5
+near_ood,muura,real,Muura_1_cleaned.ply,grey,1,correct,cane stool,A cane stool.,-35.263370513916016,6
+near_ood,muura,real,Muura_1_cleaned.ply,grey,1,look_alike,drum,A drum.,-23.222427368164062,3
+near_ood,muura,real,Muura_1_cleaned.ply,grey,1,same_family,chair,A chair.,-18.024131774902344,3
+near_ood,muura,real,Muura_1_cleaned.ply,grey,1,unrelated,teapot,A teapot.,-27.37301254272461,5
+near_ood,muura,real,Muura_1_cleaned.ply,grey,2,correct,cane stool,A cane stool.,-35.477691650390625,6
+near_ood,muura,real,Muura_1_cleaned.ply,grey,2,look_alike,drum,A drum.,-25.017578125,3
+near_ood,muura,real,Muura_1_cleaned.ply,grey,2,same_family,chair,A chair.,-17.490398406982422,3
+near_ood,muura,real,Muura_1_cleaned.ply,grey,2,unrelated,teapot,A teapot.,-28.874752044677734,5
+near_ood,patil,real,Patil_1_cleaned.ply,grey,0,correct,cooking pot,A cooking pot.,-25.080394744873047,5
+near_ood,patil,real,Patil_1_cleaned.ply,grey,0,look_alike,bucket,A bucket.,-28.285627365112305,3
+near_ood,patil,real,Patil_1_cleaned.ply,grey,0,same_family,bowl,A bowl.,-17.598726272583008,4
+near_ood,patil,real,Patil_1_cleaned.ply,grey,0,unrelated,chair,A chair.,-25.2447452545166,3
+near_ood,patil,real,Patil_1_cleaned.ply,grey,1,correct,cooking pot,A cooking pot.,-24.857582092285156,5
+near_ood,patil,real,Patil_1_cleaned.ply,grey,1,look_alike,bucket,A bucket.,-28.574848175048828,3
+near_ood,patil,real,Patil_1_cleaned.ply,grey,1,same_family,bowl,A bowl.,-17.55254364013672,4
+near_ood,patil,real,Patil_1_cleaned.ply,grey,1,unrelated,chair,A chair.,-25.323951721191406,3
+near_ood,patil,real,Patil_1_cleaned.ply,grey,2,correct,cooking pot,A cooking pot.,-24.57172966003418,5
+near_ood,patil,real,Patil_1_cleaned.ply,grey,2,look_alike,bucket,A bucket.,-28.371492385864258,3
+near_ood,patil,real,Patil_1_cleaned.ply,grey,2,same_family,bowl,A bowl.,-17.194778442382812,4
+near_ood,patil,real,Patil_1_cleaned.ply,grey,2,unrelated,chair,A chair.,-24.85951042175293,3
+near_ood,patil,real,Patil_2_cleaned.ply,grey,0,correct,cooking pot,A cooking pot.,-22.8646240234375,5
+near_ood,patil,real,Patil_2_cleaned.ply,grey,0,look_alike,bucket,A bucket.,-27.388853073120117,3
+near_ood,patil,real,Patil_2_cleaned.ply,grey,0,same_family,bowl,A bowl.,-16.767086029052734,4
+near_ood,patil,real,Patil_2_cleaned.ply,grey,0,unrelated,chair,A chair.,-24.984909057617188,3
+near_ood,patil,real,Patil_2_cleaned.ply,grey,1,correct,cooking pot,A cooking pot.,-21.67786407470703,5
+near_ood,patil,real,Patil_2_cleaned.ply,grey,1,look_alike,bucket,A bucket.,-26.913856506347656,3
+near_ood,patil,real,Patil_2_cleaned.ply,grey,1,same_family,bowl,A bowl.,-16.565780639648438,4
+near_ood,patil,real,Patil_2_cleaned.ply,grey,1,unrelated,chair,A chair.,-25.40768814086914,3
+near_ood,patil,real,Patil_2_cleaned.ply,grey,2,correct,cooking pot,A cooking pot.,-21.584434509277344,5
+near_ood,patil,real,Patil_2_cleaned.ply,grey,2,look_alike,bucket,A bucket.,-27.10672378540039,3
+near_ood,patil,real,Patil_2_cleaned.ply,grey,2,same_family,bowl,A bowl.,-17.022663116455078,4
+near_ood,patil,real,Patil_2_cleaned.ply,grey,2,unrelated,chair,A chair.,-25.03771209716797,3
+near_ood,piri,real,Piri_1_cleaned.ply,grey,0,correct,low stool,A low stool.,-29.004127502441406,5
+near_ood,piri,real,Piri_1_cleaned.ply,grey,0,look_alike,box,A box.,-23.72127914428711,3
+near_ood,piri,real,Piri_1_cleaned.ply,grey,0,same_family,bench,A bench.,-18.312198638916016,4
+near_ood,piri,real,Piri_1_cleaned.ply,grey,0,unrelated,cup,A cup.,-30.82877540588379,3
+near_ood,piri,real,Piri_1_cleaned.ply,grey,1,correct,low stool,A low stool.,-28.248958587646484,5
+near_ood,piri,real,Piri_1_cleaned.ply,grey,1,look_alike,box,A box.,-23.830312728881836,3
+near_ood,piri,real,Piri_1_cleaned.ply,grey,1,same_family,bench,A bench.,-18.283872604370117,4
+near_ood,piri,real,Piri_1_cleaned.ply,grey,1,unrelated,cup,A cup.,-31.226181030273438,3
+near_ood,piri,real,Piri_1_cleaned.ply,grey,2,correct,low stool,A low stool.,-28.585010528564453,5
+near_ood,piri,real,Piri_1_cleaned.ply,grey,2,look_alike,box,A box.,-23.885440826416016,3
+near_ood,piri,real,Piri_1_cleaned.ply,grey,2,same_family,bench,A bench.,-18.332778930664062,4
+near_ood,piri,real,Piri_1_cleaned.ply,grey,2,unrelated,cup,A cup.,-30.750871658325195,3
+near_ood,piri,real,Piri_2_cleaned.ply,grey,0,correct,low stool,A low stool.,-31.169811248779297,5
+near_ood,piri,real,Piri_2_cleaned.ply,grey,0,look_alike,box,A box.,-24.537832260131836,3
+near_ood,piri,real,Piri_2_cleaned.ply,grey,0,same_family,bench,A bench.,-23.106538772583008,4
+near_ood,piri,real,Piri_2_cleaned.ply,grey,0,unrelated,cup,A cup.,-27.074081420898438,3
+near_ood,piri,real,Piri_2_cleaned.ply,grey,1,correct,low stool,A low stool.,-32.003509521484375,5
+near_ood,piri,real,Piri_2_cleaned.ply,grey,1,look_alike,box,A box.,-24.65013885498047,3
+near_ood,piri,real,Piri_2_cleaned.ply,grey,1,same_family,bench,A bench.,-22.964298248291016,4
+near_ood,piri,real,Piri_2_cleaned.ply,grey,1,unrelated,cup,A cup.,-26.66885757446289,3
+near_ood,piri,real,Piri_2_cleaned.ply,grey,2,correct,low stool,A low stool.,-31.03199005126953,5
+near_ood,piri,real,Piri_2_cleaned.ply,grey,2,look_alike,box,A box.,-24.458763122558594,3
+near_ood,piri,real,Piri_2_cleaned.ply,grey,2,same_family,bench,A bench.,-22.886924743652344,4
+near_ood,piri,real,Piri_2_cleaned.ply,grey,2,unrelated,cup,A cup.,-27.408824920654297,3
+near_ood,piri,real,Piri_3_cleaned.ply,grey,0,correct,low stool,A low stool.,-33.95387268066406,5
+near_ood,piri,real,Piri_3_cleaned.ply,grey,0,look_alike,box,A box.,-20.375282287597656,3
+near_ood,piri,real,Piri_3_cleaned.ply,grey,0,same_family,bench,A bench.,-24.55556869506836,4
+near_ood,piri,real,Piri_3_cleaned.ply,grey,0,unrelated,cup,A cup.,-25.86066436767578,3
+near_ood,piri,real,Piri_3_cleaned.ply,grey,1,correct,low stool,A low stool.,-33.425392150878906,5
+near_ood,piri,real,Piri_3_cleaned.ply,grey,1,look_alike,box,A box.,-20.466367721557617,3
+near_ood,piri,real,Piri_3_cleaned.ply,grey,1,same_family,bench,A bench.,-24.447402954101562,4
+near_ood,piri,real,Piri_3_cleaned.ply,grey,1,unrelated,cup,A cup.,-25.819917678833008,3
+near_ood,piri,real,Piri_3_cleaned.ply,grey,2,correct,low stool,A low stool.,-34.16848373413086,5
+near_ood,piri,real,Piri_3_cleaned.ply,grey,2,look_alike,box,A box.,-20.464841842651367,3
+near_ood,piri,real,Piri_3_cleaned.ply,grey,2,same_family,bench,A bench.,-24.231544494628906,4
+near_ood,piri,real,Piri_3_cleaned.ply,grey,2,unrelated,cup,A cup.,-25.944305419921875,3
+near_ood,piri,real,Piri_4_cleaned.ply,grey,0,correct,low stool,A low stool.,-32.797828674316406,5
+near_ood,piri,real,Piri_4_cleaned.ply,grey,0,look_alike,box,A box.,-18.51348304748535,3
+near_ood,piri,real,Piri_4_cleaned.ply,grey,0,same_family,bench,A bench.,-23.12932777404785,4
+near_ood,piri,real,Piri_4_cleaned.ply,grey,0,unrelated,cup,A cup.,-28.906675338745117,3
+near_ood,piri,real,Piri_4_cleaned.ply,grey,1,correct,low stool,A low stool.,-32.921897888183594,5
+near_ood,piri,real,Piri_4_cleaned.ply,grey,1,look_alike,box,A box.,-18.303190231323242,3
+near_ood,piri,real,Piri_4_cleaned.ply,grey,1,same_family,bench,A bench.,-22.846771240234375,4
+near_ood,piri,real,Piri_4_cleaned.ply,grey,1,unrelated,cup,A cup.,-28.936161041259766,3
+near_ood,piri,real,Piri_4_cleaned.ply,grey,2,correct,low stool,A low stool.,-32.418983459472656,5
+near_ood,piri,real,Piri_4_cleaned.ply,grey,2,look_alike,box,A box.,-18.14531135559082,3
+near_ood,piri,real,Piri_4_cleaned.ply,grey,2,same_family,bench,A bench.,-22.92034912109375,4
+near_ood,piri,real,Piri_4_cleaned.ply,grey,2,unrelated,cup,A cup.,-28.423118591308594,3
+near_ood,rehal,real,Rehal_1_cleaned.ply,grey,0,correct,book stand,A book stand.,-26.439620971679688,4
+near_ood,rehal,real,Rehal_1_cleaned.ply,grey,0,look_alike,bench,A bench.,-17.93714141845703,4
+near_ood,rehal,real,Rehal_1_cleaned.ply,grey,0,same_family,bookshelf,A bookshelf.,-23.34571647644043,5
+near_ood,rehal,real,Rehal_1_cleaned.ply,grey,0,unrelated,cup,A cup.,-35.06073760986328,3
+near_ood,rehal,real,Rehal_1_cleaned.ply,grey,1,correct,book stand,A book stand.,-25.186870574951172,4
+near_ood,rehal,real,Rehal_1_cleaned.ply,grey,1,look_alike,bench,A bench.,-17.650196075439453,4
+near_ood,rehal,real,Rehal_1_cleaned.ply,grey,1,same_family,bookshelf,A bookshelf.,-23.546894073486328,5
+near_ood,rehal,real,Rehal_1_cleaned.ply,grey,1,unrelated,cup,A cup.,-34.69194030761719,3
+near_ood,rehal,real,Rehal_1_cleaned.ply,grey,2,correct,book stand,A book stand.,-25.966028213500977,4
+near_ood,rehal,real,Rehal_1_cleaned.ply,grey,2,look_alike,bench,A bench.,-18.120813369750977,4
+near_ood,rehal,real,Rehal_1_cleaned.ply,grey,2,same_family,bookshelf,A bookshelf.,-22.83167839050293,5
+near_ood,rehal,real,Rehal_1_cleaned.ply,grey,2,unrelated,cup,A cup.,-34.876617431640625,3
+near_ood,bodna,sphere,fake:sphere,grey,0,correct,water jug,A water jug.,-32.79841613769531,4
+near_ood,bodna,sphere,fake:sphere,grey,0,look_alike,teapot,A teapot.,-33.09761047363281,5
+near_ood,bodna,sphere,fake:sphere,grey,0,same_family,vase,A vase.,-28.15531349182129,4
+near_ood,bodna,sphere,fake:sphere,grey,0,unrelated,chair,A chair.,-28.00632095336914,3
+near_ood,bodna,sphere,fake:sphere,grey,1,correct,water jug,A water jug.,-32.818058013916016,4
+near_ood,bodna,sphere,fake:sphere,grey,1,look_alike,teapot,A teapot.,-33.12849426269531,5
+near_ood,bodna,sphere,fake:sphere,grey,1,same_family,vase,A vase.,-28.10743522644043,4
+near_ood,bodna,sphere,fake:sphere,grey,1,unrelated,chair,A chair.,-27.98329734802246,3
+near_ood,bodna,sphere,fake:sphere,grey,2,correct,water jug,A water jug.,-32.830177307128906,4
+near_ood,bodna,sphere,fake:sphere,grey,2,look_alike,teapot,A teapot.,-33.09290313720703,5
+near_ood,bodna,sphere,fake:sphere,grey,2,same_family,vase,A vase.,-28.120567321777344,4
+near_ood,bodna,sphere,fake:sphere,grey,2,unrelated,chair,A chair.,-27.9654541015625,3
+near_ood,bodna,noise,fake:noise,grey,0,correct,water jug,A water jug.,-35.29952621459961,4
+near_ood,bodna,noise,fake:noise,grey,0,look_alike,teapot,A teapot.,-33.435218811035156,5
+near_ood,bodna,noise,fake:noise,grey,0,same_family,vase,A vase.,-29.008846282958984,4
+near_ood,bodna,noise,fake:noise,grey,0,unrelated,chair,A chair.,-30.15053939819336,3
+near_ood,bodna,noise,fake:noise,grey,1,correct,water jug,A water jug.,-35.15531921386719,4
+near_ood,bodna,noise,fake:noise,grey,1,look_alike,teapot,A teapot.,-33.71067810058594,5
+near_ood,bodna,noise,fake:noise,grey,1,same_family,vase,A vase.,-29.235828399658203,4
+near_ood,bodna,noise,fake:noise,grey,1,unrelated,chair,A chair.,-29.884368896484375,3
+near_ood,bodna,noise,fake:noise,grey,2,correct,water jug,A water jug.,-35.0377311706543,4
+near_ood,bodna,noise,fake:noise,grey,2,look_alike,teapot,A teapot.,-33.436641693115234,5
+near_ood,bodna,noise,fake:noise,grey,2,same_family,vase,A vase.,-29.031147003173828,4
+near_ood,bodna,noise,fake:noise,grey,2,unrelated,chair,A chair.,-29.974193572998047,3
+near_ood,hurricane_lamp,sphere,fake:sphere,grey,0,correct,lantern,A lantern.,-25.49713134765625,4
+near_ood,hurricane_lamp,sphere,fake:sphere,grey,0,look_alike,glass jar,A glass jar.,-21.559894561767578,4
+near_ood,hurricane_lamp,sphere,fake:sphere,grey,0,same_family,candle,A candle.,-32.02983474731445,4
+near_ood,hurricane_lamp,sphere,fake:sphere,grey,0,unrelated,chair,A chair.,-28.00632095336914,3
+near_ood,hurricane_lamp,sphere,fake:sphere,grey,1,correct,lantern,A lantern.,-25.52123260498047,4
+near_ood,hurricane_lamp,sphere,fake:sphere,grey,1,look_alike,glass jar,A glass jar.,-21.640304565429688,4
+near_ood,hurricane_lamp,sphere,fake:sphere,grey,1,same_family,candle,A candle.,-32.0738410949707,4
+near_ood,hurricane_lamp,sphere,fake:sphere,grey,1,unrelated,chair,A chair.,-27.98329734802246,3
+near_ood,hurricane_lamp,sphere,fake:sphere,grey,2,correct,lantern,A lantern.,-25.51605796813965,4
+near_ood,hurricane_lamp,sphere,fake:sphere,grey,2,look_alike,glass jar,A glass jar.,-21.62714195251465,4
+near_ood,hurricane_lamp,sphere,fake:sphere,grey,2,same_family,candle,A candle.,-32.051551818847656,4
+near_ood,hurricane_lamp,sphere,fake:sphere,grey,2,unrelated,chair,A chair.,-27.9654541015625,3
+near_ood,hurricane_lamp,noise,fake:noise,grey,0,correct,lantern,A lantern.,-26.9882755279541,4
+near_ood,hurricane_lamp,noise,fake:noise,grey,0,look_alike,glass jar,A glass jar.,-26.474838256835938,4
+near_ood,hurricane_lamp,noise,fake:noise,grey,0,same_family,candle,A candle.,-26.079463958740234,4
+near_ood,hurricane_lamp,noise,fake:noise,grey,0,unrelated,chair,A chair.,-30.15053939819336,3
+near_ood,hurricane_lamp,noise,fake:noise,grey,1,correct,lantern,A lantern.,-26.912708282470703,4
+near_ood,hurricane_lamp,noise,fake:noise,grey,1,look_alike,glass jar,A glass jar.,-26.222917556762695,4
+near_ood,hurricane_lamp,noise,fake:noise,grey,1,same_family,candle,A candle.,-26.109859466552734,4
+near_ood,hurricane_lamp,noise,fake:noise,grey,1,unrelated,chair,A chair.,-29.884368896484375,3
+near_ood,hurricane_lamp,noise,fake:noise,grey,2,correct,lantern,A lantern.,-26.84003448486328,4
+near_ood,hurricane_lamp,noise,fake:noise,grey,2,look_alike,glass jar,A glass jar.,-26.188919067382812,4
+near_ood,hurricane_lamp,noise,fake:noise,grey,2,same_family,candle,A candle.,-26.119300842285156,4
+near_ood,hurricane_lamp,noise,fake:noise,grey,2,unrelated,chair,A chair.,-29.974193572998047,3
+near_ood,kula,sphere,fake:sphere,grey,0,correct,bamboo tray,A bamboo tray.,-44.513824462890625,8
+near_ood,kula,sphere,fake:sphere,grey,0,look_alike,cutting board,A cutting board.,-35.49891662597656,4
+near_ood,kula,sphere,fake:sphere,grey,0,same_family,basket,A basket.,-27.733806610107422,3
+near_ood,kula,sphere,fake:sphere,grey,0,unrelated,chair,A chair.,-28.00632095336914,3
+near_ood,kula,sphere,fake:sphere,grey,1,correct,bamboo tray,A bamboo tray.,-44.470497131347656,8
+near_ood,kula,sphere,fake:sphere,grey,1,look_alike,cutting board,A cutting board.,-35.464599609375,4
+near_ood,kula,sphere,fake:sphere,grey,1,same_family,basket,A basket.,-27.7457275390625,3
+near_ood,kula,sphere,fake:sphere,grey,1,unrelated,chair,A chair.,-27.98329734802246,3
+near_ood,kula,sphere,fake:sphere,grey,2,correct,bamboo tray,A bamboo tray.,-44.39704513549805,8
+near_ood,kula,sphere,fake:sphere,grey,2,look_alike,cutting board,A cutting board.,-35.435264587402344,4
+near_ood,kula,sphere,fake:sphere,grey,2,same_family,basket,A basket.,-27.75867462158203,3
+near_ood,kula,sphere,fake:sphere,grey,2,unrelated,chair,A chair.,-27.9654541015625,3
+near_ood,kula,noise,fake:noise,grey,0,correct,bamboo tray,A bamboo tray.,-39.00889205932617,8
+near_ood,kula,noise,fake:noise,grey,0,look_alike,cutting board,A cutting board.,-35.901004791259766,4
+near_ood,kula,noise,fake:noise,grey,0,same_family,basket,A basket.,-26.8021183013916,3
+near_ood,kula,noise,fake:noise,grey,0,unrelated,chair,A chair.,-30.15053939819336,3
+near_ood,kula,noise,fake:noise,grey,1,correct,bamboo tray,A bamboo tray.,-38.48273468017578,8
+near_ood,kula,noise,fake:noise,grey,1,look_alike,cutting board,A cutting board.,-35.86812973022461,4
+near_ood,kula,noise,fake:noise,grey,1,same_family,basket,A basket.,-26.743816375732422,3
+near_ood,kula,noise,fake:noise,grey,1,unrelated,chair,A chair.,-29.884368896484375,3
+near_ood,kula,noise,fake:noise,grey,2,correct,bamboo tray,A bamboo tray.,-38.698272705078125,8
+near_ood,kula,noise,fake:noise,grey,2,look_alike,cutting board,A cutting board.,-36.04133224487305,4
+near_ood,kula,noise,fake:noise,grey,2,same_family,basket,A basket.,-26.75579071044922,3
+near_ood,kula,noise,fake:noise,grey,2,unrelated,chair,A chair.,-29.974193572998047,3
+near_ood,matir_cup,sphere,fake:sphere,grey,0,correct,clay cup,A clay cup.,-37.66765213012695,5
+near_ood,matir_cup,sphere,fake:sphere,grey,0,look_alike,flower pot,A flower pot.,-31.26331329345703,4
+near_ood,matir_cup,sphere,fake:sphere,grey,0,same_family,bowl,A bowl.,-24.165376663208008,4
+near_ood,matir_cup,sphere,fake:sphere,grey,0,unrelated,chair,A chair.,-28.00632095336914,3
+near_ood,matir_cup,sphere,fake:sphere,grey,1,correct,clay cup,A clay cup.,-37.65566635131836,5
+near_ood,matir_cup,sphere,fake:sphere,grey,1,look_alike,flower pot,A flower pot.,-31.27074432373047,4
+near_ood,matir_cup,sphere,fake:sphere,grey,1,same_family,bowl,A bowl.,-24.17881965637207,4
+near_ood,matir_cup,sphere,fake:sphere,grey,1,unrelated,chair,A chair.,-27.98329734802246,3
+near_ood,matir_cup,sphere,fake:sphere,grey,2,correct,clay cup,A clay cup.,-37.68190002441406,5
+near_ood,matir_cup,sphere,fake:sphere,grey,2,look_alike,flower pot,A flower pot.,-31.262725830078125,4
+near_ood,matir_cup,sphere,fake:sphere,grey,2,same_family,bowl,A bowl.,-24.193275451660156,4
+near_ood,matir_cup,sphere,fake:sphere,grey,2,unrelated,chair,A chair.,-27.9654541015625,3
+near_ood,matir_cup,noise,fake:noise,grey,0,correct,clay cup,A clay cup.,-41.08832550048828,5
+near_ood,matir_cup,noise,fake:noise,grey,0,look_alike,flower pot,A flower pot.,-28.804458618164062,4
+near_ood,matir_cup,noise,fake:noise,grey,0,same_family,bowl,A bowl.,-25.1441707611084,4
+near_ood,matir_cup,noise,fake:noise,grey,0,unrelated,chair,A chair.,-30.15053939819336,3
+near_ood,matir_cup,noise,fake:noise,grey,1,correct,clay cup,A clay cup.,-41.581600189208984,5
+near_ood,matir_cup,noise,fake:noise,grey,1,look_alike,flower pot,A flower pot.,-29.473358154296875,4
+near_ood,matir_cup,noise,fake:noise,grey,1,same_family,bowl,A bowl.,-25.34488296508789,4
+near_ood,matir_cup,noise,fake:noise,grey,1,unrelated,chair,A chair.,-29.884368896484375,3
+near_ood,matir_cup,noise,fake:noise,grey,2,correct,clay cup,A clay cup.,-41.34071731567383,5
+near_ood,matir_cup,noise,fake:noise,grey,2,look_alike,flower pot,A flower pot.,-29.200273513793945,4
+near_ood,matir_cup,noise,fake:noise,grey,2,same_family,bowl,A bowl.,-25.19998550415039,4
+near_ood,matir_cup,noise,fake:noise,grey,2,unrelated,chair,A chair.,-29.974193572998047,3
+near_ood,muura,sphere,fake:sphere,grey,0,correct,cane stool,A cane stool.,-39.11663818359375,6
+near_ood,muura,sphere,fake:sphere,grey,0,look_alike,drum,A drum.,-28.61867904663086,3
+near_ood,muura,sphere,fake:sphere,grey,0,same_family,chair,A chair.,-28.00632095336914,3
+near_ood,muura,sphere,fake:sphere,grey,0,unrelated,teapot,A teapot.,-33.09761047363281,5
+near_ood,muura,sphere,fake:sphere,grey,1,correct,cane stool,A cane stool.,-39.145347595214844,6
+near_ood,muura,sphere,fake:sphere,grey,1,look_alike,drum,A drum.,-28.611360549926758,3
+near_ood,muura,sphere,fake:sphere,grey,1,same_family,chair,A chair.,-27.98329734802246,3
+near_ood,muura,sphere,fake:sphere,grey,1,unrelated,teapot,A teapot.,-33.12849426269531,5
+near_ood,muura,sphere,fake:sphere,grey,2,correct,cane stool,A cane stool.,-39.123931884765625,6
+near_ood,muura,sphere,fake:sphere,grey,2,look_alike,drum,A drum.,-28.605104446411133,3
+near_ood,muura,sphere,fake:sphere,grey,2,same_family,chair,A chair.,-27.9654541015625,3
+near_ood,muura,sphere,fake:sphere,grey,2,unrelated,teapot,A teapot.,-33.09290313720703,5
+near_ood,muura,noise,fake:noise,grey,0,correct,cane stool,A cane stool.,-43.37946701049805,6
+near_ood,muura,noise,fake:noise,grey,0,look_alike,drum,A drum.,-29.783113479614258,3
+near_ood,muura,noise,fake:noise,grey,0,same_family,chair,A chair.,-30.15053939819336,3
+near_ood,muura,noise,fake:noise,grey,0,unrelated,teapot,A teapot.,-33.435218811035156,5
+near_ood,muura,noise,fake:noise,grey,1,correct,cane stool,A cane stool.,-43.97006607055664,6
+near_ood,muura,noise,fake:noise,grey,1,look_alike,drum,A drum.,-29.673233032226562,3
+near_ood,muura,noise,fake:noise,grey,1,same_family,chair,A chair.,-29.884368896484375,3
+near_ood,muura,noise,fake:noise,grey,1,unrelated,teapot,A teapot.,-33.71067810058594,5
+near_ood,muura,noise,fake:noise,grey,2,correct,cane stool,A cane stool.,-43.693687438964844,6
+near_ood,muura,noise,fake:noise,grey,2,look_alike,drum,A drum.,-29.711835861206055,3
+near_ood,muura,noise,fake:noise,grey,2,same_family,chair,A chair.,-29.974193572998047,3
+near_ood,muura,noise,fake:noise,grey,2,unrelated,teapot,A teapot.,-33.436641693115234,5
+near_ood,patil,sphere,fake:sphere,grey,0,correct,cooking pot,A cooking pot.,-31.913616180419922,5
+near_ood,patil,sphere,fake:sphere,grey,0,look_alike,bucket,A bucket.,-28.4934139251709,3
+near_ood,patil,sphere,fake:sphere,grey,0,same_family,bowl,A bowl.,-24.165376663208008,4
+near_ood,patil,sphere,fake:sphere,grey,0,unrelated,chair,A chair.,-28.00632095336914,3
+near_ood,patil,sphere,fake:sphere,grey,1,correct,cooking pot,A cooking pot.,-31.921875,5
+near_ood,patil,sphere,fake:sphere,grey,1,look_alike,bucket,A bucket.,-28.490036010742188,3
+near_ood,patil,sphere,fake:sphere,grey,1,same_family,bowl,A bowl.,-24.17881965637207,4
+near_ood,patil,sphere,fake:sphere,grey,1,unrelated,chair,A chair.,-27.98329734802246,3
+near_ood,patil,sphere,fake:sphere,grey,2,correct,cooking pot,A cooking pot.,-31.884056091308594,5
+near_ood,patil,sphere,fake:sphere,grey,2,look_alike,bucket,A bucket.,-28.4835205078125,3
+near_ood,patil,sphere,fake:sphere,grey,2,same_family,bowl,A bowl.,-24.193275451660156,4
+near_ood,patil,sphere,fake:sphere,grey,2,unrelated,chair,A chair.,-27.9654541015625,3
+near_ood,patil,noise,fake:noise,grey,0,correct,cooking pot,A cooking pot.,-31.52830696105957,5
+near_ood,patil,noise,fake:noise,grey,0,look_alike,bucket,A bucket.,-30.92641830444336,3
+near_ood,patil,noise,fake:noise,grey,0,same_family,bowl,A bowl.,-25.1441707611084,4
+near_ood,patil,noise,fake:noise,grey,0,unrelated,chair,A chair.,-30.15053939819336,3
+near_ood,patil,noise,fake:noise,grey,1,correct,cooking pot,A cooking pot.,-31.947025299072266,5
+near_ood,patil,noise,fake:noise,grey,1,look_alike,bucket,A bucket.,-30.862316131591797,3
+near_ood,patil,noise,fake:noise,grey,1,same_family,bowl,A bowl.,-25.34488296508789,4
+near_ood,patil,noise,fake:noise,grey,1,unrelated,chair,A chair.,-29.884368896484375,3
+near_ood,patil,noise,fake:noise,grey,2,correct,cooking pot,A cooking pot.,-31.688961029052734,5
+near_ood,patil,noise,fake:noise,grey,2,look_alike,bucket,A bucket.,-30.86046028137207,3
+near_ood,patil,noise,fake:noise,grey,2,same_family,bowl,A bowl.,-25.19998550415039,4
+near_ood,patil,noise,fake:noise,grey,2,unrelated,chair,A chair.,-29.974193572998047,3
+near_ood,piri,sphere,fake:sphere,grey,0,correct,low stool,A low stool.,-46.54658508300781,5
+near_ood,piri,sphere,fake:sphere,grey,0,look_alike,box,A box.,-30.67645835876465,3
+near_ood,piri,sphere,fake:sphere,grey,0,same_family,bench,A bench.,-38.05863952636719,4
+near_ood,piri,sphere,fake:sphere,grey,0,unrelated,cup,A cup.,-24.42953872680664,3
+near_ood,piri,sphere,fake:sphere,grey,1,correct,low stool,A low stool.,-46.53539276123047,5
+near_ood,piri,sphere,fake:sphere,grey,1,look_alike,box,A box.,-30.715476989746094,3
+near_ood,piri,sphere,fake:sphere,grey,1,same_family,bench,A bench.,-38.087974548339844,4
+near_ood,piri,sphere,fake:sphere,grey,1,unrelated,cup,A cup.,-24.449153900146484,3
+near_ood,piri,sphere,fake:sphere,grey,2,correct,low stool,A low stool.,-46.505828857421875,5
+near_ood,piri,sphere,fake:sphere,grey,2,look_alike,box,A box.,-30.668079376220703,3
+near_ood,piri,sphere,fake:sphere,grey,2,same_family,bench,A bench.,-38.000640869140625,4
+near_ood,piri,sphere,fake:sphere,grey,2,unrelated,cup,A cup.,-24.455608367919922,3
+near_ood,piri,noise,fake:noise,grey,0,correct,low stool,A low stool.,-44.397850036621094,5
+near_ood,piri,noise,fake:noise,grey,0,look_alike,box,A box.,-28.32223129272461,3
+near_ood,piri,noise,fake:noise,grey,0,same_family,bench,A bench.,-36.23744583129883,4
+near_ood,piri,noise,fake:noise,grey,0,unrelated,cup,A cup.,-27.359188079833984,3
+near_ood,piri,noise,fake:noise,grey,1,correct,low stool,A low stool.,-44.33866500854492,5
+near_ood,piri,noise,fake:noise,grey,1,look_alike,box,A box.,-28.513240814208984,3
+near_ood,piri,noise,fake:noise,grey,1,same_family,bench,A bench.,-35.54486083984375,4
+near_ood,piri,noise,fake:noise,grey,1,unrelated,cup,A cup.,-27.395790100097656,3
+near_ood,piri,noise,fake:noise,grey,2,correct,low stool,A low stool.,-44.319053649902344,5
+near_ood,piri,noise,fake:noise,grey,2,look_alike,box,A box.,-28.38226318359375,3
+near_ood,piri,noise,fake:noise,grey,2,same_family,bench,A bench.,-35.78497314453125,4
+near_ood,piri,noise,fake:noise,grey,2,unrelated,cup,A cup.,-27.32954216003418,3
+near_ood,rehal,sphere,fake:sphere,grey,0,correct,book stand,A book stand.,-38.793907165527344,4
+near_ood,rehal,sphere,fake:sphere,grey,0,look_alike,bench,A bench.,-38.05863952636719,4
+near_ood,rehal,sphere,fake:sphere,grey,0,same_family,bookshelf,A bookshelf.,-30.35164451599121,5
+near_ood,rehal,sphere,fake:sphere,grey,0,unrelated,cup,A cup.,-24.42953872680664,3
+near_ood,rehal,sphere,fake:sphere,grey,1,correct,book stand,A book stand.,-38.81368637084961,4
+near_ood,rehal,sphere,fake:sphere,grey,1,look_alike,bench,A bench.,-38.087974548339844,4
+near_ood,rehal,sphere,fake:sphere,grey,1,same_family,bookshelf,A bookshelf.,-30.3808536529541,5
+near_ood,rehal,sphere,fake:sphere,grey,1,unrelated,cup,A cup.,-24.449153900146484,3
+near_ood,rehal,sphere,fake:sphere,grey,2,correct,book stand,A book stand.,-38.77501678466797,4
+near_ood,rehal,sphere,fake:sphere,grey,2,look_alike,bench,A bench.,-38.000640869140625,4
+near_ood,rehal,sphere,fake:sphere,grey,2,same_family,bookshelf,A bookshelf.,-30.32830810546875,5
+near_ood,rehal,sphere,fake:sphere,grey,2,unrelated,cup,A cup.,-24.455608367919922,3
+near_ood,rehal,noise,fake:noise,grey,0,correct,book stand,A book stand.,-36.44520568847656,4
+near_ood,rehal,noise,fake:noise,grey,0,look_alike,bench,A bench.,-36.23744583129883,4
+near_ood,rehal,noise,fake:noise,grey,0,same_family,bookshelf,A bookshelf.,-27.771743774414062,5
+near_ood,rehal,noise,fake:noise,grey,0,unrelated,cup,A cup.,-27.359188079833984,3
+near_ood,rehal,noise,fake:noise,grey,1,correct,book stand,A book stand.,-36.378631591796875,4
+near_ood,rehal,noise,fake:noise,grey,1,look_alike,bench,A bench.,-35.54486083984375,4
+near_ood,rehal,noise,fake:noise,grey,1,same_family,bookshelf,A bookshelf.,-27.754295349121094,5
+near_ood,rehal,noise,fake:noise,grey,1,unrelated,cup,A cup.,-27.395790100097656,3
+near_ood,rehal,noise,fake:noise,grey,2,correct,book stand,A book stand.,-36.47655487060547,4
+near_ood,rehal,noise,fake:noise,grey,2,look_alike,bench,A bench.,-35.78497314453125,4
+near_ood,rehal,noise,fake:noise,grey,2,same_family,bookshelf,A bookshelf.,-27.82857322692871,5
+near_ood,rehal,noise,fake:noise,grey,2,unrelated,cup,A cup.,-27.32954216003418,3
+far_ood,rickshaw,real,Rickshaw_1.ply,grey,0,correct,rickshaw,A rickshaw.,-39.59400939941406,6
+far_ood,rickshaw,real,Rickshaw_1.ply,grey,0,look_alike,tricycle,A tricycle.,-24.604442596435547,5
+far_ood,rickshaw,real,Rickshaw_1.ply,grey,0,same_family,carriage,A carriage.,-26.802509307861328,3
+far_ood,rickshaw,real,Rickshaw_1.ply,grey,0,unrelated,teapot,A teapot.,-30.679489135742188,5
+far_ood,rickshaw,real,Rickshaw_1.ply,grey,1,correct,rickshaw,A rickshaw.,-41.546607971191406,6
+far_ood,rickshaw,real,Rickshaw_1.ply,grey,1,look_alike,tricycle,A tricycle.,-25.244892120361328,5
+far_ood,rickshaw,real,Rickshaw_1.ply,grey,1,same_family,carriage,A carriage.,-28.59531021118164,3
+far_ood,rickshaw,real,Rickshaw_1.ply,grey,1,unrelated,teapot,A teapot.,-31.527563095092773,5
+far_ood,rickshaw,real,Rickshaw_1.ply,grey,2,correct,rickshaw,A rickshaw.,-40.27240753173828,6
+far_ood,rickshaw,real,Rickshaw_1.ply,grey,2,look_alike,tricycle,A tricycle.,-24.393173217773438,5
+far_ood,rickshaw,real,Rickshaw_1.ply,grey,2,same_family,carriage,A carriage.,-27.619388580322266,3
+far_ood,rickshaw,real,Rickshaw_1.ply,grey,2,unrelated,teapot,A teapot.,-30.22496795654297,5
+far_ood,sheel_pata,real,Sheel_Pata_1_cleaned.ply,grey,0,correct,grinding stone,A grinding stone.,-23.62334442138672,5
+far_ood,sheel_pata,real,Sheel_Pata_1_cleaned.ply,grey,0,look_alike,cutting board,A cutting board.,-26.795806884765625,4
+far_ood,sheel_pata,real,Sheel_Pata_1_cleaned.ply,grey,0,same_family,rolling pin,A rolling pin.,-33.486854553222656,4
+far_ood,sheel_pata,real,Sheel_Pata_1_cleaned.ply,grey,0,unrelated,chair,A chair.,-20.740169525146484,3
+far_ood,sheel_pata,real,Sheel_Pata_1_cleaned.ply,grey,1,correct,grinding stone,A grinding stone.,-24.289505004882812,5
+far_ood,sheel_pata,real,Sheel_Pata_1_cleaned.ply,grey,1,look_alike,cutting board,A cutting board.,-27.526222229003906,4
+far_ood,sheel_pata,real,Sheel_Pata_1_cleaned.ply,grey,1,same_family,rolling pin,A rolling pin.,-33.47572326660156,4
+far_ood,sheel_pata,real,Sheel_Pata_1_cleaned.ply,grey,1,unrelated,chair,A chair.,-20.75322914123535,3
+far_ood,sheel_pata,real,Sheel_Pata_1_cleaned.ply,grey,2,correct,grinding stone,A grinding stone.,-23.822551727294922,5
+far_ood,sheel_pata,real,Sheel_Pata_1_cleaned.ply,grey,2,look_alike,cutting board,A cutting board.,-27.359472274780273,4
+far_ood,sheel_pata,real,Sheel_Pata_1_cleaned.ply,grey,2,same_family,rolling pin,A rolling pin.,-33.36271667480469,4
+far_ood,sheel_pata,real,Sheel_Pata_1_cleaned.ply,grey,2,unrelated,chair,A chair.,-20.912525177001953,3
+far_ood,thela_gari,real,Thela_Gari_1_cleaned.ply,grey,0,correct,push cart,A push cart.,-24.716615676879883,4
+far_ood,thela_gari,real,Thela_Gari_1_cleaned.ply,grey,0,look_alike,table,A table.,-23.114103317260742,3
+far_ood,thela_gari,real,Thela_Gari_1_cleaned.ply,grey,0,same_family,wagon,A wagon.,-22.353731155395508,4
+far_ood,thela_gari,real,Thela_Gari_1_cleaned.ply,grey,0,unrelated,teapot,A teapot.,-31.045814514160156,5
+far_ood,thela_gari,real,Thela_Gari_1_cleaned.ply,grey,1,correct,push cart,A push cart.,-25.05901336669922,4
+far_ood,thela_gari,real,Thela_Gari_1_cleaned.ply,grey,1,look_alike,table,A table.,-23.13880157470703,3
+far_ood,thela_gari,real,Thela_Gari_1_cleaned.ply,grey,1,same_family,wagon,A wagon.,-22.08361053466797,4
+far_ood,thela_gari,real,Thela_Gari_1_cleaned.ply,grey,1,unrelated,teapot,A teapot.,-31.188512802124023,5
+far_ood,thela_gari,real,Thela_Gari_1_cleaned.ply,grey,2,correct,push cart,A push cart.,-25.531414031982422,4
+far_ood,thela_gari,real,Thela_Gari_1_cleaned.ply,grey,2,look_alike,table,A table.,-23.54046630859375,3
+far_ood,thela_gari,real,Thela_Gari_1_cleaned.ply,grey,2,same_family,wagon,A wagon.,-21.300199508666992,4
+far_ood,thela_gari,real,Thela_Gari_1_cleaned.ply,grey,2,unrelated,teapot,A teapot.,-31.330080032348633,5
+far_ood,thela_gari,real,Thela_Gari_2_cleaned.ply,grey,0,correct,push cart,A push cart.,-24.094711303710938,4
+far_ood,thela_gari,real,Thela_Gari_2_cleaned.ply,grey,0,look_alike,table,A table.,-23.08839988708496,3
+far_ood,thela_gari,real,Thela_Gari_2_cleaned.ply,grey,0,same_family,wagon,A wagon.,-25.235477447509766,4
+far_ood,thela_gari,real,Thela_Gari_2_cleaned.ply,grey,0,unrelated,teapot,A teapot.,-29.86530303955078,5
+far_ood,thela_gari,real,Thela_Gari_2_cleaned.ply,grey,1,correct,push cart,A push cart.,-24.419525146484375,4
+far_ood,thela_gari,real,Thela_Gari_2_cleaned.ply,grey,1,look_alike,table,A table.,-23.270668029785156,3
+far_ood,thela_gari,real,Thela_Gari_2_cleaned.ply,grey,1,same_family,wagon,A wagon.,-26.1826229095459,4
+far_ood,thela_gari,real,Thela_Gari_2_cleaned.ply,grey,1,unrelated,teapot,A teapot.,-29.63711166381836,5
+far_ood,thela_gari,real,Thela_Gari_2_cleaned.ply,grey,2,correct,push cart,A push cart.,-24.520177841186523,4
+far_ood,thela_gari,real,Thela_Gari_2_cleaned.ply,grey,2,look_alike,table,A table.,-24.39937973022461,3
+far_ood,thela_gari,real,Thela_Gari_2_cleaned.ply,grey,2,same_family,wagon,A wagon.,-26.493764877319336,4
+far_ood,thela_gari,real,Thela_Gari_2_cleaned.ply,grey,2,unrelated,teapot,A teapot.,-30.640098571777344,5
+far_ood,thela_gari,real,Thela_Gari_3_cleaned.ply,grey,0,correct,push cart,A push cart.,-26.832584381103516,4
+far_ood,thela_gari,real,Thela_Gari_3_cleaned.ply,grey,0,look_alike,table,A table.,-25.667251586914062,3
+far_ood,thela_gari,real,Thela_Gari_3_cleaned.ply,grey,0,same_family,wagon,A wagon.,-23.47928237915039,4
+far_ood,thela_gari,real,Thela_Gari_3_cleaned.ply,grey,0,unrelated,teapot,A teapot.,-32.0096435546875,5
+far_ood,thela_gari,real,Thela_Gari_3_cleaned.ply,grey,1,correct,push cart,A push cart.,-26.318843841552734,4
+far_ood,thela_gari,real,Thela_Gari_3_cleaned.ply,grey,1,look_alike,table,A table.,-24.895906448364258,3
+far_ood,thela_gari,real,Thela_Gari_3_cleaned.ply,grey,1,same_family,wagon,A wagon.,-23.479663848876953,4
+far_ood,thela_gari,real,Thela_Gari_3_cleaned.ply,grey,1,unrelated,teapot,A teapot.,-31.961769104003906,5
+far_ood,thela_gari,real,Thela_Gari_3_cleaned.ply,grey,2,correct,push cart,A push cart.,-24.508861541748047,4
+far_ood,thela_gari,real,Thela_Gari_3_cleaned.ply,grey,2,look_alike,table,A table.,-25.50691795349121,3
+far_ood,thela_gari,real,Thela_Gari_3_cleaned.ply,grey,2,same_family,wagon,A wagon.,-25.486799240112305,4
+far_ood,thela_gari,real,Thela_Gari_3_cleaned.ply,grey,2,unrelated,teapot,A teapot.,-30.411842346191406,5
+far_ood,thela_gari,real,Thela_Gari_4_cleaned.ply,grey,0,correct,push cart,A push cart.,-24.50822639465332,4
+far_ood,thela_gari,real,Thela_Gari_4_cleaned.ply,grey,0,look_alike,table,A table.,-22.62344741821289,3
+far_ood,thela_gari,real,Thela_Gari_4_cleaned.ply,grey,0,same_family,wagon,A wagon.,-24.95758819580078,4
+far_ood,thela_gari,real,Thela_Gari_4_cleaned.ply,grey,0,unrelated,teapot,A teapot.,-29.37811279296875,5
+far_ood,thela_gari,real,Thela_Gari_4_cleaned.ply,grey,1,correct,push cart,A push cart.,-24.267498016357422,4
+far_ood,thela_gari,real,Thela_Gari_4_cleaned.ply,grey,1,look_alike,table,A table.,-23.281673431396484,3
+far_ood,thela_gari,real,Thela_Gari_4_cleaned.ply,grey,1,same_family,wagon,A wagon.,-26.419025421142578,4
+far_ood,thela_gari,real,Thela_Gari_4_cleaned.ply,grey,1,unrelated,teapot,A teapot.,-28.686208724975586,5
+far_ood,thela_gari,real,Thela_Gari_4_cleaned.ply,grey,2,correct,push cart,A push cart.,-24.57761001586914,4
+far_ood,thela_gari,real,Thela_Gari_4_cleaned.ply,grey,2,look_alike,table,A table.,-23.493267059326172,3
+far_ood,thela_gari,real,Thela_Gari_4_cleaned.ply,grey,2,same_family,wagon,A wagon.,-25.703527450561523,4
+far_ood,thela_gari,real,Thela_Gari_4_cleaned.ply,grey,2,unrelated,teapot,A teapot.,-30.252254486083984,5
+far_ood,thela_gari,real,Thela_Gari_5_cleaned.ply,grey,0,correct,push cart,A push cart.,-25.490840911865234,4
+far_ood,thela_gari,real,Thela_Gari_5_cleaned.ply,grey,0,look_alike,table,A table.,-23.821033477783203,3
+far_ood,thela_gari,real,Thela_Gari_5_cleaned.ply,grey,0,same_family,wagon,A wagon.,-26.38568115234375,4
+far_ood,thela_gari,real,Thela_Gari_5_cleaned.ply,grey,0,unrelated,teapot,A teapot.,-29.116870880126953,5
+far_ood,thela_gari,real,Thela_Gari_5_cleaned.ply,grey,1,correct,push cart,A push cart.,-25.05408477783203,4
+far_ood,thela_gari,real,Thela_Gari_5_cleaned.ply,grey,1,look_alike,table,A table.,-23.53118896484375,3
+far_ood,thela_gari,real,Thela_Gari_5_cleaned.ply,grey,1,same_family,wagon,A wagon.,-25.637514114379883,4
+far_ood,thela_gari,real,Thela_Gari_5_cleaned.ply,grey,1,unrelated,teapot,A teapot.,-28.94529914855957,5
+far_ood,thela_gari,real,Thela_Gari_5_cleaned.ply,grey,2,correct,push cart,A push cart.,-25.192264556884766,4
+far_ood,thela_gari,real,Thela_Gari_5_cleaned.ply,grey,2,look_alike,table,A table.,-23.344438552856445,3
+far_ood,thela_gari,real,Thela_Gari_5_cleaned.ply,grey,2,same_family,wagon,A wagon.,-26.05390167236328,4
+far_ood,thela_gari,real,Thela_Gari_5_cleaned.ply,grey,2,unrelated,teapot,A teapot.,-28.82565689086914,5
+far_ood,tubewell,real,Tubewell_1_cleaned.ply,grey,0,correct,hand pump,A hand pump.,-27.731016159057617,5
+far_ood,tubewell,real,Tubewell_1_cleaned.ply,grey,0,look_alike,fire hydrant,A fire hydrant.,-40.37044143676758,5
+far_ood,tubewell,real,Tubewell_1_cleaned.ply,grey,0,same_family,faucet,A faucet.,-28.97124671936035,5
+far_ood,tubewell,real,Tubewell_1_cleaned.ply,grey,0,unrelated,chair,A chair.,-23.30738067626953,3
+far_ood,tubewell,real,Tubewell_1_cleaned.ply,grey,1,correct,hand pump,A hand pump.,-27.00830078125,5
+far_ood,tubewell,real,Tubewell_1_cleaned.ply,grey,1,look_alike,fire hydrant,A fire hydrant.,-38.1079216003418,5
+far_ood,tubewell,real,Tubewell_1_cleaned.ply,grey,1,same_family,faucet,A faucet.,-29.81102752685547,5
+far_ood,tubewell,real,Tubewell_1_cleaned.ply,grey,1,unrelated,chair,A chair.,-23.466217041015625,3
+far_ood,tubewell,real,Tubewell_1_cleaned.ply,grey,2,correct,hand pump,A hand pump.,-25.079540252685547,5
+far_ood,tubewell,real,Tubewell_1_cleaned.ply,grey,2,look_alike,fire hydrant,A fire hydrant.,-37.625205993652344,5
+far_ood,tubewell,real,Tubewell_1_cleaned.ply,grey,2,same_family,faucet,A faucet.,-28.142078399658203,5
+far_ood,tubewell,real,Tubewell_1_cleaned.ply,grey,2,unrelated,chair,A chair.,-23.258560180664062,3
+far_ood,rickshaw,sphere,fake:sphere,grey,0,correct,rickshaw,A rickshaw.,-43.81327438354492,6
+far_ood,rickshaw,sphere,fake:sphere,grey,0,look_alike,tricycle,A tricycle.,-26.357192993164062,5
+far_ood,rickshaw,sphere,fake:sphere,grey,0,same_family,carriage,A carriage.,-27.176349639892578,3
+far_ood,rickshaw,sphere,fake:sphere,grey,0,unrelated,teapot,A teapot.,-33.09761047363281,5
+far_ood,rickshaw,sphere,fake:sphere,grey,1,correct,rickshaw,A rickshaw.,-43.82716369628906,6
+far_ood,rickshaw,sphere,fake:sphere,grey,1,look_alike,tricycle,A tricycle.,-26.34891128540039,5
+far_ood,rickshaw,sphere,fake:sphere,grey,1,same_family,carriage,A carriage.,-27.169038772583008,3
+far_ood,rickshaw,sphere,fake:sphere,grey,1,unrelated,teapot,A teapot.,-33.12849426269531,5
+far_ood,rickshaw,sphere,fake:sphere,grey,2,correct,rickshaw,A rickshaw.,-43.81011962890625,6
+far_ood,rickshaw,sphere,fake:sphere,grey,2,look_alike,tricycle,A tricycle.,-26.361881256103516,5
+far_ood,rickshaw,sphere,fake:sphere,grey,2,same_family,carriage,A carriage.,-27.17081069946289,3
+far_ood,rickshaw,sphere,fake:sphere,grey,2,unrelated,teapot,A teapot.,-33.09290313720703,5
+far_ood,rickshaw,noise,fake:noise,grey,0,correct,rickshaw,A rickshaw.,-46.17757797241211,6
+far_ood,rickshaw,noise,fake:noise,grey,0,look_alike,tricycle,A tricycle.,-28.02419662475586,5
+far_ood,rickshaw,noise,fake:noise,grey,0,same_family,carriage,A carriage.,-29.026498794555664,3
+far_ood,rickshaw,noise,fake:noise,grey,0,unrelated,teapot,A teapot.,-33.435218811035156,5
+far_ood,rickshaw,noise,fake:noise,grey,1,correct,rickshaw,A rickshaw.,-46.64703369140625,6
+far_ood,rickshaw,noise,fake:noise,grey,1,look_alike,tricycle,A tricycle.,-28.800174713134766,5
+far_ood,rickshaw,noise,fake:noise,grey,1,same_family,carriage,A carriage.,-28.965679168701172,3
+far_ood,rickshaw,noise,fake:noise,grey,1,unrelated,teapot,A teapot.,-33.71067810058594,5
+far_ood,rickshaw,noise,fake:noise,grey,2,correct,rickshaw,A rickshaw.,-46.28377914428711,6
+far_ood,rickshaw,noise,fake:noise,grey,2,look_alike,tricycle,A tricycle.,-28.56265640258789,5
+far_ood,rickshaw,noise,fake:noise,grey,2,same_family,carriage,A carriage.,-28.973281860351562,3
+far_ood,rickshaw,noise,fake:noise,grey,2,unrelated,teapot,A teapot.,-33.436641693115234,5
+far_ood,sheel_pata,sphere,fake:sphere,grey,0,correct,grinding stone,A grinding stone.,-37.03671646118164,5
+far_ood,sheel_pata,sphere,fake:sphere,grey,0,look_alike,cutting board,A cutting board.,-35.49891662597656,4
+far_ood,sheel_pata,sphere,fake:sphere,grey,0,same_family,rolling pin,A rolling pin.,-31.25625991821289,4
+far_ood,sheel_pata,sphere,fake:sphere,grey,0,unrelated,chair,A chair.,-28.00632095336914,3
+far_ood,sheel_pata,sphere,fake:sphere,grey,1,correct,grinding stone,A grinding stone.,-37.033973693847656,5
+far_ood,sheel_pata,sphere,fake:sphere,grey,1,look_alike,cutting board,A cutting board.,-35.464599609375,4
+far_ood,sheel_pata,sphere,fake:sphere,grey,1,same_family,rolling pin,A rolling pin.,-31.256759643554688,4
+far_ood,sheel_pata,sphere,fake:sphere,grey,1,unrelated,chair,A chair.,-27.98329734802246,3
+far_ood,sheel_pata,sphere,fake:sphere,grey,2,correct,grinding stone,A grinding stone.,-36.990814208984375,5
+far_ood,sheel_pata,sphere,fake:sphere,grey,2,look_alike,cutting board,A cutting board.,-35.435264587402344,4
+far_ood,sheel_pata,sphere,fake:sphere,grey,2,same_family,rolling pin,A rolling pin.,-31.27395248413086,4
+far_ood,sheel_pata,sphere,fake:sphere,grey,2,unrelated,chair,A chair.,-27.9654541015625,3
+far_ood,sheel_pata,noise,fake:noise,grey,0,correct,grinding stone,A grinding stone.,-36.181640625,5
+far_ood,sheel_pata,noise,fake:noise,grey,0,look_alike,cutting board,A cutting board.,-35.901004791259766,4
+far_ood,sheel_pata,noise,fake:noise,grey,0,same_family,rolling pin,A rolling pin.,-27.887460708618164,4
+far_ood,sheel_pata,noise,fake:noise,grey,0,unrelated,chair,A chair.,-30.15053939819336,3
+far_ood,sheel_pata,noise,fake:noise,grey,1,correct,grinding stone,A grinding stone.,-35.98079299926758,5
+far_ood,sheel_pata,noise,fake:noise,grey,1,look_alike,cutting board,A cutting board.,-35.86812973022461,4
+far_ood,sheel_pata,noise,fake:noise,grey,1,same_family,rolling pin,A rolling pin.,-27.9351749420166,4
+far_ood,sheel_pata,noise,fake:noise,grey,1,unrelated,chair,A chair.,-29.884368896484375,3
+far_ood,sheel_pata,noise,fake:noise,grey,2,correct,grinding stone,A grinding stone.,-36.29048156738281,5
+far_ood,sheel_pata,noise,fake:noise,grey,2,look_alike,cutting board,A cutting board.,-36.04133224487305,4
+far_ood,sheel_pata,noise,fake:noise,grey,2,same_family,rolling pin,A rolling pin.,-27.944561004638672,4
+far_ood,sheel_pata,noise,fake:noise,grey,2,unrelated,chair,A chair.,-29.974193572998047,3
+far_ood,thela_gari,sphere,fake:sphere,grey,0,correct,push cart,A push cart.,-31.605682373046875,4
+far_ood,thela_gari,sphere,fake:sphere,grey,0,look_alike,table,A table.,-28.20962142944336,3
+far_ood,thela_gari,sphere,fake:sphere,grey,0,same_family,wagon,A wagon.,-29.926616668701172,4
+far_ood,thela_gari,sphere,fake:sphere,grey,0,unrelated,teapot,A teapot.,-33.09761047363281,5
+far_ood,thela_gari,sphere,fake:sphere,grey,1,correct,push cart,A push cart.,-31.64533805847168,4
+far_ood,thela_gari,sphere,fake:sphere,grey,1,look_alike,table,A table.,-28.23974609375,3
+far_ood,thela_gari,sphere,fake:sphere,grey,1,same_family,wagon,A wagon.,-29.921066284179688,4
+far_ood,thela_gari,sphere,fake:sphere,grey,1,unrelated,teapot,A teapot.,-33.12849426269531,5
+far_ood,thela_gari,sphere,fake:sphere,grey,2,correct,push cart,A push cart.,-31.636775970458984,4
+far_ood,thela_gari,sphere,fake:sphere,grey,2,look_alike,table,A table.,-28.178237915039062,3
+far_ood,thela_gari,sphere,fake:sphere,grey,2,same_family,wagon,A wagon.,-29.925800323486328,4
+far_ood,thela_gari,sphere,fake:sphere,grey,2,unrelated,teapot,A teapot.,-33.09290313720703,5
+far_ood,thela_gari,noise,fake:noise,grey,0,correct,push cart,A push cart.,-34.6026496887207,4
+far_ood,thela_gari,noise,fake:noise,grey,0,look_alike,table,A table.,-29.17101287841797,3
+far_ood,thela_gari,noise,fake:noise,grey,0,same_family,wagon,A wagon.,-32.54475402832031,4
+far_ood,thela_gari,noise,fake:noise,grey,0,unrelated,teapot,A teapot.,-33.435218811035156,5
+far_ood,thela_gari,noise,fake:noise,grey,1,correct,push cart,A push cart.,-34.4422721862793,4
+far_ood,thela_gari,noise,fake:noise,grey,1,look_alike,table,A table.,-29.12466049194336,3
+far_ood,thela_gari,noise,fake:noise,grey,1,same_family,wagon,A wagon.,-32.35953903198242,4
+far_ood,thela_gari,noise,fake:noise,grey,1,unrelated,teapot,A teapot.,-33.71067810058594,5
+far_ood,thela_gari,noise,fake:noise,grey,2,correct,push cart,A push cart.,-34.38761901855469,4
+far_ood,thela_gari,noise,fake:noise,grey,2,look_alike,table,A table.,-29.07250213623047,3
+far_ood,thela_gari,noise,fake:noise,grey,2,same_family,wagon,A wagon.,-32.31516647338867,4
+far_ood,thela_gari,noise,fake:noise,grey,2,unrelated,teapot,A teapot.,-33.436641693115234,5
+far_ood,tubewell,sphere,fake:sphere,grey,0,correct,hand pump,A hand pump.,-35.791893005371094,5
+far_ood,tubewell,sphere,fake:sphere,grey,0,look_alike,fire hydrant,A fire hydrant.,-34.087886810302734,5
+far_ood,tubewell,sphere,fake:sphere,grey,0,same_family,faucet,A faucet.,-44.18821716308594,5
+far_ood,tubewell,sphere,fake:sphere,grey,0,unrelated,chair,A chair.,-28.00632095336914,3
+far_ood,tubewell,sphere,fake:sphere,grey,1,correct,hand pump,A hand pump.,-35.7876091003418,5
+far_ood,tubewell,sphere,fake:sphere,grey,1,look_alike,fire hydrant,A fire hydrant.,-34.105411529541016,5
+far_ood,tubewell,sphere,fake:sphere,grey,1,same_family,faucet,A faucet.,-44.17799758911133,5
+far_ood,tubewell,sphere,fake:sphere,grey,1,unrelated,chair,A chair.,-27.98329734802246,3
+far_ood,tubewell,sphere,fake:sphere,grey,2,correct,hand pump,A hand pump.,-35.81529235839844,5
+far_ood,tubewell,sphere,fake:sphere,grey,2,look_alike,fire hydrant,A fire hydrant.,-34.111724853515625,5
+far_ood,tubewell,sphere,fake:sphere,grey,2,same_family,faucet,A faucet.,-44.2036247253418,5
+far_ood,tubewell,sphere,fake:sphere,grey,2,unrelated,chair,A chair.,-27.9654541015625,3
+far_ood,tubewell,noise,fake:noise,grey,0,correct,hand pump,A hand pump.,-38.568050384521484,5
+far_ood,tubewell,noise,fake:noise,grey,0,look_alike,fire hydrant,A fire hydrant.,-33.54920196533203,5
+far_ood,tubewell,noise,fake:noise,grey,0,same_family,faucet,A faucet.,-38.391685485839844,5
+far_ood,tubewell,noise,fake:noise,grey,0,unrelated,chair,A chair.,-30.15053939819336,3
+far_ood,tubewell,noise,fake:noise,grey,1,correct,hand pump,A hand pump.,-38.4859619140625,5
+far_ood,tubewell,noise,fake:noise,grey,1,look_alike,fire hydrant,A fire hydrant.,-33.50791931152344,5
+far_ood,tubewell,noise,fake:noise,grey,1,same_family,faucet,A faucet.,-38.30470657348633,5
+far_ood,tubewell,noise,fake:noise,grey,1,unrelated,chair,A chair.,-29.884368896484375,3
+far_ood,tubewell,noise,fake:noise,grey,2,correct,hand pump,A hand pump.,-38.532936096191406,5
+far_ood,tubewell,noise,fake:noise,grey,2,look_alike,fire hydrant,A fire hydrant.,-33.5191650390625,5
+far_ood,tubewell,noise,fake:noise,grey,2,same_family,faucet,A faucet.,-38.46400451660156,5
+far_ood,tubewell,noise,fake:noise,grey,2,unrelated,chair,A chair.,-29.974193572998047,3

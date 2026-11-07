@@ -34,7 +34,19 @@ The summary, per-scan and calibrated tables can be re-made from the raw scores: 
 
 Report with all charts: [7 Nov](../reports/2026-11-07_far_ood/report.md) ([PDF](../reports/2026-11-07_far_ood/report.pdf)). Reading: [journal 05](../journal/05_near_ood_mcq.md).
 
-Tables still to copy from Drive: `MyDrive/localpoint3d/results/far_ood_2026-11-07_1947/tables/` → this folder (ood_distance, mcq_scores, mcq_per_scan, confusion_matrix_plain/calibrated, confidence, …).
+Run `far_ood_2026-11-07_1947`. Thela gari was counted as far-OOD in this run; journal 05 has the numbers regrouped with it as near-OOD.
+
+| File | What |
+|---|---|
+| `mcq_scores.csv` | **raw scores**, multiple choice: one row per input × seed × option (3 seeds, ball and noise included) |
+| `mcq_summary.csv`, `mcq_per_scan.csv` | % correct per group with p-values; each scan's pick and seed agreement |
+| `all_labels_scores.csv` | **raw scores**, every scan × all 39 labels (seed 0), plain and calibrated |
+| `all_labels_predictions_plain.csv` / `_calibrated.csv` | best label and top 3 per scan |
+| `all_labels_accuracy.csv` | top-1 / top-3 per group |
+| `confusion_matrix_plain.csv` / `_calibrated.csv` | true object × predicted label (show the plain one) |
+| `confidence.csv`, `confidence_by_group.csv` | share of the best label per scan (low = unsure) |
+| `ood_distance.csv`, `ood_distance_by_group.csv` | fingerprint distance to the 3 nearest everyday scans |
+| `training_words.csv` | training-caption counts for the object names |
 
 ## `clip/`: MetaCLIP on pictures rendered from the scans (Shahedul, 1 Nov)
 

@@ -1,0 +1,43 @@
+group,object,file,predicted,top3,correct_label,correct,in_top3
+everyday,chair,Chair_01_cleaned.ply,chair,"chair, tricycle, table",chair,True,True
+everyday,chair,Chair_02_cleaned.ply,chair,"chair, stool, tricycle",chair,True,True
+everyday,chair,Chair_03_cleaned.ply,chair,"chair, stool, tricycle",chair,True,True
+everyday,chair,Chair_04_cleaned.ply,chair,"chair, stool, tricycle",chair,True,True
+everyday,chair,Chair_05_cleaned.ply,chair,"chair, stool, tray",chair,True,True
+everyday,chair,Chair_06_cleaned.ply,chair,"chair, stool, tricycle",chair,True,True
+everyday,chair,Chair_07_cleaned.ply,chair,"chair, tricycle, laptop",chair,True,True
+everyday,chair,Chair_08_cleaned.ply,chair,"chair, bookshelf, laptop",chair,True,True
+everyday,cup,Cup_1_cleaned.ply,cup,"cup, bowl, clay cup",cup,True,True
+everyday,cup,Cup_2_cleaned.ply,cup,"cup, clay cup, bowl",cup,True,True
+everyday,cup,Cup_3_cleaned.ply,bowl,"bowl, cup, rolling pin",cup,False,True
+everyday,cup,Cup_4_cleaned.ply,rolling pin,"rolling pin, chair, bowl",cup,False,False
+everyday,keyboard,Keyboard_1_cleaned.ply,shelf,"shelf, bookshelf, box",keyboard,False,False
+everyday,keyboard,Keyboard_2_cleaned.ply,keyboard,"keyboard, laptop, bookshelf",keyboard,True,True
+everyday,keyboard,Keyboard_3_cleaned.ply,bookshelf,"bookshelf, table, laptop",keyboard,False,False
+everyday,table,Table_1_cleaned.ply,table,"table, tricycle, push cart",table,True,True
+everyday,table,Table_2_cleaned.ply,stool,"stool, table, chair",table,False,True
+everyday,wooden_benched,Wooden_Benched_1_cleaned.ply,shelf,"shelf, bench, tricycle",bench,False,True
+everyday,wooden_benched,Wooden_Benched_2_cleaned.ply,bench,"bench, table, chair",bench,True,True
+everyday,wooden_benched,Wooden_Benched_3_cleaned.ply,bench,"bench, chair, table",bench,True,True
+far_ood,rickshaw,Rickshaw_1.ply,chair,"chair, tricycle, table",rickshaw,False,False
+far_ood,sheel_pata,Sheel_Pata_1_cleaned.ply,chair,"chair, stool, bowl",grinding stone,False,False
+far_ood,thela_gari,Thela_Gari_1_cleaned.ply,carriage,"carriage, bookshelf, wagon",push cart,False,False
+far_ood,thela_gari,Thela_Gari_2_cleaned.ply,chair,"chair, carriage, laptop",push cart,False,False
+far_ood,thela_gari,Thela_Gari_3_cleaned.ply,carriage,"carriage, wagon, keyboard",push cart,False,False
+far_ood,thela_gari,Thela_Gari_4_cleaned.ply,chair,"chair, carriage, keyboard",push cart,False,False
+far_ood,thela_gari,Thela_Gari_5_cleaned.ply,bookshelf,"bookshelf, carriage, laptop",push cart,False,False
+far_ood,tubewell,Tubewell_1_cleaned.ply,chair,"chair, laptop, tricycle",hand pump,False,False
+near_ood,bodna,Bodna_1_cleaned.ply,vase,"vase, cup, bowl",water jug,False,False
+near_ood,bodna,Bodna_2_cleaned.ply,vase,"vase, teapot, cooking pot",water jug,False,False
+near_ood,hurricane_lamp,Hurricane_Lamp_1_cleaned.ply,bench,"bench, chair, laptop",lantern,False,False
+near_ood,kula,Kula_1_cleaned.ply,chair,"chair, tray, cutting board",bamboo tray,False,False
+near_ood,kula,Kula_2_cleaned.ply,tricycle,"tricycle, grinding stone, chair",bamboo tray,False,False
+near_ood,matir_cup,Matir_Cup_1_cleaned.ply,cup,"cup, clay cup, bowl",clay cup,False,True
+near_ood,muura,Muura_1_cleaned.ply,stool,"stool, chair, vase",cane stool,False,False
+near_ood,patil,Patil_1_cleaned.ply,bowl,"bowl, cup, laptop",cooking pot,False,False
+near_ood,patil,Patil_2_cleaned.ply,bowl,"bowl, cup, cooking pot",cooking pot,False,True
+near_ood,piri,Piri_1_cleaned.ply,stool,"stool, bench, table",low stool,False,False
+near_ood,piri,Piri_2_cleaned.ply,stool,"stool, chair, table",low stool,False,False
+near_ood,piri,Piri_3_cleaned.ply,box,"box, bookshelf, chair",low stool,False,False
+near_ood,piri,Piri_4_cleaned.ply,stool,"stool, box, chair",low stool,False,False
+near_ood,rehal,Rehal_1_cleaned.ply,bench,"bench, table, chair",book stand,False,False

@@ -1,0 +1,13 @@
+set,label,input,level,correct,n,accuracy,p_value
+everyday,real scans,real,scan,18,20,0.9,1.610715116839856e-09
+everyday,"real, per object (majority)",real,object,5,5,1.0,0.0009765625
+everyday,blind: sphere,sphere,scan,1,5,0.2,0.7626953125
+everyday,blind: noise,noise,scan,0,5,0.0,1.0
+far_ood,real scans,real,scan,0,8,0.0,1.0
+far_ood,"real, per object (majority)",real,object,0,4,0.0,1.0
+far_ood,blind: sphere,sphere,scan,0,4,0.0,1.0
+far_ood,blind: noise,noise,scan,0,4,0.0,1.0
+near_ood,real scans,real,scan,0,14,0.0,1.0
+near_ood,"real, per object (majority)",real,object,0,8,0.0,1.0
+near_ood,blind: sphere,sphere,scan,0,8,0.0,1.0
+near_ood,blind: noise,noise,scan,0,8,0.0,1.0

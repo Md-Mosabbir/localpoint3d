@@ -9,7 +9,8 @@ Pipeline: iPhone scan (**Scaniverse**, Mesh export as PLY/OBJ, *not* Gaussian sp
 Current tasks, in order:
 1. Scaniverse LiDAR vs photogrammetry: are the point clouds similar? (notebook 02, journal 01)
 2. Does PointLLM recognise our scans? Chair first, then local objects (notebook 01, journal 02)
-3. Local objects (bodna, piri, …) as **near-OOD**: grey multiple choice + blind baselines + OOD check (notebook 03, journal 05). The same MCQ with CLIP (OpenShape) comes next as notebook 04, reading the same `data/mcq_options.csv`.
+3. Local objects (bodna, piri, …) as **near-OOD**: grey multiple choice + blind baselines + OOD check (notebook 03, journal 05).
+4. **Far-OOD** (tubewell, sheel pata, rickshaw) vs near-OOD vs everyday: fingerprint distance, multiple choice, all-labels confusion matrix, confidence, and an auto-written report.md + report.pdf per run (notebook 04, journal 05). CLIP with the same options file comes later as notebook 05.
 
 ## The user is learning
 
@@ -31,6 +32,7 @@ The user wants to **learn Python and the ML/3D concepts as they go**. So:
 - Greying out (colour test) happens in memory: `preprocess(..., colour="grey")`. Don't write grey copies of scans to Drive.
 - Floor removal: `preprocess(..., floor="removed")` → `src/cleanup.py` (RANSAC, horizontal planes only, 1 cm threshold, up-axis guessed from file type). Off by default.
 - Notebook 03 settings cell holds LOCAL_DIR, EVERYDAY_DIR, COLOUR, OPTIONS_FILE, SEEDS, BLIND_INPUTS, SCORE_BY, CIRCULAR_EVAL, CAPTION_WORDS. MCQ answers are scored by log-likelihood (`pointllm_helpers.score_answers`, worker task "score"), not generated. Compare by plain `log_prob` (per-char normalisation favoured the longest option, 2026-10-31); analysis lives in `src/mcq_analysis.py`; keep options 1–2 words. OOD fingerprints = mean of Point-BERT's 513 tokens (`embed`, task "embed"). Blind inputs: worker path `"fake:sphere"` / `"fake:noise"`.
+- Notebook 04 settings: EVERYDAY_DIR / NEAR_DIR / FAR_DIR, GROUP_OVERRIDES (object -> group, wins over the folder; a file name found in two folders is used once, far first), SEEDS, CONFUSION_SEEDS. Each run writes one folder `RESULTS_DIR/<RUN_NAME>_<date>/` with report.md, report.pdf, figures/, tables/.
 - Speck removal: `preprocess(..., specks="removed")` → `cleanup.remove_specks` (10 cm voxels, connected pieces < 1 % of points dropped). Needed because unit-sphere scaling uses the farthest point: one speck metres away shrinks the object to a dot. Notebook 01 setting `SPECKS` (default "removed").
 
 ## Repo layout
@@ -40,6 +42,7 @@ The user wants to **learn Python and the ML/3D concepts as they go**. So:
 - `src/pointllm_helpers.py`, `src/pointllm_worker.py`: PointLLM preprocessing + inference
 - `src/charts.py`: presentation charts (fixed colour per answer type, colour-blind checked); notebook 03 saves PNGs to `RESULTS_DIR/figures_<run>/` and can export tables to Google Sheets
 - `data/mcq_options.csv`: answer options per object, shared by the PointLLM and CLIP MCQ notebooks
+- `src/ood_analysis.py`: notebook 04 maths (kNN distance per group, all-labels predictions, confusion matrix, softmax confidence); `src/report_writer.py`: one content list -> report.md + report.pdf (reportlab)
 - `journal/`: research log, one Markdown file per topic, dated entries. **Update it whenever we research or measure something.** Keep sources (links) separate from our own measurements.
 - `data/README.md`: capture protocol + file naming `<object>_<method>_<take>.<ext>` (method = `lidar` | `photo`)
 - `results/`: tables worth keeping, one folder per kind of test (`pointllm_open_questions/`, `pointllm_multiple_choice/`, `clip/`), indexed in `results/README.md`. No duplicates: raw Colab exports stay on Drive. Scans themselves are on Google Drive (`MyDrive/Models`, flat list like `Chair_1.ply`; local copy in `data/Models/`), never in git. Hand-cleaned copies: `MyDrive/Models_Cleaned` / `data/Models_Cleaned/`, named `Chair_01_cleaned.ply` (parse_scan_name → version=cleaned, take 1).

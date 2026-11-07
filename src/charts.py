@@ -149,3 +149,115 @@ def shape_margin(per_scan):
             "Each answer is compared with what PointLLM says about a ball and random noise, "
             "so common words like \"chair\" get no free advantage.")
     return fig
+
+
+# ---------------------------------------------------------------- notebook 04: everyday vs near-OOD vs far-OOD
+
+GROUP_STYLE = {  # colour + marker shape, so the groups differ by more than colour
+    "everyday": {"colour": NEUTRAL, "marker": "o", "label": "everyday (in-distribution)"},
+    "near_ood": {"colour": HIGHLIGHT, "marker": "s", "label": "near-OOD (look-alike exists)"},
+    "far_ood": {"colour": NEGATIVE, "marker": "^", "label": "far-OOD (no look-alike)"},
+}
+
+
+def _group_legend(ax, groups, **kw):
+    from matplotlib.lines import Line2D
+    handles = [Line2D([], [], marker=GROUP_STYLE[g]["marker"], color=GROUP_STYLE[g]["colour"], linestyle="",
+                      markersize=9, label=GROUP_STYLE[g]["label"]) for g in groups]
+    ax.legend(handles=handles, **kw)
+
+
+def group_distances(ood, threshold):
+    """One bar per scan, coloured by group: distance to the nearest everyday scans, with the OOD line."""
+    plt = _plt()
+    d = ood.sort_values("knn_distance")
+    fig, ax = plt.subplots(figsize=(10, 0.3 * len(d) + 1.9))
+    labels = [f.replace("_cleaned", "").rsplit(".", 1)[0] for f in d.file]
+    ax.barh(labels, d.knn_distance, color=[GROUP_STYLE[g]["colour"] for g in d.group], height=0.7)
+    ax.axvline(threshold, color=INK, linestyle="--", linewidth=1.2)
+    ax.set_xlabel("distance to the nearest everyday scans (PointLLM fingerprint, cosine)")
+    ax.xaxis.grid(True)
+    ax.set_axisbelow(True)
+    from matplotlib.lines import Line2D
+    from matplotlib.patches import Patch
+    groups = [g for g in GROUP_STYLE if g in set(d.group)]
+    ax.legend(handles=[Patch(color=GROUP_STYLE[g]["colour"], label=GROUP_STYLE[g]["label"]) for g in groups]
+              + [Line2D([], [], color=INK, linestyle="--", label="OOD line (95 % of everyday scans are closer)")],
+              loc="lower right")
+    _titles(fig, "How unfamiliar is each scan's shape?",
+            "Expected order if our groups are right: everyday closest, near-OOD in between, far-OOD farthest.")
+    return fig
+
+
+def group_strip(table, value, ylabel, title, subtitle, groups=None):
+    """Every scan as one dot, one column per group, with the group median as a line. For small groups."""
+    plt = _plt()
+    groups = groups or [g for g in GROUP_STYLE if g in set(table.group)]
+    fig, ax = plt.subplots(figsize=(7.5, 4.8))
+    rng = np.random.default_rng(0)
+    for x, g in enumerate(groups):
+        vals = table[table.group == g][value].to_numpy()
+        ax.scatter(x + rng.uniform(-0.12, 0.12, len(vals)), vals, s=70, color=GROUP_STYLE[g]["colour"],
+                   marker=GROUP_STYLE[g]["marker"], edgecolor=SURFACE, linewidth=1.5, zorder=3)
+        if len(vals):
+            m = float(np.median(vals))
+            ax.plot([x - 0.3, x + 0.3], [m, m], color=INK, linewidth=2, zorder=4)
+            ax.text(x + 0.33, m, f"median {m:.2f}", va="center", fontsize=9.5, color=INK_2)
+    ax.set_xticks(range(len(groups)), [f"{GROUP_STYLE[g]['label'].split(' (')[0]}\n(n = {(table.group == g).sum()})"
+                                       for g in groups])
+    ax.set_xlim(-0.5, len(groups) - 0.2)
+    ax.set_ylabel(ylabel)
+    ax.yaxis.grid(True)
+    ax.set_axisbelow(True)
+    _titles(fig, title, subtitle)
+    return fig
+
+
+def confusion_heatmap(cm, group_of_object, correct_label_of, title="Confusion matrix: what PointLLM calls each object"):
+    """Rows = true object (grouped everyday / near / far), columns = predicted label, cells = scans.
+    The correct label of each row is outlined, so you can see at a glance whether it was hit."""
+    plt = _plt()
+    from matplotlib.patches import Rectangle
+    data = cm.to_numpy()
+    fig, ax = plt.subplots(figsize=(0.55 * cm.shape[1] + 3.6, 0.42 * cm.shape[0] + 2.6))
+    ax.imshow(np.where(data > 0, data, np.nan), cmap="Blues", vmin=0, vmax=max(data.max(), 1) * 1.15, aspect="auto")
+    for i in range(cm.shape[0]):
+        for j in range(cm.shape[1]):
+            if data[i, j]:
+                ax.text(j, i, str(data[i, j]), ha="center", va="center", fontsize=9, color=INK)
+        target = correct_label_of.get(cm.index[i])
+        if target in list(cm.columns):
+            j = list(cm.columns).index(target)
+            ax.add_patch(Rectangle((j - 0.5, i - 0.5), 1, 1, fill=False, edgecolor=INK, linewidth=1.6))
+    ax.set_xticks(range(cm.shape[1]), cm.columns, rotation=55, ha="right", fontsize=9)
+    ax.set_yticks(range(cm.shape[0]), [f"{o}  [{group_of_object[o].replace('_ood', '')}]" for o in cm.index],
+                  fontsize=9.5)
+    groups = [group_of_object[o] for o in cm.index]
+    for i in range(1, len(groups)):
+        if groups[i] != groups[i - 1]:
+            ax.axhline(i - 0.5, color=INK, linewidth=1.2)
+    ax.set_xlabel("predicted label (best of all labels)")
+    ax.spines[:].set_visible(False)
+    _titles(fig, title, "Cells = number of scans. Black outline = the correct label for that row. "
+                        "Rows are split into everyday / near / far.")
+    return fig
+
+
+def fingerprint_map(xy, names, groups):
+    """PCA map of the fingerprints: one point per scan, colour and shape by group, file names as labels."""
+    plt = _plt()
+    fig, ax = plt.subplots(figsize=(9, 6.5))
+    for g in GROUP_STYLE:
+        idx = [i for i, gg in enumerate(groups) if gg == g]
+        if idx:
+            ax.scatter(xy[idx, 0], xy[idx, 1], s=70, color=GROUP_STYLE[g]["colour"], marker=GROUP_STYLE[g]["marker"],
+                       edgecolor=SURFACE, linewidth=1.2, zorder=3)
+    for i, n in enumerate(names):
+        ax.annotate(n.replace("_cleaned", "").rsplit(".", 1)[0], xy[i], fontsize=7.5, color=INK_2,
+                    xytext=(4, 3), textcoords="offset points")
+    ax.set_xticks([])
+    ax.set_yticks([])
+    _group_legend(ax, [g for g in GROUP_STYLE if g in set(groups)], loc="best", fontsize=9)
+    _titles(fig, "Map of PointLLM's shape fingerprints",
+            "Close points = PointLLM sees the shapes as similar (PCA of the 384-number fingerprints).")
+    return fig

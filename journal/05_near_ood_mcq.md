@@ -186,3 +186,11 @@ Local objects go to a familiar neighbour:
 | Wooden_Bench | "bench" 8,141 | ID |
 
 This is the hypothesis. The fingerprint-distance check (notebook 03) should confirm it: far-OOD scans should be farther from the everyday scans than the near-OOD ones. Rickshaw, Hari, Matir_Hari, Matir_Jug, Phone_Stand, Plastic_Stool and Hurricane are still **raw** (uncleaned) and must be cleaned first, otherwise the distance measures the clutter.
+
+**Notebook built (2026-11-08):** `notebooks/04_pointllm_far_ood.ipynb`. It compares everyday / near-OOD / far-OOD with:
+- fingerprint distance (per group, with a dot chart)
+- multiple choice with ball and noise
+- an **all-labels test**: every scan against all ~40 option texts, giving a confusion matrix, plain and calibrated
+- softmax confidence over all labels (MCM-style OOD score)
+
+Each run writes `report.md` + `report.pdf` + `figures/` + `tables/` into one Drive folder. Options added for tubewell, sheel_pata, rickshaw, thela_gari, hari, matir_hari, matir_jug, plastic_stool, phone_stand and wooden_benched. Tested locally with a fake model only; **not yet run on the GPU**.

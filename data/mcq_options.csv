@@ -11,3 +11,13 @@ chair,chair,stool,table,teapot,everyday calibration: should be easy
 cup,cup,vase,bowl,chair,everyday calibration: should be easy
 table,table,bench,shelf,cup,everyday calibration: should be easy
 keyboard,keyboard,tray,laptop,chair,everyday calibration: earlier answers said mattress/carpet
+tubewell,hand pump,fire hydrant,faucet,chair,"far-OOD: hand-pump tube well; ""tube well"" 0 and ""hand pump"" 4 training captions"
+sheel_pata,grinding stone,cutting board,rolling pin,chair,"far-OOD: flat grinding slab + roller; ""grinding stone"" 0 captions"
+rickshaw,rickshaw,tricycle,carriage,teapot,"far-OOD (borderline): ""rickshaw"" 23, ""tricycle"" 71 captions"
+thela_gari,push cart,table,wagon,teapot,"near-OOD: push cart; ""cart"" 869 captions, handcart is an Objaverse category"
+hari,cooking pot,bowl,vase,chair,"near-OOD: hari = round cooking pot"
+matir_hari,clay pot,vase,bowl,chair,"near-OOD: clay cooking pot; ""clay pot"" 619 captions"
+matir_jug,clay jug,vase,teapot,chair,"in-distribution: ""jug"" 1138 captions"
+plastic_stool,stool,table,chair,teapot,"in-distribution: ""stool"" 2101 captions"
+phone_stand,phone stand,easel,picture frame,cup,"in-distribution: ""phone holder"" 217 captions"
+wooden_benched,bench,table,chair,teapot,"in-distribution: wooden bench (file name Wooden_Benched); ""bench"" 8141 captions"

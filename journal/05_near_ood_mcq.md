@@ -166,3 +166,23 @@ Local objects go to a familiar neighbour:
 - Run 1 calibrated was 5/14: muura's "cane stool" now loses to chair, and hurricane lamp's "lantern" lost its tie. So the calibrated view is sensitive to wording.
 - **Reproducibility:** the 340 everyday scores are identical to run 1 to the last decimal. The seed fix is verified (the open item from 2026-10-23).
 - Report updated: `reports/2026-11-01_near_ood_mcq.md` §7.
+
+---
+
+## 2026-11-08 · Claude · which new scans are near-OOD and which are far-OOD (training-word check)
+
+**Rule:** near-OOD = the local name never appears in training, but a close look-alike is common. Far-OOD = no close look-alike either. In-distribution (ID) = the object's own English name is common. Counts are captions in PointLLM's training set (658,577) containing the whole word; LVIS = Objaverse-LVIS category, number of objects.
+
+| Scan | Closest training words | Group |
+|---|---|---|
+| Tubewell (hand pump) | "tube well" 0, "hand pump" 4; "water pump" 577 (mostly motor pumps) | **far-OOD** |
+| Sheel_Pata (grinding slab + roller) | "grinding stone" 0, "millstone" 0, "mortar" 46 (a bowl, different shape) | **far-OOD** (shape is close to "stone slab" 248, so it may behave nearer) |
+| Rickshaw | "rickshaw" 23, "tricycle" 71 (LVIS 28), "pedicab" 0 | **far-OOD, borderline** |
+| Thela_Gari ×5 (push cart) | "cart" 869, LVIS handcart 48, "wagon" 581 | near-OOD |
+| Hari, Matir_Hari (clay pots) | "clay pot" 619, "pot" 2,853 | near-OOD |
+| Plastic_Stool | "stool" 2,101, "plastic stool" 83 | ID |
+| Phone_Stand | "phone holder" 217, "phone stand" 39 | ID |
+| Matir_Jug | "jug" 1,138 | ID |
+| Wooden_Bench | "bench" 8,141 | ID |
+
+This is the hypothesis. The fingerprint-distance check (notebook 03) should confirm it: far-OOD scans should be farther from the everyday scans than the near-OOD ones. Rickshaw, Hari, Matir_Hari, Matir_Jug, Phone_Stand, Plastic_Stool and Hurricane are still **raw** (uncleaned) and must be cleaned first, otherwise the distance measures the clutter.

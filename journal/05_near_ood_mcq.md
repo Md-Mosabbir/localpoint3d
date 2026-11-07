@@ -194,3 +194,62 @@ This is the hypothesis. The fingerprint-distance check (notebook 03) should conf
 - softmax confidence over all labels (MCM-style OOD score)
 
 Each run writes `report.md` + `report.pdf` + `figures/` + `tables/` into one Drive folder. Options added for tubewell, sheel_pata, rickshaw, thela_gari, hari, matir_hari, matir_jug, plastic_stool, phone_stand and wooden_benched. Tested locally with a fake model only; **not yet run on the GPU**.
+
+---
+
+## 2026-11-08 · Claude · first far-OOD run (notebook 04, run far_ood_2026-11-07_1947)
+
+Report: [`reports/2026-11-07_far_ood/report.md`](../reports/2026-11-07_far_ood/report.md) (+ `report.pdf`). The figures were taken out of the PDF. The `tables/` folder is still only on Drive.
+
+**What ran:** 42 grey scans, 3 seeds for multiple choice, 1 seed for the all-labels test (39 labels), with ball and noise as blind inputs.
+- everyday: 20 scans (17 cleaned + 3 wooden bench)
+- near-OOD: 14 scans
+- far-OOD: 8 scans
+
+**Mistake in the grouping:** all 5 Thela_Gari scans sat in `far-OOD Ply`, so they counted as far-OOD. Our training-word check says they are near-OOD ("cart" 869). The far group is therefore 5/8 push cart. Only 3 scans are truly far-OOD:
+- Tubewell
+- Sheel_Pata
+- Rickshaw_1.ply, which is **uncleaned**
+
+Notebook 04 now has `"thela_gari": "near_ood"` in GROUP_OVERRIDES.
+
+**Measurements:**
+
+| | everyday | near-OOD | far-OOD (as run, incl. thela gari) |
+|---|---|---|---|
+| fingerprint distance, median | 0.45 | 0.77 | 0.63 |
+| MCQ, own 4 options | **18/20** | 0/14 | 0/8 |
+| all labels, plain top-1 / top-3 | 14/20 / 17/20 | 0/14 / 2/14 | 0/8 / 0/8 |
+| all labels, calibrated top-1 / top-3 | 5/20 / 12/20 | 1/14 / 5/14 | 0/8 / 0/8 |
+| confidence (share of best label), median | **0.84** | **0.53** | **0.37** |
+
+Blind inputs (ball, noise) were never correct for near- or far-OOD, and 1/10 for everyday.
+
+**Our reading:**
+1. **Confidence is the clearest result:** it drops in the expected order, everyday > near > far. PointLLM is less sure the less familiar the object.
+2. **Distance separates everyday from local, but not near from far.** Values read off the bar chart:
+   - Sheel_Pata ≈ 0.83, right at the OOD line 0.833
+   - Tubewell ≈ 0.77
+   - Rickshaw ≈ 0.60
+   - Thela_Gari 0.58–0.67
+
+   Thela gari counted as near gives near ≈ 0.74 and the 3 true far ≈ 0.77: the right order, but only just, with n = 3. Two other things stand out:
+   - Rehal (0.15) and Piri_1 (0.42) are now *closer* than most everyday scans, because the wooden bench joined the everyday set. Their look-alike is a bench.
+   - Table_1/Table_2 (0.83/0.86) are as "far" as the local objects. This is the same as on 2026-10-31.
+3. **Multiple choice:** the far-OOD wrong answers have a pattern.
+   - Truly far objects get the default answer: tubewell → chair and sheel pata → chair, with all 3 seeds agreeing.
+   - Objects with a look-alike get it: rickshaw → tricycle, thela gari → wagon (2) and table (3).
+   - Near-OOD repeats run 2: bodna → vase, patil → bowl, piri → bench/box, rehal → bench.
+4. **Confusion matrix:** show the **plain** one. Calibration (minus ball/noise) over-corrects: "bench", "rickshaw" and "grinding stone" are labels the blind inputs find unlikely, so they get boosted for everything. Calibrated everyday top-1 falls from 14/20 to 5/20, with chairs → rickshaw. In the plain matrix:
+   - all three far objects → chair
+   - piri → stool, bodna → vase, patil → bowl
+   - the everyday diagonal is clean (chair 8/8)
+5. **Everyday got better:** MCQ went from 15/17 to 18/20 because the bench scans were added (all correct). Misses: Cup_4 → chair, Keyboard_1 → laptop.
+
+**Before the next run:**
+- clean Rickshaw
+- re-run with the thela_gari override
+- copy `tables/` into `results/pointllm_far_ood/`
+- use more than 1 seed for the all-labels test (`CONFUSION_SEEDS = [0, 1, 2]`)
+
+Notebook 04 now writes the plain predictions into the summary and per-scan table (calibrated is still in the second matrix).

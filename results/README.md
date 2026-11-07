@@ -30,6 +30,12 @@ These were scored by likelihood, in grey, with blind inputs (ball, noise, other 
 
 The summary, per-scan and calibrated tables can be re-made from the raw scores: `python reports/build/mcq_reanalyse.py <raw csv> data/mcq_options.csv <out prefix>`. Run 1 needs the options it used (git history of `data/mcq_options.csv`, commit 0330aa5).
 
+## `pointllm_far_ood/`: everyday vs near-OOD vs far-OOD (notebook 04)
+
+Report with all charts: [7 Nov](../reports/2026-11-07_far_ood/report.md) ([PDF](../reports/2026-11-07_far_ood/report.pdf)). Reading: [journal 05](../journal/05_near_ood_mcq.md).
+
+Tables still to copy from Drive: `MyDrive/localpoint3d/results/far_ood_2026-11-07_1947/tables/` → this folder (ood_distance, mcq_scores, mcq_per_scan, confusion_matrix_plain/calibrated, confidence, …).
+
 ## `clip/`: MetaCLIP on pictures rendered from the scans (Shahedul, 1 Nov)
 
 | File | Original name | What |

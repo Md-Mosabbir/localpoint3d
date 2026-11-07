@@ -1,6 +1,6 @@
 # Scans: how to capture, name and store them
 
-Scans are **not** stored in git (too big). They live in the shared Google Drive folder **`My Drive/Models`** (flat, no subfolders needed). Teammates add a shortcut to it in *My Drive*, so the notebooks find it at `/content/drive/MyDrive/Models` for everyone.
+Scans are **not** stored in git (too big). They live in the shared Google Drive folder **`My Drive/Models`**, in subfolders: `cleared_test_data/` (cleaned everyday scans), `cleaned_bd/near_ood_set/` and `cleaned_bd/far-OOD Ply/` (cleaned Bangladeshi objects), `ply/` and `Scans in OBJ format/`. Teammates add a shortcut to it in *My Drive*, so the notebooks find it at `/content/drive/MyDrive/Models` for everyone.
 
 ## Folders and file names
 
@@ -16,7 +16,7 @@ Models/
 
 When we scan the same object with both methods, add the method: `Rickshaw/Rickshaw_lidar_1.ply`, `Rickshaw/Rickshaw_photo_1.obj`.
 
-**Hand-cleaned copies** (floor and background deleted in CloudCompare / Blender) go in a separate Drive folder, `My Drive/Models_Cleaned`, with `_cleaned` at the end of the name: `Chair_01_cleaned.ply`. The notebook reads that as object = chair, take = 1, version = cleaned, so cleaned and raw results line up (`01` and `1` count as the same take). Never overwrite the raw scans.
+**Hand-cleaned copies** (floor and background deleted in CloudCompare / Blender) go in the matching cleaned folder (`My Drive/Models/cleared_test_data` or `My Drive/Models/cleaned_bd/...`), with `_cleaned` at the end of the name: `Chair_01_cleaned.ply`. The notebook reads that as object = chair, take = 1, version = cleaned, so cleaned and raw results line up (`01` and `1` count as the same take). Never overwrite the raw scans.
 
 The notebooks search all subfolders. They read object / method / take from the file name and put them in the results CSV, so stick to this pattern. A local copy lives in `data/Models/`, which git ignores.
 

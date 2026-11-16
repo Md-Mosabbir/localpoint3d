@@ -1,6 +1,6 @@
 # 06 · RGB2Point: web images → point clouds
 
-Shahedul's idea: we cannot scan 100 bodnas, so collect ~100 photos per object from the web and let **RGB2Point** (a model that guesses a 3D point cloud from one photo) turn each into a point cloud. Notebook: [`notebooks/{UPDATED}RGB2Point_Google_Review_1024_8192.ipynb`](../notebooks/%7BUPDATED%7DRGB2Point_Google_Review_1024_8192.ipynb).
+Shahedul's idea: we cannot scan 100 bodnas, so collect ~100 photos per object from the web and let **RGB2Point** (a model that guesses a 3D point cloud from one photo) turn each into a point cloud. Notebook: [`notebooks/rgb2point.ipynb`](../notebooks/rgb2point.ipynb).
 
 ## 2026-11-16 · Claude · the Google Images step returned nothing; replaced with Bing + DuckDuckGo
 

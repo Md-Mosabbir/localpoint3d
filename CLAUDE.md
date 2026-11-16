@@ -55,6 +55,7 @@ The user wants to **learn Python and the ML/3D concepts as they go**. So:
 - PointLLM input: 8192 points, xyz in unit sphere, rgb in [0, 1]. Free T4 works in float16.
 - **PointLLM is random even with greedy decoding**: its PointBERT encoder starts farthest-point sampling at `torch.randint` (pointllm/model/pointbert/misc.py). `ask()` sets `torch.manual_seed(seed)`; use `SEEDS_TO_TRY = [0, 1, 2]` to measure stability. Runs before 2026-10-21 had no seed.
 - Scaniverse **PLY point-cloud** exports are **Z-up** and in metres (checked on all 17 scans, 2026-10-18; floor lies in the x-y plane). We first assumed Y-up (ARKit convention), which was wrong for these files. Scaniverse **OBJ** exports are **Y-up** (floor in the x-z plane, seen in Colab previews 2026-10-21). So PLY and OBJ reach PointLLM in different orientations unless rotated. `-90 deg about X` turns Z-up into Y-up.
+- **Google Images cannot be downloaded by a script** (icrawler's Google crawler returns 0 files, checked 2026-11-16); don't try to get around the block. Shahedul's RGB2Point notebook (`notebooks/{UPDATED}RGB2Point_Google_Review_1024_8192.ipynb`, web photos → 1,024-point clouds, journal 06) uses Bing + DuckDuckGo + own images instead. Web images have unverified licences: never commit them.
 - Google Colab CLI (`uv tool install google-colab-cli`, `colab run --gpu T4 …`) exists but isn't set up. It needs the user to log in once.
 
 ## Style

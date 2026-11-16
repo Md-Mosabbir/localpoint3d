@@ -21,3 +21,6 @@ venv/
 .DS_Store
 .vscode/
 .idea/
+
+# web pictures for RGB2Point (unknown licences, kept on Drive)
+data/web_images/

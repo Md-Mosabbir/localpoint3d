@@ -60,6 +60,12 @@ Run `far_ood_2026-11-07_1947`. Thela gari was counted as far-OOD in this run; jo
 
 Reading: [journal 04](../journal/04_clip_zero_shot.md).
 
+## `rgb2point/`: can RGB2Point turn web photos of our objects into point clouds? (journal 06)
+
+| File | What |
+|---|---|
+| `chamfer_within_vs_between_2026-11-17.csv` | 20 web pictures per object through RGB2Point: how different two clouds of the same object are, compared with clouds of other objects and with the authors' chair. The three are the same, so the clouds do not show our objects' shapes. |
+
 ## Adding new results
 
 - Put new files in the matching folder (or a new one) and add a row here.

@@ -44,3 +44,51 @@ Looking at the 100 bodna pictures by eye: about **65 show a real bodna**. The re
 **Keep in mind:**
 - Web images have unknown licences. Do not commit them to git, and check before sharing a dataset.
 - These point clouds are a model's guess from one photo, not scans. Keep them separate from our Scaniverse scans in every table.
+
+## 2026-11-17 · Claude · pictures collected on the laptop; RGB2Point makes the same chair-like cloud for every object
+
+**Why:** searching inside Colab was slow and unreliable, so the plan became: collect the pictures once on the laptop, put them on Drive, and let the notebook only run the model ("Part B" of `notebooks/rgb2point.ipynb`).
+
+**Collecting (laptop):** `src/web_images.py` with the search phrases in `data/web_image_queries.csv`. Pictures go to `data/web_images/<object>/` (not in git), shrunk to 640 px, with a `manifest.csv` of source URLs. Wrong pictures are moved to `data/web_images/_rejected/` after looking at numbered overview sheets.
+
+| Object | Downloaded | Kept after review by eye |
+|---|---|---|
+| bodna | 250 | 88 |
+| hurricane_lamp | 250 | 79 |
+| kula | 250 | 60 |
+| matir_jug | 250 | 72 |
+| muura | 250 | 103 |
+
+About **1 picture in 3 is usable.** The rest are other objects, people, adverts with text, collages, or the wrong kind of the object:
+- "bodna" brings news about bonds and video thumbnails.
+- "kula" brings round trays.
+- "matir jug" brings plastic and steel jugs.
+- "hurricane lamp" brings candle holders.
+
+English descriptive phrases ("terracotta water jug", "bamboo cane mora stool") gave far better pictures than the local names. Bing often returned nothing for a phrase; DuckDuckGo carried most of the load, about 35 results per page.
+
+**Testing the model (laptop CPU, released checkpoint `pc1024_three.pth`, the notebook's own cells):**
+- Part B ran end to end on 8 pictures. A second run skipped the finished ones. The `_rejected` folder was ignored.
+- Bug fixed on the way: the setup cell failed when run twice, because it tried to patch `model.py` a second time.
+
+**The result that matters:** every object comes out as the same fuzzy, chair-like cloud. From the side, the authors' own chair picture gives a clear seat-and-back "L", and so do many of the bodna, lamp, kula and rehal pictures; the rest are shapeless.
+
+![Side views of RGB2Point clouds: the authors' chair picture, then two pictures each of our objects](../reports/figures/2026-11-17_rgb2point_side_views.png)
+
+*Left: the authors' chair sample. Then two pictures per object. No web pictures are shown, only the model's output.*
+
+We measured it with the **Chamfer distance** (for each point, the distance to the nearest point of the other cloud, averaged; 0 = identical clouds). 20 pictures per object, 8 objects; clouds are about 1.02 across. Patil, piri and rehal used unreviewed pictures. Table: `results/rgb2point/chamfer_within_vs_between_2026-11-17.csv`.
+
+| | Chamfer distance |
+|---|---|
+| two pictures of the **same** object | 0.023 – 0.035 |
+| pictures of **different** objects | 0.028 – 0.032 |
+| our objects vs the authors' chair cloud | 0.024 – 0.031 |
+
+The three ranges are the same. If the clouds held the object's shape, the first row would be clearly smaller than the second. It is not: for piri it is even larger.
+
+**What it means:** this checkpoint knows chairs, airplanes and cars (as its authors say). For anything else it falls back to its nearest known shape. Its clouds for our objects are not 3D data of those objects. Feeding them to PointLLM would test "does PointLLM see a chair", not our objects. Interpolating to 8,192 points changes nothing about this.
+
+**What the pictures are still good for:** they are real photos of the objects, so they fit the image side of the project: CLIP / MetaCLIP zero-shot on photos, or fine-tuning with captions.
+
+**If we still want 3D from photos:** use a single-image-to-3D model trained on many kinds of objects (for example TripoSR, which was trained on Objaverse), not this three-class checkpoint. Not tried yet. Its shapes would still be a model's guess, not scans.

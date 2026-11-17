@@ -58,12 +58,19 @@ Looking at the 100 bodna pictures by eye: about **65 show a real bodna**. The re
 | kula | 250 | 60 |
 | matir_jug | 250 | 72 |
 | muura | 250 | 103 |
+| patil | 250 | 34 |
+| piri | 250 | 19 |
+| rehal | 250 | 98 |
+| wooden_benched | 250 | 142 |
+| **total** | 2,250 | **695** |
 
-About **1 picture in 3 is usable.** The rest are other objects, people, adverts with text, collages, or the wrong kind of the object:
+About **1 picture in 3 is usable** (695 of 2,250). The rest are other objects, people, adverts with text, collages, or the wrong kind of the object:
 - "bodna" brings news about bonds and video thumbnails.
 - "kula" brings round trays.
 - "matir jug" brings plastic and steel jugs.
 - "hurricane lamp" brings candle holders.
+- "patil" brings aluminium sheets, factories and Western saucepans. We kept only round-bellied pots.
+- "piri" brings chapati boards with rolling pins, Western stools and woven Indian stools. Plain Bangladeshi wooden piris are rare online: 19 kept, most of them painted wedding piris. Whether woven "pidha" stools count as piri is our decision to make.
 
 English descriptive phrases ("terracotta water jug", "bamboo cane mora stool") gave far better pictures than the local names. Bing often returned nothing for a phrase; DuckDuckGo carried most of the load, about 35 results per page.
 
@@ -92,3 +99,5 @@ The three ranges are the same. If the clouds held the object's shape, the first 
 **What the pictures are still good for:** they are real photos of the objects, so they fit the image side of the project: CLIP / MetaCLIP zero-shot on photos, or fine-tuning with captions.
 
 **If we still want 3D from photos:** use a single-image-to-3D model trained on many kinds of objects (for example TripoSR, which was trained on Objaverse), not this three-class checkpoint. Not tried yet. Its shapes would still be a model's guess, not scans.
+
+**State on 2026-11-17, end of first pass:** all 9 objects downloaded and reviewed once. Only muura and wooden bench have 100 or more good pictures. Extra search phrases for the others are already in `data/web_image_queries.csv`; running `collect` again with a higher `--target` tops them up without bringing rejected pictures back. Not done yet, because the RGB2Point result above makes it unclear what the pictures will be used for.

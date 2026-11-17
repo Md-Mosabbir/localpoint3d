@@ -64,7 +64,12 @@ Reading: [journal 04](../journal/04_clip_zero_shot.md).
 
 | File | What |
 |---|---|
-| `chamfer_within_vs_between_2026-11-17.csv` | 20 web pictures per object through RGB2Point: how different two clouds of the same object are, compared with clouds of other objects and with the authors' chair. The three are the same, so the clouds do not show our objects' shapes. |
+| `chamfer_within_vs_between_2026-11-17.csv` | first test, 20 photos per object: average Chamfer within vs between objects |
+| `within_vs_between_all_2026-11-17.csv` | the same on up to 40 photos per object, plus chair/airplane control |
+| `two_class_1nn_2026-11-17.csv` | every pair of objects: how often the nearest cloud is the same object |
+| `nine_class_1nn_confusion_2026-11-17.csv` | all 9 objects at once: true object × object of nearest cloud |
+| `shortcut_checks_2026-11-17.csv` | near-copy photos and plain-thumbnail checks |
+| `summary_2026-11-17.csv` | headline numbers. Report: [17 Nov](../reports/2026-11-17_rgb2point_web_images/report.md) |
 
 ## Adding new results
 

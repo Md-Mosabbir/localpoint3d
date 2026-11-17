@@ -1,0 +1,12 @@
+class,group,pictures_total,pictures_in_test,chamfer_within,chamfer_between,between_over_within
+wooden_benched,ours,142,40,0.032,0.0325,1.0147
+muura,ours,103,40,0.0288,0.0312,1.0829
+rehal,ours,98,40,0.0259,0.0295,1.1402
+bodna,ours,88,40,0.0235,0.0281,1.1964
+hurricane_lamp,ours,79,40,0.0268,0.0304,1.1365
+matir_jug,ours,72,40,0.0268,0.0292,1.0899
+kula,ours,60,40,0.0317,0.0314,0.9903
+airplane,control,53,40,0.0259,0.0335,1.2945
+chair,control,40,40,0.0254,0.0335,1.3207
+patil,ours,34,34,0.0283,0.0302,1.0676
+piri,ours,19,19,0.0297,0.0309,1.0412

@@ -1,0 +1,6 @@
+test,accuracy
+"RGB2Point clouds, nearest other cloud",0.703
+"same, but near-copy pictures not allowed as partner",0.682
+no 3D: nearest picture by 32x32 colour thumbnail,0.42
+share of nearest-cloud partners that are near-copy pictures,0.048
+guessing,0.112

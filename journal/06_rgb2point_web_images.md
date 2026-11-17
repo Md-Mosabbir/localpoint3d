@@ -101,3 +101,32 @@ The three ranges are the same. If the clouds held the object's shape, the first 
 **If we still want 3D from photos:** use a single-image-to-3D model trained on many kinds of objects (for example TripoSR, which was trained on Objaverse), not this three-class checkpoint. Not tried yet. Its shapes would still be a model's guess, not scans.
 
 **State on 2026-11-17, end of first pass:** all 9 objects downloaded and reviewed once. Only muura and wooden bench have 100 or more good pictures. Extra search phrases for the others are already in `data/web_image_queries.csv`; running `collect` again with a higher `--target` tops them up without bringing rejected pictures back. Not done yet, because the RGB2Point result above makes it unclear what the pictures will be used for.
+
+## 2026-11-17 (later) · Claude · RGB2Point on all 695 photos + control: the clouds DO carry some object information (correction)
+
+Report: [`reports/2026-11-17_rgb2point_web_images/report.md`](../reports/2026-11-17_rgb2point_web_images/report.md) (+ PDF). Code: `reports/build/rgb2point_eval.py`. Tables: `results/rgb2point/*_2026-11-17.csv`.
+
+**What ran (laptop CPU, about 5 minutes):**
+- RGB2Point on all 695 reviewed photos.
+- A control of 93 photos of chairs (40) and airplanes (53), classes the checkpoint was trained on (phrases in `data/web_image_control_queries.csv`).
+- For the distance test: up to 40 photos per class, random with seed 0.
+
+**Correction to the entry above.** The average Chamfer distance is still about the same within and between objects (ratio 1.0–1.2; control 1.3). But the stricter question, "is a cloud's *most similar* cloud the same object?", says otherwise:
+
+| Test | Result |
+|---|---|
+| 9 objects at once, nearest cloud = same object | **70 %** (guessing 11 %) |
+| 2 objects at a time (36 pairs) | 81–100 %, median 91 % |
+| chair vs airplane (control) | 100 % |
+| same 9-object test, near-copy photos not allowed as partner | 68 % |
+| no 3D at all: nearest photo by 32×32 colour thumbnail | 42 % |
+
+Only 5 % of the matches were near-copies of the same photo. So the clouds do keep something specific to each object, more than raw pixels do. Hardest objects: piri 47 % and kula 48 %. Easiest: bodna and hurricane lamp, 80 % each.
+
+**Updated reading:**
+- The clouds still *look* like chairs and do not show the real shape of our objects.
+- But they work as a fingerprint of what the photo showed. The image encoder (a ViT) recognises something, and the decoder bends the chair template a little, the same way each time.
+- So: still not usable as 3D data or as PointLLM input "as our objects". The 70 % comes from image recognition, not from 3D shape.
+- The photos themselves are the useful part (CLIP).
+
+**TripoSR** (photo → mesh, trained on Objaverse) was set up locally but ran out of resources on the CPU-only laptop. The user stopped it. If wanted later, it needs Colab with a GPU.

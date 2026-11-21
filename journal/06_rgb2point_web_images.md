@@ -162,3 +162,13 @@ Notebook `notebooks/test/rgb2point_sanity_test.ipynb`: the released checkpoint o
 - Both gave the same kind of cloud as our objects: a dense column plus scattered points, no clear chair or airplane outline in any of the three axis views.
 - So the vague shapes are the checkpoint on real photos (it was trained on clean ShapeNet renders), not something special about Bangladeshi objects.
 - Two of the six airplane photos carried big stock-site watermarks; the notebook now says to drop such photos.
+
+## 2026-11-22 · Why RGB2Point looks good in the Point-MF paper (source, not our measurement)
+
+Source: Baba & Yanai, "Point-MF: Stabilizing One-Step Mean Flows for Single-Image Point Cloud Reconstruction", arXiv:2604.24586v2 (local copy `data/2604.24586v2.pdf`). RGB2Point is one of their baselines.
+
+- **Their own RGB2Point, not the released checkpoint:** "We reimplemented RGB2point", trained on all **13 ShapeNet-R2N2 categories** (airplane, bench, car, chair, lamp, sofa, table, …) on 8 big GPUs. We use the released 3-class checkpoint (airplane, chair, car).
+- **Tested on the same kind of picture it was trained on:** the test split of ShapeNet-R2N2, i.e. clean renders of one 3D model on a plain background, same categories. Their Table 1: RGB2Point CD×100 airplane 2.70, chair 5.43, car 4.22.
+- **Real photos only for trained categories:** Pix3D (chair, sofa, table), test only. There RGB2Point has the worst EMD of all methods (9.59 vs 6.61 for Point-MF), and the paper says it "often misses table undersides and complex chair legs".
+- "Good" means a low Chamfer distance to the ground-truth 3D model; RGB2Point is trained on exactly that loss, so it has an advantage on CD (the paper says so).
+- Our angled 3D views (2026-11-22) of the released checkpoint on its own demo picture and on airplane web photos are still blobs, so the gap is: released 3-class weights + web photos, versus a 13-class retrained model on renders.

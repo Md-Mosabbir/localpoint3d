@@ -155,3 +155,10 @@ Report: [`reports/2026-11-21_triposr_web_images/report.md`](../reports/2026-11-2
 - bodna_0038 and bodna_0038_1 are the same photo.
 
 **Next:** re-run with `REMOVE_BACKGROUND = True`, drop photos with two objects, then the nearest-neighbour test and a comparison with our own phone scans.
+## 2026-11-22 · Sanity test on RGB2Point's own classes
+
+Notebook `notebooks/test/rgb2point_sanity_test.ipynb`: the released checkpoint on (a) the authors' demo picture `img/1013.jpg` (a chair in a room) and (b) 6 airplane photos from DuckDuckGo ("passenger airplane side view white background"). Run on the laptop CPU.
+
+- Both gave the same kind of cloud as our objects: a dense column plus scattered points, no clear chair or airplane outline in any of the three axis views.
+- So the vague shapes are the checkpoint on real photos (it was trained on clean ShapeNet renders), not something special about Bangladeshi objects.
+- Two of the six airplane photos carried big stock-site watermarks; the notebook now says to drop such photos.

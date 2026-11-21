@@ -9,7 +9,7 @@ Our notebook of what we looked up, tried and found. **One file per topic**, newe
 | 03 | [Running things on Google Colab](03_colab.md) | manual Colab works, Colab CLI not set up yet |
 | 04 | [CLIP-style zero-shot](04_clip_zero_shot.md) | one test on a cup; label wording dominated the result |
 | 05 | [Local objects: near-OOD + MCQ](05_near_ood_mcq.md) | first grey MCQ run: everyday 15/17, local 0/14 (picks the nearest familiar object); re-run with short options next |
-| 06 | [RGB2Point: web images → point clouds](06_rgb2point_web_images.md) | pictures collected on the laptop (about 1 in 3 usable); RGB2Point gives the same chair-like cloud for every object, so its clouds are not usable |
+| 06 | [RGB2Point: web images → point clouds](06_rgb2point_web_images.md) | pictures collected on the laptop (about 1 in 3 usable); RGB2Point gives the same chair-like cloud for every object, so its clouds are not usable; TripoSR (Colab) gives object-like clouds but kept the photo backgrounds |
 
 ## How to add an entry
 

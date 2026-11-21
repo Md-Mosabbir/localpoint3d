@@ -71,6 +71,13 @@ Reading: [journal 04](../journal/04_clip_zero_shot.md).
 | `shortcut_checks_2026-11-17.csv` | near-copy photos and plain-thumbnail checks |
 | `summary_2026-11-17.csv` | headline numbers. Report: [17 Nov](../reports/2026-11-17_rgb2point_web_images/report.md) |
 
+## `triposr/`: TripoSR web photos → meshes → 8,192-point clouds (journal 06)
+
+| File | What |
+|---|---|
+| `triposr_batch_per_image_2026-11-21.csv` | one row per photo, parsed from the notebook's batch log: time, mesh size, watertight, mean colour, point spacing, status |
+| `triposr_batch_per_object_2026-11-21.csv` | the same per object. Report: [21 Nov](../reports/2026-11-21_triposr_web_images/report.md) |
+
 ## Adding new results
 
 - Put new files in the matching folder (or a new one) and add a row here.

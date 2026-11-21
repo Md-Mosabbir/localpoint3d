@@ -1,0 +1,9 @@
+object,photos,watertight,vertices_median,nn_distance_median,seconds_median,watertight_pct
+bodna,89,82,41238,0.0085,,92
+hurricane_lamp,79,73,43772,0.0086,,92
+kula,60,54,38827,0.0083,2.9,90
+matir_jug,72,62,43224,0.00875,2.9,86
+muura,103,87,49132,0.0089,3.0,84
+patil,34,32,47523,0.00895,3.0,94
+piri,19,18,46571,0.009,3.0,95
+rehal,219,194,38049,0.0081,3.0,89

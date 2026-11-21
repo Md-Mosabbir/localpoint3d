@@ -130,3 +130,28 @@ Only 5 % of the matches were near-copies of the same photo. So the clouds do kee
 - The photos themselves are the useful part (CLIP).
 
 **TripoSR** (photo → mesh, trained on Objaverse) was set up locally but ran out of resources on the CPU-only laptop. The user stopped it. If wanted later, it needs Colab with a GPU.
+
+## 2026-11-21 · team (Colab run) + Claude (report) · TripoSR on 675 web photos: shapes look right, but the backgrounds were rebuilt too
+
+Report: [`reports/2026-11-21_triposr_web_images/report.md`](../reports/2026-11-21_triposr_web_images/report.md) (+ PDF). Notebook: `notebooks/triposr.ipynb` (renamed from `{Updated}TripoSR_Images_to_3D_to_PointClouds.ipynb`). The notebook's own batch log is kept as `reports/2026-11-21_triposr_web_images/batch_log.pdf`. Tables parsed from it: `results/triposr/`.
+
+**What ran (Colab T4):** TripoSR (`stabilityai/TripoSR`, trained on Objaverse) on 675 photos of 8 objects → coloured mesh → 8,192 points sampled on the surface, coloured from the mesh. Settings: marching cubes 192, `REMOVE_BACKGROUND = False`, `NORMALIZE_POINTCLOUD = False`, upright as in TripoSR's demo, seed 0.
+
+**Measured (from the log):**
+- 675 / 675 meshes and clouds, all exactly 8,192 points; 602 meshes (89 %) watertight
+- about 3 s per photo, 27.6 min in total (bodna and hurricane lamp were made in an earlier session)
+- point spacing 0.008–0.009 for every object, so the clouds are evenly filled
+
+**Seen in the 40 previews (all bodna):**
+- 27 one object on a light background: body, neck, spout and handle all there, but most with a pale halo of background points
+- 5 coloured or scene backgrounds rebuilt as a slab
+- 4 with the hand holding the bodna rebuilt too
+- 4 with two bodnas, rebuilt as one blob
+
+**Reading:** TripoSR is the first photo-to-3D model whose clouds look like our objects (RGB2Point gave a chair for everything). The background points must go before the clouds can be used: they move the centre and the size used for unit-sphere scaling.
+
+**Open:**
+- rehal has 219 photos (files 0001–0249), but only 98 passed the 17 Nov review; the wooden bench (142) is missing. Probably unreviewed rehal photos were used. To check.
+- bodna_0038 and bodna_0038_1 are the same photo.
+
+**Next:** re-run with `REMOVE_BACKGROUND = True`, drop photos with two objects, then the nearest-neighbour test and a comparison with our own phone scans.

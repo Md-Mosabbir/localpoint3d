@@ -62,7 +62,7 @@ class Report:
         from reportlab.lib.styles import ParagraphStyle
         from reportlab.lib.units import cm
         from reportlab.lib.utils import ImageReader
-        from reportlab.platypus import Image, Paragraph, SimpleDocTemplate, Spacer, Table, TableStyle
+        from reportlab.platypus import Image, KeepTogether, Paragraph, SimpleDocTemplate, Spacer, Table, TableStyle
 
         regular, bold, plain = _fonts()
         ink, muted, rule, tint = (colors.HexColor(c) for c in ("#1b1b1a", "#5b5a56", "#d9d8d3", "#f4f3ef"))
@@ -106,14 +106,27 @@ class Report:
                 story += [t, Spacer(1, 8)]
             elif b[0] == "figure":
                 full = os.path.join(base_dir, b[1])
+                parts = []
                 if os.path.exists(full):
                     w, h = ImageReader(full).getSize()
                     fw, fh = width, width * h / w
                     if fh > 19 * cm:  # very tall charts: shrink to fit the page
                         fw, fh = 19 * cm * w / h, 19 * cm
-                    story.append(Image(full, width=fw, height=fh))
+                    parts.append(Image(full, width=fw, height=fh))
                 if b[2]:
-                    story.append(P(b[2], "cap"))
+                    parts.append(P(b[2], "cap"))
+                story.append(KeepTogether(parts))  # a caption stays on the page of its figure
+
+        # glue each heading to the block after it, so a heading never ends a page on its own
+        glued, i = [], 0
+        while i < len(story):
+            if getattr(story[i], "style", None) in (st[1], st[2]) and i + 1 < len(story):
+                glued.append(KeepTogether([story[i], story[i + 1]]))
+                i += 2
+            else:
+                glued.append(story[i])
+                i += 1
+        story = glued
 
         def footer(canvas, doc):
             canvas.saveState()

@@ -173,3 +173,47 @@ Source: Baba & Yanai, "Point-MF: Stabilizing One-Step Mean Flows for Single-Imag
 - **Real photos only for trained categories:** Pix3D (chair, sofa, table), test only. There RGB2Point has the worst EMD of all methods (9.59 vs 6.61 for Point-MF), and the paper says it "often misses table undersides and complex chair legs".
 - "Good" means a low Chamfer distance to the ground-truth 3D model; RGB2Point is trained on exactly that loss, so it has an advantage on CD (the paper says so).
 - Our angled 3D views (2026-11-22) of the released checkpoint on its own demo picture and on airplane web photos are still blobs, so the gap is: released 3-class weights + web photos, versus a 13-class retrained model on renders.
+
+## 2026-11-27 · Claude · far-OOD web photos for TripoSR: 323 good photos of 7 classes
+
+Goal: clean photos (one whole object, side or angled view, no people) of the far-OOD classes, to turn into clouds with TripoSR on Colab. The aim was 100 per class; we accepted 50+ to keep the run short. Photos are on the laptop in `data/web_images_far_ood/<class>/` (gitignored, licences unverified). One zip per class with a `licences.csv` is in `data/web_images_far_ood/zips/`, to upload to Drive.
+
+**Pipeline:**
+1. `src/web_images.py collect` with `data/far_ood_image_queries.csv`. Sources: Bing, DuckDuckGo, and two new ones, Wikimedia Commons and Openverse (API, generic User-Agent, 1 s pause). Licence and author go into `manifest.csv` when the source gives them. No Google Images (CLAUDE.md rule).
+2. `src/photo_filter.py` (new):
+   - CLIP check: drops a photo when a decoy label beats the class prompt. Decoys are person, crowd, poster, drawing, map, room, plus the other 6 classes.
+   - rembg check: keeps a photo only if it has one main object filling 10–80 % of the frame and not cut off at an edge.
+   - Drops are moved to `_rejected/<class>/` with the reason in `reasons.csv`.
+3. Check by eye on contact sheets (`sheets`, 36 per sheet). `reject` / the new `restore` command log every decision with a reason. A dhash check finds near-copies.
+4. Top-up rounds with new phrases for the classes that were short.
+
+**Counts per class** (collected = rows in manifest.csv; auto-dropped and rejected by eye count photos that are still in `_rejected/`):
+
+| class | collected | auto-dropped | rescued from CLIP drops | rejected by eye | **kept** | licence from source |
+|---|---|---|---|---|---|---|
+| rickshaw | 762 | 480 | 0 | 217 | **65** | 18 |
+| van (rickshaw-van) | 578 | 513 | 12 | 44 | **21** | 6 |
+| cng | 564 | 333 | 4 | 166 | **66** | 3 |
+| leguna | 574 | 482 | 23 | 63 | **33** | 0 |
+| tubewell | 574 | 375 | 0 | 110 | **89** | 2 |
+| sheel_pata | 589 | 413 | 2 | 142 | **34** | 0 |
+| thela_gari | 381 | 318 | 10 | 48 | **15** | 0 |
+| **total** | 4,022 | 2,914 | 51 | 790 | **323** | 29 |
+
+(cng and leguna are off by 1 and 4 against "collected": partial downloads from a job killed by a session restart, which were moved out before the manifest was rebuilt.)
+
+**What we saw:**
+- **CLIP does not know Bangladeshi vehicles.** It called most legunas "CNG" and most rickshaw-vans "cycle rickshaw", so it dropped real ones. Fix: a *rescue pool* of photos that only CLIP dropped (they passed every rembg check), looked at by eye. 51 photos came back that way.
+- **Only 29 of the 323 kept photos (9 %) have a licence from the source** (Wikimedia/Openverse). Everything from Bing/DuckDuckGo is `NOT_VERIFIED_CHECK_BEFORE_TRAINING`. Fine for a test, but check before training or publishing.
+- **What each class's photos actually show:**
+  - **leguna:** mostly Indian Tata Magic and Mahindra Supro product shots (the base vans), only a few real Dhaka legunas.
+  - **cng:** a mix of real green Dhaka CNGs and green-yellow Bajaj RE product shots.
+  - **tubewell:** mostly hand-pump product shots on white backgrounds, which suits TripoSR.
+- **Scarce on the web:** pedal rickshaw-vans (most "van" results are electric or motor trikes) and thela gari (most results are trolleys, wheelbarrows, food carts and decorative serving trays). Bengali search phrases mostly returned news, food and festival pictures.
+- 3 thela gari and some van/sheel pata photos are product renders, not real photos. They were kept because their shape is right.
+- Models: the first 762 rickshaw photos were filtered with CLIP ViT-L/14 + rembg u2net. All later photos used ViT-B/16 + u2netp (about 3× faster on the i5-8400, CPU only).
+
+**Next:**
+- Upload the 7 zips to Drive.
+- TripoSR with `REMOVE_BACKGROUND = True`.
+- If needed, more phrases for van, thela gari and sheel pata (e.g. own photos, or Wikimedia categories found by hand).

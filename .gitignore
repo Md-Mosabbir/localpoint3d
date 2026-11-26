@@ -25,5 +25,6 @@ venv/
 # web pictures for RGB2Point (unknown licences, kept on Drive)
 data/web_images/
 data/web_images_control/
+data/web_images_far_ood/
 data/rgb2point_clouds.npz
 data/rgb2point_distances.npz
